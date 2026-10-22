@@ -83,7 +83,8 @@ def main():
               'ollama_version': api('version'), 'task_sha256': hashlib.sha256(task).hexdigest(),
               'maximum_turns': 1, 'timeout_seconds': args.timeout, 'samples': [],
               'tokens': 'unavailable until verified in Goose output; no savings claim',
-              'status': 'starting', 'inference_verified': False}
+              'status': 'starting', 'local_runner_observed': False, 'inference_verified': False,
+              'review_required': 'Match the selected model to the native runner and review actual generated output. A loaded model, runner process or zero exit alone does not prove inference.'}
     start = time.monotonic()
     process = None
     try:
@@ -106,7 +107,7 @@ def main():
                     report['samples'].append({'seconds': round(time.monotonic() - start, 2),
                                               'loaded_model': active, 'local_runners': runners})
                     if any(r['model_blob_exists'] and r['model_blob_bytes'] > 0 for r in runners):
-                        report['inference_verified'] = True
+                        report['local_runner_observed'] = True
                 time.sleep(2)
             report['returncode'] = process.returncode
             if report['status'] != 'timeout':
@@ -130,8 +131,8 @@ def main():
         except Exception as error:
             report['unload_error'] = str(error)
         (args.output / 'audit.json').write_text(json.dumps(report, indent=2) + '\n')
-    print(json.dumps({k: report[k] for k in ('status', 'inference_verified', 'wall_seconds')}))
-    return 0 if report['status'] == 'completed_pending_review' and report['inference_verified'] else 1
+    print(json.dumps({k: report[k] for k in ('status', 'local_runner_observed', 'inference_verified', 'wall_seconds')}))
+    return 0 if report['status'] == 'completed_pending_review' and report['local_runner_observed'] else 1
 
 
 if __name__ == '__main__':

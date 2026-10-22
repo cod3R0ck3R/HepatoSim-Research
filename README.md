@@ -61,6 +61,8 @@ python3 -B Research/Reference/resume_reference.py --execute --kasim /absolute/pa
 
 Use only the existing local Ollama provider. Confirm installed name, digest and loopback endpoint; a local URL alone does not prove local inference. The task driver rejects remote-model metadata and records a matching loaded GGUF model plus an actual local runner. One isolated task, no profile extensions, 300-second maximum, no automatic retry. No installation or persistent provider changes. Replace placeholders with actual installed values and use a fresh output folder. Reserve Ollama separately from KaSim/heavy builds. AI output must be reviewed and is not biological evidence; no token savings are claimed. Follow-up task: prepared and boundary-tested, not executed. The confirmed model blob is 8,988,113,226 bytes before runtime overhead; the shared host permits only 8 GiB per job. The coordinator declined a speculative increase. No local inference success is claimed. [Earlier timed-out attempts](Research/Reference/local-goose-audit.md).
 
+The driver records `local_runner_observed` separately and never automatically sets `inference_verified`: even a zero Goose exit plus a loaded runner is insufficient. Review the model-to-runner match and the actually generated answer before confirming local inference. Four local-worker regression tests cover successful and failed mocked Goose exits; they do not invoke a model.
+
 ```sh
 python3 -B -m unittest discover -s Research/LocalAI -p 'test_*.py'
 python3 -B Research/LocalAI/run_local_task.py --model INSTALLED_MODEL --digest CONFIRMED_DIGEST --task Research/LocalAI/translation-task.txt --output /absolute/path/to/new-local-task

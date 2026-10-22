@@ -1046,5 +1046,7 @@
       "published_sha256": "27c70fa7157f8727606b662ec9daf99dc7c0949a83d3fbab3aca46301b8a4534",
       "metadata_redacted": false
     }
-  ]
+  ],
+  "snapshot_commit": "29e16e8a3dc92c2b3d985913dd0fa276ef2f5195",
+  "scope": "Initial sanitized export only. Later commits may change source/docs; verify this ledger against snapshot_commit, not the current working tree."
 }
