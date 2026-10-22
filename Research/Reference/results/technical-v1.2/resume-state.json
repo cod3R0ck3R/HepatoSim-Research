@@ -1,0 +1,165 @@
+{
+  "updated_utc": "2026-10-22T15:45:46.119623+00:00",
+  "benchmark": "1.2.0",
+  "jobs": [
+    {
+      "job_id": "repository_default-101",
+      "seed": 101,
+      "runner_status": "completed",
+      "analysis_status": "eligible",
+      "samples": {
+        "0": {
+          "requested_day": 0,
+          "actual_day": 0.0,
+          "collagen_model_units": 0.5,
+          "collagen_fold": 1.0
+        },
+        "32": {
+          "requested_day": 32,
+          "actual_day": 32.0,
+          "collagen_model_units": 5.75456090751,
+          "collagen_fold": 11.50912181502
+        },
+        "60": {
+          "requested_day": 60,
+          "actual_day": 60.0,
+          "collagen_model_units": 6.48211490029,
+          "collagen_fold": 12.96422980058
+        },
+        "90": {
+          "requested_day": 90,
+          "actual_day": 90.0,
+          "collagen_model_units": 3.25101722887,
+          "collagen_fold": 6.50203445774
+        },
+        "240": {
+          "requested_day": 240,
+          "actual_day": 240.0,
+          "collagen_model_units": 0.516382228847,
+          "collagen_fold": 1.032764457694
+        }
+      },
+      "run_json_sha256": "7cf57432eaad87d1ac5bd45cb3f5b23fda63b254fc83320e9789906ba4eba783",
+      "recorded_paths": {
+        "runtime": "<WORKSPACE>/work/runtime-audit/runtime-v4.1.3.1/KaSim",
+        "model": "<PROJECT>/Research/Reference/vendor/HSC_model_Kappa/reactMFB-with-inactivation.ka",
+        "output_directory": "<PROJECT>/Research/Reference/results/benchmark-v1.1/repository_default-101"
+      },
+      "argv_matches_frozen_job": true,
+      "trace_sha256": "c0060b14872d448aff877591f3adc1c11b24cad7615663ec2d68eade936b841c",
+      "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+      "rows": 502,
+      "first_day": 0.0,
+      "last_day": 242.5,
+      "minimum_observation": 0.0
+    },
+    {
+      "job_id": "seed-replay-101",
+      "seed": 101,
+      "runner_status": "completed",
+      "analysis_status": "eligible",
+      "samples": {
+        "0": {
+          "requested_day": 0,
+          "actual_day": 0.0,
+          "collagen_model_units": 0.5,
+          "collagen_fold": 1.0
+        },
+        "32": {
+          "requested_day": 32,
+          "actual_day": 32.0,
+          "collagen_model_units": 5.75456090751,
+          "collagen_fold": 11.50912181502
+        },
+        "60": {
+          "requested_day": 60,
+          "actual_day": 60.0,
+          "collagen_model_units": 6.48211490029,
+          "collagen_fold": 12.96422980058
+        },
+        "90": {
+          "requested_day": 90,
+          "actual_day": 90.0,
+          "collagen_model_units": 3.25101722887,
+          "collagen_fold": 6.50203445774
+        },
+        "240": {
+          "requested_day": 240,
+          "actual_day": 240.0,
+          "collagen_model_units": 0.516382228847,
+          "collagen_fold": 1.032764457694
+        }
+      },
+      "run_json_sha256": "581dc5696f8062a81e2cfd1a9f81e7fa3f4500a8480d5947dd438af879320644",
+      "recorded_paths": {
+        "runtime": "<WORKSPACE>/work/runtime-audit/runtime-v4.1.3.1/KaSim",
+        "model": "<PROJECT>/Research/Reference/vendor/HSC_model_Kappa/reactMFB-with-inactivation.ka",
+        "output_directory": "<PROJECT>/Research/Reference/results/technical-v1.2/seed-replay-101"
+      },
+      "argv_matches_frozen_job": true,
+      "trace_sha256": "4e4365afe2a7df62a296993aae405b8800f1fa8d7030435bb83179586e21a896",
+      "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+      "rows": 502,
+      "first_day": 0.0,
+      "last_day": 242.5,
+      "minimum_observation": 0.0
+    },
+    {
+      "job_id": "grid-quarter-day-101",
+      "seed": 101,
+      "runner_status": "completed",
+      "analysis_status": "eligible",
+      "samples": {
+        "0": {
+          "requested_day": 0,
+          "actual_day": 0.0,
+          "collagen_model_units": 0.5,
+          "collagen_fold": 1.0
+        },
+        "32": {
+          "requested_day": 32,
+          "actual_day": 32.0,
+          "collagen_model_units": 5.75456090751,
+          "collagen_fold": 11.50912181502
+        },
+        "60": {
+          "requested_day": 60,
+          "actual_day": 60.0,
+          "collagen_model_units": 6.48211490029,
+          "collagen_fold": 12.96422980058
+        },
+        "90": {
+          "requested_day": 90,
+          "actual_day": 90.0,
+          "collagen_model_units": 3.25101722887,
+          "collagen_fold": 6.50203445774
+        },
+        "240": {
+          "requested_day": 240,
+          "actual_day": 240.0,
+          "collagen_model_units": 0.516382228847,
+          "collagen_fold": 1.032764457694
+        }
+      },
+      "run_json_sha256": "f070aa2bfff371f9ece6d097cf5b77cecb310f9cf3561c8470e037f1de6c44bd",
+      "recorded_paths": {
+        "runtime": "<WORKSPACE>/work/runtime-audit/runtime-v4.1.3.1/KaSim",
+        "model": "<PROJECT>/Research/Reference/vendor/HSC_model_Kappa/reactMFB-with-inactivation.ka",
+        "output_directory": "<PROJECT>/Research/Reference/results/technical-v1.2/grid-quarter-day-101"
+      },
+      "argv_matches_frozen_job": true,
+      "trace_sha256": "79fa9899e0ae07870117d55ac2cca661cd3fa0c00f98fa48b7d90c5de361dfdd",
+      "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+      "rows": 987,
+      "first_day": 0.0,
+      "last_day": 242.5,
+      "minimum_observation": 0.0
+    }
+  ],
+  "remaining_jobs": [],
+  "blocked_jobs": [],
+  "new_simulation_seconds": 1387.5129686250002,
+  "cost_error": null,
+  "checkpoint_unit": "complete verified run; no CSV-to-RNG restart",
+  "baseline_manifest_provenance": "original_bytes_verified"
+}

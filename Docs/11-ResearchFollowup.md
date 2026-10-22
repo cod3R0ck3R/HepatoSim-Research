@@ -65,3 +65,7 @@ Das vorhandene lokale DeepSeek-Modell samt Digest wurde bestätigt. Der geplante
 ## Publication-snapshot verification addendum
 
 The actual sanitized snapshot passed all 90 research software tests in 5.595 seconds (process Exit0). All 18 CSV numeric payloads matched the original local files. Reanalysis changed only 101 timestamp/path/hash fields; all scientific and numerical fields remained equal. The explicit checks are recorded in `Research/Reference/analysis/publication-verification-v2.json`; the newly calculated public analysis is `public-recheck-v2.json`. Both README language versions have matching shell-command blocks and existing local links. No new clinical or biological validity follows from these checks.
+
+## Later technical-control addendum
+
+The later [report13](13-TechnicalControls.md) closes seed replay, output-grid and actual completed-run resume checks with newly executed results. The earlier cancelled queue attempt above remains part of the history. Local-inference and independent-biological-data requirements remain open.

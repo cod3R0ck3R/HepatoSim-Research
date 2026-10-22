@@ -19,3 +19,7 @@ Für den nächsten biologischen Test werden mindestens benötigt: toxin- und gru
 Zusätzlich ist eine Messabbildung von COL1-Token auf das jeweilige histologische Verfahren erforderlich. Eine Anpassung dieser Abbildung würde den verwendeten Datensatz zu Kalibrierungsdaten machen. Eine danach unabhängige Prüfung benötigt eine weitere, vorab festgelegte Studie oder experimentelle Gruppe. Der fehlende Datensatz stoppt weder Softwarekontrollen noch die mechanistische Sensitivitätsprüfung; er begrenzt die zulässige biologische Aussage.
 
 Nächster begründeter Zugangsschritt: passende offene, nach Toxin getrennte Originaldaten oder eine autorisierte Anfrage an das veröffentlichende Forschungsteam. Es wurde keine Nachricht an Studienautoren gesendet. Synthetische Daten ersetzen diese Lücke nicht.
+
+## Weiterer gezielter Zugang
+
+[Xie2021](Xie2021-data-screen.md) wurde als zusätzlicher Kandidat anhand Protokoll und Datenzugang geprüft. Noch kein geeigneter numerischer Datensatz erhalten; kein neuer unabhängiger Test.

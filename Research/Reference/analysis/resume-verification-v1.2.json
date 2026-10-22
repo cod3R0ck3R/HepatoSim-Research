@@ -1,0 +1,33 @@
+{
+  "checked_utc": "2026-10-22T15:45:46.133208+00:00",
+  "command": "python3 -B Research/Reference/resume_reference.py --execute --kasim <PINNED_KASIM>",
+  "wall_seconds": 0.13713558396557346,
+  "checks": {
+    "exit_zero": true,
+    "all_three_verified_skips": true,
+    "run_and_trace_bytes_unchanged": true,
+    "simulation_cost_unchanged": true,
+    "nothing_pending": true
+  },
+  "returncode": 0,
+  "stdout": "verified; skipped repository_default-101\nverified; skipped seed-replay-101\nverified; skipped grid-quarter-day-101\n{\"remaining_jobs\": [], \"blocked_jobs\": []}\n",
+  "stderr": "",
+  "before_sha256": {
+    "grid-quarter-day-101/run.json": "f070aa2bfff371f9ece6d097cf5b77cecb310f9cf3561c8470e037f1de6c44bd",
+    "grid-quarter-day-101/trace.csv": "79fa9899e0ae07870117d55ac2cca661cd3fa0c00f98fa48b7d90c5de361dfdd",
+    "repository_default-101/run.json": "7cf57432eaad87d1ac5bd45cb3f5b23fda63b254fc83320e9789906ba4eba783",
+    "repository_default-101/trace.csv": "c0060b14872d448aff877591f3adc1c11b24cad7615663ec2d68eade936b841c",
+    "seed-replay-101/run.json": "581dc5696f8062a81e2cfd1a9f81e7fa3f4500a8480d5947dd438af879320644",
+    "seed-replay-101/trace.csv": "4e4365afe2a7df62a296993aae405b8800f1fa8d7030435bb83179586e21a896"
+  },
+  "after_sha256": {
+    "grid-quarter-day-101/run.json": "f070aa2bfff371f9ece6d097cf5b77cecb310f9cf3561c8470e037f1de6c44bd",
+    "grid-quarter-day-101/trace.csv": "79fa9899e0ae07870117d55ac2cca661cd3fa0c00f98fa48b7d90c5de361dfdd",
+    "repository_default-101/run.json": "7cf57432eaad87d1ac5bd45cb3f5b23fda63b254fc83320e9789906ba4eba783",
+    "repository_default-101/trace.csv": "c0060b14872d448aff877591f3adc1c11b24cad7615663ec2d68eade936b841c",
+    "seed-replay-101/run.json": "581dc5696f8062a81e2cfd1a9f81e7fa3f4500a8480d5947dd438af879320644",
+    "seed-replay-101/trace.csv": "4e4365afe2a7df62a296993aae405b8800f1fa8d7030435bb83179586e21a896"
+  },
+  "new_simulation_seconds": 1387.5129686250002,
+  "scope": "Actual completed-run resume; no extra KaSim run or clinical validation."
+}

@@ -1,0 +1,461 @@
+{
+  "analysis_schema_version": "1.0.0",
+  "benchmark_id": "HSR-BG2024-001",
+  "benchmark_version": "1.2.0",
+  "generated_utc": "2026-10-22T15:53:54.060423+00:00",
+  "status": "all_primary_conditions_complete",
+  "normalization": {
+    "divisor": 0.5,
+    "unit": "fold of model baseline collagen"
+  },
+  "methods": {
+    "sd": "Sample SD, denominator n-1; undefined for n<2",
+    "quantiles": "Empirical linear interpolation, h=(n-1)p, type 7",
+    "mcse_mean": "Sample SD / sqrt(n), stochastic replicates only",
+    "sampling": "Last row at or before requested day; actual timestamp retained; no extrapolation",
+    "ensemble_membership": "Prespecified primary jobs only; seed replay and quarter-day grid runs excluded"
+  },
+  "provenance": {
+    "frozen_original_specification_sha256": "a6e9726af786f37814eb873be75f3f1374b73b78a9a5321f8ed2b5ba734defa8",
+    "frozen_original_specification_verified": true,
+    "source_lock_sha256": "b283fc42135a89017f7f82442128c3bab2a780a3f5c7770528b42ac67102e169",
+    "verified_model_sha256": {
+      "reactMFB-with-inactivation.ka": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d"
+    },
+    "environment_verification": {
+      "status": "benchmark_and_source_lock_hashes_verified",
+      "recorded_runner_sha256": "e331cd141870234af6bd8f69f54bf49fc36e518a2b6b636bd2097e911de62583",
+      "runner_matches_current_file": true,
+      "limitation": "Recorded environment metadata; no independent re-execution or medical validation."
+    },
+    "results_directory": "<PROJECT>/Research/Reference/results/technical-v1.2",
+    "analysis_source_sha256": "3c9c3f32ffa692c3587bd6672718fafd99b910a4147ac8340c20e69a49a0f75d",
+    "specification.json_sha256": "a6e9726af786f37814eb873be75f3f1374b73b78a9a5321f8ed2b5ba734defa8",
+    "environment.json_sha256": "d3fbeb653c992157dedeb2d318fc568b174ccf7a0aa66c2a6b06b5066b6e6b6c"
+  },
+  "conditions": [
+    {
+      "id": "repository_default",
+      "model_file": "reactMFB-with-inactivation.ka",
+      "declared_overrides": {},
+      "expected_seeds": [
+        101
+      ],
+      "completed_seeds": [
+        101
+      ],
+      "missing_or_unusable_seeds": [],
+      "status": "complete",
+      "runs": [
+        {
+          "job_id": "repository_default-101",
+          "seed": 101,
+          "runner_status": "completed",
+          "analysis_status": "eligible",
+          "samples": {
+            "0": {
+              "requested_day": 0,
+              "actual_day": 0.0,
+              "collagen_model_units": 0.5,
+              "collagen_fold": 1.0
+            },
+            "32": {
+              "requested_day": 32,
+              "actual_day": 32.0,
+              "collagen_model_units": 5.75456090751,
+              "collagen_fold": 11.50912181502
+            },
+            "60": {
+              "requested_day": 60,
+              "actual_day": 60.0,
+              "collagen_model_units": 6.48211490029,
+              "collagen_fold": 12.96422980058
+            },
+            "90": {
+              "requested_day": 90,
+              "actual_day": 90.0,
+              "collagen_model_units": 3.25101722887,
+              "collagen_fold": 6.50203445774
+            },
+            "240": {
+              "requested_day": 240,
+              "actual_day": 240.0,
+              "collagen_model_units": 0.516382228847,
+              "collagen_fold": 1.032764457694
+            }
+          },
+          "run_json_sha256": "5adc525c0bc60bba2e1cbb0087f59c2cf2e3e46c8f8d87e7d9b03cd4f0b4d6e6",
+          "recorded_paths": {
+            "runtime": "KaSim",
+            "model": "vendor/HSC_model_Kappa/reactMFB-with-inactivation.ka",
+            "output_directory": "repository_default-101"
+          },
+          "argv_matches_frozen_job": true,
+          "trace_sha256": "6186fb35abad03dcbf61f30108e96876bc4a4f9431eaef003a347ee8f133f2c0",
+          "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+          "rows": 502,
+          "first_day": 0.0,
+          "last_day": 242.5,
+          "minimum_observation": 0.0
+        }
+      ],
+      "ensemble": {
+        "0": {
+          "n": 1,
+          "mean": 1.0,
+          "sd": null,
+          "min": 1.0,
+          "max": 1.0,
+          "q05": 1.0,
+          "q95": 1.0,
+          "mcse_mean": null
+        },
+        "32": {
+          "n": 1,
+          "mean": 11.50912181502,
+          "sd": null,
+          "min": 11.50912181502,
+          "max": 11.50912181502,
+          "q05": 11.50912181502,
+          "q95": 11.50912181502,
+          "mcse_mean": null
+        },
+        "60": {
+          "n": 1,
+          "mean": 12.96422980058,
+          "sd": null,
+          "min": 12.96422980058,
+          "max": 12.96422980058,
+          "q05": 12.96422980058,
+          "q95": 12.96422980058,
+          "mcse_mean": null
+        },
+        "90": {
+          "n": 1,
+          "mean": 6.50203445774,
+          "sd": null,
+          "min": 6.50203445774,
+          "max": 6.50203445774,
+          "q05": 6.50203445774,
+          "q95": 6.50203445774,
+          "mcse_mean": null
+        },
+        "240": {
+          "n": 1,
+          "mean": 1.032764457694,
+          "sd": null,
+          "min": 1.032764457694,
+          "max": 1.032764457694,
+          "q05": 1.032764457694,
+          "q95": 1.032764457694,
+          "mcse_mean": null
+        }
+      },
+      "paired_changes": {
+        "injury_60_minus_0": {
+          "per_seed": [
+            {
+              "seed": 101,
+              "start_actual_day": 0.0,
+              "end_actual_day": 60.0,
+              "delta_collagen_model_units": 5.98211490029,
+              "delta_collagen_fold": 11.96422980058
+            }
+          ],
+          "collagen_fold": {
+            "n": 1,
+            "mean": 11.96422980058,
+            "sd": null,
+            "min": 11.96422980058,
+            "max": 11.96422980058,
+            "q05": 11.96422980058,
+            "q95": 11.96422980058,
+            "mcse_mean": null
+          },
+          "collagen_model_units": {
+            "n": 1,
+            "mean": 5.98211490029,
+            "sd": null,
+            "min": 5.98211490029,
+            "max": 5.98211490029,
+            "q05": 5.98211490029,
+            "q95": 5.98211490029,
+            "mcse_mean": null
+          },
+          "expected_ensemble_mean_sign": "positive",
+          "expected_mean_sign_observed": true
+        },
+        "withdrawal_90_minus_60": {
+          "per_seed": [
+            {
+              "seed": 101,
+              "start_actual_day": 60.0,
+              "end_actual_day": 90.0,
+              "delta_collagen_model_units": -3.23109767142,
+              "delta_collagen_fold": -6.46219534284
+            }
+          ],
+          "collagen_fold": {
+            "n": 1,
+            "mean": -6.46219534284,
+            "sd": null,
+            "min": -6.46219534284,
+            "max": -6.46219534284,
+            "q05": -6.46219534284,
+            "q95": -6.46219534284,
+            "mcse_mean": null
+          },
+          "collagen_model_units": {
+            "n": 1,
+            "mean": -3.23109767142,
+            "sd": null,
+            "min": -3.23109767142,
+            "max": -3.23109767142,
+            "q05": -3.23109767142,
+            "q95": -3.23109767142,
+            "mcse_mean": null
+          },
+          "expected_ensemble_mean_sign": "negative",
+          "expected_mean_sign_observed": true
+        },
+        "withdrawal_240_minus_60": {
+          "per_seed": [
+            {
+              "seed": 101,
+              "start_actual_day": 60.0,
+              "end_actual_day": 240.0,
+              "delta_collagen_model_units": -5.965732671443,
+              "delta_collagen_fold": -11.931465342886
+            }
+          ],
+          "collagen_fold": {
+            "n": 1,
+            "mean": -11.931465342886,
+            "sd": null,
+            "min": -11.931465342886,
+            "max": -11.931465342886,
+            "q05": -11.931465342886,
+            "q95": -11.931465342886,
+            "mcse_mean": null
+          },
+          "collagen_model_units": {
+            "n": 1,
+            "mean": -5.965732671443,
+            "sd": null,
+            "min": -5.965732671443,
+            "max": -5.965732671443,
+            "q05": -5.965732671443,
+            "q95": -5.965732671443,
+            "mcse_mean": null
+          },
+          "expected_ensemble_mean_sign": "negative",
+          "expected_mean_sign_observed": true
+        }
+      },
+      "split_half": {
+        "status": "not_applicable",
+        "reason": "Prespecified batches require all seeds 101 through 110."
+      },
+      "development_summary_comparison": {
+        "status": "descriptive_only",
+        "targets": {
+          "32": 12,
+          "60": 14
+        },
+        "ensemble_mean": {
+          "errors_prediction_minus_target": {
+            "32": -0.4908781849799997,
+            "60": -1.03577019942
+          },
+          "mae": 0.7633241921999998,
+          "rmse": 0.8104879081441639
+        },
+        "constant_fold_1": {
+          "errors_prediction_minus_target": {
+            "32": -11.0,
+            "60": -13.0
+          },
+          "mae": 12.0,
+          "rmse": 12.041594578792296
+        },
+        "quantitative_pass_fail": "NOT DEFINED; approximate development targets have no calibrated acceptance threshold"
+      },
+      "directional_reproduction": {
+        "status": "observed_mean_directions",
+        "interpretation": "Signs of full-ensemble paired means only; no biological validation or measurement uncertainty test."
+      }
+    }
+  ],
+  "condition_contrasts": [],
+  "technical_checks": {
+    "seed_replay": {
+      "reference_job": "repository_default-101",
+      "check_job": {
+        "job_id": "seed-replay-101",
+        "seed": 101,
+        "runner_status": "completed",
+        "analysis_status": "eligible",
+        "samples": {
+          "0": {
+            "requested_day": 0,
+            "actual_day": 0.0,
+            "collagen_model_units": 0.5,
+            "collagen_fold": 1.0
+          },
+          "32": {
+            "requested_day": 32,
+            "actual_day": 32.0,
+            "collagen_model_units": 5.75456090751,
+            "collagen_fold": 11.50912181502
+          },
+          "60": {
+            "requested_day": 60,
+            "actual_day": 60.0,
+            "collagen_model_units": 6.48211490029,
+            "collagen_fold": 12.96422980058
+          },
+          "90": {
+            "requested_day": 90,
+            "actual_day": 90.0,
+            "collagen_model_units": 3.25101722887,
+            "collagen_fold": 6.50203445774
+          },
+          "240": {
+            "requested_day": 240,
+            "actual_day": 240.0,
+            "collagen_model_units": 0.516382228847,
+            "collagen_fold": 1.032764457694
+          }
+        },
+        "run_json_sha256": "0d65157a374bbec5607435b9f02d25aba4add78b0bebbea5f0824e7e2987f53f",
+        "recorded_paths": {
+          "runtime": "KaSim",
+          "model": "vendor/HSC_model_Kappa/reactMFB-with-inactivation.ka",
+          "output_directory": "seed-replay-101"
+        },
+        "argv_matches_frozen_job": true,
+        "trace_sha256": "5f7323ce61612f0c9379553c6804269c54df26b15ce5dcd8fb81cd9d3dc06282",
+        "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+        "rows": 502,
+        "first_day": 0.0,
+        "last_day": 242.5,
+        "minimum_observation": 0.0
+      },
+      "status": "match",
+      "left_rows": 502,
+      "right_rows": 502,
+      "compared_rows": 502,
+      "first_mismatching_row": null,
+      "row_count_equal": true,
+      "comparison": "exact numeric rows; comments/UUID/path text excluded",
+      "prefix_only": false
+    },
+    "observation_grid": {
+      "reference_job": "repository_default-101",
+      "check_job": {
+        "job_id": "grid-quarter-day-101",
+        "seed": 101,
+        "runner_status": "completed",
+        "analysis_status": "eligible",
+        "samples": {
+          "0": {
+            "requested_day": 0,
+            "actual_day": 0.0,
+            "collagen_model_units": 0.5,
+            "collagen_fold": 1.0
+          },
+          "32": {
+            "requested_day": 32,
+            "actual_day": 32.0,
+            "collagen_model_units": 5.75456090751,
+            "collagen_fold": 11.50912181502
+          },
+          "60": {
+            "requested_day": 60,
+            "actual_day": 60.0,
+            "collagen_model_units": 6.48211490029,
+            "collagen_fold": 12.96422980058
+          },
+          "90": {
+            "requested_day": 90,
+            "actual_day": 90.0,
+            "collagen_model_units": 3.25101722887,
+            "collagen_fold": 6.50203445774
+          },
+          "240": {
+            "requested_day": 240,
+            "actual_day": 240.0,
+            "collagen_model_units": 0.516382228847,
+            "collagen_fold": 1.032764457694
+          }
+        },
+        "run_json_sha256": "1bd284979327bae5cc6949cf42662d1079b011ff897369fdb04c811d90fce774",
+        "recorded_paths": {
+          "runtime": "KaSim",
+          "model": "vendor/HSC_model_Kappa/reactMFB-with-inactivation.ka",
+          "output_directory": "grid-quarter-day-101"
+        },
+        "argv_matches_frozen_job": true,
+        "trace_sha256": "4e3ada43e2c24e32c09533098fac50da70b6c055d85142ff70cfbdadc5b98a92",
+        "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+        "rows": 987,
+        "first_day": 0.0,
+        "last_day": 242.5,
+        "minimum_observation": 0.0
+      },
+      "status": "match",
+      "absolute_tolerance": 1e-08,
+      "value_comparison_status": "match",
+      "timestamp_absolute_tolerance_days": 1e-08,
+      "sampling_grid_coverage": {
+        "reference": {
+          "period_days": 0.5,
+          "checked_until_day": 242.5,
+          "expected_count": 486,
+          "matched_count": 486,
+          "coverage_fraction": 1.0,
+          "missing_expected_times": [],
+          "nonzero_timestamp_offsets": []
+        },
+        "candidate": {
+          "period_days": 0.25,
+          "checked_until_day": 242.5,
+          "expected_count": 971,
+          "matched_count": 971,
+          "coverage_fraction": 1.0,
+          "missing_expected_times": [],
+          "nonzero_timestamp_offsets": []
+        }
+      },
+      "common_scheduled_grid_count": 486,
+      "compared_pair_count": 502,
+      "common_timestamp_count": 502,
+      "common_first_day": 0.0,
+      "common_last_day": 242.5,
+      "left_unique_times": 502,
+      "right_unique_times": 987,
+      "missing_reference_grid_times": [],
+      "missing_candidate_grid_times": [],
+      "mismatching_timestamp_count": 0,
+      "first_mismatches": [],
+      "maximum_absolute_error": 0.0,
+      "duplicate_time_policy": "Last numeric row at timestamp; compare all columns at exact shared timestamps and scheduled times matched within 1e-8. Biological endpoint selection remains strict without tolerance."
+    },
+    "gc_amendment_prefix": {
+      "status": "not_requested",
+      "interpretation": "GC/runtime amendment prefix check only; not full-run or biological equivalence."
+    }
+  },
+  "unexpected_job_directories_ignored": [],
+  "limitations": [
+    "Published 12/14-fold targets are approximate development summaries, not independent measurements; no invented measurement error or sample size.",
+    "Stochastic seed spread and Monte Carlo error do not quantify parameter, measurement, or structural uncertainty; quantiles are not confidence intervals.",
+    "Incomplete conditions have individual completed-run observations only; ensemble, split-half, and paired summaries are withheld to avoid survivor selection.",
+    "Original model-file variants can differ in multiple mechanisms; a condition contrast is not automatically a single-parameter or drug effect.",
+    "COL1 tokens and mouse-model time are not human fibrosis, hepatic function, or clinical prognosis. Independent biological validation NOT PERFORMED; clinical validity NOT ASSESSED.",
+    "This is a read-only snapshot; not_started records may be running. Later finished jobs require a new analysis output.",
+    "Historical path prefixes are retained as recorded provenance, not resolved on the analysis machine. Runtime paths do not attest which executable actually ran."
+  ],
+  "independent_biological_validation": "NOT PERFORMED",
+  "clinical_validity": "NOT ASSESSED"
+}
