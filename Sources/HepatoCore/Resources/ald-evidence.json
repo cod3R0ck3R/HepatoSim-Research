@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-22",
+  "evidenceKind": "published-aggregate-observations",
+  "calibrationStatus": "not-calibrated",
+  "scope": "Alkoholassoziierte Leberzirrhose: publizierte aggregierte Beobachtungen nach Abstinenz; keine Individualdaten, keine ODE-Kalibrierung.",
+  "records": [
+    {
+      "id": "hofer-2023-recompensation",
+      "title": "Hepatic recompensation according to Baveno VII criteria is linked to a significant survival benefit in decompensated alcohol-related cirrhosis",
+      "authors": ["Benedikt Silvester Hofer", "Benedikt Simbrunner", "Lukas Hartl", "et al."],
+      "year": 2023,
+      "doi": "10.1111/liv.15676",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37469291/",
+      "studyDesign": "Beobachtende Wiener Kohorte mit HVPG-Messung; retrospektive Auswertung.",
+      "population": "204 dauerhaft abstinente Menschen mit dekompensierter alkoholassoziierter Zirrhose; medianer MELD 15, medianer HVPG 20 mmHg.",
+      "exposureOrMechanism": "Anhaltende Alkoholabstinenz; klinische Rekompensation gemäß der in der Studie verwendeten Baveno-VII-Definition.",
+      "findings": [
+        {
+          "id": "recompensation-observed",
+          "endpoint": "Beobachtete klinische Rekompensation",
+          "kind": "crudeObservedProportion",
+          "events": 37,
+          "total": 204,
+          "followUp": "Variabel; median 24,4 Monate, IQR 10,9–50,4 Monate.",
+          "summary": "37 von 204 erreichten im beobachteten Verlauf Rekompensation. Der Quotient beschreibt die erfasste Kohorte, keine Wahrscheinlichkeit für einen festen Zeitpunkt."
+        }
+      ],
+      "limitations": [
+        "Keine randomisierte Abstinenzzuteilung; Selektion und Confounding begrenzen kausale Schlussfolgerungen.",
+        "Variable Beobachtungsdauer: das hier berechnete Wilson-Intervall berücksichtigt weder Zensierung noch konkurrierende Ereignisse.",
+        "Mögliche Überlappung mit der multizentrischen Kohorte von 2026 ist nicht geklärt; keine Zusammenfassung zu einer gepoolten Stichprobe."
+      ],
+      "modelRelevance": "Qualitative Motivation für ein Szenario mit vermindertem Schädigungseinfluss. Klinische Rekompensation ist im Vier-Zustands-ODE nicht abgebildet.",
+      "parameterImplication": "Qualitativ, nicht kalibriert: keine numerische Schädigungs-, Regenerations- oder Fibroserate aus diesen Endpunktzahlen ableitbar.",
+      "modelIDs": ["hepatosim.liver-ode@0.1.0"]
+    },
+    {
+      "id": "hofer-2026-recompensation",
+      "title": "Incidence and implications of abstinence-induced recompensation in alcohol-related cirrhosis",
+      "authors": ["Benedikt Silvester Hofer", "Marta Tonon", "Laura Buttler", "et al."],
+      "year": 2026,
+      "doi": "10.1016/j.jhep.2026.01.007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41580090/",
+      "studyDesign": "Multizentrische Beobachtungsstudie in 17 Zentren; Einschluss bei Beginn der Abstinenz bis Dezember 2022.",
+      "population": "633 Menschen mit dekompensierter alkoholassoziierter Zirrhose; medianer MELD 19, medianes Alter 55 Jahre.",
+      "exposureOrMechanism": "Studienendpunkt: Abstinenz ≥3 Monate, Rückbildung von Aszites und hepatischer Enzephalopathie ohne jeweilige Therapie, ein Jahr ohne Varizenblutung sowie Child-Pugh A oder MELD <10.",
+      "findings": [
+        {
+          "id": "recompensation-observed",
+          "endpoint": "Beobachtete klinische Rekompensation",
+          "kind": "crudeObservedProportion",
+          "events": 197,
+          "total": 633,
+          "followUp": "Variabel; median 36,3 Monate, IQR 19,2–63,2 Monate.",
+          "summary": "197 von 633 erreichten im beobachteten Verlauf Rekompensation. Der Rohanteil von 31,1 % ist keine Fünfjahres-Inzidenz."
+        },
+        {
+          "id": "recompensation-five-year",
+          "endpoint": "Publizierte kumulative Rekompensationsinzidenz nach fünf Jahren",
+          "kind": "reportedTimeToEventEstimate",
+          "events": null,
+          "total": null,
+          "followUp": "Fünfjahres-Schätzung der veröffentlichten Zeit-bis-Ereignis-Analyse.",
+          "summary": "Die Veröffentlichung berichtet 33,8 %. Dieser Schätzer wird nicht in fiktive Ereigniszähler umgerechnet und erhält hier kein Wilson-Intervall."
+        }
+      ],
+      "limitations": [
+        "Beobachtungsdaten erlauben keine isolierte kausale Quantifizierung der Abstinenzwirkung.",
+        "Das Wilson-Intervall des Rohanteils ignoriert Zensierung, konkurrierende Ereignisse und Unterschiede zwischen Zentren.",
+        "Ungeklärte mögliche Kohortenüberlappung mit 2023; keine Meta-Analyse oder direkte Wirkungsvergleichsrechnung."
+      ],
+      "modelRelevance": "Unterstützt qualitativ die Untersuchung reversibler Krankheitsanteile. Das ODE besitzt keinen klinisch validierten Rekompensationsendpunkt.",
+      "parameterImplication": "Quantifizierte Kohortenbeobachtung, keine ODE-Kalibrierung: Endpunkthäufigkeiten identifizieren keine zellulären Übergangsraten.",
+      "modelIDs": ["hepatosim.liver-ode@0.1.0"]
+    },
+    {
+      "id": "hofer-2023-abstinence-portal",
+      "title": "Alcohol Abstinence Improves Prognosis Across All Stages of Portal Hypertension in Alcohol-Related Cirrhosis",
+      "authors": ["Benedikt Silvester Hofer", "Benedikt Simbrunner", "Lukas Hartl", "et al."],
+      "year": 2023,
+      "doi": "10.1016/j.cgh.2022.11.033",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36481475/",
+      "studyDesign": "Beobachtende Einzentrumsstudie mit HVPG-Messung in Wien.",
+      "population": "320 Menschen mit alkoholassoziierter Zirrhose und HVPG ≥10 mmHg; 241 abstinent, 79 mit fortgesetztem Konsum.",
+      "exposureOrMechanism": "Beobachteter Zusammenhang zwischen Abstinenz und Dekompensation in verschiedenen HVPG-Gruppen.",
+      "findings": [
+        {
+          "id": "decompensation-three-year",
+          "endpoint": "Publizierte Dreijahres-Dekompensationswahrscheinlichkeiten",
+          "kind": "reportedTimeToEventEstimate",
+          "events": null,
+          "total": null,
+          "followUp": "Dreijahres-Schätzung; Gesamtbeobachtung median 36 Monate, IQR 14–80 Monate.",
+          "summary": "Abstinent versus fortgesetzter Konsum: 32,4 % versus 60,0 % bei HVPG 10–19 mmHg; 57,5 % versus 82,6 % bei HVPG ≥20 mmHg. Keine aus diesen Schätzern rekonstruierten Ereigniszähler."
+        }
+      ],
+      "limitations": [
+        "Keine Randomisierung; Confounding und unterschiedliche Abstinenzerfassung können verbleiben.",
+        "Zeitpunktschätzungen sind keine einfachen binomialen Quotienten; hier kein Wilson-Intervall.",
+        "Mögliche Überlappung mit weiteren Wiener Kohorten; Ergebnisse werden nicht gepoolt."
+      ],
+      "modelRelevance": "Qualitativer Bezug zum Wegfall eines Schädigungseinflusses auch bei ausgeprägter portaler Hypertension. Der relative ODE-Widerstand ist kein HVPG in mmHg.",
+      "parameterImplication": "Quantifizierte klinische Assoziation, nicht kalibriert: keine Zuordnung dieser Zeitpunktschätzer zu ODE-Raten oder individuellen Risiken.",
+      "modelIDs": ["hepatosim.liver-ode@0.1.0"]
+    },
+    {
+      "id": "gianni-2017-elastography",
+      "title": "Prospective Evaluation of Liver Stiffness Using Transient Elastography in Alcoholic Patients Following Abstinence",
+      "authors": ["Elena Gianni", "Paolo Forte", "Valentina Galli", "Giulia Razzolini", "Gabriele Bardazzi", "Vito Annese"],
+      "year": 2017,
+      "doi": "10.1093/alcalc/agw053",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27542989/",
+      "studyDesign": "Prospektive Elastographie-Beobachtung bei 64 Personen zu Beginn und nach vier Wochen.",
+      "population": "Menschen mit alkoholbezogener Lebererkrankung; nach sechs Monaten kamen 27 erneut, davon 22 abstinent und fünf rückfällig.",
+      "exposureOrMechanism": "Veränderung gemessener Lebersteifigkeit nach Alkoholabstinenz.",
+      "findings": [
+        {
+          "id": "stiffness-four-weeks",
+          "endpoint": "Lebersteifigkeit bei Abstinenten nach vier Wochen",
+          "kind": "reportedContinuousOutcome",
+          "events": null,
+          "total": null,
+          "followUp": "Vier Wochen; zusätzlicher selektierter Sechsmonatsbesuch.",
+          "summary": "Publizierte Mittelwerte ±SD: 9,2 ±10,1 auf 6,9 ±6,1 kPa. Die Streuung ist kein Konfidenzintervall; die Veränderung belegt keine histologische Fibroserückbildung."
+        }
+      ],
+      "limitations": [
+        "Kleine, nicht randomisierte Kohorte; selektive Wiederteilnahme nach sechs Monaten.",
+        "Lebersteifigkeit ist kein direkter Kollagenanteil; kurzfristige Änderungen können weitere Gewebeeigenschaften widerspiegeln."
+      ],
+      "modelRelevance": "Begründet die Trennung von Elastographie, Entzündungsaktivität und Fibroseindex in einer späteren Messmodell-Validierung.",
+      "parameterImplication": "Nur qualitative Modellkritik, nicht kalibriert: keine Gleichsetzung von kPa-Abnahme und Fibroseregressionsrate.",
+      "modelIDs": ["hepatosim.liver-ode@0.1.0"]
+    },
+    {
+      "id": "hofer-2025-inflammation-portal",
+      "title": "Inflammation remains a dynamic component of portal hypertension in regressive alcohol-related cirrhosis",
+      "authors": ["Benedikt Silvester Hofer", "Benedikt Simbrunner", "Philipp Königshofer", "et al."],
+      "year": 2025,
+      "doi": "10.1002/ueg2.12643",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11999040/",
+      "studyDesign": "Translationale Arbeit mit getrennten Tierexperimenten und menschlicher ALD-Beobachtungsanalyse.",
+      "population": "128 abstinente Menschen mit ALD und gleichzeitiger HVPG- und Lebersteifigkeitsmessung; Tierdaten bleiben davon getrennt.",
+      "exposureOrMechanism": "Zusammenhang zwischen Entzündungsmarkern und verbleibender portaler Hypertension bei regressiver ALD.",
+      "findings": [
+        {
+          "id": "inflammation-hvpg-association",
+          "endpoint": "Entzündungsmarker und gegenüber dem Steifigkeitsmodell erhöhter HVPG",
+          "kind": "qualitativeFinding",
+          "events": null,
+          "total": null,
+          "followUp": "Menschliche HVPG- und Steifigkeitsmessung am selben Tag; Gruppen nach Abstinenzdauer, kein einheitlicher longitudinaler Endpunkt.",
+          "summary": "Entzündungsmarker waren mit höherem HVPG verbunden als aus der Lebersteifigkeit erwartet. Es wurde hier kein binärer klinischer Ereigniszähler extrahiert."
+        }
+      ],
+      "limitations": [
+        "Gruppen unterschiedlicher Abstinenzdauer ersetzen keine individuellen longitudinalen Verläufe.",
+        "Das toxininduzierte Tiermodell ist kein menschliches Alkoholmodell; keine Übertragung experimenteller Regressionszeiten auf Patienten."
+      ],
+      "modelRelevance": "Qualitative Motivation für eine spätere explizite Entzündungs-Komponente des portalen Widerstands; aktuelle ODE-Struktur bleibt unverändert.",
+      "parameterImplication": "Qualitativ, nicht kalibriert: keine identifizierte humane Kopplungskonstante zwischen Entzündung, Fibrose und HVPG.",
+      "modelIDs": ["hepatosim.liver-ode@0.1.0"]
+    }
+  ]
+}

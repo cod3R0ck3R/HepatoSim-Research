@@ -1,0 +1,1050 @@
+{
+  "schema_version": 1,
+  "source_history": "No source Git repository; publication starts a new snapshot history.",
+  "policy": "No binaries, local logs, clinical databases, publisher figures or full-text review copies. No new own-code license.",
+  "omitted": [
+    "Research/Reference/results/benchmark-v1/repository_default-101/inputs.ka",
+    "Research/Reference/results/benchmark-v1/repository_default-101/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-101/1month.ka",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-101/6month.ka",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-101/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-101/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-102/1month.ka",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-102/6month.ka",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-102/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-102/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-103/1month.ka",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-103/6month.ka",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-103/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-103/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-104/1month.ka",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-104/6month.ka",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-104/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-104/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-105/1month.ka",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-105/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-105/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-106/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/caption_literal-106/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/repository_default-101/1month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-101/6month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-101/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-101/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/repository_default-102/1month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-102/6month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-102/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-102/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/repository_default-103/1month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-103/6month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-103/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-103/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/repository_default-104/1month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-104/6month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-104/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-104/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/repository_default-105/1month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-105/6month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-105/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-105/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/repository_default-106/1month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-106/6month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-106/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-106/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/repository_default-107/1month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-107/6month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-107/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-107/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/repository_default-108/1month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-108/6month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-108/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-108/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/repository_default-109/1month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-109/6month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-109/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-109/stdout.log",
+    "Research/Reference/results/benchmark-v1.1/repository_default-110/1month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-110/6month.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-110/inputs.ka",
+    "Research/Reference/results/benchmark-v1.1/repository_default-110/stdout.log"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "original_sha256": "e149c59ed35c4297969f7ba3d5c4833af40945e9666695cceb141c5c8200148f",
+      "published_sha256": "e149c59ed35c4297969f7ba3d5c4833af40945e9666695cceb141c5c8200148f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "AGENTS.md",
+      "original_sha256": "94051566c80906b00c1ec719d279b86203ac590e245cb700baa3ed803facbe56",
+      "published_sha256": "94051566c80906b00c1ec719d279b86203ac590e245cb700baa3ed803facbe56",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Apps/HepatoSim.xcodeproj/project.pbxproj",
+      "original_sha256": "dcd9c8bcb640d4040924e9727ebd6824ae2856f7212523d024618dd954da1fc4",
+      "published_sha256": "dcd9c8bcb640d4040924e9727ebd6824ae2856f7212523d024618dd954da1fc4",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Apps/HepatoSim.xcodeproj/xcshareddata/xcschemes/HepatoSim-iOS.xcscheme",
+      "original_sha256": "d56ad13bd52fd2a75f25834090d4b6899f640b96e762608f4d923e831cef085e",
+      "published_sha256": "d56ad13bd52fd2a75f25834090d4b6899f640b96e762608f4d923e831cef085e",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Apps/HepatoSim.xcodeproj/xcshareddata/xcschemes/HepatoSim-macOS.xcscheme",
+      "original_sha256": "2f8c1fcff91af55b159a6540dc6b67a70d47545070c53ab9eb7341d4001b0b70",
+      "published_sha256": "2f8c1fcff91af55b159a6540dc6b67a70d47545070c53ab9eb7341d4001b0b70",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Apps/macOS.entitlements",
+      "original_sha256": "da63c1b6990ef8cb730e86abc24b5ea9991662a5c1076e666892f80e10fcc073",
+      "published_sha256": "da63c1b6990ef8cb730e86abc24b5ea9991662a5c1076e666892f80e10fcc073",
+      "metadata_redacted": false
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "original_sha256": "5910c581a7964c62ddad1812532943dfdd868665636068766ef3d8e63f494151",
+      "published_sha256": "5910c581a7964c62ddad1812532943dfdd868665636068766ef3d8e63f494151",
+      "metadata_redacted": false
+    },
+    {
+      "path": "DECISIONS.md",
+      "original_sha256": "203fea799d385b02158a7ae459f18703f5824ed9445615ac58c0833ced9900ba",
+      "published_sha256": "203fea799d385b02158a7ae459f18703f5824ed9445615ac58c0833ced9900ba",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/01-Architecture.md",
+      "original_sha256": "a680e365b68a679d315cd6c630c3e28d997593a62709b971ad12c2a932db5aa5",
+      "published_sha256": "a680e365b68a679d315cd6c630c3e28d997593a62709b971ad12c2a932db5aa5",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/02-ScientificModel.md",
+      "original_sha256": "5639c2d1293529cd751baf50e64cf7b11c3f1290c9eab5ce24c7709f41df0352",
+      "published_sha256": "5639c2d1293529cd751baf50e64cf7b11c3f1290c9eab5ce24c7709f41df0352",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/03-DataSchema.md",
+      "original_sha256": "2489166b7c4a013e4df70f5e69ec0f41516b5437c0b6fbde2cebe4914c149910",
+      "published_sha256": "2489166b7c4a013e4df70f5e69ec0f41516b5437c0b6fbde2cebe4914c149910",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/04-PluginSpecification.md",
+      "original_sha256": "6fa26bc2ef06ea9b8a4dfee7557220eca311d9dd8581fd992e2c63a729b73b63",
+      "published_sha256": "6fa26bc2ef06ea9b8a4dfee7557220eca311d9dd8581fd992e2c63a729b73b63",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/05-ValidationStrategy.md",
+      "original_sha256": "b3958db007a64d5eb063abfcb3b84952d03531229f3787d54aacca2886ce151d",
+      "published_sha256": "b3958db007a64d5eb063abfcb3b84952d03531229f3787d54aacca2886ce151d",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/06-Milestones.md",
+      "original_sha256": "cbf5c308e9806985cab7a5c8d9e4eaa33c9ecf4ce3637be3d496f032280314c9",
+      "published_sha256": "cbf5c308e9806985cab7a5c8d9e4eaa33c9ecf4ce3637be3d496f032280314c9",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/07-VerificationReport.md",
+      "original_sha256": "834dbb86090e515aed2f3d53e7787aa17de9f31929c2c625f992f3c0cc708f68",
+      "published_sha256": "834dbb86090e515aed2f3d53e7787aa17de9f31929c2c625f992f3c0cc708f68",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/08-ALD-Evidence.md",
+      "original_sha256": "15d9354db24bb5fa12df4b039d89265c6dfef19e0b842b48bdf765d70cd81bb5",
+      "published_sha256": "15d9354db24bb5fa12df4b039d89265c6dfef19e0b842b48bdf765d70cd81bb5",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/09-DemonstrationModelAudit.md",
+      "original_sha256": "5a98282b628c7343094979e25fefe27bf121f347c4da98d2ee0fed7fdadc3cc8",
+      "published_sha256": "5a98282b628c7343094979e25fefe27bf121f347c4da98d2ee0fed7fdadc3cc8",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/10-ReferenceBenchmark.md",
+      "original_sha256": "ecb5b674b8aadf0479602e83b4964177cde6412eddd1d5af26efce85037d6ceb",
+      "published_sha256": "ecb5b674b8aadf0479602e83b4964177cde6412eddd1d5af26efce85037d6ceb",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/11-ResearchFollowup.md",
+      "original_sha256": "0983c9014437fbbd2b1409e216b64d223e386efad1415493a7b89772ab449776",
+      "published_sha256": "0983c9014437fbbd2b1409e216b64d223e386efad1415493a7b89772ab449776",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/README-HSR001.md",
+      "original_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
+      "published_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Examples/README.md",
+      "original_sha256": "d071fea97329b6a384032b9393c3ebe4b691dc04afd6669862f1eefb5d17d94c",
+      "published_sha256": "d071fea97329b6a384032b9393c3ebe4b691dc04afd6669862f1eefb5d17d94c",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Examples/control.json",
+      "original_sha256": "f89f106a4713ca05b529f80df55d014665b9c63ee569e074c9b94826bef7fbba",
+      "published_sha256": "f89f106a4713ca05b529f80df55d014665b9c63ee569e074c9b94826bef7fbba",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Examples/ensemble.json",
+      "original_sha256": "edd04228650d1e07b8c8fbcff71c137121edab17daaaccd02330bd4e76988f50",
+      "published_sha256": "edd04228650d1e07b8c8fbcff71c137121edab17daaaccd02330bd4e76988f50",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Examples/scenario.csv",
+      "original_sha256": "c3fea8eea7f92f60f3e7dd393e810dc3437608f92286c281145ea84a75467bf7",
+      "published_sha256": "c3fea8eea7f92f60f3e7dd393e810dc3437608f92286c281145ea84a75467bf7",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Examples/scenario.json",
+      "original_sha256": "542a85fe0e7631af343e68fa491c70b239b23aeb08b8324562326684823a61c9",
+      "published_sha256": "542a85fe0e7631af343e68fa491c70b239b23aeb08b8324562326684823a61c9",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Examples/sweep.json",
+      "original_sha256": "d5acdd956c6f7e4554a481ecdc5316e87be65429c177fc1369fafa5db9fab97e",
+      "published_sha256": "d5acdd956c6f7e4554a481ecdc5316e87be65429c177fc1369fafa5db9fab97e",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Package.swift",
+      "original_sha256": "9ba06de0d0154d4e0c62ee3fa8ff2b4d29445bfb01d9667fba9dace6aced379e",
+      "published_sha256": "9ba06de0d0154d4e0c62ee3fa8ff2b4d29445bfb01d9667fba9dace6aced379e",
+      "metadata_redacted": false
+    },
+    {
+      "path": "README.de.md",
+      "original_sha256": "fca4ceb7e8b6c4f92ab8ef8f563b68979caf1eb1b175e595a29e0c9ef32ad80f",
+      "published_sha256": "fca4ceb7e8b6c4f92ab8ef8f563b68979caf1eb1b175e595a29e0c9ef32ad80f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "README.md",
+      "original_sha256": "0909ff9dd5e06f018d74e67244a6ce7d68f0a587d708a673b1cb3708323b62de",
+      "published_sha256": "0909ff9dd5e06f018d74e67244a6ce7d68f0a587d708a673b1cb3708323b62de",
+      "metadata_redacted": false
+    },
+    {
+      "path": "RESEARCH_PLAN.md",
+      "original_sha256": "1375ce9bbf465f2a3701f0d4ab73afc686bde4d19ed0f43629feb294749d7a95",
+      "published_sha256": "1375ce9bbf465f2a3701f0d4ab73afc686bde4d19ed0f43629feb294749d7a95",
+      "metadata_redacted": false
+    },
+    {
+      "path": "RESEARCH_STATE.json",
+      "original_sha256": "dda22b97ced71c216a5d40cdf01a71d793fa54e88888e60f0a49bfa5311eacf7",
+      "published_sha256": "dda22b97ced71c216a5d40cdf01a71d793fa54e88888e60f0a49bfa5311eacf7",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Audit/audit-manifest.json",
+      "original_sha256": "822e550dc72f6baf34821d9988b6997b1d2ca7ca35885d42b971a77bc863b27e",
+      "published_sha256": "822e550dc72f6baf34821d9988b6997b1d2ca7ca35885d42b971a77bc863b27e",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Candidates/HSP47.md",
+      "original_sha256": "5d4e1301221f3c468648f3ce1fc45bdb173d0555416ec4d790e96976fef6d799",
+      "published_sha256": "5d4e1301221f3c468648f3ce1fc45bdb173d0555416ec4d790e96976fef6d799",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Candidates/LOXL2.md",
+      "original_sha256": "329b08ab17889ec1632890d7e1dc1b4d862e665c8145072a6e22fae819f9f377",
+      "published_sha256": "329b08ab17889ec1632890d7e1dc1b4d862e665c8145072a6e22fae819f9f377",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Candidates/PPARG.md",
+      "original_sha256": "77242e046026ced821dfd644309f034ce22fbb4e90c169f9185e012b4f85b065",
+      "published_sha256": "77242e046026ced821dfd644309f034ce22fbb4e90c169f9185e012b4f85b065",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Candidates/README.md",
+      "original_sha256": "81dcddc0cfca7eb3d6237214c4dacf004a6bf80a530d6d7578ca69db2da221ee",
+      "published_sha256": "81dcddc0cfca7eb3d6237214c4dacf004a6bf80a530d6d7578ca69db2da221ee",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Candidates/independent-data-followup.md",
+      "original_sha256": "1dd4b753d23079e874749b42d0d2cbb4d6ef6d4dd44a5c88a5a7ab77e787009b",
+      "published_sha256": "1dd4b753d23079e874749b42d0d2cbb4d6ef6d4dd44a5c88a5a7ab77e787009b",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Candidates/source-register.json",
+      "original_sha256": "f4b2432b681c26622ada439866309d709e8716e1434fb8a3c8afd4b56b191655",
+      "published_sha256": "f4b2432b681c26622ada439866309d709e8716e1434fb8a3c8afd4b56b191655",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/LocalAI/run_local_task.py",
+      "original_sha256": "93e07be84cdcf8d03bd62a5cba1c661f042aa694e561539fef4089be1efc44b9",
+      "published_sha256": "93e07be84cdcf8d03bd62a5cba1c661f042aa694e561539fef4089be1efc44b9",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/LocalAI/test_local_task.py",
+      "original_sha256": "185de0153e842e2e5b42f03217dd548e544931ae25b47aa761914d93aa384979",
+      "published_sha256": "185de0153e842e2e5b42f03217dd548e544931ae25b47aa761914d93aa384979",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/LocalAI/translation-task.txt",
+      "original_sha256": "35eea411cfa98db18a2445be20849ac83d82bfa3b18dbfdef846fd9f34da8f1c",
+      "published_sha256": "35eea411cfa98db18a2445be20849ac83d82bfa3b18dbfdef846fd9f34da8f1c",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/README.md",
+      "original_sha256": "4a280d06910a22cfc5548396f0227b3fbf9d2dd040180e31a3db7d963fe36ee6",
+      "published_sha256": "4a280d06910a22cfc5548396f0227b3fbf9d2dd040180e31a3db7d963fe36ee6",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/analysis/archive-recheck-v2.json",
+      "original_sha256": "59bb5e4fb61a08e1f93c3295b1c8563852dcafada7bae1e39e60a9db580552cc",
+      "published_sha256": "8b42ae7e743500d980a6b6d02a11d703401b0846471f92806efd3f6aa6f86b98",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/analysis/benchmark-v1.1.json",
+      "original_sha256": "5a62b4fc7d5b71357cb71f71fce6be52d4d2ed708f85621cde71503a2c5622d5",
+      "published_sha256": "aa496278f38c0db659a3f11f3781bd2f3db7949b227a43f58102f50ee008061e",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/analysis/figures/cell-trajectories.png",
+      "original_sha256": "04991175ae6d554a22f6c1dccb3cd4125c742aa0282b10e43f80318aaca6018e",
+      "published_sha256": "04991175ae6d554a22f6c1dccb3cd4125c742aa0282b10e43f80318aaca6018e",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/analysis/figures/cell-trajectories.svg",
+      "original_sha256": "14702d4ee1185e02f55cbbafa5ec512c0a49d360925d2f2c1ea66cd361c4a5b6",
+      "published_sha256": "14702d4ee1185e02f55cbbafa5ec512c0a49d360925d2f2c1ea66cd361c4a5b6",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/analysis/figures/collagen-trajectories.png",
+      "original_sha256": "d6f886b4b75448ffe71e568c3570cc5d9682d8ae8086620abe28a3d64effbbbe",
+      "published_sha256": "d6f886b4b75448ffe71e568c3570cc5d9682d8ae8086620abe28a3d64effbbbe",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/analysis/figures/collagen-trajectories.svg",
+      "original_sha256": "b61f1cecee39120c75d0a288b02e88c7401dda379ad022d5fb13a63b09fb06ae",
+      "published_sha256": "b61f1cecee39120c75d0a288b02e88c7401dda379ad022d5fb13a63b09fb06ae",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/analysis/figures/figure-provenance.json",
+      "original_sha256": "08c8cdd3a6bc8af45e78b51b310eabd2f563a102ad102f8a778c47c286f83db1",
+      "published_sha256": "08c8cdd3a6bc8af45e78b51b310eabd2f563a102ad102f8a778c47c286f83db1",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/analysis/public-recheck-v2.json",
+      "original_sha256": "54ddecfaa5bb70bbe81fd5f5a3cf1d5402e44257e853d36a3c3a5f486d8278a6",
+      "published_sha256": "6fcc448f9763574844cbe0bd8a54205f945dd2145325e3b808e53872317877a7",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/analysis/publication-verification-v2.json",
+      "original_sha256": "41ece52d3d924c2f37328aed30be1cd8e1cdcbce62f6850e6f09ab854cddf12c",
+      "published_sha256": "41ece52d3d924c2f37328aed30be1cd8e1cdcbce62f6850e6f09ab854cddf12c",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/analysis/software-tests-v2.txt",
+      "original_sha256": "9a91f8b2a7ca59988aaa4fbaf1e47da51ea18e6b4af4291d06fcc0548bb6d4fb",
+      "published_sha256": "9a91f8b2a7ca59988aaa4fbaf1e47da51ea18e6b4af4291d06fcc0548bb6d4fb",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/analysis/software-tests.txt",
+      "original_sha256": "860572c32cd0975bb9b16e4932d75f82ec22fe86c1730d075cef3058e1d65502",
+      "published_sha256": "860572c32cd0975bb9b16e4932d75f82ec22fe86c1730d075cef3058e1d65502",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/analyze_benchmark.py",
+      "original_sha256": "3c9c3f32ffa692c3587bd6672718fafd99b910a4147ac8340c20e69a49a0f75d",
+      "published_sha256": "3c9c3f32ffa692c3587bd6672718fafd99b910a4147ac8340c20e69a49a0f75d",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/benchmark-v1.0.0.json",
+      "original_sha256": "16dc215a6ef5e50f502236df7f059d0748ea6af5a81d5ed7333f94fc7d99c9a2",
+      "published_sha256": "16dc215a6ef5e50f502236df7f059d0748ea6af5a81d5ed7333f94fc7d99c9a2",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/benchmark-v1.0.0.sha256",
+      "original_sha256": "0328f0fb390930fb9929c94df7d5e879015455303ff7b72d1353a3bb1577c7ba",
+      "published_sha256": "0328f0fb390930fb9929c94df7d5e879015455303ff7b72d1353a3bb1577c7ba",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/benchmark-v1.1.0.json",
+      "original_sha256": "ba8292920faf7765e29c1619e5b5b8efaab0a9bcc63b0a9904135a4cb3b39288",
+      "published_sha256": "ba8292920faf7765e29c1619e5b5b8efaab0a9bcc63b0a9904135a4cb3b39288",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/benchmark-v1.1.0.sha256",
+      "original_sha256": "9903c210aeed60ccda4c4c86d6877b240e3d1372dbb8557070e39efb9af56209",
+      "published_sha256": "9903c210aeed60ccda4c4c86d6877b240e3d1372dbb8557070e39efb9af56209",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/benchmark-v1.2.0.json",
+      "original_sha256": "a6e9726af786f37814eb873be75f3f1374b73b78a9a5321f8ed2b5ba734defa8",
+      "published_sha256": "a6e9726af786f37814eb873be75f3f1374b73b78a9a5321f8ed2b5ba734defa8",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/benchmark-v1.2.0.sha256",
+      "original_sha256": "ebffb470bc049fdaa3bc09b88559fd16926de4e514b3485c74397fe090e58825",
+      "published_sha256": "ebffb470bc049fdaa3bc09b88559fd16926de4e514b3485c74397fe090e58825",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/local-goose-audit.md",
+      "original_sha256": "289b2c744f2e0c5a23aae87286c5ed4402c329a64b631c7480579c2aeb05a751",
+      "published_sha256": "289b2c744f2e0c5a23aae87286c5ed4402c329a64b631c7480579c2aeb05a751",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/parameter-identifiability.md",
+      "original_sha256": "a1ee333300d7944deed2d3ee5615e96d72c4c9b84900a6d22e55a3abae707884",
+      "published_sha256": "a1ee333300d7944deed2d3ee5615e96d72c4c9b84900a6d22e55a3abae707884",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/plot_benchmark.py",
+      "original_sha256": "b60470ab2aa86e353cbe76b0541b070d4e0c5badcd23272821092ae1596b541c",
+      "published_sha256": "b60470ab2aa86e353cbe76b0541b070d4e0c5badcd23272821092ae1596b541c",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/research-log.md",
+      "original_sha256": "55f3024c98f677bbb7f3f7fce1538989a1d8a90448f53df3623ccb17476e8aa9",
+      "published_sha256": "55f3024c98f677bbb7f3f7fce1538989a1d8a90448f53df3623ccb17476e8aa9",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1/environment.json",
+      "original_sha256": "e5dfbd466f33e8ba4243fd9d1f97ca60584f0e6ffeb60564af82594c9c0d4b64",
+      "published_sha256": "843fb89b95b747d02b55f5b5691fce0275d1107fb9a6d014293123344a220338",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1/execution.json",
+      "original_sha256": "9ddb51ff3cbdb31f5d6493da978b971a379020fd8261352af5441ad07a1f6f5a",
+      "published_sha256": "38c0e74c647219b909ed30d132eeaa58a42dac02efc428c931494c30138e090b",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1/repository_default-101/run.json",
+      "original_sha256": "db3d0df991bd5f6d525e41ccc1f10274c327d1cf41d09ad119c2b39d4ebca4af",
+      "published_sha256": "782f83a2cda78d0ad31dddf014c04b1f8d211d1719fe8c4849a7ad36c091eca5",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1/repository_default-101/trace.csv",
+      "original_sha256": "e15fc9beed4ddf9e7b3eedc2c06a32424ab46d5325bb1cf79c16f87737178984",
+      "published_sha256": "27c5b9528e7529217ac5d69b2904f0d508b21a11ea4ce0bd833866dea3c3ed88",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1/specification.json",
+      "original_sha256": "16dc215a6ef5e50f502236df7f059d0748ea6af5a81d5ed7333f94fc7d99c9a2",
+      "published_sha256": "16dc215a6ef5e50f502236df7f059d0748ea6af5a81d5ed7333f94fc7d99c9a2",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-101/run.json",
+      "original_sha256": "8c9d71e402c1194e9d74878bb402bc89ce269ee9044402059c78d7a8224b26bf",
+      "published_sha256": "d74b5df7dc99ccf7a846f251bc418d4eef988871c684d3d5692c9b105c893c0c",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-101/trace.csv",
+      "original_sha256": "695422ee96a301662d015285c70773a32f2868b81591193975300d806485df51",
+      "published_sha256": "f6a5fc194d84005bdeae08afdb7196164d71da0c3288eb3cbbaee3a416365681",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-102/run.json",
+      "original_sha256": "832ce041925b93a47a5cac0e069d1e52dc1e70eaf961bfceccddf5318d506314",
+      "published_sha256": "42009b84eddd07b6b853b5edd85798618ce6aee48d013c4bff5fb260716b2804",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-102/trace.csv",
+      "original_sha256": "867441fd52b7edcd9c0127ab662472ca8e718973c3202c9067a9dbcd53b0a9dc",
+      "published_sha256": "a6acce91deda5812bb3512cc1bbfb28b21facc155b7cc121f0521433f05f06b8",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-103/run.json",
+      "original_sha256": "f0387c6fbd98c264ccad446efdbfd57f66d827b9ea531f03bdc295cd78eb8ad2",
+      "published_sha256": "b6a6c94f665a77b8c293dab76953445ba832748c5e772af77f87b4b92a4d1e5e",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-103/trace.csv",
+      "original_sha256": "5918311752d9cba322d7d5ebddaabe0cd81081078396b7ffe2fb9aa824a45aa1",
+      "published_sha256": "4810ed33ecaf7284690f29d3ed96d71701ed74a478a81d785592bae5ded0eed6",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-104/run.json",
+      "original_sha256": "ed75e6e417b50587cda7caa0dc484793f45d169de938bc5d84918ebb7d4214bb",
+      "published_sha256": "81dad9599dacf9014901073461b1d02b6492b1e0f19ce59bfd4a875fc9196e29",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-104/trace.csv",
+      "original_sha256": "4f3e7f31521d23ca8feff707795ee3ededbfbb49cd6aa275fac31b8b89ea2b7f",
+      "published_sha256": "8f2f346b045de50935e39a2fbd1458853e34f6012e5397571f73438905b1a286",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-105/run.json",
+      "original_sha256": "a4096732a1662725a490c6678863990ee9ce887e963797415ac29b1f66d14bd6",
+      "published_sha256": "19d1681492dd36fc4bf5ccd37317cac95b01892cbce692448b9e28edc7729e80",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-105/trace.csv",
+      "original_sha256": "d61b93c158c44e865a3f3f41e84132616d783ffc4fbea5eca39e40c1b93b61ba",
+      "published_sha256": "fb17254144b082858fc060263563136d87017a9b8111180af76d18e63f0f542e",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-106/run.json",
+      "original_sha256": "f953fcac7ad2350d43c27738b1c96ec9815d90f208752d5ccb1f4a2d2975226b",
+      "published_sha256": "ba9a751f85bc43e99b2385f3caa7af8f250d885fbe0f6bda3bf88e84e29a49bc",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-106/trace.csv",
+      "original_sha256": "5dcd2c53be731c6c9f764ea64fd08e7aa00d3e4172e6be144e7d6143e7d49976",
+      "published_sha256": "03f0ad28ff80daf48fcaf8da1d270ac975f92083142840737baff26b8dbfdb3a",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-107/run.json",
+      "original_sha256": "2b4a8b34f9a94f2d34a1b4ce78d13083d344bc352fef6e304dcafc7ee91ccb13",
+      "published_sha256": "5cb9ab06a687e2b0be0a5c53e5ad584f89ecedb2c883833edd20a986493e7b1e",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-108/run.json",
+      "original_sha256": "4abd7a19a6bbab398d584b88a54a9b8e74c943b46ec5edbbc6644d24e4389b11",
+      "published_sha256": "62c6e209a185538b735cf15febed6a1db86539012dda0cefe0f32edbc07d0eaa",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-109/run.json",
+      "original_sha256": "476dffd577a724133958e87ef70c6c321cf5eeabf487bac456000dfae599c54e",
+      "published_sha256": "a5f88d98a12c3c96cab27465aae9536ef173ff27d5d418d15962d8dea2f893ab",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/caption_literal-110/run.json",
+      "original_sha256": "d070561afd4add1123813a221ea2f44ec5d696ae082a61ef8aabe8a78bab980e",
+      "published_sha256": "53cefeacb2df42ddd633fdb2568623008a1015ed9cb76a2a2c957282ad845ebd",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/environment.json",
+      "original_sha256": "1a6275ddb02f7fa20478398bb19b1e0f7687c9463cc83996badbf9f0c72b0d42",
+      "published_sha256": "ba3988d259418495fa365a8106b53eed047ce2e5aa65300603b14afc241061b6",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/execution.json",
+      "original_sha256": "9394250865b09d7cdd67d0873a4ac27b5c51465d6c60eb942a81207edc92ac4b",
+      "published_sha256": "7117ac88967840c012ce6d9c2ae9a985babaa5a767911328633cc52891bbc94b",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/grid-quarter-day-101/run.json",
+      "original_sha256": "69f1d21fc4c745867f9e8315fb35afa2ae9ec498db8ffcbbb2c5a0c95e712c6c",
+      "published_sha256": "91a799ec07f8536593bb1daea968b16f0e8d9d98088cf04935b0745cc215a1fd",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/reinactivation_10pct-101/run.json",
+      "original_sha256": "6d84868afe77cec23ce9b38df9b274bbee144c26d5014019ba150a55b919c1ce",
+      "published_sha256": "302314b33baf987ea1b66a5b187190488198c7f9a744c93c0a79d0a54ffcf604",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/reinactivation_10pct-102/run.json",
+      "original_sha256": "128fbd739e8ddaeb7189b3f51d932036afea79bce524d1aaa2c2ad29f1a634bf",
+      "published_sha256": "8038889180cb068d886d79a968cad5f0d9cfd5578202ff30a8472f5e46f7ccf9",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/reinactivation_10pct-103/run.json",
+      "original_sha256": "041420600e725af5d8ba075188ff59795239c41c2f24f4cc1625a0b134700b27",
+      "published_sha256": "b362c68861d77f1e207b22092aaa77ede1fba8d76ac74fc2dc08f1446b490dcf",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/reinactivation_10pct-104/run.json",
+      "original_sha256": "ff49ec250709fef620729bc1e0c6610a38f333216b6aab59ae6b234154b3225f",
+      "published_sha256": "fccd3d26e3d49fe73ff5f0f4b7f38b15c260344b55f5bdbdc2624ccd5ea66560",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/reinactivation_10pct-105/run.json",
+      "original_sha256": "8529719618b2a758bd916b813aee9228ce37631919ba608c54353294fcc1aee7",
+      "published_sha256": "77dda021feb4b654398a0a4568bc2b0bf7a54125c1064b5ea103ca82e47edc33",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-101/run.json",
+      "original_sha256": "7cf57432eaad87d1ac5bd45cb3f5b23fda63b254fc83320e9789906ba4eba783",
+      "published_sha256": "5adc525c0bc60bba2e1cbb0087f59c2cf2e3e46c8f8d87e7d9b03cd4f0b4d6e6",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-101/trace.csv",
+      "original_sha256": "c0060b14872d448aff877591f3adc1c11b24cad7615663ec2d68eade936b841c",
+      "published_sha256": "6186fb35abad03dcbf61f30108e96876bc4a4f9431eaef003a347ee8f133f2c0",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-102/run.json",
+      "original_sha256": "c901420827ba3275e31e421f7db16448cd3f5c3ce4606eb240c875e0c992ce77",
+      "published_sha256": "d7fb5ddc6e5b4ac6a0a64ac2b61c507099d0f864b42dfa95effb3a90f5788f03",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-102/trace.csv",
+      "original_sha256": "42235eafeaf435a811f47fe614f9c09660b9ae113a55a5b0273e05c7f8feb0a2",
+      "published_sha256": "c4b987879e0b6d1623ab53697727876da54309dbbc8d6afe0797f606788b4e78",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-103/run.json",
+      "original_sha256": "3a5a93eb15f6fcd2a87210239cf339c3790cc1bc7581385784d8c8b83a34e52b",
+      "published_sha256": "c309c3d77511524a4d21b9911e6aba37a0a1a73d878c103f03ee4977dddfb47c",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-103/trace.csv",
+      "original_sha256": "c24338644d5b8efc57815708c9cf9c6eeb9954e79e0380d26c43a21188e31afa",
+      "published_sha256": "719c6b463831132b87ec8c9f787dc9c730a8eac31d201fe3fffb036e9a70c288",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-104/run.json",
+      "original_sha256": "bfd742b07faedf1b997b9e44328b390112c3d12c314f8f789bf6ae349efcb0a2",
+      "published_sha256": "7a669c220f56bdd56060d7b04cfebbba8bbb2b4f6489610554ada6e95ebd2f76",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-104/trace.csv",
+      "original_sha256": "88d8ac94c8114a862aa5b0a29fbf5eb6480aa6b98067ba0e8b8aafcee0908e87",
+      "published_sha256": "a2f5f799222a9a18cbb73d5490e740e6ac3607569fb7f09b341e0d0ac50eab7a",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-105/run.json",
+      "original_sha256": "e329ee09d452bba96c4b7df611cf53fc40395b4912329a2a7ae75ebfdb5b88d2",
+      "published_sha256": "6ad9da9b9e468f041cb9dc710abb1534b26b44a26a15f21fdb3e1d133547b8e2",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-105/trace.csv",
+      "original_sha256": "e923d1f89b2f1d7ede49496f59b0f46b169396c0837a167041c1f6410166d86e",
+      "published_sha256": "19027143a409fe1d73aa6487b8ee33a9c992b83f468476a39ce9b6fe73a4f661",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-106/run.json",
+      "original_sha256": "ce90db37da6cc75fa3b2fd433449b546f1c9ccff32246aa2945b06af58b0c431",
+      "published_sha256": "c6597c1389754249a9e283f714127195b7750e2fd15e9519663f0028fa2a66aa",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-106/trace.csv",
+      "original_sha256": "7e129818f2fda66258d0d16e3b7556c9b9719e9f3614bc458016e3b5e9efbfe4",
+      "published_sha256": "9d21ee2a25be0fc39664cfba7f37538f2a41c3ae298e5879a21fc0d4271e52fd",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-107/run.json",
+      "original_sha256": "e89d67a4a00fc4c6a04f83a367e0c8f13965fd3a2e671d9f9d13dc399230e7e4",
+      "published_sha256": "ed0d436d9efa5b33ab55afb1d1ccf7708de4ff1588457bdade5046d4d4e926c2",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-107/trace.csv",
+      "original_sha256": "6e6b92d851ba87290ffbe4f613f0c3104dd4ca2530106e98264c186f5bf920ac",
+      "published_sha256": "55c228fb82d01476d2101f2e8834069a5847c4dd511b815f1a847c291e53c691",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-108/run.json",
+      "original_sha256": "91423ad4dcbc74232620a05bd32d4556b83392db96a8afc2a47200173d0b2e90",
+      "published_sha256": "ffd32150186d5c070adcb709d0ae39fa9c728056db1f3641fd29a8527f23a8c5",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-108/trace.csv",
+      "original_sha256": "4454b9edc35ad05a2dd00a6e5e9e105ee5eca0a40aa26936c3b40a24eb7b2480",
+      "published_sha256": "1b14b6d5a09b52bd7d2aa884f360c2c53ed5914a5d89ca4efb51622b2cd2db95",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-109/run.json",
+      "original_sha256": "1a5869d39bae332be8ecc2bd0a33bf653df62878f4ce0e4cc015dcb4d2ca336d",
+      "published_sha256": "f881b73319ea9ddc88dd6590f147fc041098709e9fe3a04b508a65b8b0a44f0f",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-109/trace.csv",
+      "original_sha256": "af8d96e552ad0ea578a2b790f5e44b838e72b47ec58de9894dfb9d08b426ec40",
+      "published_sha256": "9102e3f1528c47f5788c16fbb5fb88aa1417427005cee940b70c5bd15b85a29a",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-110/run.json",
+      "original_sha256": "e4e6308df204ff153dc0eca40c6cf492e530482530ec32d426b09cbb8c01b17b",
+      "published_sha256": "00866657d5a0ab4f36e9e9cd40ebec8529b5f49831e2e522984fbef00a81f7eb",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/repository_default-110/trace.csv",
+      "original_sha256": "67b7774d48b708323a7bb9ad2ab2e5fd541789e46aa414b2c21fc1f588580065",
+      "published_sha256": "a7453de7c534c5633db96ec046656425e338e3131f72eaa9778b0a6500e5e4b7",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/seed-replay-101/run.json",
+      "original_sha256": "bce396790a73177be38aa07c705244a8f39ab704a90f2db0315ed5b0e1bba654",
+      "published_sha256": "5d846f6d3951c1ef09e049bebad9bfc2ffe7d4573f930b960b2f337d6ded4933",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/specification.json",
+      "original_sha256": "ba8292920faf7765e29c1619e5b5b8efaab0a9bcc63b0a9904135a4cb3b39288",
+      "published_sha256": "ba8292920faf7765e29c1619e5b5b8efaab0a9bcc63b0a9904135a4cb3b39288",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/without_reinactivation-101/run.json",
+      "original_sha256": "46dbd965b7677d39bdfcd082e36414ff29c7b51bc66995d212c3964964e9320d",
+      "published_sha256": "825ac1df68c821543843273e9dcf569ff1868381968a69718e3d5974a5556c3e",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/without_reinactivation-102/run.json",
+      "original_sha256": "375df27a5257dda6d8b01db94a16e668a034ae4f2f047d5997f533d631470d3e",
+      "published_sha256": "cde79153eccbbd1df8bdece59029954e0dec2d22f05f1124835427d17942790c",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/without_reinactivation-103/run.json",
+      "original_sha256": "870c401130a2e2793c8c479ceec121a1f19f7949dd58b841e96308002edb137d",
+      "published_sha256": "73e5d2291d1129878774e633e7235e7885b498729a00312dfda58bdfde76ac97",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/without_reinactivation-104/run.json",
+      "original_sha256": "4610ccfadc3842511ba6bff311115a44aa01983d4d99ee2a62b588e010d7f0a0",
+      "published_sha256": "092e1fbe2ac90e7d042c879731fbf4204a29b1632b2ae479af6b0af9054f6206",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/results/benchmark-v1.1/without_reinactivation-105/run.json",
+      "original_sha256": "cc3dd4acaeb772827f91d2ed571ec986e71fea98064630c5f1126c270cb4376e",
+      "published_sha256": "4b065076d0b49c5a37d68d30346283d1dc05bc25e019d0d2d481133350cb5f76",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/resume_reference.py",
+      "original_sha256": "81b4ebbec00c3065949e0d5922a7d3d52135a49a552dd7a33d2aa17a8b08e536",
+      "published_sha256": "81b4ebbec00c3065949e0d5922a7d3d52135a49a552dd7a33d2aa17a8b08e536",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/run_benchmark.py",
+      "original_sha256": "e331cd141870234af6bd8f69f54bf49fc36e518a2b6b636bd2097e911de62583",
+      "published_sha256": "e331cd141870234af6bd8f69f54bf49fc36e518a2b6b636bd2097e911de62583",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/runtime-audit.md",
+      "original_sha256": "68015aa0dd4619969e515b76ba1ed44a7add996ca0a6c2b12b60e17021a6032d",
+      "published_sha256": "68015aa0dd4619969e515b76ba1ed44a7add996ca0a6c2b12b60e17021a6032d",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/runtime-lock.json",
+      "original_sha256": "a680e9fe7239dd2b2bcab9c4fa6e97e1ea70060787c80ae09013399fd2d4e32e",
+      "published_sha256": "a680e9fe7239dd2b2bcab9c4fa6e97e1ea70060787c80ae09013399fd2d4e32e",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/selection-and-data.md",
+      "original_sha256": "c26e949f4131ffc399adce2ef6f39f33eff5982588bacec95284a2394cf47fc4",
+      "published_sha256": "c26e949f4131ffc399adce2ef6f39f33eff5982588bacec95284a2394cf47fc4",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/source-lock.json",
+      "original_sha256": "b283fc42135a89017f7f82442128c3bab2a780a3f5c7770528b42ac67102e169",
+      "published_sha256": "b283fc42135a89017f7f82442128c3bab2a780a3f5c7770528b42ac67102e169",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/test_analysis.py",
+      "original_sha256": "51e526b35bc87a98da8fb5817fea902db0331217b75901620602c8105e10dcfc",
+      "published_sha256": "51e526b35bc87a98da8fb5817fea902db0331217b75901620602c8105e10dcfc",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/test_benchmark.py",
+      "original_sha256": "78aaef93767083a8c4c512a31eee05c8b4e2926db32622e5c32d4eb33401107f",
+      "published_sha256": "78aaef93767083a8c4c512a31eee05c8b4e2926db32622e5c32d4eb33401107f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/test_resume.py",
+      "original_sha256": "96d000a191ee0db77bc2c320be1893c1d7d5ca5e98e9fd583d7d9a0ed708f234",
+      "published_sha256": "96d000a191ee0db77bc2c320be1893c1d7d5ca5e98e9fd583d7d9a0ed708f234",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/variant-audit.md",
+      "original_sha256": "4bf0aa5362e6cb3b4b611bac7fca45ac919b3549f12801f2a17bf66e049e1973",
+      "published_sha256": "4bf0aa5362e6cb3b4b611bac7fca45ac919b3549f12801f2a17bf66e049e1973",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/vendor/HSC_model_Kappa/LICENSE",
+      "original_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "published_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/vendor/HSC_model_Kappa/README.md",
+      "original_sha256": "5d4e3d2ce9f0979093842770c576fab824182a8e9261e3384c91f3dba1d5c7a1",
+      "published_sha256": "5d4e3d2ce9f0979093842770c576fab824182a8e9261e3384c91f3dba1d5c7a1",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/vendor/HSC_model_Kappa/iHSC-reversion-to-qHSC.ka",
+      "original_sha256": "b1ce4c1460c333aedd2ab64ff737eba4a4f6a8fb3af47d611abd9d6b8a7caacb",
+      "published_sha256": "b1ce4c1460c333aedd2ab64ff737eba4a4f6a8fb3af47d611abd9d6b8a7caacb",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/vendor/HSC_model_Kappa/reactMFB-with-inactivation.ka",
+      "original_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+      "published_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Reference/vendor/HSC_model_Kappa/reactMFB-wo-inactivation.ka",
+      "original_sha256": "fe426011b22b20494bfabd88728700b690c379ecafc19873072cb52ff59328f9",
+      "published_sha256": "fe426011b22b20494bfabd88728700b690c379ecafc19873072cb52ff59328f9",
+      "metadata_redacted": false
+    },
+    {
+      "path": "SECURITY.md",
+      "original_sha256": "412a7cd61028a52a0cb59fb02f476273e160d36e7b7ecafbe2137db6a1f19561",
+      "published_sha256": "412a7cd61028a52a0cb59fb02f476273e160d36e7b7ecafbe2137db6a1f19561",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Scripts/build-macos.sh",
+      "original_sha256": "5dcf86bcd27aa75047d211ec587b4f3fc2330ae821dc51c52b3c1fb10aec986d",
+      "published_sha256": "5dcf86bcd27aa75047d211ec587b4f3fc2330ae821dc51c52b3c1fb10aec986d",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Scripts/export_public.py",
+      "original_sha256": "26b0e0da2393ec92abd8948cdedd71357a4d5973e0625a6990c13f4d06a4728b",
+      "published_sha256": "26b0e0da2393ec92abd8948cdedd71357a4d5973e0625a6990c13f4d06a4728b",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Scripts/test_export_public.py",
+      "original_sha256": "7bc08f363b6c4c064d2942c31cbe183e08b7815f33a5489b8e2c93476aaef966",
+      "published_sha256": "7bc08f363b6c4c064d2942c31cbe183e08b7815f33a5489b8e2c93476aaef966",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Scripts/verify.sh",
+      "original_sha256": "f795c7a828d0ecb35bb3fdeff3bc6a952fd9d77c1850856f537300d8695ccd67",
+      "published_sha256": "f795c7a828d0ecb35bb3fdeff3bc6a952fd9d77c1850856f537300d8695ccd67",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/CSQLite/module.modulemap",
+      "original_sha256": "bbfe59a972a3e8e09e347c04bc22c0eacd2544881af8a4b6068bfc30b38466e8",
+      "published_sha256": "bbfe59a972a3e8e09e347c04bc22c0eacd2544881af8a4b6068bfc30b38466e8",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/CSQLite/shim.h",
+      "original_sha256": "b052d8e561e942f97b503033ecd2eaa2b35213bdbf374983efe9e68eabdfc024",
+      "published_sha256": "b052d8e561e942f97b503033ecd2eaa2b35213bdbf374983efe9e68eabdfc024",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/HepatoCLI/main.swift",
+      "original_sha256": "62847e4b74fba2c0895bd1f70fd83441b0123fdf7ef67637f4073c53d769ff52",
+      "published_sha256": "62847e4b74fba2c0895bd1f70fd83441b0123fdf7ef67637f4073c53d769ff52",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/HepatoCore/AIProvider.swift",
+      "original_sha256": "7f06666db4f9eec3f63360062d3867fb2771e20a454fd7509d98d83f15558140",
+      "published_sha256": "7f06666db4f9eec3f63360062d3867fb2771e20a454fd7509d98d83f15558140",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/HepatoCore/Evidence.swift",
+      "original_sha256": "a29594ae5f6e8514e70b7e52bb6a1db5014c5194767888bfbd69e59228a1b253",
+      "published_sha256": "a29594ae5f6e8514e70b7e52bb6a1db5014c5194767888bfbd69e59228a1b253",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/HepatoCore/LiverSimulator.swift",
+      "original_sha256": "1db24ae8f30c491b7ceedee865c81329026d5d94e9b82bfee1b2c97049e10c75",
+      "published_sha256": "1db24ae8f30c491b7ceedee865c81329026d5d94e9b82bfee1b2c97049e10c75",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/HepatoCore/Model.swift",
+      "original_sha256": "087229c345747f956e1f88abce210e2f96d56be59e72235fddb4312fcbb2e0e3",
+      "published_sha256": "087229c345747f956e1f88abce210e2f96d56be59e72235fddb4312fcbb2e0e3",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/HepatoCore/ResearchAnalysis.swift",
+      "original_sha256": "453fa59fe829168cd1ea08fc6dc1e04e146438bf45b693a55bb9af60ac7bee68",
+      "published_sha256": "453fa59fe829168cd1ea08fc6dc1e04e146438bf45b693a55bb9af60ac7bee68",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/HepatoCore/Resources/ald-evidence.json",
+      "original_sha256": "835a795f1d1f46dec1208515426f4a68797425cbc1e5b688394c1204b78f6779",
+      "published_sha256": "835a795f1d1f46dec1208515426f4a68797425cbc1e5b688394c1204b78f6779",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/HepatoSimApp/App.swift",
+      "original_sha256": "0d3072994191b35bdff2c703a5cd1ef99343ede9f76f3f4022324b42f30b39ba",
+      "published_sha256": "0d3072994191b35bdff2c703a5cd1ef99343ede9f76f3f4022324b42f30b39ba",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/HepatoStorage/MedicalExchange.swift",
+      "original_sha256": "7759e54ca7373b988673e9f9ce9a6864bea3887b2afc90f7d2ba397cc6f42b5f",
+      "published_sha256": "7759e54ca7373b988673e9f9ce9a6864bea3887b2afc90f7d2ba397cc6f42b5f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/HepatoStorage/RunExchange.swift",
+      "original_sha256": "d8274251e827453f845a3ae683f6dbdd7d67aa28a15749e5e253f8f9e832cef7",
+      "published_sha256": "d8274251e827453f845a3ae683f6dbdd7d67aa28a15749e5e253f8f9e832cef7",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/HepatoStorage/RunStore.swift",
+      "original_sha256": "35b46fd0b604834d68fd9bb944453070cf2ec45e93d093743edd4afd6c49212e",
+      "published_sha256": "35b46fd0b604834d68fd9bb944453070cf2ec45e93d093743edd4afd6c49212e",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/HepatoUI/ALDEvidenceView.swift",
+      "original_sha256": "29755ad2df80bcacb22f79d56c9261025c44ae65fdd24ed8262446c4a130e90f",
+      "published_sha256": "29755ad2df80bcacb22f79d56c9261025c44ae65fdd24ed8262446c4a130e90f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/HepatoUI/ParameterControl.swift",
+      "original_sha256": "8dc7362fcc28dedc4b4a811862a265e63ab371ebf36c123273604c75329cc8a6",
+      "published_sha256": "8dc7362fcc28dedc4b4a811862a265e63ab371ebf36c123273604c75329cc8a6",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/HepatoUI/ResearchDashboard.swift",
+      "original_sha256": "51691671b6411059b21c7ca204f7f253489806e902e6841fbf11d63318ae56dd",
+      "published_sha256": "51691671b6411059b21c7ca204f7f253489806e902e6841fbf11d63318ae56dd",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Sources/HepatoUI/ResearchSession.swift",
+      "original_sha256": "f5bfbcb3aa959a7eede85706996f007d409d166bc2d405f54785b2ed8b8b9181",
+      "published_sha256": "f5bfbcb3aa959a7eede85706996f007d409d166bc2d405f54785b2ed8b8b9181",
+      "metadata_redacted": false
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "original_sha256": "dae3c676a64f4678ecf734e3831d45ca03378f349f1622ff7531de7627405fd9",
+      "published_sha256": "dae3c676a64f4678ecf734e3831d45ca03378f349f1622ff7531de7627405fd9",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Tests/HepatoCoreTests/EvidenceTests.swift",
+      "original_sha256": "4cb40cb4bb697d0a54741f8978c6afae833e6d46bf08532b7e7d5bc92c59f6c8",
+      "published_sha256": "4cb40cb4bb697d0a54741f8978c6afae833e6d46bf08532b7e7d5bc92c59f6c8",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Tests/HepatoCoreTests/HepatoCoreTests.swift",
+      "original_sha256": "bcfe7e49738e0d7cc7b9b3e999f8bd82044164aebd6eeb263638491eb8e09756",
+      "published_sha256": "bcfe7e49738e0d7cc7b9b3e999f8bd82044164aebd6eeb263638491eb8e09756",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Tests/HepatoStorageTests/StorageTests.swift",
+      "original_sha256": "394556c16b64458cb47d1c78aae134e5f02ad4cc6b37c3beb0b4242ec5d06629",
+      "published_sha256": "394556c16b64458cb47d1c78aae134e5f02ad4cc6b37c3beb0b4242ec5d06629",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Tests/HepatoUITests/ParameterEntryTests.swift",
+      "original_sha256": "a30bb871af64e93c7b7ae7251b86cd59eb5f3530db301c04e53897e8f7728126",
+      "published_sha256": "a30bb871af64e93c7b7ae7251b86cd59eb5f3530db301c04e53897e8f7728126",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Tests/HepatoUITests/ResearchSessionTests.swift",
+      "original_sha256": "27c70fa7157f8727606b662ec9daf99dc7c0949a83d3fbab3aca46301b8a4534",
+      "published_sha256": "27c70fa7157f8727606b662ec9daf99dc7c0949a83d3fbab3aca46301b8a4534",
+      "metadata_redacted": false
+    }
+  ]
+}

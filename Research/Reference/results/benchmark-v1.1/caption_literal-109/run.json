@@ -1,0 +1,35 @@
+{
+  "job_id": "caption_literal-109",
+  "condition": "caption_literal",
+  "seed": 109,
+  "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+  "argv": [
+    "KaSim",
+    "vendor/HSC_model_Kappa/reactMFB-with-inactivation.ka",
+    "-l",
+    "243",
+    "-p",
+    "0.5",
+    "-seed",
+    "109",
+    "-mode",
+    "batch",
+    "-d",
+    "caption_literal-109",
+    "-o",
+    "trace.csv",
+    "-log",
+    "inputs",
+    "--print-efficiency",
+    "--gluttony",
+    "-var",
+    "TGFB1_pool_by_cell",
+    "1"
+  ],
+  "overrides": {
+    "TGFB1_pool_by_cell": 1
+  },
+  "started_utc": "2026-10-22T12:26:23.320763+00:00",
+  "period_days": 0.5,
+  "status": "budget_exhausted"
+}

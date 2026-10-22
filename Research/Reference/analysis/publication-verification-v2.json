@@ -1,0 +1,196 @@
+{
+  "checked_utc": "2026-10-22T14:38:40.825802+00:00",
+  "verified_export_files": 160,
+  "numeric_csv_payloads": [
+    {
+      "file": "Examples/scenario.csv",
+      "numeric_payload_sha256": "c3fea8eea7f92f60f3e7dd393e810dc3437608f92286c281145ea84a75467bf7"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1/repository_default-101/trace.csv",
+      "numeric_payload_sha256": "720c7548a990a8a07f6dc0def66a3fcfa27670256784fea1dd8a73347b79716b"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/caption_literal-101/trace.csv",
+      "numeric_payload_sha256": "b5df4b779618106186e1c362a75009d4642813d9c3da6b9cd7bdc31337fdf5d2"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/caption_literal-102/trace.csv",
+      "numeric_payload_sha256": "0f9fb68baa3b34b152cae40a118aacfe199daa4f6113cd2c88891d49d6414579"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/caption_literal-103/trace.csv",
+      "numeric_payload_sha256": "63652dbfbbc9f0615f077076c6562570bfc08ed8ef7ee88c174003692646252b"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/caption_literal-104/trace.csv",
+      "numeric_payload_sha256": "1ba06f098cd26ea4360be29989ba6468e3ef5dcd3c84be6efc396f982e9f5fd2"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/caption_literal-105/trace.csv",
+      "numeric_payload_sha256": "2b7ab6e3a4a3c34569fd180a66313bd4127a0594cad1b15ad0c68e4c5e9efe54"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/caption_literal-106/trace.csv",
+      "numeric_payload_sha256": "b3e6ca480130825b4141bce215e1b063836b5abce5dea99b08c292e174a70e51"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/repository_default-101/trace.csv",
+      "numeric_payload_sha256": "78b44abc633e3a47caa58043c5b4aac5a98cc8fa56a0f944ad04d718c6c5ebe3"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/repository_default-102/trace.csv",
+      "numeric_payload_sha256": "530dee6afdb73b7014482ce5931f59dfed06cad9469e326b8ec19d4ec1a82ebe"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/repository_default-103/trace.csv",
+      "numeric_payload_sha256": "78b54db4a83bf06dc1ba52e9714d6fb75b6e2aaad17178c3ad56bc48878a3683"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/repository_default-104/trace.csv",
+      "numeric_payload_sha256": "6da38093a11b72c41528529e91162a145f6fc3722e68245368d3031e5080d15b"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/repository_default-105/trace.csv",
+      "numeric_payload_sha256": "60d8bf062d074dd9228beab5b5b1979035c078595f655290eeb93cfa15c03fa7"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/repository_default-106/trace.csv",
+      "numeric_payload_sha256": "492b95814d02a1956b00a7d5666adb2a65939291b69c5dc5ebb7d831c1e389bd"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/repository_default-107/trace.csv",
+      "numeric_payload_sha256": "6077882d2989139f8c6fe6fe7770af8d13eedd4e3c71d6898470ab0c40daf2ef"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/repository_default-108/trace.csv",
+      "numeric_payload_sha256": "56644ef601844047a647f83166e3c0f88dc1d32b1bb91e16e6cbde7cd8868063"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/repository_default-109/trace.csv",
+      "numeric_payload_sha256": "b13ae1641a91fd35be0c30defb994b14d9f02b6684076dcdbc9a08cfbbdecd70"
+    },
+    {
+      "file": "Research/Reference/results/benchmark-v1.1/repository_default-110/trace.csv",
+      "numeric_payload_sha256": "f18bf9afaee165b3b116674b4725c2b663957b782abb25d51ca69f8d7a71277c"
+    }
+  ],
+  "public_reanalysis_numeric_and_scientific_fields_equal": true,
+  "expected_metadata_differences": [
+    "/conditions/0/runs/0/recorded_paths/model",
+    "/conditions/0/runs/0/recorded_paths/output_directory",
+    "/conditions/0/runs/0/recorded_paths/runtime",
+    "/conditions/0/runs/0/run_json_sha256",
+    "/conditions/0/runs/0/trace_sha256",
+    "/conditions/0/runs/1/recorded_paths/model",
+    "/conditions/0/runs/1/recorded_paths/output_directory",
+    "/conditions/0/runs/1/recorded_paths/runtime",
+    "/conditions/0/runs/1/run_json_sha256",
+    "/conditions/0/runs/1/trace_sha256",
+    "/conditions/0/runs/2/recorded_paths/model",
+    "/conditions/0/runs/2/recorded_paths/output_directory",
+    "/conditions/0/runs/2/recorded_paths/runtime",
+    "/conditions/0/runs/2/run_json_sha256",
+    "/conditions/0/runs/2/trace_sha256",
+    "/conditions/0/runs/3/recorded_paths/model",
+    "/conditions/0/runs/3/recorded_paths/output_directory",
+    "/conditions/0/runs/3/recorded_paths/runtime",
+    "/conditions/0/runs/3/run_json_sha256",
+    "/conditions/0/runs/3/trace_sha256",
+    "/conditions/0/runs/4/recorded_paths/model",
+    "/conditions/0/runs/4/recorded_paths/output_directory",
+    "/conditions/0/runs/4/recorded_paths/runtime",
+    "/conditions/0/runs/4/run_json_sha256",
+    "/conditions/0/runs/4/trace_sha256",
+    "/conditions/0/runs/5/recorded_paths/model",
+    "/conditions/0/runs/5/recorded_paths/output_directory",
+    "/conditions/0/runs/5/recorded_paths/runtime",
+    "/conditions/0/runs/5/run_json_sha256",
+    "/conditions/0/runs/5/trace_sha256",
+    "/conditions/0/runs/6/recorded_paths/model",
+    "/conditions/0/runs/6/recorded_paths/output_directory",
+    "/conditions/0/runs/6/recorded_paths/runtime",
+    "/conditions/0/runs/6/run_json_sha256",
+    "/conditions/0/runs/6/trace_sha256",
+    "/conditions/0/runs/7/recorded_paths/model",
+    "/conditions/0/runs/7/recorded_paths/output_directory",
+    "/conditions/0/runs/7/recorded_paths/runtime",
+    "/conditions/0/runs/7/run_json_sha256",
+    "/conditions/0/runs/7/trace_sha256",
+    "/conditions/0/runs/8/recorded_paths/model",
+    "/conditions/0/runs/8/recorded_paths/output_directory",
+    "/conditions/0/runs/8/recorded_paths/runtime",
+    "/conditions/0/runs/8/run_json_sha256",
+    "/conditions/0/runs/8/trace_sha256",
+    "/conditions/0/runs/9/recorded_paths/model",
+    "/conditions/0/runs/9/recorded_paths/output_directory",
+    "/conditions/0/runs/9/recorded_paths/runtime",
+    "/conditions/0/runs/9/run_json_sha256",
+    "/conditions/0/runs/9/trace_sha256",
+    "/conditions/1/runs/0/recorded_paths/model",
+    "/conditions/1/runs/0/recorded_paths/output_directory",
+    "/conditions/1/runs/0/recorded_paths/runtime",
+    "/conditions/1/runs/0/run_json_sha256",
+    "/conditions/1/runs/0/trace_sha256",
+    "/conditions/1/runs/1/recorded_paths/model",
+    "/conditions/1/runs/1/recorded_paths/output_directory",
+    "/conditions/1/runs/1/recorded_paths/runtime",
+    "/conditions/1/runs/1/run_json_sha256",
+    "/conditions/1/runs/1/trace_sha256",
+    "/conditions/1/runs/2/recorded_paths/model",
+    "/conditions/1/runs/2/recorded_paths/output_directory",
+    "/conditions/1/runs/2/recorded_paths/runtime",
+    "/conditions/1/runs/2/run_json_sha256",
+    "/conditions/1/runs/2/trace_sha256",
+    "/conditions/1/runs/3/recorded_paths/model",
+    "/conditions/1/runs/3/recorded_paths/output_directory",
+    "/conditions/1/runs/3/recorded_paths/runtime",
+    "/conditions/1/runs/3/run_json_sha256",
+    "/conditions/1/runs/3/trace_sha256",
+    "/conditions/1/runs/4/run_json_sha256",
+    "/conditions/1/runs/5/run_json_sha256",
+    "/conditions/1/runs/6/run_json_sha256",
+    "/conditions/1/runs/7/run_json_sha256",
+    "/conditions/1/runs/8/run_json_sha256",
+    "/conditions/1/runs/9/run_json_sha256",
+    "/conditions/2/runs/0/run_json_sha256",
+    "/conditions/2/runs/1/run_json_sha256",
+    "/conditions/2/runs/2/run_json_sha256",
+    "/conditions/2/runs/3/run_json_sha256",
+    "/conditions/2/runs/4/run_json_sha256",
+    "/conditions/3/runs/0/run_json_sha256",
+    "/conditions/3/runs/1/run_json_sha256",
+    "/conditions/3/runs/2/run_json_sha256",
+    "/conditions/3/runs/3/run_json_sha256",
+    "/conditions/3/runs/4/run_json_sha256",
+    "/generated_utc",
+    "/provenance/environment.json_sha256",
+    "/provenance/results_directory",
+    "/technical_checks/gc_amendment_prefix/current_run/recorded_paths/model",
+    "/technical_checks/gc_amendment_prefix/current_run/recorded_paths/output_directory",
+    "/technical_checks/gc_amendment_prefix/current_run/recorded_paths/runtime",
+    "/technical_checks/gc_amendment_prefix/current_run/run_json_sha256",
+    "/technical_checks/gc_amendment_prefix/current_run/trace_sha256",
+    "/technical_checks/gc_amendment_prefix/previous_run/recorded_paths/model",
+    "/technical_checks/gc_amendment_prefix/previous_run/recorded_paths/output_directory",
+    "/technical_checks/gc_amendment_prefix/previous_run/recorded_paths/runtime",
+    "/technical_checks/gc_amendment_prefix/previous_run/run_json_sha256",
+    "/technical_checks/gc_amendment_prefix/previous_run/trace_sha256",
+    "/technical_checks/observation_grid/check_job/run_json_sha256",
+    "/technical_checks/seed_replay/check_job/run_json_sha256"
+  ],
+  "readme_local_links_exist": true,
+  "readme_shell_commands_equal": true,
+  "test_suite": {
+    "tests": 90,
+    "seconds": 5.595,
+    "result": "OK",
+    "process_exit_code": 0,
+    "coordinator_completion": "manually resolved after all child sessions verified ended"
+  },
+  "limitations": [
+    "No new KaSim control simulation",
+    "No independent biological validation",
+    "Secret-pattern scan is supplemented by file selection and human review; not a universal privacy guarantee"
+  ]
+}

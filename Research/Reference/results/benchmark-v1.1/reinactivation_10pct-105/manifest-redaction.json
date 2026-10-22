@@ -1,0 +1,13 @@
+{
+  "original_sha256": "8529719618b2a758bd916b813aee9228ce37631919ba608c54353294fcc1aee7",
+  "published_sha256": "77dda021feb4b654398a0a4568bc2b0bf7a54125c1064b5ea103ca82e47edc33",
+  "changed_fields": [
+    "argv[0]",
+    "argv[1]",
+    "argv[11]"
+  ],
+  "trace_sha256": null,
+  "published_trace_sha256": null,
+  "numeric_payload_sha256": null,
+  "limitation": "Original path strings withheld. Original digest is an exporter attestation; published bytes and unchanged numeric traces are independently checkable."
+}

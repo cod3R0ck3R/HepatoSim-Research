@@ -1,0 +1,13 @@
+{
+  "analysis_sha256": "5a62b4fc7d5b71357cb71f71fce6be52d4d2ed708f85621cde71503a2c5622d5",
+  "matplotlib": "3.10.7",
+  "script_sha256": "b60470ab2aa86e353cbe76b0541b070d4e0c5badcd23272821092ae1596b541c",
+  "plot_sampling": "0.5-day grid; last observation <= t, no extrapolation; raw individual traces retained",
+  "limits": "Bands represent seed variability only. Shading marks nominal stimulation days4–60, last pulse56.5. Targets12/14 are approximate published development summaries; errors unknown.",
+  "files": {
+    "cell-trajectories.png": "04991175ae6d554a22f6c1dccb3cd4125c742aa0282b10e43f80318aaca6018e",
+    "cell-trajectories.svg": "14702d4ee1185e02f55cbbafa5ec512c0a49d360925d2f2c1ea66cd361c4a5b6",
+    "collagen-trajectories.png": "d6f886b4b75448ffe71e568c3570cc5d9682d8ae8086620abe28a3d64effbbbe",
+    "collagen-trajectories.svg": "b61f1cecee39120c75d0a288b02e88c7401dda379ad022d5fb13a63b09fb06ae"
+  }
+}

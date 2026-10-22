@@ -1,0 +1,170 @@
+{
+  "benchmark_id": "HSR-BG2024-001",
+  "version": "1.0.0",
+  "frozen_utc": "2026-10-22T11:14:52.805652+00:00",
+  "status": "frozen_before_scientific_execution",
+  "question": "Can the published stochastic HSC model reproduce its published collagen injury/withdrawal result, and is an independent biological prediction test possible?",
+  "scope": {
+    "species": "mouse; biological development context CCl4-induced fibrosis",
+    "system": "nonspatial HSC populations and two collagen-I tokens; no hepatocyte, liver function or human prognosis output",
+    "input": "16 TGF-beta1 pulses, initial clock day4, interval84h; surrogate for twice-weekly CCl4, not CCl4 pharmacokinetics",
+    "observable": "COL1 tot = high + low remodeling tokens",
+    "unit": "arbitrary model units related by original calibration to collagen-positive histological area; not mass or percent human fibrosis",
+    "normalization": "COL1 tot divided by initial COL1 tot (0.5), fold baseline",
+    "time": "0 to original stop at approximately242.5 model days; nominal treatment end60, last scheduled pulse56.5",
+    "published_target": "Bougueon2024 Figure2B2/B3; 5% reactivated-MFB inactivation; mean cellular trajectories and10 collagen trajectories"
+  },
+  "sources": {
+    "model_commit": "773a84e65b514b969db20c57b6bf0ba97c1d32fb",
+    "pipeline_commit": "8b10a8dc403190a0b198918f0288b3d962ab7d40",
+    "article_doi": "10.1371/journal.pcbi.1011858",
+    "runtime": "official KaSim identified by executable digest/version in runtime-lock.json; paper names4.2.12 but exact runtime identity unresolved"
+  },
+  "data_partitions": {
+    "development": [
+      "Kisseleva2012 observations used by original authors for calibration and model-family selection; text summaries12-fold at1month and approximately14-fold at2months"
+    ],
+    "publication_reproduction": [
+      "Bougueon2024 Figure2 and original implementation; not independent"
+    ],
+    "excluded_from_independent": [
+      "Bougueon2024 Figure4 author-evaluated cohort",
+      "DMN/TAA/high-fat comparisons already examined or adapted by authors",
+      "human NASH transcriptome: different observable/system"
+    ],
+    "independent_test": [],
+    "rule": "Split by study/protocol, never arbitrary points from same trajectory. No synthetic replacement. If none qualified, independent test is NOT PERFORMED."
+  },
+  "calibration": {
+    "new_fitting": "none",
+    "reason": "No verified longitudinal individual or aggregate time-series with measurement errors qualified at freeze. Original calibrated parameters remain unchanged; no optimization to match summaries.",
+    "parameters": "all original values; only declared CLI condition overrides"
+  },
+  "conditions": [
+    {
+      "id": "repository_default",
+      "file": "reactMFB-with-inactivation.ka",
+      "overrides": {},
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ]
+    },
+    {
+      "id": "caption_literal",
+      "file": "reactMFB-with-inactivation.ka",
+      "overrides": {
+        "TGFB1_pool_by_cell": 1
+      },
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ]
+    },
+    {
+      "id": "without_reinactivation",
+      "file": "reactMFB-wo-inactivation.ka",
+      "overrides": {},
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ]
+    },
+    {
+      "id": "reinactivation_10pct",
+      "file": "reactMFB-with-inactivation.ka",
+      "overrides": {
+        "inactivation_pourcentage_react": 0.1
+      },
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ]
+    }
+  ],
+  "ambiguity_policy": "Repository default pool6 implies60000 molecules/cell; Figure2 caption specifies10000 so literal override1 is a separate prespecified condition, not a correction. Report both; do not pick best post hoc. Keep apparent dimensional inconsistencies in source unchanged and report them.",
+  "sampling": {
+    "period_days": 0.5,
+    "duration_limit_days": 243,
+    "evaluation_times_days": [
+      0,
+      32,
+      60,
+      90,
+      240
+    ],
+    "interpolation": "last recorded state at or before requested time; report actual timestamp; do not extrapolate beyond final time"
+  },
+  "comparators": {
+    "published_development_fold_targets": {
+      "32": 12,
+      "60": 14
+    },
+    "target_precision": "approximate article summaries, not raw measurements;12/14 are not exact physiological truth; no invented SD or n",
+    "simple_baseline": "constant baseline collagen fold1, no estimated parameters",
+    "existing_swift_demo": "not scored against collagen measurements because its normalized matrix index has no measurement mapping; software behavior audited separately"
+  },
+  "metrics": [
+    "per-seed endpoint fold values",
+    "MAE and RMSE of ensemble mean folds at32/60 versus quoted development summaries, descriptive only",
+    "same metrics for constant-fold1 baseline",
+    "mean, SD, min,max and empirical5th/95th quantiles across stochastic seeds",
+    "Monte Carlo standard error of mean; split-half mean difference and MC uncertainty",
+    "paired changes COL1(60)-COL1(0), COL1(90)-COL1(60), COL1(240)-COL1(60)",
+    "mechanism contrasts use fixed first5 seeds and paired endpoint differences; these are model sensitivities, not drug effects"
+  ],
+  "numerical_checks": {
+    "seed_replay": "repeat repository_default seed101 with same arguments; compare numeric rows exactly",
+    "observation_grid": "repeat same seed with0.25-day output; compare common grid values; tolerance1e-8 absolute to allow CSV decimal formatting; mismatch triggers investigation, not biological rejection",
+    "ensemble": "report two fixed batches101..105/106..110; finite replication does not prove convergence of tails",
+    "validity": "finite observations; nondecreasing times; initialCOL1=0.5; full observation through240 days; report negative token/cell outputs without clamping"
+  },
+  "acceptance": {
+    "software": "source hashes exact, interpreter execution exit0, declared time coverage, parse/finite/order checks; run failures retained",
+    "publication_direction": "positive treatment-associated increase and post-treatment decrease reported with across-seed uncertainty; absent directions are a failed directional reproduction",
+    "quantitative_reproduction": "no binary quantitative pass from approximate text targets or uncalibrated error threshold; differences reported explicitly, exact reproduction requires archived author traces/protocol/runtime",
+    "independent_biology": "NOT PERFORMED unless separate prospectively specified study dataset qualifies in a new version; no accuracy claim",
+    "clinical": "NOT ASSESSED"
+  },
+  "identifiability": "At most2 independent scalar development summaries cannot uniquely determine43 parameters. No credible parameter posterior or unique calibrated set is claimed. Prespecified alternatives are sensitivity scenarios, not confidence samples.",
+  "uncertainty_separation": [
+    "within-condition stochastic spread",
+    "finite-replicate Monte Carlo error",
+    "unknown measurement/sampling error for quoted targets",
+    "input interpretation and structural assumptions",
+    "unquantified parameter uncertainty"
+  ],
+  "budget": {
+    "engineering_setup_minutes": 25,
+    "per_run_timeout_seconds": 180,
+    "total_simulation_wall_seconds": 3600,
+    "maximum_workers": 2,
+    "maximum_runs": 32,
+    "maximum_output_megabytes": 500,
+    "optimization_runs": 0,
+    "stop_rule": "Record timeout/nonzero exit. If full original condition cannot complete within budget, report partial/failed reproduction and required compute or source clarification; no silent reduced population/time replacement."
+  },
+  "changes": "No data-dependent retuning or relaxed thresholds. Any amendment gets new immutable spec and explicit rationale; prior failures remain."
+}

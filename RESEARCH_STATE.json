@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "milestone": "HSR-002",
+  "status": "in_progress",
+  "updated_utc": "2026-10-22T14:39:36.743616+00:00",
+  "last_verified_milestone": "HSR-BG2024-001: partial reproduction; 14 completed/32 planned; historical report retained",
+  "packages": {
+    "inventory": "completed",
+    "coordination": "execution released; first test job manually resolved after waited-child session review",
+    "technical_controls": "queued control job cancelled before start: elevated host memory pressure; no new simulation executed",
+    "independent_data": "follow-up documented: no qualified independent collagen dataset; Hofer supplement response not a PDF, OA resolver 404; candidate evidence is development material",
+    "mechanisms": "pending technical controls and separate frozen specification",
+    "candidate_dossiers": "three source-checked drafts saved; no drug simulations claimed",
+    "local_goose": "3 boundary tests passed; real inference blocked by 8 GiB host job budget; unchanged 8.99 GB model blob plus runtime exceeds declared capacity",
+    "resume": "9 tests passed also in sanitized export; real KaSim controls/resume pending host memory availability",
+    "documentation": "matching English/German README updated with actual tests and explicit resource blockers; research follow-up report added",
+    "publication": "sanitized snapshot passed 90 tests; numeric CSV payloads and public reanalysis verified; Git push next"
+  },
+  "artifacts": [
+    "Docs/10-ReferenceBenchmark.md",
+    "Research/Reference/benchmark-v1.2.0.json",
+    "Research/Reference/resume_reference.py",
+    "Research/Reference/test_resume.py",
+    "Research/Candidates/README.md",
+    "Research/Candidates/PPARG.md",
+    "Research/Candidates/HSP47.md",
+    "Research/Candidates/LOXL2.md",
+    "Research/LocalAI/run_local_task.py",
+    "Research/LocalAI/test_local_task.py",
+    "Research/LocalAI/translation-task.txt",
+    "Research/Candidates/source-register.json",
+    "Research/Candidates/independent-data-followup.md",
+    "README.md",
+    "README.de.md",
+    "SECURITY.md",
+    "CONTRIBUTING.md",
+    "THIRD_PARTY_NOTICES.md",
+    "Docs/11-ResearchFollowup.md",
+    "Research/Reference/analysis/publication-verification-v2.json",
+    "Research/Reference/analysis/software-tests-v2.txt",
+    "Research/Reference/analysis/public-recheck-v2.json"
+  ],
+  "next_executable_step": "Run two original KaSim technical controls through coordinator; preserve one reused seed101 baseline.",
+  "local_worker": {
+    "provider": "ollama",
+    "model": "michaelneale/deepseek-r1-goose:latest",
+    "digest": "425664f4d9986cb323c8df05ad0e4c375c5d57bb157191898ae0bff438d7f20b",
+    "ollama_version": "0.40.8",
+    "inference_verified": false
+  },
+  "compute_budget": {
+    "engineering_setup_minutes": 25,
+    "per_run_timeout_seconds": 900,
+    "total_simulation_wall_seconds": 1800,
+    "maximum_workers": 1,
+    "maximum_runs": 3,
+    "maximum_output_megabytes": 100,
+    "optimization_runs": 0,
+    "stop_rule": "One verified baseline reused; two new controls, each <=900s. Stop on failure; no automatic retry, no incomplete-job overwrite. Queue time separate.",
+    "new_simulations": 2
+  },
+  "scientific_status": {
+    "software": "90 research tests passed in actual sanitized publication snapshot; 18 CSV numerical payloads preserved; scientific reanalysis fields identical",
+    "publication_reproduction": "partial",
+    "independent_biology": "not_performed",
+    "clinical": "not_assessed"
+  },
+  "github": {
+    "url": "https://github.com/cod3R0ck3R/HepatoSim-Research",
+    "public": true,
+    "code_pushed": false,
+    "own_code_license": "not_selected"
+  },
+  "archive_reanalysis": {
+    "path": "Research/Reference/analysis/archive-recheck-v2.json",
+    "same_except": [
+      "generated_utc"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "job_id": "reinactivation_10pct-101",
+  "condition": "reinactivation_10pct",
+  "seed": 101,
+  "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+  "argv": [
+    "KaSim",
+    "vendor/HSC_model_Kappa/reactMFB-with-inactivation.ka",
+    "-l",
+    "243",
+    "-p",
+    "0.5",
+    "-seed",
+    "101",
+    "-mode",
+    "batch",
+    "-d",
+    "reinactivation_10pct-101",
+    "-o",
+    "trace.csv",
+    "-log",
+    "inputs",
+    "--print-efficiency",
+    "--gluttony",
+    "-var",
+    "inactivation_pourcentage_react",
+    "0.1"
+  ],
+  "overrides": {
+    "inactivation_pourcentage_react": 0.1
+  },
+  "started_utc": "2026-10-22T12:26:23.338174+00:00",
+  "period_days": 0.5,
+  "status": "budget_exhausted"
+}

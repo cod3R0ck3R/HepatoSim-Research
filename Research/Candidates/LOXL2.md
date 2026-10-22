@@ -1,0 +1,13 @@
+# LOXL2 / Simtuzumab: negativer klinischer Mechanismusvergleich
+
+Prüfdatum: 22.10.2026. Experimenteller Antikörperansatz, keine Therapieempfehlung.
+
+**Mechanismus.** Simtuzumab richtet sich gegen LOXL2, das an der Vernetzung extrazellulärer Matrix beteiligt ist. Weniger Vernetzung könnte Matrixumbau erleichtern; diese mechanistische Erwartung beweist keine Rückbildung klinischer Zirrhose.
+
+**Population und Ergebnis.** Zwei randomisierte, placebokontrollierte Phase-2b-Studien untersuchten NASH mit Brückenfibrose (219 Personen) beziehungsweise kompensierter Zirrhose (258 Personen). Die Studien wurden nach 96 Wochen mangels Wirksamkeit beendet. Im Brückenfibrosearm verringerte sich der Kollagengehalt auch unter Placebo; zwischen den Gruppen bestand kein signifikanter Vorteil. Im Zirrhosearm zeigte sich kein relevanter Vorteil bei portalem Druck oder klinischen Endpunkten. Der publizierte Titel benennt die fehlende Wirksamkeit ausdrücklich. [Harrison et al. 2018, DOI 10.1053/j.gastro.2018.07.006](https://doi.org/10.1053/j.gastro.2018.07.006), [PubMed 29990488](https://pubmed.ncbi.nlm.nih.gov/29990488/). Vollständiger Verlagsvolltext hier nicht als zugänglich behauptet; Abstract und Registerbefunde sind die belegte Basis. Studienkennungen NCT01672866 und NCT01672879.
+
+**Sicherheit und regulatorischer Stand.** Der Studienbericht beschreibt ähnliche Verträglichkeit in den Gruppen, ohne daraus einen allgemeinen Sicherheitsnachweis abzuleiten. USA: experimenteller Studienansatz laut Studienregistrierung; eine Zulassung für diese Indikation ist durch die geprüften Quellen nicht belegt. Keine pauschale weltweite Zulassungsaussage. Weder dekompensierte Zirrhose noch ALD wurden damit als Wirksamkeitsbereich geprüft.
+
+**Abbildung im Modell.** Die beiden COL1-Umbaupools können langsamen und schnellen Abbau unterscheiden. Sie enthalten jedoch keine explizite LOXL2-Kinetik, keine gemessenen Crosslink-Dichten und kein Antikörper-Wirkmodell. Einen Pool einfach schneller abzubauen wäre eine alternative Modellannahme, kein Simtuzumab-Modell. Quantitative Wirkstoffsimulation: nicht durchgeführt und derzeit nicht belegt.
+
+**Gegenargument und nächster Test.** Der negative kontrollierte klinische Befund hat Vorrang vor einer günstigen, frei parametrisierten Kurve. Um einen verbleibenden mechanistischen Ansatz zu prüfen, müssten tatsächliche Vernetzungshemmung, Matrixsteifigkeit und Kollagenumsatz getrennt belegt werden. Fehlendes Target-Engagement und fehlender biologischer Nutzen trotz Target-Engagement sind verschiedene Hypothesen. Ein HSC-/COL1-Modell allein kann diesen Unterschied momentan nicht entscheiden.

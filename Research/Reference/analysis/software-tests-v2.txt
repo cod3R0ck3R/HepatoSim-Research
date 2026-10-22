@@ -1,0 +1,5 @@
+Publication snapshot research software verification
+90 tests in 5.595 seconds: OK, process exit 0
+Includes analysis, benchmark runner, resume, local-provider boundaries and export.
+The coordinator required manual resolution of synchronously waited test sessions.
+No biological validation or new KaSim simulation is implied.

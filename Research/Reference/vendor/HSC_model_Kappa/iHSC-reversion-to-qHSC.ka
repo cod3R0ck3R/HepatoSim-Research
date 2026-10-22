@@ -1,0 +1,373 @@
+//   Author: Matthieu Bouguéon
+    
+//    Copyright (C) 2022 Inserm
+//    This program is free software: you can redistribute it and/or modify
+//    it under the terms of the GNU Affero General Public License as published by
+//    the Free Software Foundation, either version 3 of the License, or
+//    (at your option) any later version.
+//    This program is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+//    GNU Affero General Public License for more details.
+//    You should have received a copy of the GNU Affero General Public License
+//    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+//HSC agent
+%agent: HSC(state{quiescent //qHSC
+				activated //aHSC
+                inactivated //iHSC
+                reactivated // react_HSC
+                myofibroblast //MFB
+                reactivated_myofibroblast //react_MFB
+                apoptosis_senescent_myofibroblast// apop_sene_MFB
+                } 
+                intermediate_step{=0 / += 14} // intermediate_state is a counter describing the 14 intermediate stages (corresponding to 14 days) during the activation process: qHSC -> MFB.
+                control_counter{=0 / += 14}  //control_counter is utilized to enforce the values of the "intermediate_step" interval within the range of 0 to 14.
+                TGFBR{membrane internalized degraded} // States of the TGFB1 receptors
+                TGFB1_binding{free bound} // States of binding of the TGFB1 receptors
+                )
+        
+// "Kappa provides a way of treating species as pool variables with continuous values. They are called tokens and give rise to “hybrid rules” in which the mechanistic part of the rule is linked to a change in token values: Each time a rule fires the token values is update. Tokens are structureless species (basically a proper name) and their value can be referred to in rate expressions."  The Kappa Language and Kappa Tools User Manual. (Pierre Boutillier, Jérôme Feret, Jean Krivine, and Walter Fontana)
+
+//To overcome of explosion time due to the great number of molecules, we used tokens for modeling TGFB1 and Col1 molecules.
+	%token: TGFB1_free // Counts the number of free TGFB1 molecules
+	%token: TGFB1_bound // Counts the number of TGFB1 molecules bound to their receptor
+    
+	%token: COL1_remodeling_high // COL1 produced and quickly degraded
+    %token: COL1_remodeling_low // COL1 formed from COL1_remodeling_high depending on aSMA cells, slowly degrades and reverts to COL1_remodeling_high.  
+ 
+  
+// Variables
+	// Volume units  
+		%var: 'L' 1 
+		%var: 'mL' 0.001 * 'L'
+		%var: 'µL' 0.001 * 'mL'
+		%var: 'nL' 0.001 * 'µL'
+		%var: 'pL' 0.001 * 'nL'
+
+	// Time units
+		%var: 's' 1
+		%var: 'min' 60*s
+		%var: 'h' 60*min
+		%var: 'd' 24*h
+        %var: 'month' 30*d
+        %var: 'year' 365*d
+		%var: 'time_unit' 'd' // This is the time scale used for the simulation, here in days
+
+	// Concentration 
+		%var: 'mol' 1 // 1 molecule
+		%var: 'nmol' 1e-9 * 'mol'//means 10^-9
+		%var: 'pmol' 1e-3 * 'nmol'
+		%var: 'fmol' 1e-6 * nmol
+		%var: 'mole' 1e23
+		%var: 'n_avogadro' 6.022
+	    
+	//math    
+		%var: 'ln2' [log] 2 
+
+		
+//Biological variables 		
+  
+	//Volume parameters and HSC density. The quiescent HSC are localized within the Disse space that separate hepatocytes and the sinusoids (PMCID: PMC7004816).
+    	%var: 'Number_of_Disse_model' 2500
+      	%var: 'HSC_number_in_Disse_space' 4 
+      	%var: 'HSC_cell_density' 'Number_of_Disse_model' * 'HSC_number_in_Disse_space'
+
+
+    //Quiescent HSC 
+        %var: 'HSC_quiescent_half_life' 75 *'d' / 'time_unit' //Estimated value from the recovery rate of qHSC describe in vivo, for recovery at 6 month (PMID 22566629)
+        %var: 'HSC_half_activation'   0.15 * 'h' / 'time_unit' //Considering that activation time is t.99 when most of the qHSC are activated after 1h, the half_time of activation (t1/2) is 9min (exponential law).
+
+
+    //HSC activation rate is calculated for a transition stage of 99% of qHSC after 7 days. (PMID: 8144642, PMID: 8340608)
+    //The behaviour of aHSC follows an Erlang's law with the 2 parameters proliferation and activation. We describe these parameters separately using two exponential laws.
+    	%var: 'HSC_stage_half_life' 17  * 'h' / 'time_unit' 
+        %var: 'HSC_doubling_time' 15.5 * 'd' / 'time_unit'
+
+ 	//Myofibroblast
+        %var: 'MFB_stage_half_life' 17 * 'h' / 'time_unit' //MFB differenciation rate is calculated for a transition stage of 99% of the aHSC after 14 days
+        %var: 'MFB_doubling_time' 'HSC_doubling_time' * 2	
+        %var: 'MFB_half_life' 3.54 * 'd' / 'time_unit' //Estimated value from elimination rate of MFB describe in vivo, for elimination in 1-2 month(PMID 22566629, 22750464)
+        %var: 'apop_sene_MFB_half_life' 3.6 * 'h' / 'time_unit' //calculated for an apoptosis state during 24h
+      
+
+ 	//MFB inactivation is calculated for a distribution of 50/50 between inactivated and quiescents cells, 1 month after the last TGFB1 input (PMCID: PMC3757252).  
+  	//MFB inactivation leads to iHSC which are then 4 times more reactive to a TGFB1 input than qCSH (PMID: 26251672)
+		%var: 'inactivation_pourcentage' 0.45 //Pourcentage of cells inactivated
+      	%var: 'apop_sene_MFB_pourcentage' 1 - inactivation_pourcentage
+        %var: 'inactivation_pourcentage_react' 0.05
+        %var: 'apop_sene_react_MFB_pourcentage' 1 - inactivation_pourcentage_react
+
+      	%var: 'MFB_inact_stage_half_life' 0.75 * 'd'  / 'time_unit'
+      	%var: 'iHSC_half_life' 2 *'year' / 'time_unit'
+      	%var: 'iHSC_to_qHSC' 0
+      	%var: 'iHSC_elimination' 1 - 'iHSC_to_qHSC'
+      	%var: 'react_HSC_half_activation'  'HSC_half_activation' / 3.5
+
+    //The half-life of reactivated cells is calculated according to the exponential law, for a transition stage of 99% of the cell after 7 days (PMID: 26251672)
+        %var: 'react_HSC_stage_half_life' 'HSC_stage_half_life' / 3.5
+        %var: 'react_MFB_stage_half_life' 'MFB_stage_half_life' / 3.5
+
+        %var: 'react_HSC_doubling_time' 'HSC_doubling_time' / 3.5
+        %var: 'react_MFB_doubling_time' 'HSC_doubling_time' / 3.5
+
+        %var: 'react_MFB_half_life' 'MFB_half_life'
+
+
+        %var: 'aSMA-cells' (|HSC(state{activated})| + |HSC(state{reactivated})| + |HSC(state{myofibroblast})| +  |HSC(state{reactivated_myofibroblast})|)
+		%var: 'all_MFB' (|HSC(state{myofibroblast})| +  |HSC(state{reactivated_myofibroblast})|)
+
+    //The parameters of cell stimulation by TGFB1 (PMID: 21613981)
+        %var: 'TGFB1_pool_by_cell' 6 // pool of TGFB1 corresponds to 10 000 molecules of TGFB1. 
+        %var: 'TGFB1_input' 'HSC_cell_density' * 'TGFB1_pool_by_cell'
+        %var: 'TGFBR_number' 10000 // Corresponds to the number of TGFB1 receptors. We assume that all of TGFB1 receptors are synchronized
+        %var: 'TGFB1_half_life' 3 * 'min' / 'time_unit'
+        %var: 'TGFB1_for_signal' 'TGFBR_number' / 1 //Consummed TGFB1  to induce a signal (meaning to induce cell activation or cell proliferation or ECM production). We assume that a pool of TGFB1 corresponding to 10 000 molecules is required to induce signal 
+        %var: 'TGFB1_binding_HSC'  'ln2' / (0.001 * 'min' / 'time_unit') //14 fmole bind to 10⁶ cell in 1 h <=> 0.007 min for 1 molecule to fix to 1 cell, The binding half-time was calculated according to the exponential law for 99% binding of TGFB1 to its receptor in 0.007 min. The binding rate of TGFB1 to its receptor is adapted from (PMID: 8144642)
+        %var: 'TGFB1_binding_MFB' 'TGFB1_binding_HSC'/4 //MFB are less sensitive than HSCs to TGFB1
+
+
+    //Receptor dynamics. (adapted from PMCID: PMC1356091 )
+        %var: 'Kr' 'ln2' / (4.5 * 'min' / 'time_unit')// Recycling rate 30 min, half time = 4.5 min
+        %var: 'Pr' 'ln2' / (1.2 * 'min' / 'time_unit') //Receptor production Rate (8min-1)RI and (4min-1)RII, half-time = 0.6 minimum
+        %var: 'Kid' 'ln2' / (0.60 * 'min' / 'time_unit')//Ligand induced degradation rate (4min-1), half-time = 0.60
+
+    //Dynamics of the extracellular matrix (ECM) PMID: 22566629
+
+      //The molecular complexity of the ECM precludes the description of each component which would significantly increase the computational cost. We chose to reduce the ECM to type I collagen, which is its major component and is routinely used as a marker of liver fibrosis. However, quantitative data on collagen production and degradation by HSCs and MFBs are missing. Therefore, we decided to model COL1 dynamics using % of deposit areas that summarize all COL1 production and degradation values. We calibrate the model according to experimental observations in healthy and injured livers. (PMID: 22566629)
+      //The degradation of COL1 has been associated with the proteolytic activities of matrix metalloproteinase (MMP) that is balanced by inhibitory activities of Tissue inhibitor of metalloproteinase (TIMP). Both MMP and TIMP are produced by HSCs and their expression varies according to the state of HSCs (differentiation/differentiation/inactivation/senescence/apotosis). During the activation of HSC there is a diminution of COL1 degradation and during the reversion of liver fibrosis, there is an augmentation of COL1 degradation. (PMID: 11586466, PMID: 33128017,PMID: 10952240, PMID: 11682030)     
+      //In our model, we describe COL1 in two states: one with high remodeling and another with low remodeling. The first state is produced by cells and can either transform into the second state or undergo quick degradation. The transformation of COL1 with high remodeling to COL1 with low remodeling is influenced by the number of alpha-SMA-positive cells. COL1 with low remodeling degrades at a slower rate than COL1 with high remodeling and can revert back to the high remodeling state. These two states allow for a low degradation rate of COL1 during HSC activation, while enabling a high degradation rate during the process of reversion.
+
+    	//Warning: A python script allows to launch the KaSim simulation and to modify many parameters, that's why there are two sections for the COL1 part, one contains the parameters that can be modified by the python script and the other uses the following parameters for the simulation.
+
+
+     	//COL1 synthesis
+        	%var: 'COL1_synthesis_aHSC_py' 0.019
+            %var: 'COL1_synthesis_react_HSC_py' 0.0665
+
+            %var: 'COL1_synthesis_MFB_py' 0.19
+            %var: 'COL1_synthesis_react_MFB_py' 0.665
+
+        //COL1 degradation.
+            %var: 'COL1_deg' 0.0002
+
+
+      	//COL1 synthesis. The COL1 production variables for aHSCs and MFBs are divided by 7 and 14, each corresponding to the maximum value of their activation and differentiation state. The more activated or differentiated a cell is, the more COL1 it produces. According to the use of counters, we divide the production variable of fully activated and fully differentiated cells by the maximum value of their counters.      
+         	%var: 'COL1_synthesis_aHSC' ('COL1_synthesis_aHSC_py'/'HSC_cell_density')/7 
+            %var: 'COL1_synthesis_MFB' ('COL1_synthesis_MFB_py'/'HSC_cell_density' * 10)/14 
+            %var: 'COL1_synthesis_react_HSC' ('COL1_synthesis_react_HSC_py'/'HSC_cell_density')/7 
+            %var: 'COL1_synthesis_react_MFB' ('COL1_synthesis_react_MFB_py'/'HSC_cell_density' * 10)/14 
+
+            %var: 'COL1_synthesis_aHSC_TGFB1' 'COL1_synthesis_aHSC' * 10
+            %var: 'COL1_synthesis_react_HSC_TGFB1' 'COL1_synthesis_react_HSC' * 10
+            %var: 'COL1_synthesis_MFB_TGFB1' 'COL1_synthesis_MFB' * 2
+            %var: 'COL1_synthesis_react_MFB_TGFB1' 'COL1_synthesis_react_MFB' * 2
+
+
+        //COL1 degradation    
+            %var: 'COL1_remodeling_high_half_life' 0.0002 * 'd' / 'time_unit'
+            %var: 'COL1_remodeling_low_half_life' 0.011 * 'd' / 'time_unit'
+            %var: 'COL1_remodeling_high_to_remodeling_low_half_time' 20 * 'd' / 'time_unit'
+            %var: 'COL1_remodeling_low_to_remodeling_high_half_time' 0.0015 * 'd' / 'time_unit'
+
+        //COL1 concentration (PMID 22566629)
+            %var: 'col1_healthy_concentration' 0.5
+
+
+    // Input of TGFB1. For automatization of the input, user need to specify the number of inputs with "nb_iteration" and the intervals with "interval".
+    // The "second_simulation_time" is a parameter that allows the user to run a second simulation later.
+        %var: 'nb_iteration' 16
+        %var: 'iteration' 0
+        %var: 'input_time' 4 * 'd' / 'time_unit'
+        %var: 'clock' 'input_time'
+        %var: 'interval_py' 84
+        %var: 'interval' 'interval_py' * 'h' / 'time_unit'
+        %var: 'second_input'0//180 //, value used for the second stimulation 6 months after the end of the first stimulation
+        %var: 'second_simulation_time' ((second_input * 'd') / 'time_unit')
+
+// Rules
+    //The initialization state corresponds to a liver where HSC are quiescent and TGFB1 is absent(PMCID: PMC8793867)
+        %init: 'HSC_cell_density' HSC(state{quiescent} intermediate_step{=0} control_counter{=13} TGFBR{membrane} TGFB1_binding{free}) 
+        %init: 0 TGFB1_free
+        %init: 0 TGFB1_bound
+        %init: 'col1_healthy_concentration' COL1_remodeling_high
+
+        
+    //TGFB1 (PMCID: PMC3130555, PMID: 8144642)
+        'TGFB1_degradation' . -> . | -TGFBR_number  TGFB1_free @ (|TGFB1_free| * 'ln2' / 'TGFB1_half_life') 
+        
+        'TGFB1_binding_to_qHSC' HSC(state{quiescent} TGFBR{membrane} TGFB1_binding{free}) -> HSC(state{quiescent} TGFBR{internalized} TGFB1_binding{bound}) | -TGFBR_number TGFB1_free, TGFBR_number TGFB1_bound @ |TGFB1_free| * 'TGFB1_binding_HSC' 
+        'TGFB1_binding_to_aHSC' HSC(state{activated} TGFBR{membrane} TGFB1_binding{free}) -> HSC(state{activated} TGFBR{internalized} TGFB1_binding{bound})| -TGFBR_number TGFB1_free, TGFBR_number TGFB1_bound @ |TGFB1_free| * 'TGFB1_binding_HSC' 
+        'TGFB1_binding__to_MFB' HSC(state{myofibroblast} TGFBR{membrane} TGFB1_binding{free}) -> HSC(state{myofibroblast} TGFBR{internalized} TGFB1_binding{bound}) | -TGFBR_number TGFB1_free, TGFBR_number TGFB1_bound @ |TGFB1_free| * 'TGFB1_binding_MFB' 
+
+        'TGFB1_binding_to_iHSC' HSC(state{inactivated} intermediate_step{=1} TGFBR{membrane} TGFB1_binding{free}) -> HSC(state{inactivated} TGFBR{internalized} TGFB1_binding{bound}) | -TGFBR_number TGFB1_free, TGFBR_number TGFB1_bound @ |TGFB1_free| * 'TGFB1_binding_HSC'	
+        'TGFB1_binding_to_iHSC_partially inactivated' HSC(state{inactivated} intermediate_step{=0} TGFBR{membrane} TGFB1_binding{free}) -> HSC(state{inactivated} intermediate_step{+=1} control_counter{+=13} TGFBR{internalized} TGFB1_binding{bound}) | -TGFBR_number TGFB1_free, TGFBR_number TGFB1_bound @ |TGFB1_free| * 'TGFB1_binding_HSC' 
+        
+        'TGFB1_binding_to_HSCreact' HSC(state{reactivated} TGFBR{membrane} TGFB1_binding{free}) -> HSC(state{reactivated} TGFBR{internalized} TGFB1_binding{bound}) | -TGFBR_number TGFB1_free, TGFBR_number TGFB1_bound  @ |TGFB1_free| * 'TGFB1_binding_HSC'
+        'TGFB1_binding_to_MFB_reactivated' HSC(state{reactivated_myofibroblast} TGFBR{membrane} TGFB1_binding{free}) -> HSC(state{reactivated_myofibroblast} TGFBR{internalized} TGFB1_binding{bound}) | -TGFBR_number TGFB1_free, TGFBR_number TGFB1_bound @ |TGFB1_free| * 'TGFB1_binding_MFB'
+        
+
+    //quiescent HSC self-renewal
+        'HSC_quiescent_production'. -> HSC(state{quiescent} intermediate_step{=0} control_counter{=13} TGFBR{membrane} TGFB1_binding{free}) @ ('HSC_cell_density' * 'ln2' / 'HSC_quiescent_half_life')
+        'HSC_quiescent_degradation' HSC(state{quiescent} intermediate_step{=0} TGFB1_binding{free}) -> . @ ('ln2' / 'HSC_quiescent_half_life')
+
+
+    //HSC activation and differentiation
+        'HSC_activation' HSC(state{quiescent} intermediate_step{=0} TGFBR{internalized} TGFB1_binding{bound}) -> HSC(state{activated} intermediate_step{+= 1} TGFBR{internalized} TGFB1_binding{free}) | -TGFB1_for_signal TGFB1_bound @ 'ln2' / 'HSC_half_activation' 
+        'HSC_activation_steps' HSC(state{activated} control_counter{>=8}) -> HSC(state{activated}, intermediate_step{+=1} control_counter{-=1}) @ 'ln2' / 'HSC_stage_half_life'
+        'aHSC_to_MFB' HSC(state{activated} intermediate_step{=7}) -> HSC(state{myofibroblast} intermediate_step{+=1} control_counter{-=1}) @ 'ln2' / 'MFB_stage_half_life' 
+        'MFB_formation' HSC(state{myofibroblast} control_counter{>=1}) -> HSC(state{myofibroblast} intermediate_step{+=1} control_counter{-=1}) @ 'ln2' / 'MFB_stage_half_life'
+
+
+    //HSC proliferation
+        'HSC_proliferation_j4' HSC(state{activated} intermediate_step{=4} TGFB1_binding{free}), . -> HSC(state{activated} TGFB1_binding{free}), HSC(state{activated} intermediate_step{=4} 	control_counter{=10} TGFBR{degraded} TGFB1_binding{free}) @ 'ln2' / 'HSC_doubling_time'
+        'HSC_proliferation_j5' HSC(state{activated} intermediate_step{=5} TGFB1_binding{free}), . -> HSC(state{activated} TGFB1_binding{free}), HSC(state{activated} intermediate_step{=5} 	control_counter{=9} TGFBR{degraded} TGFB1_binding{free}) @ 'ln2' / 'HSC_doubling_time'
+        'HSC_proliferation_j6' HSC(state{activated} intermediate_step{=6} TGFB1_binding{free}), . -> HSC(state{activated} TGFB1_binding{free}), HSC(state{activated} intermediate_step{=6} 	control_counter{=8} TGFBR{degraded} TGFB1_binding{free}) @ 'ln2' / 'HSC_doubling_time'
+        'HSC_proliferation_j7' HSC(state{activated} intermediate_step{=7} TGFB1_binding{free}), . -> HSC(state{activated} TGFB1_binding{free}), HSC(state{activated} intermediate_step{=7} 	control_counter{=7} TGFBR{degraded} TGFB1_binding{free}) @ 'ln2' / 'HSC_doubling_time'
+        
+        
+    //MFB proliferation
+        'MFB_proliferation_1' HSC(state{myofibroblast} intermediate_step{=8} TGFB1_binding{free}), . -> HSC(state{myofibroblast} TGFB1_binding{free}), HSC(state{myofibroblast} intermediate_step{=8} control_counter{=6} TGFBR{degraded} TGFB1_binding{free}) @  'ln2' / 'MFB_doubling_time'
+        'MFB_proliferation_2' HSC(state{myofibroblast} intermediate_step{=9} TGFB1_binding{free}), . -> HSC(state{myofibroblast} TGFB1_binding{free}), HSC(state{myofibroblast} intermediate_step{=9} control_counter{=5} TGFBR{degraded} TGFB1_binding{free}) @  'ln2' / 'MFB_doubling_time'
+        'MFB_proliferation_3' HSC(state{myofibroblast} intermediate_step{=10} TGFB1_binding{free}), . -> HSC(state{myofibroblast} TGFB1_binding{free}), HSC(state{myofibroblast} intermediate_step{=10} control_counter{=4} TGFBR{degraded} TGFB1_binding{free}) @  'ln2' / 'MFB_doubling_time'
+        'MFB_proliferation_4' HSC(state{myofibroblast} intermediate_step{=11} TGFB1_binding{free}), . -> HSC(state{myofibroblast} TGFB1_binding{free}), HSC(state{myofibroblast} intermediate_step{=11} control_counter{=3} TGFBR{degraded} TGFB1_binding{free}) @  'ln2' / 'MFB_doubling_time'
+        'MFB_proliferation_5' HSC(state{myofibroblast} intermediate_step{=12} TGFB1_binding{free}), . -> HSC(state{myofibroblast} TGFB1_binding{free}), HSC(state{myofibroblast} intermediate_step{=12} control_counter{=2} TGFBR{degraded} TGFB1_binding{free})@  'ln2' / 'MFB_doubling_time'
+        'MFB_proliferation_6' HSC(state{myofibroblast} intermediate_step{=13} TGFB1_binding{free}), . -> HSC(state{myofibroblast} TGFB1_binding{free}), HSC(state{myofibroblast} intermediate_step{=13} control_counter{=1} TGFBR{degraded} TGFB1_binding{free}) @  'ln2' / 'MFB_doubling_time'
+        'MFB_proliferation_7' HSC(state{myofibroblast} intermediate_step{=14} TGFB1_binding{free}), . -> HSC(state{myofibroblast} TGFB1_binding{free}), HSC(state{myofibroblast} intermediate_step{=14} control_counter{=0} TGFBR{degraded} TGFB1_binding{free}) @  'ln2' / 'MFB_doubling_time'
+
+
+    //HSC proliferation induced by TGFB (PMID: 10796885)
+        'HSC_proliferation_j4_TGFB1' HSC(state{activated} intermediate_step{=4} TGFB1_binding{bound}), . -> HSC(state{activated} TGFB1_binding{free}), HSC(state{activated} intermediate_step{=4} control_counter{=10} TGFBR{degraded} TGFB1_binding{free}) | -'TGFB1_for_signal' TGFB1_bound @ 'ln2' / 'HSC_doubling_time'
+        'HSC_proliferation_j5_TGFB1' HSC(state{activated} intermediate_step{=5} TGFB1_binding{bound}), . -> HSC(state{activated} TGFB1_binding{free}), HSC(state{activated} intermediate_step{=5} control_counter{=9} TGFBR{degraded} TGFB1_binding{free}) | -'TGFB1_for_signal' TGFB1_bound @ 'ln2' / 'HSC_doubling_time'
+        'HSC_proliferation_j6_TGFB1' HSC(state{activated} intermediate_step{=6} TGFB1_binding{bound}), . -> HSC(state{activated} TGFB1_binding{free}), HSC(state{activated} intermediate_step{=6} control_counter{=8} TGFBR{degraded} TGFB1_binding{free}) | -'TGFB1_for_signal' TGFB1_bound @ 'ln2' / 'HSC_doubling_time'
+        'HSC_proliferation_j7_TGFB1' HSC(state{activated} intermediate_step{=7} TGFB1_binding{bound}), . -> HSC(state{activated} TGFB1_binding{free}), HSC(state{activated} intermediate_step{=7} control_counter{=7} TGFBR{degraded} TGFB1_binding{free}) | -'TGFB1_for_signal' TGFB1_bound @ 'ln2' / 'HSC_doubling_time'
+
+
+    //MFB elimination
+        'MFB_apoptosis_senescence' HSC(state{myofibroblast} intermediate_step{=14} TGFB1_binding{free}) -> HSC(state{apoptosis_senescent_myofibroblast} TGFB1_binding{free}) @  'apop_sene_MFB_pourcentage' * 'ln2' / 'MFB_half_life'
+        'MFB_apoptosis_senescence_final' HSC(state{apoptosis_senescent_myofibroblast}) -> . @ 'ln2' / 'apop_sene_MFB_half_life'
+
+
+    //MFB desactivation. We assume that the desactivation process distinguishes two periods leading to early and fully inactivated states
+        'MFB_desactivation_step1' HSC(state{myofibroblast} intermediate_step{=14} TGFB1_binding{free}) ->  HSC(state{inactivated} intermediate_step{-=14} TGFB1_binding{free}) @  'inactivation_pourcentage' * 'ln2' / 'MFB_half_life' 
+        'MFB_desactivation_step2' HSC(state{inactivated} intermediate_step{=0}) -> HSC(state{inactivated} intermediate_step{+=1} control_counter{+=13}) @ 'ln2' / 'MFB_inact_stage_half_life'
+
+
+    //iHSC elimination
+        'HSC_inactivated_to_degradation' HSC(state{inactivated} intermediate_step{=1}, TGFB1_binding{free}) -> . @ 'ln2' / 'iHSC_half_life' * 'iHSC_elimination'       
+        'HSC_inactivated_to_qHSC' HSC(state{inactivated} intermediate_step{=1}, TGFB1_binding{free}) -> HSC(state{quiescent} intermediate_step{-=1} TGFB1_binding{free}) @ 'ln2' / 'iHSC_half_life' * 'iHSC_to_qHSC'
+
+
+    // Reactivation of inactivated HSC (PMID: 26251672)
+        'iHSC_activation' HSC(state{inactivated} intermediate_step{=1} TGFBR{internalized} TGFB1_binding{bound}) -> HSC(state{reactivated} TGFBR{internalized} TGFB1_binding{free}) | -'TGFB1_for_signal' TGFB1_bound @ ('ln2' / 'react_HSC_half_activation')
+        'HSCreactivation_step' HSC(state{reactivated} control_counter{>=8})->  HSC(state{reactivated} intermediate_step{+=1} control_counter{-=1}) @ 'ln2' / 'react_HSC_stage_half_life'
+        'HSCreactivated_to_MFBreactivated' HSC(state{reactivated} intermediate_step{=7}) -> HSC(state{reactivated_myofibroblast}, intermediate_step{+=1} control_counter{-=1}) @ 'ln2' / 'react_MFB_stage_half_life'
+        'MFB_reactivated_formation' HSC(state{reactivated_myofibroblast} intermediate_step{>=1}) -> HSC(state{reactivated_myofibroblast} intermediate_step{+=1} control_counter{-=1}) @ 'ln2' / 'react_MFB_stage_half_life'
+
+
+    //Proliferation of reactivated HSC
+        'HSC_reactivated_proliferation_j1' HSC(state{reactivated} intermediate_step{=1} TGFB1_binding{free}), . -> HSC(state{reactivated} TGFB1_binding{free}), HSC(state{reactivated} intermediate_step{=1} control_counter{=13} TGFBR{degraded} TGFB1_binding{free}) @ 'ln2' / 'react_HSC_doubling_time'
+        'HSC_reactivated_proliferation_j2' HSC(state{reactivated} intermediate_step{=2} TGFB1_binding{free}), . -> HSC(state{reactivated} TGFB1_binding{free}), HSC(state{reactivated} intermediate_step{=2} control_counter{=12} TGFBR{degraded} TGFB1_binding{free}) @ 'ln2' / 'react_HSC_doubling_time'
+        'HSC_reactivated_proliferation_j3' HSC(state{reactivated} intermediate_step{=3} TGFB1_binding{free}), . -> HSC(state{reactivated} TGFB1_binding{free}), HSC(state{reactivated} intermediate_step{=3} control_counter{=11} TGFBR{degraded} TGFB1_binding{free}) @ 'ln2' / 'react_HSC_doubling_time'
+        'HSC_reactivated_proliferation_j4' HSC(state{reactivated} intermediate_step{=4} TGFB1_binding{free}), . -> HSC(state{reactivated} TGFB1_binding{free}), HSC(state{reactivated} intermediate_step{=4} control_counter{=10} TGFBR{degraded} TGFB1_binding{free}) @ 'ln2' / 'react_HSC_doubling_time'
+        'HSC_reactivated_proliferation_j5' HSC(state{reactivated} intermediate_step{=5} TGFB1_binding{free}), . -> HSC(state{reactivated} TGFB1_binding{free}), HSC(state{reactivated} intermediate_step{=5} control_counter{=9} TGFBR{degraded} TGFB1_binding{free}) @ 'ln2' / 'react_HSC_doubling_time'
+        'HSC_reactivated_proliferation_j6' HSC(state{reactivated} intermediate_step{=6} TGFB1_binding{free}), . -> HSC(state{reactivated} TGFB1_binding{free}), HSC(state{reactivated} intermediate_step{=6} control_counter{=8} TGFBR{degraded} TGFB1_binding{free}) @ 'ln2' / 'react_HSC_doubling_time'
+        'HSC_reactivated_proliferation_j7' HSC(state{reactivated} intermediate_step{=7} TGFB1_binding{free}), . -> HSC(state{reactivated} TGFB1_binding{free}), HSC(state{reactivated} intermediate_step{=7} control_counter{=7} TGFBR{degraded} TGFB1_binding{free}) @ 'ln2' / 'react_HSC_doubling_time'
+    
+
+    //Proliferation of reactivated MFB
+        'MFB_reactivated_proliferation_1' HSC(state{reactivated_myofibroblast} intermediate_step{=8} TGFB1_binding{free}), . -> HSC(state{reactivated_myofibroblast} TGFB1_binding{free}), HSC(state{reactivated_myofibroblast} intermediate_step{=8} control_counter{=6} TGFBR{degraded} TGFB1_binding{free}) @  'ln2' / 'react_MFB_doubling_time'
+        'MFB_reactivated_proliferation_2' HSC(state{reactivated_myofibroblast} intermediate_step{=9} TGFB1_binding{free}), . -> HSC(state{reactivated_myofibroblast} TGFB1_binding{free}), HSC(state{reactivated_myofibroblast} intermediate_step{=9} control_counter{=5} TGFBR{degraded} TGFB1_binding{free}) @  'ln2' / 'react_MFB_doubling_time'
+        'MFB_reactivated_proliferation_3' HSC(state{reactivated_myofibroblast} intermediate_step{=10} TGFB1_binding{free}), . -> HSC(state{reactivated_myofibroblast} TGFB1_binding{free}), HSC(state{reactivated_myofibroblast} intermediate_step{=10} control_counter{=4} TGFBR{degraded} TGFB1_binding{free}) @  'ln2' / 'react_MFB_doubling_time'
+        'MFB_reactivated_proliferation_4' HSC(state{reactivated_myofibroblast} intermediate_step{=11} TGFB1_binding{free}), . -> HSC(state{reactivated_myofibroblast} TGFB1_binding{free}), HSC(state{reactivated_myofibroblast} intermediate_step{=11} control_counter{=3} TGFBR{degraded} TGFB1_binding{free}) @  'ln2' / 'react_MFB_doubling_time'
+        'MFB_reactivated_proliferation_5' HSC(state{reactivated_myofibroblast} intermediate_step{=12} TGFB1_binding{free}), . -> HSC(state{reactivated_myofibroblast} TGFB1_binding{free}), HSC(state{reactivated_myofibroblast} intermediate_step{=12} control_counter{=2} TGFBR{degraded} TGFB1_binding{free})@  'ln2' / 'react_MFB_doubling_time'
+        'MFB_reactivated_proliferation_6' HSC(state{reactivated_myofibroblast} intermediate_step{=13} TGFB1_binding{free}), . -> HSC(state{reactivated_myofibroblast} TGFB1_binding{free}), HSC(state{reactivated_myofibroblast} intermediate_step{=13} control_counter{=1} TGFBR{degraded} TGFB1_binding{free}) @  'ln2' / 'react_MFB_doubling_time'
+        'MFB_reactivated_proliferation_7' HSC(state{reactivated_myofibroblast} intermediate_step{=14} TGFB1_binding{free}), . -> HSC(state{reactivated_myofibroblast} TGFB1_binding{free}), HSC(state{reactivated_myofibroblast} intermediate_step{=14} control_counter{=0} TGFBR{degraded} TGFB1_binding{free}) @  'ln2' / 'react_MFB_doubling_time'
+
+
+    //Proliferation of reactivated HSC induced by TGFB1.
+        'HSC_reactivated_proliferation_j1_TGFB1' HSC(state{reactivated} intermediate_step{=1} TGFB1_binding{bound}), . -> HSC(state{reactivated} TGFB1_binding{free}), HSC(state{reactivated} intermediate_step{=1} control_counter{=13} TGFBR{degraded} TGFB1_binding{free}) | -'TGFB1_for_signal' TGFB1_bound @ 'ln2' / 'react_HSC_doubling_time'
+        'HSC_reactivated_proliferation_j2_TGFB1' HSC(state{reactivated} intermediate_step{=2} TGFB1_binding{bound}), . -> HSC(state{reactivated} TGFB1_binding{free}), HSC(state{reactivated} intermediate_step{=2} control_counter{=12} TGFBR{degraded} TGFB1_binding{free}) | -'TGFB1_for_signal' TGFB1_bound @ 'ln2' / 'react_HSC_doubling_time'
+        'HSC_reactivated_proliferation_j3_TGFB1' HSC(state{reactivated} intermediate_step{=3} TGFB1_binding{bound}), . -> HSC(state{reactivated} TGFB1_binding{free}), HSC(state{reactivated} intermediate_step{=3} control_counter{=11} TGFBR{degraded} TGFB1_binding{free}) | -'TGFB1_for_signal' TGFB1_bound @ 'ln2' / 'react_HSC_doubling_time'
+        'HSC_reactivated_proliferation_j4_TGFB1' HSC(state{reactivated} intermediate_step{=4} TGFB1_binding{bound}), . -> HSC(state{reactivated} TGFB1_binding{free}), HSC(state{reactivated} intermediate_step{=4} control_counter{=10} TGFBR{degraded} TGFB1_binding{free}) | -'TGFB1_for_signal' TGFB1_bound @ 'ln2' / 'react_HSC_doubling_time'
+        'HSC_reactivated_proliferation_j5_TGFB1' HSC(state{reactivated} intermediate_step{=5} TGFB1_binding{bound}), . -> HSC(state{reactivated} TGFB1_binding{free}), HSC(state{reactivated} intermediate_step{=5} control_counter{=9} TGFBR{degraded} TGFB1_binding{free}) | -'TGFB1_for_signal' TGFB1_bound @ 'ln2' / 'react_HSC_doubling_time'
+        'HSC_reactivated_proliferation_j6_TGFB1' HSC(state{reactivated} intermediate_step{=6} TGFB1_binding{bound}), . -> HSC(state{reactivated} TGFB1_binding{free}), HSC(state{reactivated} intermediate_step{=6} control_counter{=8} TGFBR{degraded} TGFB1_binding{free}) | -'TGFB1_for_signal' TGFB1_bound @ 'ln2' / 'react_HSC_doubling_time'
+        'HSC_reactivated_proliferation_j7_TGFB1' HSC(state{reactivated} intermediate_step{=7} TGFB1_binding{bound}), . -> HSC(state{reactivated} TGFB1_binding{free}), HSC(state{reactivated} intermediate_step{=7} control_counter{=7} TGFBR{degraded} TGFB1_binding{free}) | -'TGFB1_for_signal' TGFB1_bound @ 'ln2' / 'react_HSC_doubling_time'
+
+
+    //MFB reactivated elimination
+        'MFB_reactivated_apoptosis_senescence' HSC(state{reactivated_myofibroblast} intermediate_step{=14} TGFB1_binding{free}) -> HSC(state{apoptosis_senescent_myofibroblast} TGFB1_binding{free}) @  'apop_sene_react_MFB_pourcentage' * 'ln2' / 'react_MFB_half_life'
+
+
+    //MFB reactivated desactivation. 
+        'MFB_reactivated_desactivation' HSC(state{reactivated_myofibroblast} intermediate_step{=14} TGFB1_binding{free}) ->  HSC(state{inactivated} intermediate_step{-=14} TGFB1_binding{free}) @  'inactivation_pourcentage_react' * 'ln2' / 'react_MFB_half_life' 
+
+
+    //Receptor turn over (PMID: 21613981)
+        'HSC_Receptor_production' HSC(TGFBR{degraded} TGFB1_binding{free}) -> HSC(TGFBR{membrane} TGFB1_binding{free}) @ 'Pr'
+        'HSC_Receptor_recycling' HSC(TGFBR{internalized} TGFB1_binding{free}) -> HSC(TGFBR{membrane} TGFB1_binding{free}) @ 'Kr'
+        'HSC_Receptor_Link_degradation' HSC(TGFBR{internalized} TGFB1_binding{free}) -> HSC(TGFBR{degraded} TGFB1_binding{free}) @ 'Kid'
+
+
+    //COL1 degradation
+        'COL1_remodeling_high_degradation' . -> . | -COL1_deg COL1_remodeling_high @ (|COL1_remodeling_high| * ('ln2' / 'COL1_remodeling_high_half_life') * [max](0)(|COL1_remodeling_high|-'col1_healthy_concentration')) 
+        'COL1_remodeling_low_degradation'  . -> . | -COL1_deg COL1_remodeling_low @ (|COL1_remodeling_low| * ('ln2' / 'COL1_remodeling_low_half_life') * [max](0)(|COL1_remodeling_low| -'col1_healthy_concentration'))
+        'COL1_remodeling_high_to_remodeling_low' . -> . | -COL1_deg COL1_remodeling_high , COL1_deg COL1_remodeling_low @ |COL1_remodeling_high| * 'all_MFB' * ('ln2' / 'COL1_remodeling_high_to_remodeling_low_half_time')
+        'COL1_remodeling_low_to_remodeling_high' . -> . | -COL1_deg COL1_remodeling_low , COL1_deg COL1_remodeling_high @ |COL1_remodeling_low| * ('ln2' / 'COL1_remodeling_low_to_remodeling_high_half_time')
+
+
+    //COL1 production 
+        'COL1_prod_by_aHSC' HSC(state{activated} intermediate_step{=var} TGFB1_binding{free})-> HSC(state{activated} TGFB1_binding{free}) | COL1_synthesis_aHSC COL1_remodeling_high @ 'var' * 'ln2' / (12*'h'*'time_unit')  
+        'COL1_production_by_aHSC_TGFB1' HSC(state{activated} intermediate_step{=var} TGFB1_binding{bound})-> HSC(state{activated} TGFB1_binding{free}) | - TGFB1_for_signal TGFB1_bound, COL1_synthesis_aHSC_TGFB1 COL1_remodeling_high @ 'var' * 	'ln2' / (12*'h'/'time_unit') 
+        'COL1_prod_by_react_HSC' HSC(state{reactivated} intermediate_step{=var} TGFB1_binding{free})-> HSC(state{reactivated} TGFB1_binding{free}) | COL1_synthesis_react_HSC COL1_remodeling_high @ 'var' * 'ln2' / (12*'h'/'time_unit')
+        'COL1_prod_by_react_HSC_TGFB1' HSC(state{reactivated} intermediate_step{=var} TGFB1_binding{bound})-> HSC(state{reactivated} TGFB1_binding{free}) | -TGFB1_for_signal TGFB1_bound, COL1_synthesis_react_HSC_TGFB1 COL1_remodeling_high @ 	'var' * 'ln2' / (12*'h'*'time_unit')
+        'COL1_prod_by_MFB' HSC(state{myofibroblast} intermediate_step{=var} TGFB1_binding{free})-> HSC(state{myofibroblast} TGFB1_binding{free}) | COL1_synthesis_MFB COL1_remodeling_high @ 'var' * 'ln2' / (12*'h'/'time_unit') 
+        'COL1_prod_by_MFB_TGFB1' HSC(state{myofibroblast} intermediate_step{=var} TGFB1_binding{bound})-> HSC(state{myofibroblast} TGFB1_binding{free}) | -TGFB1_for_signal TGFB1_bound, COL1_synthesis_MFB_TGFB1 COL1_remodeling_high @ 'var' * 'ln2' / (12*'h'/'time_unit')
+        'COL1_prod_by_react_MFB' HSC(state{reactivated_myofibroblast} intermediate_step{=var} TGFB1_binding{free})-> HSC(state{reactivated_myofibroblast} TGFB1_binding{free}) | COL1_synthesis_react_MFB COL1_remodeling_high @ 'var' * 'ln2' / (12*'h'/'time_unit') 
+	    'COL1_prod_by_react_MFB_TGFB1' HSC(state{reactivated_myofibroblast} intermediate_step{=var} TGFB1_binding{bound})-> HSC(state{reactivated_myofibroblast} TGFB1_binding{free}) | -TGFB1_for_signal TGFB1_bound, COL1_synthesis_react_MFB_TGFB1 COL1_remodeling_high @ 'var' * 'ln2' / (12*'h'/'time_unit')	
+
+
+//Observations and modulations
+    //This allows the user to choose the observables to be monitored during the simulation and to modulate the rules and the simulation.
+    // 	%obs: 	is the commands for plotting variables
+    // 	%mod: 	is the command to set a modulation with a desired condition during simulation
+
+    //Observations
+            %obs: 'qHSC' |HSC(state{quiescent})|
+            %obs: 'aHSC' |HSC(state{activated})|
+            %obs: 'alphaSMA-cells' 'aSMA-cells'
+            %obs: 'MFB' |HSC(state{myofibroblast})|
+            %obs: 'react_MFB' |HSC(state{reactivated_myofibroblast})|
+            %obs: 'react_HSC' |HSC(state{reactivated})|
+            %obs: 'iHSC' |HSC(state{inactivated} intermediate_step{=1})|
+            %obs: 'COL1 remodeling high' |COL1_remodeling_high|
+            %obs: 'COL1 remodeling low' |COL1_remodeling_low|
+            %obs: 'COL1 tot' (|COL1_remodeling_low| + |COL1_remodeling_high|)
+            
+    //Simulation comands
+        //Stimulation of the system model with regular TGFB1 inputs at regular time intervals.
+        %mod: [T] > 'clock' && 'iteration' < 'nb_iteration' do 
+        $UPDATE 'iteration' 'iteration'+1; 
+        $UPDATE 'clock' 'clock' + 'interval';
+        $APPLY 1 | ('TGFB1_input' * 'TGFBR_number') TGFB1_free ; $PLOTENTRY;
+        repeat 'iteration' < 'nb_iteration'
+        
+        //Test whether a second stimulation period is required by checking whether its value is greater than 0.
+        %mod: [T] > (('nb_iteration' * 'interval') + 'input_time' +'second_simulation_time') && 'second_simulation_time' > 0  do 
+        $UPDATE 'clock' (('nb_iteration' * 'interval') + 'input_time' +'second_simulation_time'); 
+        $UPDATE 'iteration' 0;
+
+        %mod: [T] > 'clock' && 'iteration' < 'nb_iteration' do 
+        $UPDATE 'iteration' 'iteration'+1; 
+        $UPDATE 'clock' 'clock' + 'interval';
+        $APPLY 1 | ('TGFB1_input' * 'TGFBR_number') TGFB1_free ; $PLOTENTRY;
+        repeat 'iteration' < 'nb_iteration'
+        
+        //Snaptshot: extract, at a given moment, the number of each agent, whatever its state and counter, as well as the value of each token.
+        %mod: [T] > (('input_time' + 'iteration' * 'interval') + (30 * 'd' / 'time_unit') ) do $SNAPSHOT "1month";
+        %mod: [T] > (('input_time' + 'iteration' * 'interval') + (179 * 'd' / 'time_unit') ) do $SNAPSHOT "6month";
+        
+        //Stop the simulation at a desired time, in this case 6 months after the last TGFB1 input.
+        %mod: [T] > (('nb_iteration' * 'interval') + 'input_time' +'second_simulation_time' + (182.5 * 'd' / 'time_unit')) && 'second_simulation_time' = 0 do $STOP;// 1 stimulation stop
+        //If two stimulations are performed, the duration of the stimulation must be taken into account twice when calculating the stopping time
+        %mod: [T] > (2*('nb_iteration' * 'interval') + 'input_time' +'second_simulation_time' + (182.5 * 'd' / 'time_unit')) && 'second_simulation_time' > 0 do $STOP; // 2 stimulations stop	

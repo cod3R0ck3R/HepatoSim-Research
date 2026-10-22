@@ -1,0 +1,30 @@
+{
+  "job_id": "without_reinactivation-103",
+  "condition": "without_reinactivation",
+  "seed": 103,
+  "model_sha256": "fe426011b22b20494bfabd88728700b690c379ecafc19873072cb52ff59328f9",
+  "argv": [
+    "KaSim",
+    "vendor/HSC_model_Kappa/reactMFB-wo-inactivation.ka",
+    "-l",
+    "243",
+    "-p",
+    "0.5",
+    "-seed",
+    "103",
+    "-mode",
+    "batch",
+    "-d",
+    "without_reinactivation-103",
+    "-o",
+    "trace.csv",
+    "-log",
+    "inputs",
+    "--print-efficiency",
+    "--gluttony"
+  ],
+  "overrides": {},
+  "started_utc": "2026-10-22T12:26:23.330188+00:00",
+  "period_days": 0.5,
+  "status": "budget_exhausted"
+}

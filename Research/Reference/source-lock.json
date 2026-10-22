@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "retrieved_utc": "2026-10-22T11:12:42.534069+00:00",
+  "artifacts": [
+    {
+      "repository": "https://github.com/MBougueon/HSC_model_Kappa",
+      "commit": "773a84e65b514b969db20c57b6bf0ba97c1d32fb",
+      "path": "LICENSE",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523
+    },
+    {
+      "repository": "https://github.com/MBougueon/HSC_model_Kappa",
+      "commit": "773a84e65b514b969db20c57b6bf0ba97c1d32fb",
+      "path": "README.md",
+      "sha256": "5d4e3d2ce9f0979093842770c576fab824182a8e9261e3384c91f3dba1d5c7a1",
+      "bytes": 860
+    },
+    {
+      "repository": "https://github.com/MBougueon/HSC_model_Kappa",
+      "commit": "773a84e65b514b969db20c57b6bf0ba97c1d32fb",
+      "path": "iHSC-reversion-to-qHSC.ka",
+      "sha256": "b1ce4c1460c333aedd2ab64ff737eba4a4f6a8fb3af47d611abd9d6b8a7caacb",
+      "bytes": 37410
+    },
+    {
+      "repository": "https://github.com/MBougueon/HSC_model_Kappa",
+      "commit": "773a84e65b514b969db20c57b6bf0ba97c1d32fb",
+      "path": "reactMFB-with-inactivation.ka",
+      "sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+      "bytes": 37088
+    },
+    {
+      "repository": "https://github.com/MBougueon/HSC_model_Kappa",
+      "commit": "773a84e65b514b969db20c57b6bf0ba97c1d32fb",
+      "path": "reactMFB-wo-inactivation.ka",
+      "sha256": "fe426011b22b20494bfabd88728700b690c379ecafc19873072cb52ff59328f9",
+      "bytes": 36750
+    },
+    {
+      "repository": "https://github.com/MBougueon/simulation_pipeline",
+      "commit": "8b10a8dc403190a0b198918f0288b3d962ab7d40",
+      "path": "LICENSE",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523
+    },
+    {
+      "repository": "https://github.com/MBougueon/simulation_pipeline",
+      "commit": "8b10a8dc403190a0b198918f0288b3d962ab7d40",
+      "path": "README.md",
+      "sha256": "8606b6a49354dfce8acf1bbfd7963f720b2ff4d6df4dc7e1fe925a5f362968c8",
+      "bytes": 2318
+    },
+    {
+      "repository": "https://github.com/MBougueon/simulation_pipeline",
+      "commit": "8b10a8dc403190a0b198918f0288b3d962ab7d40",
+      "path": "graph_kaSim.ini",
+      "sha256": "ce51e6447af6623aa2e5b3d1e619baaef1f19e40da3048b5c378660ae317f116",
+      "bytes": 2192
+    },
+    {
+      "repository": "https://github.com/MBougueon/simulation_pipeline",
+      "commit": "8b10a8dc403190a0b198918f0288b3d962ab7d40",
+      "path": "graph_kaSim.py",
+      "sha256": "6291d7222ed1999b48ff4b12a7efec10e264d11ca7492ab3d81e67695d29d0a9",
+      "bytes": 38562
+    },
+    {
+      "repository": "https://github.com/MBougueon/simulation_pipeline",
+      "commit": "8b10a8dc403190a0b198918f0288b3d962ab7d40",
+      "path": "launch.py",
+      "sha256": "16f04084d0c63082d57de240f83f2178c4cca0c8e42bbf6c54db8a64ec587733",
+      "bytes": 7002
+    }
+  ]
+}

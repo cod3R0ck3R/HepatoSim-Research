@@ -1,0 +1,33 @@
+{
+  "auditID": "demonstration-model-0.1.0-2026-10-22",
+  "auditDate": "2026-10-22",
+  "scope": "existing-demonstration-model-read-only",
+  "modelVersion": "0.1.0",
+  "evidenceModelID": "hepatosim.liver-ode@0.1.0",
+  "sourceFiles": [
+    {"path": "Sources/HepatoCore/Model.swift", "sha256": "087229c345747f956e1f88abce210e2f96d56be59e72235fddb4312fcbb2e0e3"},
+    {"path": "Sources/HepatoCore/LiverSimulator.swift", "sha256": "1db24ae8f30c491b7ceedee865c81329026d5d94e9b82bfee1b2c97049e10c75"},
+    {"path": "Sources/HepatoCore/ResearchAnalysis.swift", "sha256": "453fa59fe829168cd1ea08fc6dc1e04e146438bf45b693a55bb9af60ac7bee68"}
+  ],
+  "testRun": {
+    "command": "swift test --scratch-path /tmp/hepatosim-audit-20261022-core",
+    "exitCode": 0,
+    "tests": 52,
+    "failures": 0,
+    "groups": {"odeAndAnalysis": 19, "evidence": 9, "storage": 17, "uiLogic": 7},
+    "nativeUIRetested": false
+  },
+  "scientificClassification": {
+    "dataEstimatedODERates": 0,
+    "dataEstimatedObservationMappings": 0,
+    "experimentalCalibrationPerformed": false,
+    "clinicalValidationPerformed": false,
+    "biologicallyPlausibleParameterRanges": "unknown",
+    "documentedParameterBoundsAre": "software-validation-limits",
+    "existingModelModified": false
+  },
+  "verifiedSourcePMIDs": ["9691091", "22566629", "15630444", "17559071", "15758648"],
+  "primarySourcePMIDs": ["9691091", "22566629", "15630444"],
+  "reviewSourcePMIDs": ["17559071", "15758648"],
+  "report": "Docs/09-DemonstrationModelAudit.md"
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "finalFibrosis" : 0.16682735161183215,
+    "finalReserve" : 0.8731527907183184,
+    "value" : 0.001
+  },
+  {
+    "finalFibrosis" : 0.20652762810877803,
+    "finalReserve" : 0.849083859520516,
+    "value" : 0.003
+  },
+  {
+    "finalFibrosis" : 0.26052891256916305,
+    "finalReserve" : 0.8163047063253891,
+    "value" : 0.006
+  }
+]
