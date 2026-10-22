@@ -1,0 +1,206 @@
+{
+  "benchmark_id": "HSR-BG2024-001",
+  "version": "1.3.0",
+  "frozen_utc": "2026-10-22T16:02:17.052252+00:00",
+  "status": "frozen_before_scientific_execution",
+  "question": "Bounded mechanism pilot: how do published whole-course reactivated-MFB fate variants change collagen accumulation and withdrawal trajectories at three fixed seeds? This is not a post-withdrawal drug intervention.",
+  "scope": {
+    "species": "mouse; biological development context CCl4-induced fibrosis",
+    "system": "nonspatial HSC populations and two collagen-I tokens; no hepatocyte, liver function or human prognosis output",
+    "input": "16 TGF-beta1 pulses, initial clock day4, interval84h; surrogate for twice-weekly CCl4, not CCl4 pharmacokinetics",
+    "observable": "COL1 tot = high + low remodeling tokens",
+    "unit": "arbitrary model units related by original calibration to collagen-positive histological area; not mass or percent human fibrosis",
+    "normalization": "COL1 tot divided by initial COL1 tot (0.5), fold baseline",
+    "time": "0 to original stop at approximately242.5 model days; nominal treatment end60, last scheduled pulse56.5",
+    "published_target": "Bougueon2024 Figure2B2/B3; 5% reactivated-MFB inactivation; mean cellular trajectories and10 collagen trajectories"
+  },
+  "sources": {
+    "model_commit": "773a84e65b514b969db20c57b6bf0ba97c1d32fb",
+    "pipeline_commit": "8b10a8dc403190a0b198918f0288b3d962ab7d40",
+    "article_doi": "10.1371/journal.pcbi.1011858",
+    "runtime": "official KaSim identified by executable digest/version in runtime-lock.json; paper names4.2.12 but exact runtime identity unresolved"
+  },
+  "data_partitions": {
+    "development": [
+      "Kisseleva2012 observations used by original authors for calibration and model-family selection; text summaries12-fold at1month and approximately14-fold at2months"
+    ],
+    "publication_reproduction": [
+      "Bougueon2024 Figure2 and original implementation; not independent"
+    ],
+    "excluded_from_independent": [
+      "Bougueon2024 Figure4 author-evaluated cohort",
+      "DMN/TAA/high-fat comparisons already examined or adapted by authors",
+      "human NASH transcriptome: different observable/system"
+    ],
+    "independent_test": [],
+    "rule": "Split by study/protocol, never arbitrary points from same trajectory. No synthetic replacement. If none qualified, independent test is NOT PERFORMED."
+  },
+  "calibration": {
+    "new_fitting": "none",
+    "reason": "No verified longitudinal individual or aggregate time-series with measurement errors qualified at freeze. Original calibrated parameters remain unchanged; no optimization to match summaries.",
+    "parameters": "all original values; only declared CLI condition overrides"
+  },
+  "conditions": [
+    {
+      "id": "repository_default",
+      "file": "reactMFB-with-inactivation.ka",
+      "overrides": {},
+      "seeds": [
+        101,
+        102,
+        103
+      ]
+    },
+    {
+      "id": "without_reinactivation",
+      "file": "reactMFB-wo-inactivation.ka",
+      "overrides": {},
+      "seeds": [
+        101,
+        102,
+        103
+      ]
+    },
+    {
+      "id": "reinactivation_10pct",
+      "file": "reactMFB-with-inactivation.ka",
+      "overrides": {
+        "inactivation_pourcentage_react": 0.1
+      },
+      "seeds": [
+        101,
+        102,
+        103
+      ]
+    }
+  ],
+  "ambiguity_policy": "Repository default pool6 implies60000 molecules/cell; Figure2 caption specifies10000 so literal override1 is a separate prespecified condition, not a correction. Report both; do not pick best post hoc. Keep apparent dimensional inconsistencies in source unchanged and report them.",
+  "sampling": {
+    "period_days": 0.5,
+    "duration_limit_days": 243,
+    "evaluation_times_days": [
+      0,
+      32,
+      60,
+      90,
+      240
+    ],
+    "interpolation": "last recorded state at or before requested time; report actual timestamp; do not extrapolate beyond final time"
+  },
+  "comparators": {
+    "published_development_fold_targets": {
+      "32": 12,
+      "60": 14
+    },
+    "target_precision": "approximate article summaries, not raw measurements;12/14 are not exact physiological truth; no invented SD or n",
+    "simple_baseline": "constant baseline collagen fold1, no estimated parameters",
+    "existing_swift_demo": "not scored against collagen measurements because its normalized matrix index has no measurement mapping; software behavior audited separately"
+  },
+  "metrics": [
+    "per-seed endpoint fold values",
+    "MAE and RMSE of ensemble mean folds at32/60 versus quoted development summaries, descriptive only",
+    "same metrics for constant-fold1 baseline",
+    "mean, SD, min,max and empirical5th/95th quantiles across stochastic seeds",
+    "Monte Carlo standard error of mean; split-half mean difference and MC uncertainty",
+    "paired changes COL1(60)-COL1(0), COL1(90)-COL1(60), COL1(240)-COL1(60)",
+    "mechanism contrasts use fixed first3 seeds and paired endpoint differences; these are model sensitivities, not drug effects"
+  ],
+  "numerical_checks": {
+    "seed_replay": "repeat repository_default seed101 with same arguments; compare numeric rows exactly",
+    "observation_grid": "repeat same seed with0.25-day output; compare common grid values; tolerance1e-8 absolute to allow CSV decimal formatting; mismatch triggers investigation, not biological rejection",
+    "ensemble": "report two fixed batches101..105/106..110; finite replication does not prove convergence of tails",
+    "validity": "finite observations; nondecreasing times; initialCOL1=0.5; full observation through240 days; report negative token/cell outputs without clamping"
+  },
+  "acceptance": {
+    "software": "source hashes exact, interpreter execution exit0, declared time coverage, parse/finite/order checks; run failures retained",
+    "publication_direction": "positive treatment-associated increase and post-treatment decrease reported with across-seed uncertainty; absent directions are a failed directional reproduction",
+    "quantitative_reproduction": "no binary quantitative pass from approximate text targets or uncalibrated error threshold; differences reported explicitly, exact reproduction requires archived author traces/protocol/runtime",
+    "independent_biology": "NOT PERFORMED unless separate prospectively specified study dataset qualifies in a new version; no accuracy claim",
+    "clinical": "NOT ASSESSED",
+    "mechanism_pilot": "Report all paired seed differences at32,60,90,240days and withdrawal changes. Describe sign consistency only across these three prespecified seeds; do not call it parameter robustness, clinical efficacy or a confidence interval. Incomplete conditions withhold aggregate comparisons. Zero/opposite effects and timeouts are retained."
+  },
+  "identifiability": "No fitting or identification in this technical package. 43 table entries are not 43 independent free parameters; see parameter-identifiability.md.",
+  "uncertainty_separation": [
+    "within-condition stochastic spread",
+    "finite-replicate Monte Carlo error",
+    "unknown measurement/sampling error for quoted targets",
+    "input interpretation and structural assumptions",
+    "unquantified parameter uncertainty"
+  ],
+  "budget": {
+    "per_run_timeout_seconds": 900,
+    "total_simulation_wall_seconds": 5400,
+    "maximum_workers": 1,
+    "maximum_runs": 11,
+    "maximum_output_megabytes": 100,
+    "new_simulations": 6,
+    "optimization_runs": 0,
+    "stop_rule": "One new run per invocation, separately scheduled. Reuse three archived default seeds and two completed technical controls after hash/provenance checks. Failed/partial/invalid outputs retained and block retries; no silent replacement. Stop before a run if fewer than900seconds remain. Queue time separate."
+  },
+  "changes": "No data-dependent retuning or relaxed thresholds. Any amendment gets new immutable spec and explicit rationale; prior failures remain.",
+  "amendment": {
+    "previous_spec_sha256": "a6e9726af786f37814eb873be75f3f1374b73b78a9a5321f8ed2b5ba734defa8",
+    "reason": "Technical controls completed and matched; now a separately budgeted original-model mechanism pilot. No new fitting or changes to frozen prior protocols.",
+    "posthoc_model_fitting": false,
+    "changes": [
+      "first3 prespecified seeds for this explicitly limited pilot",
+      "verified archive reuse",
+      "one new simulation per invocation to permit fair coordinator scheduling"
+    ]
+  },
+  "runtime_arguments": [
+    "--gluttony"
+  ],
+  "mechanism_design": {
+    "selection": "Original paper Figure2A/B/C; these scenarios were already selected in benchmark1.1 but were not executed because its budget ended. Three lowest prelisted seeds chosen before any new contrast output, explicitly a smaller pilot rather than completion of the original five-seed comparison.",
+    "perturbation_onset": "time0; affects injury history and recovery starting states, not a treatment first given after withdrawal",
+    "structural_alternative": "Original without-inactivation model removes that rule and restores the full competing death hazard. Other source bytes remain original.",
+    "parameter_uncertainty": "Not quantified: values0,0.05,0.10 are published model scenarios, not an empirically fitted posterior or pharmacological effect sizes.",
+    "stochastic_uncertainty": "Three fixed seeds; sample spread and paired differences descriptive. Matching seed numbers do not make the models share identical event paths.",
+    "primary_readout": "COL1 tot in model units, normalized by0.5; paired condition difference at day240; secondary day60/day90 and withdrawal changes. No liver-function or cure mapping.",
+    "hypotheses": "Determine whether direction depends on whole-course fate allocation. A larger inactive pool can support later reactivation during repeated stimuli. Do not select whichever direction favours treatment.",
+    "next_if_complete": "Assess whether a separately specified withdrawal-onset perturbation and parameter-identifiability study is informative. Do not infer a drug or human treatment effect."
+  },
+  "reuse_runs": {
+    "repository_default-101": {
+      "results": "results/benchmark-v1.1",
+      "snapshot_sha256": "ba8292920faf7765e29c1619e5b5b8efaab0a9bcc63b0a9904135a4cb3b39288",
+      "run_manifest_sha256": "7cf57432eaad87d1ac5bd45cb3f5b23fda63b254fc83320e9789906ba4eba783",
+      "trace_sha256": "c0060b14872d448aff877591f3adc1c11b24cad7615663ec2d68eade936b841c",
+      "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+      "role": "archive reuse; not a new independent replicate"
+    },
+    "repository_default-102": {
+      "results": "results/benchmark-v1.1",
+      "snapshot_sha256": "ba8292920faf7765e29c1619e5b5b8efaab0a9bcc63b0a9904135a4cb3b39288",
+      "run_manifest_sha256": "c901420827ba3275e31e421f7db16448cd3f5c3ce4606eb240c875e0c992ce77",
+      "trace_sha256": "42235eafeaf435a811f47fe614f9c09660b9ae113a55a5b0273e05c7f8feb0a2",
+      "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+      "role": "archive reuse; not a new independent replicate"
+    },
+    "repository_default-103": {
+      "results": "results/benchmark-v1.1",
+      "snapshot_sha256": "ba8292920faf7765e29c1619e5b5b8efaab0a9bcc63b0a9904135a4cb3b39288",
+      "run_manifest_sha256": "3a5a93eb15f6fcd2a87210239cf339c3790cc1bc7581385784d8c8b83a34e52b",
+      "trace_sha256": "c24338644d5b8efc57815708c9cf9c6eeb9954e79e0380d26c43a21188e31afa",
+      "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+      "role": "archive reuse; not a new independent replicate"
+    },
+    "seed-replay-101": {
+      "results": "results/technical-v1.2",
+      "snapshot_sha256": "a6e9726af786f37814eb873be75f3f1374b73b78a9a5321f8ed2b5ba734defa8",
+      "run_manifest_sha256": "581dc5696f8062a81e2cfd1a9f81e7fa3f4500a8480d5947dd438af879320644",
+      "trace_sha256": "4e4365afe2a7df62a296993aae405b8800f1fa8d7030435bb83179586e21a896",
+      "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+      "role": "archive reuse; not a new independent replicate"
+    },
+    "grid-quarter-day-101": {
+      "results": "results/technical-v1.2",
+      "snapshot_sha256": "a6e9726af786f37814eb873be75f3f1374b73b78a9a5321f8ed2b5ba734defa8",
+      "run_manifest_sha256": "f070aa2bfff371f9ece6d097cf5b77cecb310f9cf3561c8470e037f1de6c44bd",
+      "trace_sha256": "79fa9899e0ae07870117d55ac2cca661cd3fa0c00f98fa48b7d90c5de361dfdd",
+      "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+      "role": "archive reuse; not a new independent replicate"
+    }
+  }
+}

@@ -59,6 +59,10 @@ python3 -B Research/Reference/resume_reference.py --execute --kasim /absolute/pa
 
 The separately frozen [mechanism pilot](Docs/14-MechanismPilot.md) reuses verified controls and runs at most one missing contrast per invocation. Its driver passed nine focused software tests; no mechanism outcome is claimed by the protocol itself.
 
+A later [external-data access audit](Docs/15-ExternalDataAccess.md) recovered separate Hofer CCl4 collagen aggregates. The reviewed importer passed six tests and ran on the source table. The exposure protocol and observation mapping still require qualification; no independent prediction test is claimed.
+
+Two of six new contrast runs are complete; aggregate comparisons remain withheld. [Execution checkpoint and analysis checks](Docs/16-MechanismProgress.md).
+
 ## Local Goose/Ollama
 
 Use only the existing local Ollama provider. Confirm installed name, digest and loopback endpoint; a local URL alone does not prove local inference. The task driver rejects remote-model metadata and records a matching loaded GGUF model plus an actual local runner. One isolated task, no profile extensions, 300-second maximum, no automatic retry. No installation or persistent provider changes. Replace placeholders with actual installed values and use a fresh output folder. Reserve Ollama separately from KaSim/heavy builds. AI output must be reviewed and is not biological evidence; no token savings are claimed. Follow-up task: prepared and boundary-tested, not executed. The confirmed model blob is 8,988,113,226 bytes before runtime overhead; the shared host permits only 8 GiB per job. The coordinator declined a speculative increase. No local inference success is claimed. [Earlier timed-out attempts](Research/Reference/local-goose-audit.md).

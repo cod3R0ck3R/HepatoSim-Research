@@ -347,12 +347,12 @@ def compare_grid(left, right, reference_period, candidate_period=0.25):
             "duplicate_time_policy": "Last numeric row at timestamp; compare all columns at exact shared timestamps and scheduled times matched within 1e-8. Biological endpoint selection remains strict without tolerance."}
 
 
-def condition_contrasts(conditions, days):
+def condition_contrasts(conditions, days, seeds=tuple(range(101, 106))):
     reference = conditions[0]
     contrasts = []
     for alternative in conditions[1:]:
         contrast = {"reference": reference["id"], "alternative": alternative["id"],
-                    "status": "withheld", "seeds": list(range(101, 106)),
+                    "status": "withheld", "seeds": list(seeds),
                     "interpretation": "Whole-condition sensitivity contrast; not necessarily a single-parameter change, no drug-effect claim.",
                     "reference_model_file": reference["model_file"], "alternative_model_file": alternative["model_file"]}
         if reference["status"] != "complete" or alternative["status"] != "complete":
@@ -361,7 +361,7 @@ def condition_contrasts(conditions, days):
             first = {run["seed"]: run for run in reference["runs"]}
             second = {run["seed"]: run for run in alternative["runs"]}
             if not set(contrast["seeds"]).issubset(first.keys() & second.keys()):
-                contrast["reason"] = "Fixed paired seeds 101 through 105 absent."
+                contrast["reason"] = "Prespecified paired seeds absent."
             else:
                 contrast["status"] = "descriptive_only"
                 contrast["by_day"] = {}
@@ -450,7 +450,9 @@ def analyze(results, spec, previous_results=None):
                         "mcse_mean": "Sample SD / sqrt(n), stochastic replicates only", "sampling": "Last row at or before requested day; actual timestamp retained; no extrapolation",
                         "ensemble_membership": "Prespecified primary jobs only; seed replay and quarter-day grid runs excluded"},
             "provenance": provenance, "conditions": conditions,
-            "condition_contrasts": condition_contrasts(conditions, days), "technical_checks": checks,
+            "condition_contrasts": condition_contrasts(conditions, days,
+                spec["conditions"][0]["seeds"] if "mechanism_design" in spec else tuple(range(101, 106))),
+            "technical_checks": checks,
             "unexpected_job_directories_ignored": unexpected, "limitations": LIMITATIONS,
             "independent_biological_validation": "NOT PERFORMED", "clinical_validity": "NOT ASSESSED"}
 

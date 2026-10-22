@@ -2,19 +2,19 @@
   "schema_version": 1,
   "milestone": "HSR-002",
   "status": "in_progress",
-  "updated_utc": "2026-10-22T16:07:36.794476+00:00",
+  "updated_utc": "2026-10-22T17:05:47.537417+00:00",
   "last_verified_milestone": "HSR-BG2024-001: partial reproduction; 14 completed/32 planned; historical report retained",
   "packages": {
     "inventory": "completed",
     "coordination": "execution released; first test job manually resolved after waited-child session review",
     "technical_controls": "completed: exact 502-row seed replay; complete 0.25/0.5-day grids, maximum shared-value difference 0",
-    "independent_data": "no qualified independent data; additional Xie2021 protocol screened; linked supplement returned HTML and OA resolver404, no numeric collagen data obtained",
-    "mechanisms": "prospective pilot1.3 frozen, separate one-run driver and9focused tests passed; six new contrast simulations not yet started",
+    "independent_data": "Hofer CCl4 CPA aggregates downloaded and imported; six integrated tests passed; protocol and observation mapping remain unqualified; independent prediction not performed",
+    "mechanisms": "two of six new contrasts completed and integrity checked; four planned runs remain; explicit3Seed analysis integrated",
     "candidate_dossiers": "three source-checked drafts saved; no drug simulations claimed",
     "local_goose": "4 mocked local-worker tests pass; incorrect inference label fixed; no actual inference due host memory/job budget",
     "resume": "actual completed-run resume exit0: three verified skips, six manifest/trace hashes unchanged, no extra simulation cost",
     "documentation": "English/German README updated with actual technical controls; report13 and Xie2021 access screen added",
-    "publication": "technical-control addendum pushed normally; public API/main and four remote file hashes verified without authentication"
+    "publication": "technical results and frozen tested mechanism runner publicly verified"
   },
   "artifacts": [
     "Docs/10-ReferenceBenchmark.md",
@@ -55,7 +55,10 @@
     "model": "michaelneale/deepseek-r1-goose:latest",
     "digest": "425664f4d9986cb323c8df05ad0e4c375c5d57bb157191898ae0bff438d7f20b",
     "ollama_version": "0.40.8",
-    "inference_verified": false
+    "inference_verified": false,
+    "one_off_user_authorization": "hermes3:8b; one local documentation review only; no permanent settings/downloads",
+    "queued_job": "hepatosim-local-hermes-review-a",
+    "status": "queued; no inference claimed"
   },
   "compute_budget": {
     "engineering_setup_minutes": 25,
@@ -79,7 +82,7 @@
     "public": true,
     "code_pushed": true,
     "own_code_license": "not_selected",
-    "commit": "85954418be4e7aef05fdce0f7537b86b410d9c9f"
+    "commit": "123d8f28638470673d344d42141287023170e444"
   },
   "archive_reanalysis": {
     "path": "Research/Reference/analysis/archive-recheck-v2.json",
@@ -92,7 +95,9 @@
     "resume_notes": "../Publication/FORTSETZEN.md",
     "running_jobs": [],
     "simulation_budget_used_seconds": 1387.5129686250002,
-    "next_action": "Schedule one mechanism run through coordinator: python3 -B Research/Reference/run_mechanism_pilot.py --execute-one --kasim <PINNED_KASIM>; one worker,2GiB,900s cap."
+    "next_action": "First single-run pilot command prepared; no source edits while queued/running. Inspect terminal job and new result before next invocation.",
+    "next_coordinator_job": "hepatosim-mechanism-v13-without103-a",
+    "submission_status": "queued; source reserved for short publication audit; coordinator authoritative"
   },
   "last_goal_turn": "New real KaSim controls and actual resume completed; local Goose and independent biology remain unresolved.",
   "technical_followup": {
@@ -269,5 +274,428 @@
     "new_simulations": 6,
     "optimization_runs": 0,
     "stop_rule": "One new run per invocation, separately scheduled. Reuse three archived default seeds and two completed technical controls after hash/provenance checks. Failed/partial/invalid outputs retained and block retries; no silent replacement. Stop before a run if fewer than900seconds remain. Queue time separate."
+  },
+  "mechanism_pilot": {
+    "updated_utc": "2026-10-22T16:58:54.059439+00:00",
+    "benchmark": "1.3.0",
+    "jobs": [
+      {
+        "job_id": "repository_default-101",
+        "seed": 101,
+        "runner_status": "completed",
+        "analysis_status": "eligible",
+        "samples": {
+          "0": {
+            "requested_day": 0,
+            "actual_day": 0.0,
+            "collagen_model_units": 0.5,
+            "collagen_fold": 1.0
+          },
+          "32": {
+            "requested_day": 32,
+            "actual_day": 32.0,
+            "collagen_model_units": 5.75456090751,
+            "collagen_fold": 11.50912181502
+          },
+          "60": {
+            "requested_day": 60,
+            "actual_day": 60.0,
+            "collagen_model_units": 6.48211490029,
+            "collagen_fold": 12.96422980058
+          },
+          "90": {
+            "requested_day": 90,
+            "actual_day": 90.0,
+            "collagen_model_units": 3.25101722887,
+            "collagen_fold": 6.50203445774
+          },
+          "240": {
+            "requested_day": 240,
+            "actual_day": 240.0,
+            "collagen_model_units": 0.516382228847,
+            "collagen_fold": 1.032764457694
+          }
+        },
+        "run_json_sha256": "7cf57432eaad87d1ac5bd45cb3f5b23fda63b254fc83320e9789906ba4eba783",
+        "recorded_paths": {
+          "runtime": "<WORKSPACE>/work/runtime-audit/runtime-v4.1.3.1/KaSim",
+          "model": "<PROJECT>/Research/Reference/vendor/HSC_model_Kappa/reactMFB-with-inactivation.ka",
+          "output_directory": "<PROJECT>/Research/Reference/results/benchmark-v1.1/repository_default-101"
+        },
+        "argv_matches_frozen_job": true,
+        "trace_sha256": "c0060b14872d448aff877591f3adc1c11b24cad7615663ec2d68eade936b841c",
+        "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+        "rows": 502,
+        "first_day": 0.0,
+        "last_day": 242.5,
+        "minimum_observation": 0.0
+      },
+      {
+        "job_id": "repository_default-102",
+        "seed": 102,
+        "runner_status": "completed",
+        "analysis_status": "eligible",
+        "samples": {
+          "0": {
+            "requested_day": 0,
+            "actual_day": 0.0,
+            "collagen_model_units": 0.5,
+            "collagen_fold": 1.0
+          },
+          "32": {
+            "requested_day": 32,
+            "actual_day": 32.0,
+            "collagen_model_units": 5.74911709323,
+            "collagen_fold": 11.49823418646
+          },
+          "60": {
+            "requested_day": 60,
+            "actual_day": 60.0,
+            "collagen_model_units": 6.38178083604,
+            "collagen_fold": 12.76356167208
+          },
+          "90": {
+            "requested_day": 90,
+            "actual_day": 90.0,
+            "collagen_model_units": 3.16102467177,
+            "collagen_fold": 6.32204934354
+          },
+          "240": {
+            "requested_day": 240,
+            "actual_day": 240.0,
+            "collagen_model_units": 0.525671814601,
+            "collagen_fold": 1.051343629202
+          }
+        },
+        "run_json_sha256": "c901420827ba3275e31e421f7db16448cd3f5c3ce4606eb240c875e0c992ce77",
+        "recorded_paths": {
+          "runtime": "<WORKSPACE>/work/runtime-audit/runtime-v4.1.3.1/KaSim",
+          "model": "<PROJECT>/Research/Reference/vendor/HSC_model_Kappa/reactMFB-with-inactivation.ka",
+          "output_directory": "<PROJECT>/Research/Reference/results/benchmark-v1.1/repository_default-102"
+        },
+        "argv_matches_frozen_job": true,
+        "trace_sha256": "42235eafeaf435a811f47fe614f9c09660b9ae113a55a5b0273e05c7f8feb0a2",
+        "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+        "rows": 502,
+        "first_day": 0.0,
+        "last_day": 242.5,
+        "minimum_observation": 0.0
+      },
+      {
+        "job_id": "repository_default-103",
+        "seed": 103,
+        "runner_status": "completed",
+        "analysis_status": "eligible",
+        "samples": {
+          "0": {
+            "requested_day": 0,
+            "actual_day": 0.0,
+            "collagen_model_units": 0.5,
+            "collagen_fold": 1.0
+          },
+          "32": {
+            "requested_day": 32,
+            "actual_day": 32.0,
+            "collagen_model_units": 5.82349044322,
+            "collagen_fold": 11.64698088644
+          },
+          "60": {
+            "requested_day": 60,
+            "actual_day": 60.0,
+            "collagen_model_units": 6.26095992891,
+            "collagen_fold": 12.52191985782
+          },
+          "90": {
+            "requested_day": 90,
+            "actual_day": 90.0,
+            "collagen_model_units": 3.16987856464,
+            "collagen_fold": 6.33975712928
+          },
+          "240": {
+            "requested_day": 240,
+            "actual_day": 240.0,
+            "collagen_model_units": 0.527365350332,
+            "collagen_fold": 1.054730700664
+          }
+        },
+        "run_json_sha256": "3a5a93eb15f6fcd2a87210239cf339c3790cc1bc7581385784d8c8b83a34e52b",
+        "recorded_paths": {
+          "runtime": "<WORKSPACE>/work/runtime-audit/runtime-v4.1.3.1/KaSim",
+          "model": "<PROJECT>/Research/Reference/vendor/HSC_model_Kappa/reactMFB-with-inactivation.ka",
+          "output_directory": "<PROJECT>/Research/Reference/results/benchmark-v1.1/repository_default-103"
+        },
+        "argv_matches_frozen_job": true,
+        "trace_sha256": "c24338644d5b8efc57815708c9cf9c6eeb9954e79e0380d26c43a21188e31afa",
+        "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+        "rows": 502,
+        "first_day": 0.0,
+        "last_day": 242.5,
+        "minimum_observation": 0.0
+      },
+      {
+        "job_id": "without_reinactivation-101",
+        "seed": 101,
+        "runner_status": "completed",
+        "analysis_status": "eligible",
+        "samples": {
+          "0": {
+            "requested_day": 0,
+            "actual_day": 0.0,
+            "collagen_model_units": 0.5,
+            "collagen_fold": 1.0
+          },
+          "32": {
+            "requested_day": 32,
+            "actual_day": 32.0,
+            "collagen_model_units": 5.68917320751,
+            "collagen_fold": 11.37834641502
+          },
+          "60": {
+            "requested_day": 60,
+            "actual_day": 60.0,
+            "collagen_model_units": 5.22679791473,
+            "collagen_fold": 10.45359582946
+          },
+          "90": {
+            "requested_day": 90,
+            "actual_day": 90.0,
+            "collagen_model_units": 2.62462125761,
+            "collagen_fold": 5.24924251522
+          },
+          "240": {
+            "requested_day": 240,
+            "actual_day": 240.0,
+            "collagen_model_units": 0.504703757597,
+            "collagen_fold": 1.009407515194
+          }
+        },
+        "run_json_sha256": "23d98d4a81fae003b56d55afbfa183687bacd4c4441302dd3b8c087d3a8804a7",
+        "recorded_paths": {
+          "runtime": "<WORKSPACE>/work/runtime-audit/runtime-v4.1.3.1/KaSim",
+          "model": "<PROJECT>/Research/Reference/vendor/HSC_model_Kappa/reactMFB-wo-inactivation.ka",
+          "output_directory": "<PROJECT>/Research/Reference/results/mechanism-v1.3/without_reinactivation-101"
+        },
+        "argv_matches_frozen_job": true,
+        "trace_sha256": "8879a7b2cc0fe5ac0b846e5fa84944a64e5cce9dacd0ef2f814e7e69c3415a9c",
+        "model_sha256": "fe426011b22b20494bfabd88728700b690c379ecafc19873072cb52ff59328f9",
+        "rows": 502,
+        "first_day": 0.0,
+        "last_day": 242.5,
+        "minimum_observation": 0.0
+      },
+      {
+        "job_id": "without_reinactivation-102",
+        "seed": 102,
+        "runner_status": "completed",
+        "analysis_status": "eligible",
+        "samples": {
+          "0": {
+            "requested_day": 0,
+            "actual_day": 0.0,
+            "collagen_model_units": 0.5,
+            "collagen_fold": 1.0
+          },
+          "32": {
+            "requested_day": 32,
+            "actual_day": 32.0,
+            "collagen_model_units": 5.6430824218,
+            "collagen_fold": 11.2861648436
+          },
+          "60": {
+            "requested_day": 60,
+            "actual_day": 60.0,
+            "collagen_model_units": 5.13071361474,
+            "collagen_fold": 10.26142722948
+          },
+          "90": {
+            "requested_day": 90,
+            "actual_day": 90.0,
+            "collagen_model_units": 2.61922942905,
+            "collagen_fold": 5.2384588581
+          },
+          "240": {
+            "requested_day": 240,
+            "actual_day": 240.0,
+            "collagen_model_units": 0.500238000465,
+            "collagen_fold": 1.00047600093
+          }
+        },
+        "run_json_sha256": "0e1468317f830d23bd237a136dcde0ba7afbb4c631a727e788daf805f6f27352",
+        "recorded_paths": {
+          "runtime": "<WORKSPACE>/work/runtime-audit/runtime-v4.1.3.1/KaSim",
+          "model": "<PROJECT>/Research/Reference/vendor/HSC_model_Kappa/reactMFB-wo-inactivation.ka",
+          "output_directory": "<PROJECT>/Research/Reference/results/mechanism-v1.3/without_reinactivation-102"
+        },
+        "argv_matches_frozen_job": true,
+        "trace_sha256": "74d6a2905b1801f4e5e58074bd992f0f8cde800d7cdc1b8df2f2ff20d7d00adf",
+        "model_sha256": "fe426011b22b20494bfabd88728700b690c379ecafc19873072cb52ff59328f9",
+        "rows": 502,
+        "first_day": 0.0,
+        "last_day": 242.5,
+        "minimum_observation": 0.0
+      },
+      {
+        "job_id": "without_reinactivation-103",
+        "seed": 103,
+        "runner_status": "missing",
+        "analysis_status": "missing",
+        "samples": {},
+        "reason": "[Errno 2] No such file or directory: '<PROJECT>/Research/Reference/results/mechanism-v1.3/without_reinactivation-103/run.json'"
+      },
+      {
+        "job_id": "reinactivation_10pct-101",
+        "seed": 101,
+        "runner_status": "missing",
+        "analysis_status": "missing",
+        "samples": {},
+        "reason": "[Errno 2] No such file or directory: '<PROJECT>/Research/Reference/results/mechanism-v1.3/reinactivation_10pct-101/run.json'"
+      },
+      {
+        "job_id": "reinactivation_10pct-102",
+        "seed": 102,
+        "runner_status": "missing",
+        "analysis_status": "missing",
+        "samples": {},
+        "reason": "[Errno 2] No such file or directory: '<PROJECT>/Research/Reference/results/mechanism-v1.3/reinactivation_10pct-102/run.json'"
+      },
+      {
+        "job_id": "reinactivation_10pct-103",
+        "seed": 103,
+        "runner_status": "missing",
+        "analysis_status": "missing",
+        "samples": {},
+        "reason": "[Errno 2] No such file or directory: '<PROJECT>/Research/Reference/results/mechanism-v1.3/reinactivation_10pct-103/run.json'"
+      },
+      {
+        "job_id": "seed-replay-101",
+        "seed": 101,
+        "runner_status": "completed",
+        "analysis_status": "eligible",
+        "samples": {
+          "0": {
+            "requested_day": 0,
+            "actual_day": 0.0,
+            "collagen_model_units": 0.5,
+            "collagen_fold": 1.0
+          },
+          "32": {
+            "requested_day": 32,
+            "actual_day": 32.0,
+            "collagen_model_units": 5.75456090751,
+            "collagen_fold": 11.50912181502
+          },
+          "60": {
+            "requested_day": 60,
+            "actual_day": 60.0,
+            "collagen_model_units": 6.48211490029,
+            "collagen_fold": 12.96422980058
+          },
+          "90": {
+            "requested_day": 90,
+            "actual_day": 90.0,
+            "collagen_model_units": 3.25101722887,
+            "collagen_fold": 6.50203445774
+          },
+          "240": {
+            "requested_day": 240,
+            "actual_day": 240.0,
+            "collagen_model_units": 0.516382228847,
+            "collagen_fold": 1.032764457694
+          }
+        },
+        "run_json_sha256": "581dc5696f8062a81e2cfd1a9f81e7fa3f4500a8480d5947dd438af879320644",
+        "recorded_paths": {
+          "runtime": "<WORKSPACE>/work/runtime-audit/runtime-v4.1.3.1/KaSim",
+          "model": "<PROJECT>/Research/Reference/vendor/HSC_model_Kappa/reactMFB-with-inactivation.ka",
+          "output_directory": "<PROJECT>/Research/Reference/results/technical-v1.2/seed-replay-101"
+        },
+        "argv_matches_frozen_job": true,
+        "trace_sha256": "4e4365afe2a7df62a296993aae405b8800f1fa8d7030435bb83179586e21a896",
+        "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+        "rows": 502,
+        "first_day": 0.0,
+        "last_day": 242.5,
+        "minimum_observation": 0.0
+      },
+      {
+        "job_id": "grid-quarter-day-101",
+        "seed": 101,
+        "runner_status": "completed",
+        "analysis_status": "eligible",
+        "samples": {
+          "0": {
+            "requested_day": 0,
+            "actual_day": 0.0,
+            "collagen_model_units": 0.5,
+            "collagen_fold": 1.0
+          },
+          "32": {
+            "requested_day": 32,
+            "actual_day": 32.0,
+            "collagen_model_units": 5.75456090751,
+            "collagen_fold": 11.50912181502
+          },
+          "60": {
+            "requested_day": 60,
+            "actual_day": 60.0,
+            "collagen_model_units": 6.48211490029,
+            "collagen_fold": 12.96422980058
+          },
+          "90": {
+            "requested_day": 90,
+            "actual_day": 90.0,
+            "collagen_model_units": 3.25101722887,
+            "collagen_fold": 6.50203445774
+          },
+          "240": {
+            "requested_day": 240,
+            "actual_day": 240.0,
+            "collagen_model_units": 0.516382228847,
+            "collagen_fold": 1.032764457694
+          }
+        },
+        "run_json_sha256": "f070aa2bfff371f9ece6d097cf5b77cecb310f9cf3561c8470e037f1de6c44bd",
+        "recorded_paths": {
+          "runtime": "<WORKSPACE>/work/runtime-audit/runtime-v4.1.3.1/KaSim",
+          "model": "<PROJECT>/Research/Reference/vendor/HSC_model_Kappa/reactMFB-with-inactivation.ka",
+          "output_directory": "<PROJECT>/Research/Reference/results/technical-v1.2/grid-quarter-day-101"
+        },
+        "argv_matches_frozen_job": true,
+        "trace_sha256": "79fa9899e0ae07870117d55ac2cca661cd3fa0c00f98fa48b7d90c5de361dfdd",
+        "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+        "rows": 987,
+        "first_day": 0.0,
+        "last_day": 242.5,
+        "minimum_observation": 0.0
+      }
+    ],
+    "new_simulation_seconds": 1035.7387912920094,
+    "remaining_jobs": [
+      "without_reinactivation-103",
+      "reinactivation_10pct-101",
+      "reinactivation_10pct-102",
+      "reinactivation_10pct-103"
+    ],
+    "blocked_jobs": [],
+    "checkpoint_unit": "complete verified run; no CSV-to-RNG restart",
+    "scope": "whole-course mechanism pilot; no drug, independent biological or clinical validation"
+  },
+  "external_data_access": {
+    "report": "Docs/15-ExternalDataAccess.md",
+    "importer": "Research/Data/extract_hofer_cpa.py",
+    "test_count": 6,
+    "test_exit": 0,
+    "test_seconds": 0.002,
+    "import_exit": 0,
+    "input_pdf_sha256": "b26583fb964fa2ec4629725a35458014ddfa34e7387e679306aab181dcfeea2a",
+    "redistributed_data": false,
+    "biological_prediction_test": "not_performed"
+  },
+  "analysis_followup": {
+    "report": "Docs/16-MechanismProgress.md",
+    "artifact": "Research/Reference/analysis/mechanism-progress-2.json",
+    "new_tests": 3,
+    "existing_analysis_tests": 47,
+    "incomplete_contrasts": "withheld"
   }
 }

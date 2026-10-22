@@ -23,3 +23,8 @@ Nächster begründeter Zugangsschritt: passende offene, nach Toxin getrennte Ori
 ## Weiterer gezielter Zugang
 
 [Xie2021](Xie2021-data-screen.md) wurde als zusätzlicher Kandidat anhand Protokoll und Datenzugang geprüft. Noch kein geeigneter numerischer Datensatz erhalten; kein neuer unabhängiger Test.
+
+
+## Korrektur nach erfolgreichem NCBI-Datensatzzugang
+
+Am 22.10.2026 gelang der Download beider Supplements aus dem versionierten öffentlichen NCBI-Artikelbestand. Der Hofer-Anhang enthält in Tabelle S2 getrennte CCl4-Kollagenaggregate; der geprüfte Import ist ausgeführt. Die obigen Fehlversuche bleiben historische Zugangsbelege und beschreiben nicht mehr den aktuellen Datenzugang. [Bericht15](../../Docs/15-ExternalDataAccess.md) dokumentiert Quellen, Prüfsummen, Gruppendesign, Tests und die verbleibende Protokoll-/Messabbildungslücke. Xies Quellblots liefern weiterhin keine numerische Kollagenzeitreihe. Keine unabhängige Vorhersageprüfung wurde nachträglich behauptet.

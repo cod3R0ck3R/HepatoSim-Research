@@ -46,3 +46,13 @@ Next: freeze mechanism contrasts separately; the reactivated-MFB inactivation we
 ## 2026-10-22: bounded mechanism pilot1.3
 
 Technische Ergebnisse einschließlich echter Wiederaufnahme öffentlich verifiziert bei85954418be4e7aef05fdce0f7537b86b410d9c9f. Vor neuen Kontrastdaten separate Spezifikation1.3 mit Seeds101–103 eingefroren. Budget5400s/6neue Läufe, jeder einzeln koordiniert; veröffentlichte Szenarien statt erfundener Arzneistärken. Kleinerer Pilot ausdrücklich keine Vollendung der ursprünglichen Fünf-Seed-Kontraste. Neues separates Driver-Modul erhält die unveränderten Hashes des getesteten v1.2-Resume-Codes. Neun gezielte Tests bestanden in0.180s; Mock-Worker nur Testfixture, keine Simulationsdaten.
+
+
+## 2026-10-22: Hofer aggregate access corrected
+
+Versioned public NCBI supplements downloaded and verified. CCl4-only TableS2 aggregates are now available locally. Integrated importer preserves healthy-control timing and separate sacrifice groups, pins reviewed source/transcription hashes and refuses existing outputs. Six tests and real import passed. No raw animals invented, no fitting or external prediction test. Source PDF and extracted values remain outside the publication tree under the documented CC BY-NC-ND restriction; importer and source instructions are public candidates. The previous blanket collagen-data access gap is superseded by report15. The exposure and observation mapping gap remains.
+
+
+## 2026-10-22: explicit pilot seed set in analysis
+
+The legacy contrast analyzer required seeds101–105 even for the frozen three-seed pilot. Added an explicit seed argument selected from the frozen mechanism specification; older benchmarks keep their five-seed default. Three new synthetic arithmetic/boundary tests and47existing analysis tests passed on the isolated candidate. Scientific acceptance, input/model/runner bytes and numerical outputs were not changed. This corrects an analysis integration gap, not a post hoc change of the seed set. Incomplete conditions still withhold comparisons.
