@@ -57,6 +57,8 @@ python3 -B Research/Reference/resume_reference.py
 python3 -B Research/Reference/resume_reference.py --execute --kasim /absolute/path/to/KaSim
 ```
 
+Der separat eingefrorene [Mechanismuspilot](Docs/14-MechanismPilot.md) verwendet geprüfte Kontrollen wieder und führt je Aufruf höchstens einen fehlenden Kontrast aus. Sein Runner bestand neun gezielte Softwaretests; das Protokoll behauptet noch kein Mechanismusergebnis.
+
 ## Lokales Goose/Ollama
 
 Nur den vorhandenen lokalen Ollama-Provider verwenden. Installierten Namen, Digest und Loopback-Endpunkt bestätigen; eine lokale URL allein beweist keine lokale Inferenz. Der Aufgabentreiber verwirft Remote-Modellmetadaten und erfasst ein passend geladenes GGUF-Modell samt tatsächlichem lokalen Runner. Eine isolierte Aufgabe, keine Profil-Erweiterungen, höchstens 300 Sekunden, kein automatischer Retry. Keine Installation oder dauerhaften Provideränderungen. Platzhalter durch tatsächlich installierte Werte ersetzen und einen neuen Ausgabeordner verwenden. Ollama getrennt von KaSim/schweren Builds reservieren. KI-Ausgaben prüfen; sie sind keine biologische Evidenz. Keine behauptete Tokenersparnis. Folgeaufgabe: vorbereitet und an den Providergrenzen getestet, nicht ausgeführt. Der bestätigte Modellblob umfasst bereits 8.988.113.226 Bytes vor Runtimebedarf; der gemeinsame Rechner erlaubt nur 8 GiB je Job. Der Koordinator lehnte eine spekulative Erhöhung ab. Keine erfolgreiche lokale Inferenz behauptet. [Frühere Timeoutversuche](Research/Reference/local-goose-audit.md).

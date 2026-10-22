@@ -42,3 +42,7 @@ Frozen v1.2 completed within its original budget. Seed replay and full output-gr
 Additional Xie2021 data screening found a relevant six-week CCl4 regression protocol but no downloaded collagen measurements; the linked PDF returned HTML and the OA resolver404. Do not treat source-data labels or missing direct citation as proof of available independent raw data.
 
 Next: freeze mechanism contrasts separately; the reactivated-MFB inactivation weight redistributes complementary exits at fixed total conditional hazard. A whole-course parameter change is not a withdrawal-onset treatment. No quantitative drug mapping or successful local inference is claimed.
+
+## 2026-10-22: bounded mechanism pilot1.3
+
+Technische Ergebnisse einschließlich echter Wiederaufnahme öffentlich verifiziert bei85954418be4e7aef05fdce0f7537b86b410d9c9f. Vor neuen Kontrastdaten separate Spezifikation1.3 mit Seeds101–103 eingefroren. Budget5400s/6neue Läufe, jeder einzeln koordiniert; veröffentlichte Szenarien statt erfundener Arzneistärken. Kleinerer Pilot ausdrücklich keine Vollendung der ursprünglichen Fünf-Seed-Kontraste. Neues separates Driver-Modul erhält die unveränderten Hashes des getesteten v1.2-Resume-Codes. Neun gezielte Tests bestanden in0.180s; Mock-Worker nur Testfixture, keine Simulationsdaten.

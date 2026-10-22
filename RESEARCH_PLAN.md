@@ -22,3 +22,7 @@ Mechanismuspaket erst mit eigener eingefrorener Spezifikation und Koordinatorfre
 ## Iterationsprotokoll
 
 Forschungsfrage → verfügbare Evidenz → vorab festgelegter Test → Ausführung → Ergebnis → Fehleranalyse → nächster Schritt. Status in `RESEARCH_STATE.json`, wissenschaftliche Entscheidungen in `DECISIONS.md`, ausführliche Originalbelege unter `Research/Reference/`.
+
+## Mechanismuspilot1.3 nach Abschluss der technischen Kontrollen
+
+Siehe `Docs/13-TechnicalControls.md` für tatsächlich geschlossene Replay-/Raster-/Resume-Prüfungen. Anschließend vorab eingefrorener Pilot1.3: Default und zwei Originalmodellvarianten, Seeds101–103; fünf geprüfte Archivläufe wiederverwenden, sechs neue Läufe einzeln koordinieren, je900s und insgesamt5400s. Kein neuer Fit. Der Drei-Seed-Pilot ersetzt nicht den früher geplanten Fünf-Seed-Vergleich; vollständige Kontraste erst nach allen vorgesehenen Läufen. Arzneimittelabbildung, Parameterintervalle und unabhängige Biologie bleiben offen.
