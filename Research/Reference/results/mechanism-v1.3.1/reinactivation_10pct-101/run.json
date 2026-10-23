@@ -1,0 +1,43 @@
+{
+  "job_id": "reinactivation_10pct-101",
+  "condition": "reinactivation_10pct",
+  "seed": 101,
+  "model_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+  "argv": [
+    "KaSim",
+    "vendor/HSC_model_Kappa/reactMFB-with-inactivation.ka",
+    "-l",
+    "243",
+    "-p",
+    "0.5",
+    "-seed",
+    "101",
+    "-mode",
+    "batch",
+    "-d",
+    "reinactivation_10pct-101",
+    "-o",
+    "trace.csv",
+    "-log",
+    "inputs",
+    "--print-efficiency",
+    "--gluttony",
+    "-var",
+    "inactivation_pourcentage_react",
+    "0.1"
+  ],
+  "overrides": {
+    "inactivation_pourcentage_react": 0.1
+  },
+  "started_utc": "2026-10-22T21:43:33.401970+00:00",
+  "period_days": 0.5,
+  "status": "timeout",
+  "returncode": -15,
+  "wall_seconds": 900.0925867500482,
+  "trace_sha256": "9a1e0577a55ab84408198ddaf9ca93008ffdbac4e0acada57f1168d225b867a9",
+  "rows": 103,
+  "last_day": 45.0,
+  "minimum_observation": 0.0,
+  "initial_collagen": 0.5,
+  "validation_error": "Incomplete time coverage or unexpected initial collagen"
+}

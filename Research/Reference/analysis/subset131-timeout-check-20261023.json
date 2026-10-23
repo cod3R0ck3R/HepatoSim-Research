@@ -1,0 +1,70 @@
+{
+  "checked_utc": "2026-10-22T22:12:01.282172+00:00",
+  "benchmark_version": "1.3.1",
+  "specification_sha256": "27db7236e8b8e0749597c87d8404accfad67290aec2d866468b84de736b2a08d",
+  "execution_job": "hepatosim-mechanism-subset-131-1-20261022",
+  "execution_final_state": "interrupted",
+  "execution_exit_code": 1,
+  "condition": "reinactivation_10pct",
+  "seed": 101,
+  "run_status": "timeout",
+  "runtime_returncode": -15,
+  "wall_seconds": 900.0925867500482,
+  "rows": 103,
+  "last_day": 45.0,
+  "trace_sha256": "51757cf6f081eb922ab73a8f3797a9f5d38291a6874a26196c0cd8e6b3c9272e",
+  "read_only_audit_job": "hepatosim-subset131-readonly-audit-20261023",
+  "read_only_audit_exit_code": 1,
+  "audit_output_sha256": "17297cba2a919eb14166256af27601332b746f826cb73fda4ecd2f18fb1e2194",
+  "audit_states": [
+    {
+      "job_id": "repository_default-101",
+      "status": "eligible"
+    },
+    {
+      "job_id": "repository_default-102",
+      "status": "eligible"
+    },
+    {
+      "job_id": "repository_default-103",
+      "status": "eligible"
+    },
+    {
+      "job_id": "reinactivation_10pct-101",
+      "status": "not_completed"
+    },
+    {
+      "job_id": "reinactivation_10pct-102",
+      "status": "missing"
+    },
+    {
+      "job_id": "reinactivation_10pct-103",
+      "status": "missing"
+    },
+    {
+      "job_id": "seed-replay-101",
+      "status": "eligible"
+    },
+    {
+      "job_id": "grid-quarter-day-101",
+      "status": "eligible"
+    }
+  ],
+  "input_and_artifact_hashes_preserved_after_audit": true,
+  "dependent_jobs": [
+    {
+      "id": "hepatosim-mechanism-subset-131-2-20261022",
+      "state": "cancelled",
+      "never_started": true
+    },
+    {
+      "id": "hepatosim-mechanism-subset-131-3-20261022",
+      "state": "cancelled",
+      "never_started": true
+    }
+  ],
+  "aggregate_mechanism_comparison": "withheld_incomplete",
+  "biological_inference": false,
+  "clinical_inference": false,
+  "report": "Research/Reference/mechanism-subset-timeout-2026-10-23.md"
+}

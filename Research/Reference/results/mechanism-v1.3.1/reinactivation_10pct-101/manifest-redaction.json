@@ -1,0 +1,14 @@
+{
+  "original_sha256": "8a61bb2725cf22ca6c802a238ab4e08460a7b104aedf33cec53391c3fa2fe813",
+  "published_sha256": "0399bc037b3b37a18eced970dc2cb19d6e640231c6848f940362c8d67cd9974f",
+  "changed_fields": [
+    "argv[0]",
+    "argv[1]",
+    "argv[11]",
+    "trace_sha256"
+  ],
+  "trace_sha256": "51757cf6f081eb922ab73a8f3797a9f5d38291a6874a26196c0cd8e6b3c9272e",
+  "published_trace_sha256": "9a1e0577a55ab84408198ddaf9ca93008ffdbac4e0acada57f1168d225b867a9",
+  "numeric_payload_sha256": "aeeae7adf5b791343d94394a16a1fff5a6a3a1a9dbb920d273006050e0668f4c",
+  "limitation": "Original path strings withheld. Original digest is exporter-attested; published bytes and unchanged numeric traces are checkable."
+}

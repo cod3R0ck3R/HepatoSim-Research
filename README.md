@@ -63,11 +63,21 @@ A later [external-data access audit](Docs/15-ExternalDataAccess.md) recovered se
 
 Two of six new contrast runs are complete; aggregate comparisons remain withheld. [Execution checkpoint and analysis checks](Docs/16-MechanismProgress.md).
 
+**23 October update:** two later contrast attempts reached their 900-second limits; the remaining two were cancelled before starting. Both the original pilot and subset 1.3.1 remain incomplete. Partial traces are retained, with no aggregate treatment inference. [Timeout report](Research/Reference/mechanism-subset-timeout-2026-10-23.md). [Sato source triage](Research/Reference/sato2023-data-triage.md) identifies a withdrawal-study data request; [Jerez source triage](Research/Reference/jerez2026-data-triage.md) documents a successfully read ongoing-injury endpoint table whose units, normalization and animal/field mapping still need qualification. Neither is an independent validation result.
+
+Inspect the preserved subset without starting a simulation. This command deliberately exits 1 because one run is incomplete; successful software rejection is not a successful benchmark:
+
+```sh
+python3 -B Research/Reference/run_mechanism_pilot.py --spec Research/Reference/benchmark-v1.3.1.json --output Research/Reference/results/mechanism-v1.3.1
+```
+
 ## Local Goose/Ollama
 
 Use only the existing local Ollama provider. Confirm installed name, digest and loopback endpoint; a local URL alone does not prove local inference. The task driver rejects remote-model metadata and records a matching loaded GGUF model plus an actual local runner. One isolated task, no profile extensions, 300-second maximum, no automatic retry. No installation or persistent provider changes. Replace placeholders with actual installed values and use a fresh output folder. Reserve Ollama separately from KaSim/heavy builds. AI output must be reviewed and is not biological evidence; no token savings are claimed. Follow-up task: prepared and boundary-tested, not executed. The confirmed model blob is 8,988,113,226 bytes before runtime overhead; the shared host permits only 8 GiB per job. The coordinator declined a speculative increase. No local inference success is claimed. [Earlier timed-out attempts](Research/Reference/local-goose-audit.md).
 
 The driver records `local_runner_observed` separately and never automatically sets `inference_verified`: even a zero Goose exit plus a loaded runner is insufficient. Review the model-to-runner match and the actually generated answer before confirming local inference. Four local-worker regression tests cover successful and failed mocked Goose exits; they do not invoke a model.
+
+Later execution update: a separately authorized one-off task using the installed `hermes3:8b` returned Goose exit 0 after 112.647 seconds. Its audit did not establish a matching local runner or verified inference. This supersedes the earlier “not executed” description for that specific task only; no inference-success or token-saving claim follows.
 
 ```sh
 python3 -B -m unittest discover -s Research/LocalAI -p 'test_*.py'

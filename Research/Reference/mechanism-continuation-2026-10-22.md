@@ -1,0 +1,13 @@
+# Bounded mechanism continuation after one timeout
+
+The original frozen benchmark 1.3.0 contains nine primary runs: three conditions with seeds 101–103, plus two technical controls. A read-only verification on 2026-10-22 found five primary runs and both controls eligible. `without_reinactivation-103` exceeded its 900-second wall-time budget and retained an incomplete trace ending near model day 42.5. Three `reinactivation_10pct` runs have never started. The verification exits 1 as required for an incomplete benchmark. No complete three-condition comparison is available.
+
+The timeout is a computational failure, not evidence against the biological mechanism. Current host load is a potential contributor, not an established cause. The runner terminates its own process group and waits; process and group checks found its recorded users ended. The coordinator reservation was explicitly resolved as interrupted, not successful. The dependent queue entries were cancelled to prevent futile retries. The original partial trace and manifest remain unchanged.
+
+Amendment 1.3.1 executes only the three previously unstarted 10-percent reinactivation runs, against the same hash-verified archived default controls. This decision follows a timeout and is explicitly not a new independent or blinded validation. It preserves models, parameters, seeds, observation times, acceptance rules and the 900-second per-run limit. It does not retry, replace or hide the failed zero-reinactivation run. It does not convert a partial CSV into an RNG checkpoint.
+
+The added wall-time allocation is 2,700 seconds, one worker and one coordinated heavy job at a time with 2 GiB declared RAM. Previously recorded new-simulation use is approximately 1,935.81 seconds; combined maximum remains below the original 5,400-second allocation. No optimization or additional seeds are authorized by this amendment. The coordinator admits jobs only when capacity permits. A failed or partial result blocks subsequent automatic execution and requires review.
+
+Any later default-versus-10-percent result must be labelled as the specified subset. The original full three-condition benchmark remains incomplete. No aggregate result, robust treatment claim, pharmacological mapping, biological validation or human clinical inference is reported here.
+
+Reproduction uses the existing `run_mechanism_pilot.py` with the newly frozen `benchmark-v1.3.1.json`, its adjacent SHA-256 file, a separate `results/mechanism-v1.3.1` directory, and the pinned KaSim executable. Each `--execute-one` invocation permits at most one missing run. Both specifications and all older results must be retained. Inspect the corresponding coordinator jobs and resume-state before invoking another run.

@@ -56,3 +56,8 @@ Versioned public NCBI supplements downloaded and verified. CCl4-only TableS2 agg
 ## 2026-10-22: explicit pilot seed set in analysis
 
 The legacy contrast analyzer required seeds101–105 even for the frozen three-seed pilot. Added an explicit seed argument selected from the frozen mechanism specification; older benchmarks keep their five-seed default. Three new synthetic arithmetic/boundary tests and47existing analysis tests passed on the isolated candidate. Scientific acceptance, input/model/runner bytes and numerical outputs were not changed. This corrects an analysis integration gap, not a post hoc change of the seed set. Incomplete conditions still withhold comparisons.
+
+
+## 2026-10-23: bounded execution and source-data update
+
+Pilot1.3.0 and subset1.3.1 remain incomplete after two900-second timeouts; partial traces are retained and the two unstarted follow-ups cancelled. Do not retry from CSV or infer a biological effect. See Research/Reference/mechanism-subset-timeout-2026-10-23.md. Jerez source-table conversion succeeded, but units, normalization and animal/field mapping remain unresolved; Sato animal-level measurements remain unavailable. No new fitting, independent prediction or clinical validation. New scientific execution requires a separately specified runtime-feasibility diagnostic and budget.

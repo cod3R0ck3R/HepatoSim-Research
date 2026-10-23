@@ -63,11 +63,21 @@ Eine spätere [Prüfung des externen Datenzugangs](Docs/15-ExternalDataAccess.md
 
 Zwei der sechs neuen Kontrastläufe sind vollständig; aggregierte Vergleiche bleiben zurückgehalten. [Ausführungsstand und Analyseprüfungen](Docs/16-MechanismProgress.md).
 
+**Stand 23. Oktober:** Zwei spätere Kontrastversuche erreichten ihre Grenze von 900 Sekunden; die übrigen zwei wurden vor dem Start storniert. Originalpilot und Teilserie 1.3.1 bleiben unvollständig. Teilkurven bleiben erhalten, ohne aggregierte Behandlungsaussage. [Timeoutbericht](Research/Reference/mechanism-subset-timeout-2026-10-23.md). Die [Sato-Quellenprüfung](Research/Reference/sato2023-data-triage.md) benennt eine Datenanfrage zu einer Entzugsstudie; die [Jerez-Quellenprüfung](Research/Reference/jerez2026-data-triage.md) dokumentiert eine erfolgreich gelesene Endpunkttabelle unter fortgesetzter Schädigung, deren Einheiten, Normalisierung und Tier-/Feldzuordnung noch zu klären sind. Beides ist kein unabhängiges Validierungsergebnis.
+
+Die erhaltene Teilserie ohne neue Simulation prüfen. Dieser Befehl endet absichtlich mit Exit 1, weil ein Lauf unvollständig ist; eine korrekte Zurückweisung durch die Software ist kein erfolgreicher Benchmark:
+
+```sh
+python3 -B Research/Reference/run_mechanism_pilot.py --spec Research/Reference/benchmark-v1.3.1.json --output Research/Reference/results/mechanism-v1.3.1
+```
+
 ## Lokales Goose/Ollama
 
 Nur den vorhandenen lokalen Ollama-Provider verwenden. Installierten Namen, Digest und Loopback-Endpunkt bestätigen; eine lokale URL allein beweist keine lokale Inferenz. Der Aufgabentreiber verwirft Remote-Modellmetadaten und erfasst ein passend geladenes GGUF-Modell samt tatsächlichem lokalen Runner. Eine isolierte Aufgabe, keine Profil-Erweiterungen, höchstens 300 Sekunden, kein automatischer Retry. Keine Installation oder dauerhaften Provideränderungen. Platzhalter durch tatsächlich installierte Werte ersetzen und einen neuen Ausgabeordner verwenden. Ollama getrennt von KaSim/schweren Builds reservieren. KI-Ausgaben prüfen; sie sind keine biologische Evidenz. Keine behauptete Tokenersparnis. Folgeaufgabe: vorbereitet und an den Providergrenzen getestet, nicht ausgeführt. Der bestätigte Modellblob umfasst bereits 8.988.113.226 Bytes vor Runtimebedarf; der gemeinsame Rechner erlaubt nur 8 GiB je Job. Der Koordinator lehnte eine spekulative Erhöhung ab. Keine erfolgreiche lokale Inferenz behauptet. [Frühere Timeoutversuche](Research/Reference/local-goose-audit.md).
 
 Der Treiber erfasst `local_runner_observed` getrennt und setzt `inference_verified` niemals automatisch: Auch Goose-Exit0 mit geladenem Runner reicht nicht. Modell-Runner-Zuordnung und tatsächlich erzeugte Antwort prüfen, bevor lokale Inferenz bestätigt wird. Vier lokale Worker-Regressionstests decken erfolgreiche und fehlgeschlagene gemockte Goose-Abschlüsse ab; sie rufen kein Modell auf.
+
+Späterer Ausführungsstand: Eine separat erlaubte einmalige Aufgabe mit dem vorhandenen `hermes3:8b` lieferte nach 112,647 Sekunden Goose-Exit 0. Ihr Audit belegte weder einen passend zugeordneten lokalen Runner noch verifizierte Inferenz. Das ersetzt die frühere Angabe „nicht ausgeführt“ nur für diese konkrete Aufgabe; daraus folgt weder ein Inferenzerfolgs- noch ein Tokenersparnisnachweis.
 
 ```sh
 python3 -B -m unittest discover -s Research/LocalAI -p 'test_*.py'
