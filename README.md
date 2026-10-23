@@ -2,6 +2,10 @@
 
 [Deutsch](README.de.md) · English
 
+## Current checkpoint — 23 October 2026
+
+New simulations and calibration are paused pending explicit resumption. Existing intake records now distinguish macrophage expression data, collagen aggregates and unqualified intervention endpoints; no independent biological prediction has been established. [Bilingual data-collection checkpoint](Docs/17-DataCollectionStatus.md).
+
 ## Purpose
 
 Research prototype for liver fibrosis mechanisms, reproducible simulations and teaching, aimed at researchers, developers and educators. The long-term clinical context is alcohol-associated liver disease (ALD). **Not a validated medical device, personal prognosis tool or treatment recommendation system.**

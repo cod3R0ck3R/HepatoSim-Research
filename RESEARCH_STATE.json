@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "milestone": "reproducible research follow-up",
-  "status": "incomplete_mechanism_pilot_budget_stopped",
+  "status": "numerical_research_paused_user_request",
   "checked_date": "2026-10-23",
-  "publication_base_commit": "8725f112632fc19079a42da1e15039f42351aebf",
+  "publication_base_commit": "fe31263a7ec3a39b78a7e24a2753dab5f6dbbd81",
   "own_code_license": "not_selected",
   "technical_controls": {
     "seed_replay": "passed",
@@ -26,7 +26,9 @@
     "hofer": "aggregate access; observation mapping unqualified",
     "sato": "withdrawal study identified; individual measurements unavailable",
     "jerez": "endpoint table read; units, normalization and animal/field mapping unresolved",
-    "independent_prediction": "not_performed"
+    "independent_prediction": "not_performed",
+    "ramachandran": "Local full text and macrophage expression matrix; no extracted collagen table; reference-model background citation prevents assuming untouched independence.",
+    "campana": "Review bibliography/abstract; no new experiment dataset."
   },
   "local_worker": {
     "provider": "ollama",
@@ -44,5 +46,11 @@
     "human_transferability": "not_established",
     "clinical_use": "not_validated"
   },
-  "next_executable_step": "Read-only inspect the preserved subset; expect exit1 for incomplete trajectory. Do not automatically retry or fit unqualified data."
+  "next_executable_step": "No automatic numerical work. After explicit resumption, qualify exposure/observation mapping and data roles before a separately budgeted benchmark.",
+  "data_collection": {
+    "report": "Docs/17-DataCollectionStatus.md",
+    "new_simulations": 0,
+    "raw_data_redistributed": false,
+    "prior_intake_verification": "27 files/receipts checked; five older archive paths retained as unreadable; not rerun in this documentation update."
+  }
 }

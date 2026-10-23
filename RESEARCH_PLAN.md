@@ -1,5 +1,9 @@
 # Forschungsversion: Meilenstein HSR-002
 
+## Current execution gate — 2026-10-23
+
+New research, simulation and calibration are paused by user request. Resume only after explicit authorization and a separately frozen budget and test specification; older computational next steps below are historical and do not authorize execution. Existing data-intake limitations are recorded in [the bilingual checkpoint](Docs/17-DataCollectionStatus.md). No automatic restart.
+
 Beginn: 22.10.2026. Fortsetzung von HSR-BG2024-001; dessen Rohdaten und Grenzen bleiben erhalten.
 
 ## Forschungsfragen und Abnahme

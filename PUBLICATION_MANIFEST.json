@@ -132,9 +132,9 @@
     },
     {
       "path": "DECISIONS.md",
-      "original_sha256": "af8cedb4bd69d5c76bbe9467f650b0247e488685336a89f6cfa81ae7a5b2afb8",
-      "published_sha256": "af8cedb4bd69d5c76bbe9467f650b0247e488685336a89f6cfa81ae7a5b2afb8",
-      "metadata_redacted": false
+      "original_sha256": "21a9a052c808f86abfed447b48546b5f74f73483e47270848ff6c1af6cc1fcf7",
+      "published_sha256": "3e16cc82872e0ef472591c835dacccb0d53128bdfae841417e60c4890aa5fb12",
+      "metadata_redacted": true
     },
     {
       "path": "Docs/01-Architecture.md",
@@ -233,6 +233,12 @@
       "metadata_redacted": false
     },
     {
+      "path": "Docs/17-DataCollectionStatus.md",
+      "original_sha256": "78b3762c9254a71afc999e8ccfe87f4055ce769f49664294bd5a5c67edab9e85",
+      "published_sha256": "78b3762c9254a71afc999e8ccfe87f4055ce769f49664294bd5a5c67edab9e85",
+      "metadata_redacted": false
+    },
+    {
       "path": "Docs/README-HSR001.md",
       "original_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
       "published_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
@@ -282,27 +288,27 @@
     },
     {
       "path": "README.de.md",
-      "original_sha256": "1b0b72ca49371893dcb34511d0a21b199e5fdd11642780edf15edc9704232b37",
-      "published_sha256": "1b0b72ca49371893dcb34511d0a21b199e5fdd11642780edf15edc9704232b37",
+      "original_sha256": "df2a129f8feeb4bfff7fab4559715e37e6adf6760353e0c20debbddecb2bbbbc",
+      "published_sha256": "df2a129f8feeb4bfff7fab4559715e37e6adf6760353e0c20debbddecb2bbbbc",
       "metadata_redacted": false
     },
     {
       "path": "README.md",
-      "original_sha256": "d7c7bd21ec6dd36d85e67a7d011c131758885ed60dbb7b96e64601ff41c597c4",
-      "published_sha256": "d7c7bd21ec6dd36d85e67a7d011c131758885ed60dbb7b96e64601ff41c597c4",
+      "original_sha256": "59db4c1eaead4983710f52edb35054f5ff3d1f505e8024add96e4403ebb8efc2",
+      "published_sha256": "59db4c1eaead4983710f52edb35054f5ff3d1f505e8024add96e4403ebb8efc2",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_PLAN.md",
-      "original_sha256": "2c241591e7b8e41d5557275a80ceb07e4a2bc929148fcd75f248bcede15ac5cd",
-      "published_sha256": "2c241591e7b8e41d5557275a80ceb07e4a2bc929148fcd75f248bcede15ac5cd",
-      "metadata_redacted": false
+      "original_sha256": "4c89da3c5f4dfde51fc0deb473370ccfce3a25908fbf51e070731c4c453fe593",
+      "published_sha256": "e0627e7c9acffad9ae82938a2ffb49246ffff63d96321bff716295223ada3d56",
+      "metadata_redacted": true
     },
     {
       "path": "RESEARCH_STATE.json",
-      "original_sha256": "da32c3312cf410dcbd4c58dff964aaa38126089865ed7bbc82d670dcf9b25cba",
-      "published_sha256": "da32c3312cf410dcbd4c58dff964aaa38126089865ed7bbc82d670dcf9b25cba",
-      "metadata_redacted": false
+      "original_sha256": "da18b1b31b402643aaf0072eafb453cf33ae946d218a3f200cf04ecf40958b5b",
+      "published_sha256": "29d5e159034f812ee0f31adb93a4b8ea3002d77dfe635cc9d3e702961f575e62",
+      "metadata_redacted": true
     },
     {
       "path": "Research/Audit/audit-manifest.json",
@@ -441,6 +447,12 @@
       "original_sha256": "54ddecfaa5bb70bbe81fd5f5a3cf1d5402e44257e853d36a3c3a5f486d8278a6",
       "published_sha256": "6fcc448f9763574844cbe0bd8a54205f945dd2145325e3b808e53872317877a7",
       "metadata_redacted": true
+    },
+    {
+      "path": "Research/Reference/analysis/publication-verification-20261023.json",
+      "original_sha256": "3b037d7f3dfb770c77ee05eae15413bd521056f985e085519b180ee36e0de3e4",
+      "published_sha256": "3b037d7f3dfb770c77ee05eae15413bd521056f985e085519b180ee36e0de3e4",
+      "metadata_redacted": false
     },
     {
       "path": "Research/Reference/analysis/publication-verification-v2.json",
@@ -1497,12 +1509,6 @@
       "original_sha256": "27c70fa7157f8727606b662ec9daf99dc7c0949a83d3fbab3aca46301b8a4534",
       "published_sha256": "27c70fa7157f8727606b662ec9daf99dc7c0949a83d3fbab3aca46301b8a4534",
       "metadata_redacted": false
-    },
-    {
-      "path": "Research/Reference/analysis/publication-verification-20261023.json",
-      "original_sha256": "3b037d7f3dfb770c77ee05eae15413bd521056f985e085519b180ee36e0de3e4",
-      "published_sha256": "3b037d7f3dfb770c77ee05eae15413bd521056f985e085519b180ee36e0de3e4",
-      "metadata_redacted": false
     }
   ],
   "incremental_update": {
@@ -1518,5 +1524,16 @@
       "Research/Reference/results/mechanism-v1.3.1/repository_default-103/trace.csv",
       "Research/Reference/results/mechanism-v1.3.1/seed-replay-101/trace.csv"
     ]
+  },
+  "documentation_update_20261023": {
+    "paths": [
+      "Docs/17-DataCollectionStatus.md",
+      "README.md",
+      "README.de.md",
+      "RESEARCH_PLAN.md",
+      "DECISIONS.md",
+      "RESEARCH_STATE.json"
+    ],
+    "scope": "Curated public documentation; original operational state remains private. No new numerical results or source data included."
   }
 }

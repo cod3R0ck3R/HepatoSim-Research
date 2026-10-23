@@ -61,3 +61,8 @@ The legacy contrast analyzer required seeds101–105 even for the frozen three-s
 ## 2026-10-23: bounded execution and source-data update
 
 Pilot1.3.0 and subset1.3.1 remain incomplete after two900-second timeouts; partial traces are retained and the two unstarted follow-ups cancelled. Do not retry from CSV or infer a biological effect. See Research/Reference/mechanism-subset-timeout-2026-10-23.md. Jerez source-table conversion succeeded, but units, normalization and animal/field mapping remain unresolved; Sato animal-level measurements remain unavailable. No new fitting, independent prediction or clinical validation. New scientific execution requires a separately specified runtime-feasibility diagnostic and budget.
+
+
+## 2026-10-23: preserve evidence during the numerical pause
+
+Publish the existing data-intake status as a bilingual documentation checkpoint. Preserve partial reproduction and incomplete mechanism runs; do not reinterpret expression matrices as collagen trajectories or reviewed sources as independent validation. No new model, fit, numerical run, raw-data redistribution or license decision is made. New scientific execution requires explicit resumption and a prespecified budget.

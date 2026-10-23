@@ -2,6 +2,10 @@
 
 Deutsch · [English](README.md)
 
+## Aktueller Stand — 23. Oktober 2026
+
+Neue Simulationen und Kalibrierungen bleiben bis zur ausdrücklichen Fortsetzung pausiert. Vorhandene Aufnahmebelege unterscheiden nun Makrophagen-Expressionsdaten, Kollagenaggregate und ungeklärte Interventionsendpunkte; eine unabhängige biologische Vorhersage ist nicht belegt. [Zweisprachiger Datenaufnahme-Stand](Docs/17-DataCollectionStatus.md).
+
 ## Ziel
 
 Forschungsprototyp für Leberfibrosemechanismen, reproduzierbare Simulationen und Lehre für Forschende, Entwickler und Lehrende. Langfristiger klinischer Schwerpunkt ist die alkoholassoziierte Lebererkrankung (ALD). **Kein validiertes Medizinprodukt, individuelles Prognosewerkzeug oder System für Therapieempfehlungen.**
