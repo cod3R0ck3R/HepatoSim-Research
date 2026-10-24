@@ -1,0 +1,23 @@
+{
+  "provider": "ollama",
+  "model": "hermes3:8b",
+  "digest": "4f6b83f30b62bc3d0cf9be09266db222805ee815c8fd7d8b38f863f655be78b7",
+  "goose_version": "1.45.0",
+  "ollama_version": {
+    "version": "0.40.10"
+  },
+  "wall_seconds": 29.758,
+  "tokens": {
+    "input_tokens": 1049,
+    "output_tokens": 178,
+    "total_tokens": 1227
+  },
+  "native_runner_matched_to_local_blob": true,
+  "inference_verified_after_review": true,
+  "unloaded_after_job": true,
+  "task": "Translate four prewritten caveats; no scientific calculations or decisions",
+  "review": "Rejected translation: disagreement was translated as agreement; RNA was broadened to nucleic acid. Final German text independently written/reviewed. No scientific content adopted.",
+  "output_sha256": "76339314a8e0a9f59395219648fc02e119810e10d1ebe4f914cc81c61afbb5aa",
+  "token_savings": "Not measured",
+  "coordinator": "Own uncertain job resolved after matching PID/PGID absence and empty Ollama ps verified; no retry"
+}

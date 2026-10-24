@@ -1,0 +1,42 @@
+{
+  "checked_date": "2026-10-24",
+  "paper": {
+    "doi": "10.1038/s41467-024-55325-4",
+    "published": "2025-01-02",
+    "pmcid": "PMC11697218"
+  },
+  "geo_accession": "GSE210077",
+  "current_geo_sample_count": 40,
+  "selected_subset": "Six published-study snRNA-seq donors present in the HCA project and author annotation CSV; additional current GEO samples excluded before target analysis",
+  "hca_project": "64809a52-f703-4aec-b3a5-eca808a971d0",
+  "hca_file_index_sha256": "978f1a2126f8d0e38f300d25a2e6549e50e0469d35d80da83dad853d4de25c53",
+  "geo_miniml_sha256": "a15f552640707423976582d10bd731a04f5e678c7d6dd921b6d562d37da229b4",
+  "source_files": "input-manifest.json; 21 size/hash-pinned raw and annotation files",
+  "access": "Dryad dataset version314311 metadata read; download endpoints HTTP403. Official HCA public S3 mirror used instead, exact SHA256 checked for every file. One HTTP502 API index retry succeeded.",
+  "metadata_conflicts": [
+    {
+      "donor": "AM031",
+      "annotation_age": "61-70",
+      "workbook_age": "51-60"
+    },
+    {
+      "donor": "AM072",
+      "annotation_age": "51-60",
+      "workbook_age": "61-70"
+    }
+  ],
+  "disease_stage_workbook": {
+    "AM031": "F4, cirrhosis",
+    "AM062": "perivenular sinusoidal fibrosis, Brunt stage2/4",
+    "AM072": "bridging fibrosis,F3"
+  },
+  "independence": "Separate human donor cohort from the earlier bulk NAFLD analysis; no matched identities enabling an exhaustive overlap audit. Original study discussed this pathway, so not blind mechanistic validation. No therapy, longitudinal recovery or alcohol-specific conclusion.",
+  "redistribution": "Publish own code and derived donor/cell-type aggregates. Raw matrices, individual-cell annotations, full metadata contacts and publications stay outside the repository; original source terms remain unchanged.",
+  "urls": [
+    "https://doi.org/10.1038/s41467-024-55325-4",
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE210077",
+    "https://explore.data.humancellatlas.org/projects/64809a52-f703-4aec-b3a5-eca808a971d0",
+    "https://doi.org/10.5061/dryad.37pvmcvsg",
+    "https://github.com/DataBiosphere/azul/blob/develop/docs/mirror.rst"
+  ]
+}

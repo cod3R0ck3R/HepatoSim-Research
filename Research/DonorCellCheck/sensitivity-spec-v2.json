@@ -1,0 +1,18 @@
+{
+  "frozen_utc": "2026-10-24T16:23:37.121154+00:00",
+  "post_hoc": true,
+  "reason": "Primary scan exposed 36601 vs 62696 feature rows, confounded with condition. This sensitivity is frozen after primary outcomes; not a replacement primary test.",
+  "primary_result_sha256": "f08b0def859c983b09b9e38891d0bfb16a5b430840a413af41e40415c19e815c",
+  "method": "Intersect stable gene IDs across six raw feature tables; require all six targets have identical unique IDs. Recompute pseudobulk denominator only over intersection. Keep original retained cells, target counts, donor labels, contrast and LOO. No reference alignment or batch correction claim.",
+  "budget_seconds": 900,
+  "max_retries": 0,
+  "version": 2,
+  "previous_attempt": {
+    "status": "stopped_before_counting",
+    "error": "Target identity differs",
+    "cause": "Normal Ensembl IDs unversioned; all six disease targets have numeric version suffixes",
+    "code_sha256": "2722c3e67d0ebd1101db3166d84c9b478f16fa00ecc1669f5d058efbc38b9703",
+    "action": "A separately versioned post hoc protocol strips only terminal numeric versions and rejects duplicate base IDs. Original strict-ID failure retained; no scientific threshold changed."
+  },
+  "identity_transformation": "Remove only terminal .digits from Ensembl gene IDs; reject any duplicate base ID per reference; require target base IDs identical across libraries. This does not harmonize upstream alignment/counting."
+}

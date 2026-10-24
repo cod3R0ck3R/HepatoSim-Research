@@ -119,3 +119,7 @@ Neun echte Matrizen wurden lokal geprüft: 38.136 gefilterte Zellen und alle dre
 ## Externe SEMA4D–PLXNB2-Prüfung (24. Oktober 2026)
 
 Eine getrennte menschliche NAFLD-Kohorte stützt erhöhte SEMA4D-RNA, jedoch nicht den vorab geforderten gemeinsamen Anstieg von SEMA4D und PLXNB2. Alle 216 Zähldateien wurden geprüft; 206 erkrankte Biopsien gingen in die Analyse ein. Fünf Tests und eine identische Cache-Wiederholung bestanden. Lokale Goose-Inferenz fand statt; unbelegte Vorschläge wurden verworfen. [Ergebnisse und Grenzen](Docs/23-SEMAIndependent.md) · [Wiederholen](Research/SEMAIndependent/README.md).
+
+## GSE210077: donor/cell-type check (24 October 2026)
+
+Sechs menschliche Spender und 27.692 annotierte Zellkerne wurden nach Zelltyp ausgewertet. Das gemeinsame Richtungskriterium für Makrophagen-SEMA4D und Sternzell-PLXNB2 wurde nicht erfüllt. Die nachträgliche Prüfung gemeinsamer Gen-IDs ändert das nicht; Referenz und Erkrankungsgruppe bleiben konfundiert.14 Tests und beide identischen Cache-Wiederholungen bestanden. [Report / Bericht](Docs/24-DonorCellCheck.md) · [Reproduce / Wiederholen](Research/DonorCellCheck/README.md).

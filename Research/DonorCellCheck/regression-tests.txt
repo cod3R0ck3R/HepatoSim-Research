@@ -1,0 +1,12 @@
+test_checkpoint_binding_and_damage (test_analyze_geo.Check.test_checkpoint_binding_and_damage) ... ok
+test_cli_resume_and_exact_replay (test_analyze_geo.Check.test_cli_resume_and_exact_replay) ... ok
+test_coordinates_and_chunk_boundary (test_analyze_geo.Check.test_coordinates_and_chunk_boundary) ... ok
+test_invalid_inputs (test_analyze_geo.Check.test_invalid_inputs) ... ok
+test_no_pseudoreplication (test_analyze_geo.Check.test_no_pseudoreplication) ... ok
+test_sample_qc_oracle (test_analyze_geo.Check.test_sample_qc_oracle) ... ok
+test_statistics_known_oracle (test_analyze_geo.Check.test_statistics_known_oracle) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.504s
+
+OK

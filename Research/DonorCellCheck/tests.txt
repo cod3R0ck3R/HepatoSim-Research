@@ -1,0 +1,12 @@
+test_common_reference_denominator (test_analyze.DonorTests.test_common_reference_denominator) ... ok
+test_duplicate_and_truncated_coordinates_rejected (test_analyze.DonorTests.test_duplicate_and_truncated_coordinates_rejected) ... ok
+test_excludes_unannotated_and_sums_exactly (test_analyze.DonorTests.test_excludes_unannotated_and_sums_exactly) ... ok
+test_join_order_and_missing (test_analyze.DonorTests.test_join_order_and_missing) ... ok
+test_permutation_resolution_and_donor_loo (test_analyze.DonorTests.test_permutation_resolution_and_donor_loo) ... ok
+test_raw_droplet_capacity_is_opt_in (test_analyze.DonorTests.test_raw_droplet_capacity_is_opt_in) ... ok
+test_version_removal_preserves_identity_and_rejects_ambiguity (test_analyze.DonorTests.test_version_removal_preserves_identity_and_rejects_ambiguity) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.007s
+
+OK

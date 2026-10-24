@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "milestone": "reproducible research follow-up",
-  "status": "sema_external_analysis_completed",
+  "status": "gse210077_donor_cell_verified_publication_candidate",
   "checked_date": "2026-10-23",
   "publication_base_commit": "fe31263a7ec3a39b78a7e24a2753dab5f6dbbd81",
   "own_code_license": "MIT",
@@ -47,7 +47,7 @@
     "clinical_use": "not_validated",
     "expression": "Exploratory E-MEXP-3177 reanalysis; no independent biological validation"
   },
-  "next_executable_step": "Audit and analyze GSE210077 at donor/cell-type level under a new bounded scope",
+  "next_executable_step": "Larger donor cohort with harmonized raw processing; no automatic further calculations",
   "data_collection": {
     "report": "Docs/17-DataCollectionStatus.md",
     "new_simulations": 0,
@@ -56,7 +56,7 @@
     "new_compute_authorized": false,
     "automatic_resume": false
   },
-  "updated_utc": "2026-10-24T15:47:25.385268+00:00",
+  "updated_utc": "2026-10-24T16:28:39.869509+00:00",
   "bounded_research_20261024": {
     "specification": "Research/Expression/specification-v1.json",
     "account_budget": {
@@ -146,7 +146,7 @@
     "local_ai_job": "hepatosim-geoqc-local-20261024",
     "source_code_sha_verified": true,
     "tests_passed": 7,
-    "next_step": "Obtain animal-level cell annotations and batch/pooling metadata; independent protein/activity and collagen-turnover evaluation for SEMA4D–PLXNB2. LMCD1 regression RNA and CTSL not robust.",
+    "next_step": "Obtain animal-level cell annotations and batch/pooling metadata; independent protein/activity and collagen-turnover evaluation for SEMA4D\u2013PLXNB2. LMCD1 regression RNA and CTSL not robust.",
     "synthetic_resume_replay_exact": true,
     "metadata_result": "Research/GEOSampleCheck/metadata-result.json",
     "report": "Docs/22-GEOSampleCheck.md",
@@ -185,5 +185,27 @@
     "database_records_added": 2,
     "simulation_runs_preserved": 2,
     "observed_used_percent_before_publication": 16
+  },
+  "gse210077_donor_cell": {
+    "status": "verified_publication_pending",
+    "report": "Docs/24-DonorCellCheck.md",
+    "result": "Research/DonorCellCheck/result-v1.json",
+    "result_sha256": "f08b0def859c983b09b9e38891d0bfb16a5b430840a413af41e40415c19e815c",
+    "common_result": "Research/DonorCellCheck/common-result-v2.json",
+    "common_result_sha256": "b110d449bd9ef650c5ee40217c12859dc890ca87923d309b3f880718ddc3e5ca",
+    "donors": 6,
+    "nuclei": 27692,
+    "cell_types": 6,
+    "pair_direction_stable": false,
+    "tests": 14,
+    "both_replays_identical": true,
+    "local_worker": "actual local inference; translation rejected",
+    "database_records_added": 2,
+    "existing_runs_preserved": 2,
+    "remaining_quota_fraction_cap": 0.05,
+    "baseline_used_percent": 17,
+    "ceiling_used_percent": 21.15,
+    "next_step": "Larger donor cohort with harmonized raw processing; no automatic further calculations",
+    "clinical_validation": false
   }
 }

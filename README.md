@@ -119,3 +119,7 @@ Nine real matrices were checked locally: 38,136 retained cells and all three gro
 ## External SEMA4D–PLXNB2 check (24 October 2026)
 
 A separate human NAFLD cohort supports increased SEMA4D RNA, but not the prespecified joint increase of SEMA4D and PLXNB2. All 216 count files were checked; 206 diseased biopsies informed the analysis. Five tests and exact cached replay passed. Local Goose inference ran; unsupported suggestions were rejected. [Results and limits](Docs/23-SEMAIndependent.md) · [Reproduce](Research/SEMAIndependent/README.md).
+
+## GSE210077: donor/cell-type check (24 October 2026)
+
+Six human donors and 27,692 annotated nuclei were analyzed by cell type. The joint macrophage-SEMA4D/HSC-PLXNB2 direction criterion failed. A post hoc shared-gene denominator check preserved that result; reference/condition confounding remains unresolved. Fourteen tests and both exact cache replays passed. [Report / Bericht](Docs/24-DonorCellCheck.md) · [Reproduce / Wiederholen](Research/DonorCellCheck/README.md).

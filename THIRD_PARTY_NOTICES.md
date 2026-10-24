@@ -24,3 +24,7 @@
 ## E-MEXP-3177 analysis, 24 October 2026
 
 The new expression analysis cites Ramachandran et al. (2012), DOI10.1073/pnas.1119964109, and the EMBL-EBI E-MEXP-3177 archive. The source matrix, IDF/SDRF files, article and publisher figures are not redistributed. Only newly computed distance/permutation aggregates, input checksums and original analysis code/report are added. Obtain source files from the documented archive under its applicable terms. The project owner has subsequently authorized MIT for original project code; source-data terms remain separate.
+
+## GSE210077 / Watson human liver study
+
+Watson et al., Nature Communications (2025), DOI 10.1038/s41467-024-55325-4; GEO GSE210077; HCA project 64809a52-f703-4aec-b3a5-eca808a971d0. Source matrices, single-nucleus labels, workbook and publications are not included. Their original terms remain applicable; our MIT license does not relicense them. Hash-pinned retrieval metadata and newly computed donor/cell-type aggregates document provenance. See Research/DonorCellCheck/provenance.json.

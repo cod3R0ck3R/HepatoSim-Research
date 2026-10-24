@@ -132,8 +132,8 @@
     },
     {
       "path": "DECISIONS.md",
-      "original_sha256": "b7d27877a64d239bc0343c18c882c8d90e4101f48a2b940da43bb33cc564ba8f",
-      "published_sha256": "b7d27877a64d239bc0343c18c882c8d90e4101f48a2b940da43bb33cc564ba8f",
+      "original_sha256": "4db6344097f3ca8464854397191dfafda1f96b3167565aa17c23dcc5fbb21f0b",
+      "published_sha256": "4db6344097f3ca8464854397191dfafda1f96b3167565aa17c23dcc5fbb21f0b",
       "metadata_redacted": false
     },
     {
@@ -275,6 +275,12 @@
       "metadata_redacted": false
     },
     {
+      "path": "Docs/24-DonorCellCheck.md",
+      "original_sha256": "5f9e15422c6480b3d4d08e6b42d507133a7fa1e99e613cadcd336d6785fc9c47",
+      "published_sha256": "5f9e15422c6480b3d4d08e6b42d507133a7fa1e99e613cadcd336d6785fc9c47",
+      "metadata_redacted": false
+    },
+    {
       "path": "Docs/README-HSR001.md",
       "original_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
       "published_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
@@ -330,26 +336,26 @@
     },
     {
       "path": "README.de.md",
-      "original_sha256": "e1407ddbc25341dca4454e41890b3dc06938f72cfa58feb543988eb1a1f9429e",
-      "published_sha256": "e1407ddbc25341dca4454e41890b3dc06938f72cfa58feb543988eb1a1f9429e",
+      "original_sha256": "6c84cb1b572a6a8f4a71dc0270dcff5f33b0787d8057637c665d409ebacb942f",
+      "published_sha256": "6c84cb1b572a6a8f4a71dc0270dcff5f33b0787d8057637c665d409ebacb942f",
       "metadata_redacted": false
     },
     {
       "path": "README.md",
-      "original_sha256": "65f79f3d4619d365c5f7935eda2c182b3de495ec218b7818534fabde74a81de6",
-      "published_sha256": "65f79f3d4619d365c5f7935eda2c182b3de495ec218b7818534fabde74a81de6",
+      "original_sha256": "d087abd5fa53ccd79bebb5d29380b7b983de1ab294562ed260988abaed5d58ef",
+      "published_sha256": "d087abd5fa53ccd79bebb5d29380b7b983de1ab294562ed260988abaed5d58ef",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_PLAN.md",
-      "original_sha256": "52374ae5cd1ca3696519995ac257684e537fbde1c54d50df8845f723f8996c9f",
-      "published_sha256": "52374ae5cd1ca3696519995ac257684e537fbde1c54d50df8845f723f8996c9f",
+      "original_sha256": "73cfc06abe2fa8e7854b6c9c273b24e903159a5dc1e0ff2343de3aebbf7cf87c",
+      "published_sha256": "73cfc06abe2fa8e7854b6c9c273b24e903159a5dc1e0ff2343de3aebbf7cf87c",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_STATE.json",
-      "original_sha256": "e4996ab8c03ba11e5b881dffde4690b030d73a3bdc0f97c349a8f0deda79a56a",
-      "published_sha256": "f05b30ee8afeb3f39bc6ac15cb29ab69702491ad0f669aec5e01f67210d643c4",
+      "original_sha256": "03aba58dd3a707f68065bffe4963ba25cecad50b620bef478e90079d96ab0930",
+      "published_sha256": "31595ad2728c6608dfd3f1fe5d88e103fb0e5488f4228ae0125402461e4be9f1",
       "metadata_redacted": true
     },
     {
@@ -509,6 +515,126 @@
       "metadata_redacted": false
     },
     {
+      "path": "Research/DonorCellCheck/.gitignore",
+      "original_sha256": "67fd601adc9fd3eb7684cd5a2e23258869fe4f7af9e4cdbfcd3cd6e3eb0bab18",
+      "published_sha256": "67fd601adc9fd3eb7684cd5a2e23258869fe4f7af9e4cdbfcd3cd6e3eb0bab18",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/README.md",
+      "original_sha256": "5769c6b4991825ae38cc2d9dc13846c0e2dc98ad3e17cec62df0d05faa95319b",
+      "published_sha256": "5769c6b4991825ae38cc2d9dc13846c0e2dc98ad3e17cec62df0d05faa95319b",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/analyze.py",
+      "original_sha256": "6da0169863b54e1a0b7fdc76f11c122fd1e488897b599263cb0fe056a66d8bcf",
+      "published_sha256": "6da0169863b54e1a0b7fdc76f11c122fd1e488897b599263cb0fe056a66d8bcf",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/common-result-v2.json",
+      "original_sha256": "b110d449bd9ef650c5ee40217c12859dc890ca87923d309b3f880718ddc3e5ca",
+      "published_sha256": "b110d449bd9ef650c5ee40217c12859dc890ca87923d309b3f880718ddc3e5ca",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/database-verification.json",
+      "original_sha256": "90ec7714914970aeffd33cf7fd34a461a13b5793fc73c751cee8634d77e53810",
+      "published_sha256": "90ec7714914970aeffd33cf7fd34a461a13b5793fc73c751cee8634d77e53810",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/donor-cell-genes.csv",
+      "original_sha256": "96011fb0b5c7d782fc90f272836313c92d99aae24b3d417de96c31286ae4b0ed",
+      "published_sha256": "96011fb0b5c7d782fc90f272836313c92d99aae24b3d417de96c31286ae4b0ed",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/fetch_data.py",
+      "original_sha256": "517f086f677d5d5acc8562e2f572163cb16bfd0f97999486f3ed18215f7ced33",
+      "published_sha256": "517f086f677d5d5acc8562e2f572163cb16bfd0f97999486f3ed18215f7ced33",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/input-manifest.json",
+      "original_sha256": "f84c8d95243071b76d7167dad5cca09100346bc268d4e2a0b2bcbe791eb7f857",
+      "published_sha256": "f84c8d95243071b76d7167dad5cca09100346bc268d4e2a0b2bcbe791eb7f857",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/local-worker-review.json",
+      "original_sha256": "e22e1d539afdafc966402db60a4befc981df7e2dc9ec53ec08781ecff4e873e1",
+      "published_sha256": "e22e1d539afdafc966402db60a4befc981df7e2dc9ec53ec08781ecff4e873e1",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/provenance.json",
+      "original_sha256": "114dab8f127e08ce4edbda86acd1444627598522141a012fd27c0f2101db97c3",
+      "published_sha256": "114dab8f127e08ce4edbda86acd1444627598522141a012fd27c0f2101db97c3",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/reference_sensitivity.py",
+      "original_sha256": "771dd4982fa717a1adeda1ab32546e586fffc6dcbb291654cf7281fdbac340ea",
+      "published_sha256": "771dd4982fa717a1adeda1ab32546e586fffc6dcbb291654cf7281fdbac340ea",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/regression-tests.txt",
+      "original_sha256": "17f507e80692871b4e66acd35a0e4bcfc9c628d9bb4dc7ef9e5e3a7447077df3",
+      "published_sha256": "17f507e80692871b4e66acd35a0e4bcfc9c628d9bb4dc7ef9e5e3a7447077df3",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/result-v1.json",
+      "original_sha256": "f08b0def859c983b09b9e38891d0bfb16a5b430840a413af41e40415c19e815c",
+      "published_sha256": "f08b0def859c983b09b9e38891d0bfb16a5b430840a413af41e40415c19e815c",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/sensitivity-spec-v1.json",
+      "original_sha256": "5f621e6206c0316b5303fa6802cd356e815928f6fe5664df584ada94e6f64ef1",
+      "published_sha256": "5f621e6206c0316b5303fa6802cd356e815928f6fe5664df584ada94e6f64ef1",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/sensitivity-spec-v2.json",
+      "original_sha256": "6ccc50a2e39a88dc273d3f0aea31d6308457eff7a013853748aa621a19b867c0",
+      "published_sha256": "6ccc50a2e39a88dc273d3f0aea31d6308457eff7a013853748aa621a19b867c0",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/specification-v1.json",
+      "original_sha256": "8efb62fb9ea106995627f63c6542c1b7ad1fe1bf3863c9fdab141975d4de07b1",
+      "published_sha256": "8efb62fb9ea106995627f63c6542c1b7ad1fe1bf3863c9fdab141975d4de07b1",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/strict-id-failure.json",
+      "original_sha256": "d43464d9370c50302d0deb6926c16cf0f8c77c22a0917712e8ef69527d97c46f",
+      "published_sha256": "d43464d9370c50302d0deb6926c16cf0f8c77c22a0917712e8ef69527d97c46f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/test_analyze.py",
+      "original_sha256": "3d2e9e296cef7994f72753817b32e99bcde04e93f2fa651c137faeab8b1a3887",
+      "published_sha256": "3d2e9e296cef7994f72753817b32e99bcde04e93f2fa651c137faeab8b1a3887",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/tests.txt",
+      "original_sha256": "45fafd750890b8c913a2c9544afb7741a445614ff79acf23daa551f7569a23d7",
+      "published_sha256": "45fafd750890b8c913a2c9544afb7741a445614ff79acf23daa551f7569a23d7",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/DonorCellCheck/verification.json",
+      "original_sha256": "a46e9d82692299044b203ee9ba07e8fc5a010637f8de5cc8d3eb3172506d40ad",
+      "published_sha256": "a46e9d82692299044b203ee9ba07e8fc5a010637f8de5cc8d3eb3172506d40ad",
+      "metadata_redacted": false
+    },
+    {
       "path": "Research/Expression/README.md",
       "original_sha256": "2313d86eae4eb247328c22ac870ee4c29cf275bd8924c1f27c2783fc61264f5e",
       "published_sha256": "2313d86eae4eb247328c22ac870ee4c29cf275bd8924c1f27c2783fc61264f5e",
@@ -588,8 +714,8 @@
     },
     {
       "path": "Research/GEOSampleCheck/analyze_geo.py",
-      "original_sha256": "c03551d27c87024faa7e54766032af7c332825bfcce7f299c2b1d7013bb2371e",
-      "published_sha256": "c03551d27c87024faa7e54766032af7c332825bfcce7f299c2b1d7013bb2371e",
+      "original_sha256": "19f7a74e5f7ab49ea85e41c4990192eb5adad2d6f75d70f5e8c38efcde2bd2ad",
+      "published_sha256": "19f7a74e5f7ab49ea85e41c4990192eb5adad2d6f75d70f5e8c38efcde2bd2ad",
       "metadata_redacted": false
     },
     {
@@ -1980,8 +2106,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "original_sha256": "e60cfd1a1d79399f518e5e79a230e8bfdb57811915448f60436b64f209b272e1",
-      "published_sha256": "e60cfd1a1d79399f518e5e79a230e8bfdb57811915448f60436b64f209b272e1",
+      "original_sha256": "b56d35f4b60962dc49df469f128b2336845c9ca7c6327bd697691fceb025521f",
+      "published_sha256": "b56d35f4b60962dc49df469f128b2336845c9ca7c6327bd697691fceb025521f",
       "metadata_redacted": false
     },
     {
@@ -2068,5 +2194,6 @@
   },
   "taa_transfer_note": "Original analytic result and source metadata only; no source PDF, subject tables, GEO archive, correspondence or private database.",
   "geo_sample_note": "Nine-matrix local scan; publication QC group totals reproduced; exploratory eight-gene sample contrasts, exact resume/replay. No independent validation or drug effect. Source matrices, upstream code and private logs excluded.",
-  "sema_independent_note": "External human NAFLD association: SEMA4D positive, PLXNB2 not increased; frozen joint rule failed. No raw clinical metadata, contact files or private worker logs."
+  "sema_independent_note": "External human NAFLD association: SEMA4D positive, PLXNB2 not increased; frozen joint rule failed. No raw clinical metadata, contact files or private worker logs.",
+  "gse210077_note": "Six donor/36 cell-type strata; primary and post hoc negative joint direction finding. Raw matrices, individual-nucleus labels, source contacts, private logs and databases excluded. Reference confounding and age conflicts retained."
 }

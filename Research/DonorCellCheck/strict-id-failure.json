@@ -1,0 +1,7 @@
+{
+  "status": "stopped_before_counting",
+  "error": "Target identity differs",
+  "cause": "Normal Ensembl IDs unversioned; all six disease targets have numeric version suffixes",
+  "code_sha256": "2722c3e67d0ebd1101db3166d84c9b478f16fa00ecc1669f5d058efbc38b9703",
+  "action": "A separately versioned post hoc protocol strips only terminal numeric versions and rejects duplicate base IDs. Original strict-ID failure retained; no scientific threshold changed."
+}

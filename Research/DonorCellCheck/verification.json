@@ -1,0 +1,32 @@
+{
+  "unit_tests": 7,
+  "shared_regression_tests": 7,
+  "real_run": true,
+  "cache_replay_byte_identical": true,
+  "common_replay_byte_identical": true,
+  "checkpoints_unchanged": true,
+  "source_cache_checksums_verified": true,
+  "target_counts_preserved_in_sensitivity": true,
+  "result_sha256": "f08b0def859c983b09b9e38891d0bfb16a5b430840a413af41e40415c19e815c",
+  "common_result_sha256": "b110d449bd9ef650c5ee40217c12859dc890ca87923d309b3f880718ddc3e5ca",
+  "code_sha256": {
+    "Research/DonorCellCheck/analyze.py": "6da0169863b54e1a0b7fdc76f11c122fd1e488897b599263cb0fe056a66d8bcf",
+    "Research/DonorCellCheck/reference_sensitivity.py": "771dd4982fa717a1adeda1ab32546e586fffc6dcbb291654cf7281fdbac340ea",
+    "Research/DonorCellCheck/fetch_data.py": "517f086f677d5d5acc8562e2f572163cb16bfd0f97999486f3ed18215f7ced33",
+    "Research/DonorCellCheck/test_analyze.py": "3d2e9e296cef7994f72753817b32e99bcde04e93f2fa651c137faeab8b1a3887",
+    "Research/GEOSampleCheck/analyze_geo.py": "19f7a74e5f7ab49ea85e41c4990192eb5adad2d6f75d70f5e8c38efcde2bd2ad"
+  },
+  "environment": {
+    "python": "3.15.0",
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+    "numpy": "2.5.4"
+  },
+  "primary_execution": {
+    "wall_seconds": 230.3084996669786,
+    "cpu_seconds": 38.221081000000005,
+    "peak_rss_bytes": 112082944,
+    "result_sha256": "f08b0def859c983b09b9e38891d0bfb16a5b430840a413af41e40415c19e815c"
+  },
+  "base_commit": "ee8bbb4e2895b79ab9436a6897147710af0b9496",
+  "failed_attempts": "One strict feature-ID match stopped before counting; unversioned vs versioned IDs documented; separately frozen v2 strips terminal numeric versions and rejects collisions."
+}

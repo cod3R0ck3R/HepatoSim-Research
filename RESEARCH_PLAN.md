@@ -70,3 +70,7 @@ Completion: all nine real matrices checked, published QC group sizes matched, se
 
 ## SEMA external cohort — 24 October 2026
 Completed frozen six-gene external-cohort comparison: SEMA4D positive, PLXNB2 not significantly increased; joint rule failed. Next bounded question: donor-aware GSE210077 cell-type/spatial review after overlap audit. No automatic additional analyses.
+
+### 2026-10-24 GSE210077
+
+GSE210077 donor/cell-type milestone completed:14 tests, exact primary and post hoc replays, two local evidence records. Remaining uncertainty: condition-confounded library reference and small heterogeneous donor cohort; next work requires a separately authorized harmonized cohort/perturbation check.

@@ -1,0 +1,8 @@
+sources/
+checkpoints/
+common-checkpoints/
+result-local*.json
+replay-local*.json
+common-local*.json
+common-replay-local*.json
+__pycache__/

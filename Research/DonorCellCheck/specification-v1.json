@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "frozen_utc": "2026-10-24T16:12:47.466439+00:00",
+  "scope": "Human cross-sectional snRNA-seq; author-retained nuclei and broad cell labels; donor is statistical unit; no treatment effect or independent mechanistic validation",
+  "targets": [
+    "SEMA4D",
+    "PLXNB2",
+    "PLXNB1",
+    "CD72",
+    "SEMA4C",
+    "COL1A1"
+  ],
+  "primary": [
+    {
+      "gene": "SEMA4D",
+      "cell_type": "Macrophages"
+    },
+    {
+      "gene": "PLXNB2",
+      "cell_type": "Hepatic_stellate_cells"
+    }
+  ],
+  "samples": [
+    {
+      "donor": "AM042",
+      "liver": "13",
+      "gsm": "GSM6416567",
+      "condition": "Normal"
+    },
+    {
+      "donor": "AM048",
+      "liver": "14",
+      "gsm": "GSM6416569",
+      "condition": "Normal"
+    },
+    {
+      "donor": "AM061",
+      "liver": "18",
+      "gsm": "GSM6416578",
+      "condition": "Normal"
+    },
+    {
+      "donor": "AM031",
+      "liver": "32",
+      "gsm": "GSM8493744",
+      "condition": "Disease"
+    },
+    {
+      "donor": "AM062",
+      "liver": "33",
+      "gsm": "GSM8493745",
+      "condition": "Disease"
+    },
+    {
+      "donor": "AM072",
+      "liver": "34",
+      "gsm": "GSM8493746",
+      "condition": "Disease"
+    }
+  ],
+  "min_nuclei": 20,
+  "normalization": "log2(1+1e6*target_sum/all_gene_UMI_sum) per donor and broad cell type; no cell pooling across donors",
+  "test": "Two-sided exact permutation of 3 versus 3 donors: 20 allocations. BH across two primary comparisons only. Other gene/cell-type combinations descriptive. Minimum attainable two-sided p=0.1. LOO excludes one donor per group (nine contrasts).",
+  "interpretation_rule": "Describe support for both specified compartments only if both disease-minus-normal effects positive and all nine LOO effects positive. This is descriptive direction stability, not significance, efficacy, receptor engagement, or causal signaling. No threshold retuning.",
+  "missing": "Any donor stratum below 20 nuclei excluded from inferential contrast; report missing, do not impute. Exact three-v-three comparison requires all six donors.",
+  "annotation": "Use author CellType_healthy for Normal and CellType_injured for Disease; no relabeling or new cell QC; raw counts include ambient RNA; no full reproduction of Seurat normalization",
+  "limits": [
+    "Three diseased donors have F4, Brunt2/4, F3 rather than one homogeneous stage.",
+    "AM031 annotation age61-70 vs workbook51-60; AM072 annotation51-60 vs workbook61-70. Unresolved, no age covariate.",
+    "Paper already discussed SEMA4D\u2013PLXNB2 in healthy zonal signaling; not a blinded pathway holdout.",
+    "Disease group not alcohol-specific; no longitudinal or drug-treated data.",
+    "Subject overlap with prior studies not exhaustively excluded."
+  ],
+  "budget": {
+    "codex_start_used_percent": 17,
+    "max_used_percent": 21.15,
+    "compute_timeout_s": 1800,
+    "cpu_fraction": 0.2,
+    "observed_rss_limit_mib": 512,
+    "workers": 1,
+    "retries": 1
+  },
+  "annotation_sha256": "519a9e4e4c82f1ceb41e68a80f12d9a8367e0ad64b559a558cc6f753fc5e9b5d"
+}

@@ -109,3 +109,7 @@ Outcome: low-load real scan completed in524.981s,77.188CPU seconds,90112000bytes
 
 ## SEMA external cohort — 24 October 2026
 Selected separate GSE135251 human collection before count inspection; excluded known author-reused datasets. Preserved negative joint SEMA4D/PLXNB2 result and fixed criteria. Ligand blockade cannot isolate PLXNB2. Local hermes3 ran but hallucinated receptor suggestions; rejected. Publication contains aggregate results and own code only, no private contacts or raw clinical metadata.
+
+### 2026-10-24 GSE210077
+
+GSE210077: use six author-annotated donors, exclude other40-series samples before outcome analysis. Preserve primary negative joint result. Treat raw reference mismatch as condition-confounded; common-ID denominator sensitivity is post hoc, not alignment harmonization. Reject local translation negation error. No therapy inference.

@@ -1,0 +1,1728 @@
+{
+  "version": 1,
+  "samples": [
+    {
+      "donor": "AM042",
+      "liver": "13",
+      "gsm": "GSM6416567",
+      "condition": "Normal",
+      "dimensions": [
+        36601,
+        2082996,
+        30749325
+      ],
+      "matched_nuclei": 3990,
+      "feature_sha256": "a698fb66875f9f5c2c19a83bd95193d2cef39168436495505041941b55c24a3f",
+      "strata": [
+        {
+          "cell_type": "Cholangiocytes",
+          "nuclei": 198,
+          "total_umi": 1040314,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 14,
+              "detected_nuclei": 14,
+              "detection_fraction": 0.0707070707070707,
+              "log2cpm": 3.8537437361352938
+            },
+            "PLXNB2": {
+              "umi": 45,
+              "detected_nuclei": 38,
+              "detection_fraction": 0.1919191919191919,
+              "log2cpm": 5.46780672218061
+            },
+            "PLXNB1": {
+              "umi": 102,
+              "detected_nuclei": 71,
+              "detection_fraction": 0.35858585858585856,
+              "log2cpm": 6.630046039195573
+            },
+            "CD72": {
+              "umi": 7,
+              "detected_nuclei": 7,
+              "detection_fraction": 0.03535353535353535,
+              "log2cpm": 2.950232798814898
+            },
+            "SEMA4C": {
+              "umi": 8,
+              "detected_nuclei": 8,
+              "detection_fraction": 0.04040404040404041,
+              "log2cpm": 3.1193538375310976
+            },
+            "COL1A1": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.005050505050505051,
+              "log2cpm": 0.971772151443074
+            }
+          }
+        },
+        {
+          "cell_type": "Endothelial_cell",
+          "nuclei": 438,
+          "total_umi": 3016722,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 50,
+              "detected_nuclei": 41,
+              "detection_fraction": 0.09360730593607305,
+              "log2cpm": 4.135393812741063
+            },
+            "PLXNB2": {
+              "umi": 53,
+              "detected_nuclei": 44,
+              "detection_fraction": 0.1004566210045662,
+              "log2cpm": 4.214803902869183
+            },
+            "PLXNB1": {
+              "umi": 12,
+              "detected_nuclei": 10,
+              "detection_fraction": 0.0228310502283105,
+              "log2cpm": 2.3155162623046657
+            },
+            "CD72": {
+              "umi": 13,
+              "detected_nuclei": 10,
+              "detection_fraction": 0.0228310502283105,
+              "log2cpm": 2.408525255359611
+            },
+            "SEMA4C": {
+              "umi": 33,
+              "detected_nuclei": 28,
+              "detection_fraction": 0.0639269406392694,
+              "log2cpm": 3.577613223773302
+            },
+            "COL1A1": {
+              "umi": 2,
+              "detected_nuclei": 2,
+              "detection_fraction": 0.0045662100456621,
+              "log2cpm": 0.7337632399203757
+            }
+          }
+        },
+        {
+          "cell_type": "Hepatic_stellate_cells",
+          "nuclei": 382,
+          "total_umi": 2813161,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 47,
+              "detected_nuclei": 34,
+              "detection_fraction": 0.08900523560209424,
+              "log2cpm": 4.146262936196252
+            },
+            "PLXNB2": {
+              "umi": 70,
+              "detected_nuclei": 55,
+              "detection_fraction": 0.14397905759162305,
+              "log2cpm": 4.6939352145423
+            },
+            "PLXNB1": {
+              "umi": 52,
+              "detected_nuclei": 27,
+              "detection_fraction": 0.07068062827225131,
+              "log2cpm": 4.284258308335639
+            },
+            "CD72": {
+              "umi": 16,
+              "detected_nuclei": 13,
+              "detection_fraction": 0.034031413612565446,
+              "log2cpm": 2.741478244822426
+            },
+            "SEMA4C": {
+              "umi": 34,
+              "detected_nuclei": 33,
+              "detection_fraction": 0.08638743455497382,
+              "log2cpm": 3.7099576065378326
+            },
+            "COL1A1": {
+              "umi": 127,
+              "detected_nuclei": 83,
+              "detection_fraction": 0.21727748691099477,
+              "log2cpm": 5.528100725084282
+            }
+          }
+        },
+        {
+          "cell_type": "Hepatocytes",
+          "nuclei": 2589,
+          "total_umi": 47497575,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 178,
+              "detected_nuclei": 129,
+              "detection_fraction": 0.04982618771726535,
+              "log2cpm": 2.2471861555298482
+            },
+            "PLXNB2": {
+              "umi": 994,
+              "detected_nuclei": 697,
+              "detection_fraction": 0.26921591348010815,
+              "log2cpm": 4.454661811832839
+            },
+            "PLXNB1": {
+              "umi": 1659,
+              "detected_nuclei": 992,
+              "detection_fraction": 0.3831595210505987,
+              "log2cpm": 5.167040695901691
+            },
+            "CD72": {
+              "umi": 101,
+              "detected_nuclei": 77,
+              "detection_fraction": 0.02974121282348397,
+              "log2cpm": 1.6445136083745802
+            },
+            "SEMA4C": {
+              "umi": 265,
+              "detected_nuclei": 230,
+              "detection_fraction": 0.0888373889532638,
+              "log2cpm": 2.717919231120113
+            },
+            "COL1A1": {
+              "umi": 11,
+              "detected_nuclei": 10,
+              "detection_fraction": 0.003862495171881035,
+              "log2cpm": 0.30052296124626193
+            }
+          }
+        },
+        {
+          "cell_type": "Immune_system_cells",
+          "nuclei": 139,
+          "total_umi": 1155121,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 217,
+              "detected_nuclei": 87,
+              "detection_fraction": 0.6258992805755396,
+              "log2cpm": 7.561166546680994
+            },
+            "PLXNB2": {
+              "umi": 16,
+              "detected_nuclei": 11,
+              "detection_fraction": 0.07913669064748201,
+              "log2cpm": 3.8925234133561415
+            },
+            "PLXNB1": {
+              "umi": 14,
+              "detected_nuclei": 12,
+              "detection_fraction": 0.08633093525179857,
+              "log2cpm": 3.7136894824713833
+            },
+            "CD72": {
+              "umi": 14,
+              "detected_nuclei": 10,
+              "detection_fraction": 0.07194244604316546,
+              "log2cpm": 3.7136894824713833
+            },
+            "SEMA4C": {
+              "umi": 6,
+              "detected_nuclei": 5,
+              "detection_fraction": 0.03597122302158273,
+              "log2cpm": 2.6309321813178874
+            },
+            "COL1A1": {
+              "umi": 3,
+              "detected_nuclei": 3,
+              "detection_fraction": 0.02158273381294964,
+              "log2cpm": 1.8468465066801454
+            }
+          }
+        },
+        {
+          "cell_type": "Macrophages",
+          "nuclei": 244,
+          "total_umi": 1532159,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 135,
+              "detected_nuclei": 62,
+              "detection_fraction": 0.2540983606557377,
+              "log2cpm": 6.4775309747132175
+            },
+            "PLXNB2": {
+              "umi": 38,
+              "detected_nuclei": 31,
+              "detection_fraction": 0.12704918032786885,
+              "log2cpm": 4.68938882230514
+            },
+            "PLXNB1": {
+              "umi": 16,
+              "detected_nuclei": 14,
+              "detection_fraction": 0.05737704918032787,
+              "log2cpm": 3.516365741895393
+            },
+            "CD72": {
+              "umi": 43,
+              "detected_nuclei": 39,
+              "detection_fraction": 0.1598360655737705,
+              "log2cpm": 4.861209631943476
+            },
+            "SEMA4C": {
+              "umi": 3,
+              "detected_nuclei": 3,
+              "detection_fraction": 0.012295081967213115,
+              "log2cpm": 1.5646324546665822
+            },
+            "COL1A1": {
+              "umi": 2,
+              "detected_nuclei": 2,
+              "detection_fraction": 0.00819672131147541,
+              "log2cpm": 1.2049842664114967
+            }
+          }
+        }
+      ]
+    },
+    {
+      "donor": "AM048",
+      "liver": "14",
+      "gsm": "GSM6416569",
+      "condition": "Normal",
+      "dimensions": [
+        36601,
+        2012551,
+        25350157
+      ],
+      "matched_nuclei": 5274,
+      "feature_sha256": "a698fb66875f9f5c2c19a83bd95193d2cef39168436495505041941b55c24a3f",
+      "strata": [
+        {
+          "cell_type": "Cholangiocytes",
+          "nuclei": 125,
+          "total_umi": 445837,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 14,
+              "detected_nuclei": 12,
+              "detection_fraction": 0.096,
+              "log2cpm": 5.017993635882331
+            },
+            "PLXNB2": {
+              "umi": 41,
+              "detected_nuclei": 35,
+              "detection_fraction": 0.28,
+              "log2cpm": 6.538567037426168
+            },
+            "PLXNB1": {
+              "umi": 29,
+              "detected_nuclei": 26,
+              "detection_fraction": 0.208,
+              "log2cpm": 6.045403521804745
+            },
+            "CD72": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.008,
+              "log2cpm": 1.697316659773674
+            },
+            "SEMA4C": {
+              "umi": 5,
+              "detected_nuclei": 3,
+              "detection_fraction": 0.024,
+              "log2cpm": 3.610565545650423
+            },
+            "COL1A1": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.008,
+              "log2cpm": 1.697316659773674
+            }
+          }
+        },
+        {
+          "cell_type": "Endothelial_cell",
+          "nuclei": 384,
+          "total_umi": 1864944,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 69,
+              "detected_nuclei": 51,
+              "detection_fraction": 0.1328125,
+              "log2cpm": 5.247867905355641
+            },
+            "PLXNB2": {
+              "umi": 16,
+              "detected_nuclei": 15,
+              "detection_fraction": 0.0390625,
+              "log2cpm": 3.2599271762008737
+            },
+            "PLXNB1": {
+              "umi": 15,
+              "detected_nuclei": 10,
+              "detection_fraction": 0.026041666666666668,
+              "log2cpm": 3.1768233124857055
+            },
+            "CD72": {
+              "umi": 0,
+              "detected_nuclei": 0,
+              "detection_fraction": 0.0,
+              "log2cpm": 0.0
+            },
+            "SEMA4C": {
+              "umi": 39,
+              "detected_nuclei": 37,
+              "detection_fraction": 0.09635416666666667,
+              "log2cpm": 4.453659542079066
+            },
+            "COL1A1": {
+              "umi": 8,
+              "detected_nuclei": 6,
+              "detection_fraction": 0.015625,
+              "log2cpm": 2.4031785509723025
+            }
+          }
+        },
+        {
+          "cell_type": "Hepatic_stellate_cells",
+          "nuclei": 311,
+          "total_umi": 1036108,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 13,
+              "detected_nuclei": 11,
+              "detection_fraction": 0.03536977491961415,
+              "log2cpm": 3.759896656548037
+            },
+            "PLXNB2": {
+              "umi": 28,
+              "detected_nuclei": 26,
+              "detection_fraction": 0.08360128617363344,
+              "log2cpm": 4.808601790366558
+            },
+            "PLXNB1": {
+              "umi": 11,
+              "detected_nuclei": 11,
+              "detection_fraction": 0.03536977491961415,
+              "log2cpm": 3.538122660066159
+            },
+            "CD72": {
+              "umi": 2,
+              "detected_nuclei": 2,
+              "detection_fraction": 0.006430868167202572,
+              "log2cpm": 1.5510487190419149
+            },
+            "SEMA4C": {
+              "umi": 11,
+              "detected_nuclei": 11,
+              "detection_fraction": 0.03536977491961415,
+              "log2cpm": 3.538122660066159
+            },
+            "COL1A1": {
+              "umi": 68,
+              "detected_nuclei": 54,
+              "detection_fraction": 0.17363344051446947,
+              "log2cpm": 6.058104835929248
+            }
+          }
+        },
+        {
+          "cell_type": "Hepatocytes",
+          "nuclei": 3866,
+          "total_umi": 29533008,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 78,
+              "detected_nuclei": 75,
+              "detection_fraction": 0.01939989653388515,
+              "log2cpm": 1.8643793623673115
+            },
+            "PLXNB2": {
+              "umi": 776,
+              "detected_nuclei": 657,
+              "detection_fraction": 0.16994309363683394,
+              "log2cpm": 4.76954349623153
+            },
+            "PLXNB1": {
+              "umi": 998,
+              "detected_nuclei": 819,
+              "detection_fraction": 0.21184687015002587,
+              "log2cpm": 5.120712623371562
+            },
+            "CD72": {
+              "umi": 19,
+              "detected_nuclei": 18,
+              "detection_fraction": 0.0046559751681324365,
+              "log2cpm": 0.7166379733278734
+            },
+            "SEMA4C": {
+              "umi": 308,
+              "detected_nuclei": 286,
+              "detection_fraction": 0.07397827211588205,
+              "log2cpm": 3.5146283823342057
+            },
+            "COL1A1": {
+              "umi": 13,
+              "detected_nuclei": 12,
+              "detection_fraction": 0.0031039834454216243,
+              "log2cpm": 0.5262545826629993
+            }
+          }
+        },
+        {
+          "cell_type": "Immune_system_cells",
+          "nuclei": 163,
+          "total_umi": 1216690,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 194,
+              "detected_nuclei": 92,
+              "detection_fraction": 0.5644171779141104,
+              "log2cpm": 7.325970959654416
+            },
+            "PLXNB2": {
+              "umi": 23,
+              "detected_nuclei": 16,
+              "detection_fraction": 0.09815950920245399,
+              "log2cpm": 4.314968150964317
+            },
+            "PLXNB1": {
+              "umi": 26,
+              "detected_nuclei": 20,
+              "detection_fraction": 0.12269938650306748,
+              "log2cpm": 4.48345808567055
+            },
+            "CD72": {
+              "umi": 11,
+              "detected_nuclei": 10,
+              "detection_fraction": 0.06134969325153374,
+              "log2cpm": 3.3278199168808804
+            },
+            "SEMA4C": {
+              "umi": 13,
+              "detected_nuclei": 12,
+              "detection_fraction": 0.0736196319018405,
+              "log2cpm": 3.5465520724240567
+            },
+            "COL1A1": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.006134969325153374,
+              "log2cpm": 0.865445394946069
+            }
+          }
+        },
+        {
+          "cell_type": "Macrophages",
+          "nuclei": 425,
+          "total_umi": 3062790,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 365,
+              "detected_nuclei": 175,
+              "detection_fraction": 0.4117647058823529,
+              "log2cpm": 6.908961642865353
+            },
+            "PLXNB2": {
+              "umi": 93,
+              "detected_nuclei": 67,
+              "detection_fraction": 0.15764705882352942,
+              "log2cpm": 4.971059352955092
+            },
+            "PLXNB1": {
+              "umi": 39,
+              "detected_nuclei": 25,
+              "detection_fraction": 0.058823529411764705,
+              "log2cpm": 3.7796261892053145
+            },
+            "CD72": {
+              "umi": 136,
+              "detected_nuclei": 95,
+              "detection_fraction": 0.2235294117647059,
+              "log2cpm": 5.504746177289609
+            },
+            "SEMA4C": {
+              "umi": 21,
+              "detected_nuclei": 17,
+              "detection_fraction": 0.04,
+              "log2cpm": 2.973885570728288
+            },
+            "COL1A1": {
+              "umi": 4,
+              "detected_nuclei": 4,
+              "detection_fraction": 0.009411764705882352,
+              "log2cpm": 1.2053917490312456
+            }
+          }
+        }
+      ]
+    },
+    {
+      "donor": "AM061",
+      "liver": "18",
+      "gsm": "GSM6416578",
+      "condition": "Normal",
+      "dimensions": [
+        36601,
+        950630,
+        16756362
+      ],
+      "matched_nuclei": 4950,
+      "feature_sha256": "a698fb66875f9f5c2c19a83bd95193d2cef39168436495505041941b55c24a3f",
+      "strata": [
+        {
+          "cell_type": "Cholangiocytes",
+          "nuclei": 92,
+          "total_umi": 139535,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 4,
+              "detected_nuclei": 3,
+              "detection_fraction": 0.03260869565217391,
+              "log2cpm": 4.890769768525016
+            },
+            "PLXNB2": {
+              "umi": 8,
+              "detected_nuclei": 8,
+              "detection_fraction": 0.08695652173913043,
+              "log2cpm": 5.866247429475735
+            },
+            "PLXNB1": {
+              "umi": 9,
+              "detected_nuclei": 9,
+              "detection_fraction": 0.09782608695652174,
+              "log2cpm": 6.033421817646983
+            },
+            "CD72": {
+              "umi": 2,
+              "detected_nuclei": 2,
+              "detection_fraction": 0.021739130434782608,
+              "log2cpm": 3.9385983314978272
+            },
+            "SEMA4C": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.010869565217391304,
+              "log2cpm": 3.0297462883624577
+            },
+            "COL1A1": {
+              "umi": 0,
+              "detected_nuclei": 0,
+              "detection_fraction": 0.0,
+              "log2cpm": 0.0
+            }
+          }
+        },
+        {
+          "cell_type": "Endothelial_cell",
+          "nuclei": 519,
+          "total_umi": 1642239,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 37,
+              "detected_nuclei": 30,
+              "detection_fraction": 0.057803468208092484,
+              "log2cpm": 4.556442681637017
+            },
+            "PLXNB2": {
+              "umi": 22,
+              "detected_nuclei": 21,
+              "detection_fraction": 0.04046242774566474,
+              "log2cpm": 3.8476306628124854
+            },
+            "PLXNB1": {
+              "umi": 19,
+              "detected_nuclei": 15,
+              "detection_fraction": 0.028901734104046242,
+              "log2cpm": 3.651863456657009
+            },
+            "CD72": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.0019267822736030828,
+              "log2cpm": 0.6860968672706408
+            },
+            "SEMA4C": {
+              "umi": 32,
+              "detected_nuclei": 28,
+              "detection_fraction": 0.05394990366088632,
+              "log2cpm": 4.356537717544286
+            },
+            "COL1A1": {
+              "umi": 7,
+              "detected_nuclei": 6,
+              "detection_fraction": 0.011560693641618497,
+              "log2cpm": 2.3957410268634045
+            }
+          }
+        },
+        {
+          "cell_type": "Hepatic_stellate_cells",
+          "nuclei": 471,
+          "total_umi": 994266,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 42,
+              "detected_nuclei": 39,
+              "detection_fraction": 0.08280254777070063,
+              "log2cpm": 5.434368581595352
+            },
+            "PLXNB2": {
+              "umi": 38,
+              "detected_nuclei": 33,
+              "detection_fraction": 0.07006369426751592,
+              "log2cpm": 5.293486311531975
+            },
+            "PLXNB1": {
+              "umi": 6,
+              "detected_nuclei": 6,
+              "detection_fraction": 0.012738853503184714,
+              "log2cpm": 2.8144688858622295
+            },
+            "CD72": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.0021231422505307855,
+              "log2cpm": 1.004154074135774
+            },
+            "SEMA4C": {
+              "umi": 17,
+              "detected_nuclei": 17,
+              "detection_fraction": 0.036093418259023353,
+              "log2cpm": 4.177761571133353
+            },
+            "COL1A1": {
+              "umi": 126,
+              "detected_nuclei": 95,
+              "detection_fraction": 0.20169851380042464,
+              "log2cpm": 6.996915769616042
+            }
+          }
+        },
+        {
+          "cell_type": "Hepatocytes",
+          "nuclei": 3564,
+          "total_umi": 15291605,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 90,
+              "detected_nuclei": 84,
+              "detection_fraction": 0.02356902356902357,
+              "log2cpm": 2.783578669115795
+            },
+            "PLXNB2": {
+              "umi": 229,
+              "detected_nuclei": 217,
+              "detection_fraction": 0.060886644219977554,
+              "log2cpm": 3.9977925423374736
+            },
+            "PLXNB1": {
+              "umi": 468,
+              "detected_nuclei": 424,
+              "detection_fraction": 0.11896745230078563,
+              "log2cpm": 4.982082190316459
+            },
+            "CD72": {
+              "umi": 9,
+              "detected_nuclei": 9,
+              "detection_fraction": 0.0025252525252525255,
+              "log2cpm": 0.6677179759008922
+            },
+            "SEMA4C": {
+              "umi": 160,
+              "detected_nuclei": 155,
+              "detection_fraction": 0.04349046015712683,
+              "log2cpm": 3.5189451603576067
+            },
+            "COL1A1": {
+              "umi": 12,
+              "detected_nuclei": 12,
+              "detection_fraction": 0.003367003367003367,
+              "log2cpm": 0.8357174017123855
+            }
+          }
+        },
+        {
+          "cell_type": "Immune_system_cells",
+          "nuclei": 49,
+          "total_umi": 118902,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 22,
+              "detected_nuclei": 17,
+              "detection_fraction": 0.3469387755102041,
+              "log2cpm": 7.539362978340529
+            },
+            "PLXNB2": {
+              "umi": 2,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.02040816326530612,
+              "log2cpm": 4.1554719767143125
+            },
+            "PLXNB1": {
+              "umi": 2,
+              "detected_nuclei": 2,
+              "detection_fraction": 0.04081632653061224,
+              "log2cpm": 4.1554719767143125
+            },
+            "CD72": {
+              "umi": 0,
+              "detected_nuclei": 0,
+              "detection_fraction": 0.0,
+              "log2cpm": 0.0
+            },
+            "SEMA4C": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.02040816326530612,
+              "log2cpm": 3.234238794793606
+            },
+            "COL1A1": {
+              "umi": 0,
+              "detected_nuclei": 0,
+              "detection_fraction": 0.0,
+              "log2cpm": 0.0
+            }
+          }
+        },
+        {
+          "cell_type": "Macrophages",
+          "nuclei": 255,
+          "total_umi": 641272,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 52,
+              "detected_nuclei": 38,
+              "detection_fraction": 0.14901960784313725,
+              "log2cpm": 6.359114124061728
+            },
+            "PLXNB2": {
+              "umi": 19,
+              "detected_nuclei": 19,
+              "detection_fraction": 0.07450980392156863,
+              "log2cpm": 4.9368081378363815
+            },
+            "PLXNB1": {
+              "umi": 3,
+              "detected_nuclei": 3,
+              "detection_fraction": 0.011764705882352941,
+              "log2cpm": 2.5054341919778595
+            },
+            "CD72": {
+              "umi": 38,
+              "detected_nuclei": 31,
+              "detection_fraction": 0.12156862745098039,
+              "log2cpm": 5.913062359771295
+            },
+            "SEMA4C": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.00392156862745098,
+              "log2cpm": 1.3558060285215023
+            },
+            "COL1A1": {
+              "umi": 3,
+              "detected_nuclei": 3,
+              "detection_fraction": 0.011764705882352941,
+              "log2cpm": 2.5054341919778595
+            }
+          }
+        }
+      ]
+    },
+    {
+      "donor": "AM031",
+      "liver": "32",
+      "gsm": "GSM8493744",
+      "condition": "Disease",
+      "dimensions": [
+        62696,
+        1075899,
+        13277159
+      ],
+      "matched_nuclei": 4015,
+      "feature_sha256": "a0870373c884506c4f60ea6b3c7402dac1ae6e835ece86d46f9a47659bc4a8c6",
+      "strata": [
+        {
+          "cell_type": "Cholangiocytes",
+          "nuclei": 92,
+          "total_umi": 237427,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 8,
+              "detected_nuclei": 7,
+              "detection_fraction": 0.07608695652173914,
+              "log2cpm": 5.116637863531642
+            },
+            "PLXNB2": {
+              "umi": 17,
+              "detected_nuclei": 15,
+              "detection_fraction": 0.16304347826086957,
+              "log2cpm": 6.181916625372265
+            },
+            "PLXNB1": {
+              "umi": 12,
+              "detected_nuclei": 12,
+              "detection_fraction": 0.13043478260869565,
+              "log2cpm": 5.68767243712831
+            },
+            "CD72": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.010869565217391304,
+              "log2cpm": 2.3817875067513423
+            },
+            "SEMA4C": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.010869565217391304,
+              "log2cpm": 2.3817875067513423
+            },
+            "COL1A1": {
+              "umi": 0,
+              "detected_nuclei": 0,
+              "detection_fraction": 0.0,
+              "log2cpm": 0.0
+            }
+          }
+        },
+        {
+          "cell_type": "Endothelial_cell",
+          "nuclei": 332,
+          "total_umi": 1076807,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 29,
+              "detected_nuclei": 21,
+              "detection_fraction": 0.06325301204819277,
+              "log2cpm": 4.803819817692006
+            },
+            "PLXNB2": {
+              "umi": 23,
+              "detected_nuclei": 23,
+              "detection_fraction": 0.06927710843373494,
+              "log2cpm": 4.48281247979753
+            },
+            "PLXNB1": {
+              "umi": 11,
+              "detected_nuclei": 11,
+              "detection_fraction": 0.03313253012048193,
+              "log2cpm": 3.4874074706510623
+            },
+            "CD72": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.0030120481927710845,
+              "log2cpm": 0.9476074575262853
+            },
+            "SEMA4C": {
+              "umi": 16,
+              "detected_nuclei": 16,
+              "detection_fraction": 0.04819277108433735,
+              "log2cpm": 3.9872066481285944
+            },
+            "COL1A1": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.0030120481927710845,
+              "log2cpm": 0.9476074575262853
+            }
+          }
+        },
+        {
+          "cell_type": "Hepatic_stellate_cells",
+          "nuclei": 248,
+          "total_umi": 766044,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 30,
+              "detected_nuclei": 17,
+              "detection_fraction": 0.06854838709677419,
+              "log2cpm": 5.3277678788759
+            },
+            "PLXNB2": {
+              "umi": 27,
+              "detected_nuclei": 24,
+              "detection_fraction": 0.0967741935483871,
+              "log2cpm": 5.179750571907176
+            },
+            "PLXNB1": {
+              "umi": 14,
+              "detected_nuclei": 14,
+              "detection_fraction": 0.056451612903225805,
+              "log2cpm": 4.2687122923860965
+            },
+            "CD72": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.004032258064516129,
+              "log2cpm": 1.2050221222813056
+            },
+            "SEMA4C": {
+              "umi": 14,
+              "detected_nuclei": 14,
+              "detection_fraction": 0.056451612903225805,
+              "log2cpm": 4.2687122923860965
+            },
+            "COL1A1": {
+              "umi": 45,
+              "detected_nuclei": 40,
+              "detection_fraction": 0.16129032258064516,
+              "log2cpm": 5.900706521092919
+            }
+          }
+        },
+        {
+          "cell_type": "Hepatocytes",
+          "nuclei": 3090,
+          "total_umi": 15655329,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 45,
+              "detected_nuclei": 44,
+              "detection_fraction": 0.01423948220064725,
+              "log2cpm": 1.9539805745535568
+            },
+            "PLXNB2": {
+              "umi": 330,
+              "detected_nuclei": 300,
+              "detection_fraction": 0.0970873786407767,
+              "log2cpm": 4.464608435534088
+            },
+            "PLXNB1": {
+              "umi": 860,
+              "detected_nuclei": 706,
+              "detection_fraction": 0.2284789644012945,
+              "log2cpm": 5.8056373828234875
+            },
+            "CD72": {
+              "umi": 35,
+              "detected_nuclei": 32,
+              "detection_fraction": 0.010355987055016181,
+              "log2cpm": 1.69406022288811
+            },
+            "SEMA4C": {
+              "umi": 50,
+              "detected_nuclei": 49,
+              "detection_fraction": 0.015857605177993526,
+              "log2cpm": 2.068258286754304
+            },
+            "COL1A1": {
+              "umi": 16,
+              "detected_nuclei": 16,
+              "detection_fraction": 0.005177993527508091,
+              "log2cpm": 1.0157945625178635
+            }
+          }
+        },
+        {
+          "cell_type": "Immune_system_cells",
+          "nuclei": 122,
+          "total_umi": 527514,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 95,
+              "detected_nuclei": 52,
+              "detection_fraction": 0.4262295081967213,
+              "log2cpm": 7.50056312745061
+            },
+            "PLXNB2": {
+              "umi": 10,
+              "detected_nuclei": 10,
+              "detection_fraction": 0.08196721311475409,
+              "log2cpm": 4.318811601000667
+            },
+            "PLXNB1": {
+              "umi": 23,
+              "detected_nuclei": 18,
+              "detection_fraction": 0.14754098360655737,
+              "log2cpm": 5.478995695302087
+            },
+            "CD72": {
+              "umi": 0,
+              "detected_nuclei": 0,
+              "detection_fraction": 0.0,
+              "log2cpm": 0.0
+            },
+            "SEMA4C": {
+              "umi": 0,
+              "detected_nuclei": 0,
+              "detection_fraction": 0.0,
+              "log2cpm": 0.0
+            },
+            "COL1A1": {
+              "umi": 0,
+              "detected_nuclei": 0,
+              "detection_fraction": 0.0,
+              "log2cpm": 0.0
+            }
+          }
+        },
+        {
+          "cell_type": "Macrophages",
+          "nuclei": 131,
+          "total_umi": 503083,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 43,
+              "detected_nuclei": 31,
+              "detection_fraction": 0.2366412213740458,
+              "log2cpm": 6.434177396636512
+            },
+            "PLXNB2": {
+              "umi": 13,
+              "detected_nuclei": 11,
+              "detection_fraction": 0.08396946564885496,
+              "log2cpm": 4.746348588822359
+            },
+            "PLXNB1": {
+              "umi": 10,
+              "detected_nuclei": 10,
+              "detection_fraction": 0.07633587786259542,
+              "log2cpm": 4.3838726188187245
+            },
+            "CD72": {
+              "umi": 26,
+              "detected_nuclei": 20,
+              "detection_fraction": 0.15267175572519084,
+              "log2cpm": 5.719219942870028
+            },
+            "SEMA4C": {
+              "umi": 2,
+              "detected_nuclei": 2,
+              "detection_fraction": 0.015267175572519083,
+              "log2cpm": 2.3148377857731464
+            },
+            "COL1A1": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.007633587786259542,
+              "log2cpm": 1.579056332313385
+            }
+          }
+        }
+      ]
+    },
+    {
+      "donor": "AM062",
+      "liver": "33",
+      "gsm": "GSM8493745",
+      "condition": "Disease",
+      "dimensions": [
+        62696,
+        1289713,
+        15272182
+      ],
+      "matched_nuclei": 4771,
+      "feature_sha256": "a0870373c884506c4f60ea6b3c7402dac1ae6e835ece86d46f9a47659bc4a8c6",
+      "strata": [
+        {
+          "cell_type": "Cholangiocytes",
+          "nuclei": 181,
+          "total_umi": 285268,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 9,
+              "detected_nuclei": 9,
+              "detection_fraction": 0.049723756906077346,
+              "log2cpm": 5.024553724683115
+            },
+            "PLXNB2": {
+              "umi": 26,
+              "detected_nuclei": 23,
+              "detection_fraction": 0.1270718232044199,
+              "log2cpm": 6.525792712860474
+            },
+            "PLXNB1": {
+              "umi": 19,
+              "detected_nuclei": 18,
+              "detection_fraction": 0.09944751381215469,
+              "log2cpm": 6.079037463096798
+            },
+            "CD72": {
+              "umi": 2,
+              "detected_nuclei": 2,
+              "detection_fraction": 0.011049723756906077,
+              "log2cpm": 3.0019735377542296
+            },
+            "SEMA4C": {
+              "umi": 4,
+              "detected_nuclei": 4,
+              "detection_fraction": 0.022099447513812154,
+              "log2cpm": 3.9089956066064304
+            },
+            "COL1A1": {
+              "umi": 2,
+              "detected_nuclei": 2,
+              "detection_fraction": 0.011049723756906077,
+              "log2cpm": 3.0019735377542296
+            }
+          }
+        },
+        {
+          "cell_type": "Endothelial_cell",
+          "nuclei": 507,
+          "total_umi": 966668,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 24,
+              "detected_nuclei": 19,
+              "detection_fraction": 0.03747534516765286,
+              "log2cpm": 4.690839000454819
+            },
+            "PLXNB2": {
+              "umi": 16,
+              "detected_nuclei": 16,
+              "detection_fraction": 0.03155818540433925,
+              "log2cpm": 4.133538974400153
+            },
+            "PLXNB1": {
+              "umi": 6,
+              "detected_nuclei": 5,
+              "detection_fraction": 0.009861932938856016,
+              "log2cpm": 2.8493764231443457
+            },
+            "CD72": {
+              "umi": 2,
+              "detected_nuclei": 2,
+              "detection_fraction": 0.0039447731755424065,
+              "log2cpm": 1.6177510943181237
+            },
+            "SEMA4C": {
+              "umi": 53,
+              "detected_nuclei": 44,
+              "detection_fraction": 0.08678500986193294,
+              "log2cpm": 5.802904320896274
+            },
+            "COL1A1": {
+              "umi": 18,
+              "detected_nuclei": 15,
+              "detection_fraction": 0.029585798816568046,
+              "log2cpm": 4.294301958675871
+            }
+          }
+        },
+        {
+          "cell_type": "Hepatic_stellate_cells",
+          "nuclei": 581,
+          "total_umi": 1074963,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 19,
+              "detected_nuclei": 19,
+              "detection_fraction": 0.03270223752151463,
+              "log2cpm": 4.223038420203046
+            },
+            "PLXNB2": {
+              "umi": 35,
+              "detected_nuclei": 33,
+              "detection_fraction": 0.05679862306368331,
+              "log2cpm": 5.068639006505921
+            },
+            "PLXNB1": {
+              "umi": 4,
+              "detected_nuclei": 4,
+              "detection_fraction": 0.0068846815834767644,
+              "log2cpm": 2.2391103006787962
+            },
+            "CD72": {
+              "umi": 5,
+              "detected_nuclei": 4,
+              "detection_fraction": 0.0068846815834767644,
+              "log2cpm": 2.498588618497115
+            },
+            "SEMA4C": {
+              "umi": 8,
+              "detected_nuclei": 8,
+              "detection_fraction": 0.013769363166953529,
+              "log2cpm": 3.0776047576240377
+            },
+            "COL1A1": {
+              "umi": 294,
+              "detected_nuclei": 179,
+              "detection_fraction": 0.3080895008605852,
+              "log2cpm": 8.100650700194311
+            }
+          }
+        },
+        {
+          "cell_type": "Hepatocytes",
+          "nuclei": 2948,
+          "total_umi": 10759344,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 77,
+              "detected_nuclei": 75,
+              "detection_fraction": 0.025440976933514246,
+              "log2cpm": 3.027962622569654
+            },
+            "PLXNB2": {
+              "umi": 221,
+              "detected_nuclei": 203,
+              "detection_fraction": 0.06886024423337857,
+              "log2cpm": 4.428965481949207
+            },
+            "PLXNB1": {
+              "umi": 465,
+              "detected_nuclei": 401,
+              "detection_fraction": 0.13602442333785617,
+              "log2cpm": 5.466569967373419
+            },
+            "CD72": {
+              "umi": 32,
+              "detected_nuclei": 30,
+              "detection_fraction": 0.0101763907734057,
+              "log2cpm": 1.990649600784003
+            },
+            "SEMA4C": {
+              "umi": 104,
+              "detected_nuclei": 98,
+              "detection_fraction": 0.03324287652645862,
+              "log2cpm": 3.4149496021535284
+            },
+            "COL1A1": {
+              "umi": 48,
+              "detected_nuclei": 46,
+              "detection_fraction": 0.015603799185888738,
+              "log2cpm": 2.449228170390003
+            }
+          }
+        },
+        {
+          "cell_type": "Immune_system_cells",
+          "nuclei": 158,
+          "total_umi": 311470,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 53,
+              "detected_nuclei": 43,
+              "detection_fraction": 0.2721518987341772,
+              "log2cpm": 7.419208939785018
+            },
+            "PLXNB2": {
+              "umi": 3,
+              "detected_nuclei": 3,
+              "detection_fraction": 0.0189873417721519,
+              "log2cpm": 3.4103066699807734
+            },
+            "PLXNB1": {
+              "umi": 5,
+              "detected_nuclei": 3,
+              "detection_fraction": 0.0189873417721519,
+              "log2cpm": 4.091946077581201
+            },
+            "CD72": {
+              "umi": 5,
+              "detected_nuclei": 4,
+              "detection_fraction": 0.02531645569620253,
+              "log2cpm": 4.091946077581201
+            },
+            "SEMA4C": {
+              "umi": 3,
+              "detected_nuclei": 3,
+              "detection_fraction": 0.0189873417721519,
+              "log2cpm": 3.4103066699807734
+            },
+            "COL1A1": {
+              "umi": 3,
+              "detected_nuclei": 3,
+              "detection_fraction": 0.0189873417721519,
+              "log2cpm": 3.4103066699807734
+            }
+          }
+        },
+        {
+          "cell_type": "Macrophages",
+          "nuclei": 396,
+          "total_umi": 818868,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 76,
+              "detected_nuclei": 57,
+              "detection_fraction": 0.14393939393939395,
+              "log2cpm": 6.551685983450974
+            },
+            "PLXNB2": {
+              "umi": 29,
+              "detected_nuclei": 24,
+              "detection_fraction": 0.06060606060606061,
+              "log2cpm": 5.18645076921738
+            },
+            "PLXNB1": {
+              "umi": 9,
+              "detected_nuclei": 8,
+              "detection_fraction": 0.020202020202020204,
+              "log2cpm": 3.5838538923951613
+            },
+            "CD72": {
+              "umi": 40,
+              "detected_nuclei": 36,
+              "detection_fraction": 0.09090909090909091,
+              "log2cpm": 5.6394614526385105
+            },
+            "SEMA4C": {
+              "umi": 6,
+              "detected_nuclei": 6,
+              "detection_fraction": 0.015151515151515152,
+              "log2cpm": 3.0578294414206892
+            },
+            "COL1A1": {
+              "umi": 9,
+              "detected_nuclei": 9,
+              "detection_fraction": 0.022727272727272728,
+              "log2cpm": 3.5838538923951613
+            }
+          }
+        }
+      ]
+    },
+    {
+      "donor": "AM072",
+      "liver": "34",
+      "gsm": "GSM8493746",
+      "condition": "Disease",
+      "dimensions": [
+        62696,
+        1185991,
+        19414284
+      ],
+      "matched_nuclei": 4692,
+      "feature_sha256": "a0870373c884506c4f60ea6b3c7402dac1ae6e835ece86d46f9a47659bc4a8c6",
+      "strata": [
+        {
+          "cell_type": "Cholangiocytes",
+          "nuclei": 299,
+          "total_umi": 1037148,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 38,
+              "detected_nuclei": 30,
+              "detection_fraction": 0.10033444816053512,
+              "log2cpm": 5.2341539703300235
+            },
+            "PLXNB2": {
+              "umi": 64,
+              "detected_nuclei": 58,
+              "detection_fraction": 0.1939799331103679,
+              "log2cpm": 5.970570308819035
+            },
+            "PLXNB1": {
+              "umi": 87,
+              "detected_nuclei": 72,
+              "detection_fraction": 0.2408026755852843,
+              "log2cpm": 6.40741872416298
+            },
+            "CD72": {
+              "umi": 11,
+              "detected_nuclei": 10,
+              "detection_fraction": 0.033444816053511704,
+              "log2cpm": 3.5367999251144027
+            },
+            "SEMA4C": {
+              "umi": 7,
+              "detected_nuclei": 7,
+              "detection_fraction": 0.023411371237458192,
+              "log2cpm": 2.9540618686373925
+            },
+            "COL1A1": {
+              "umi": 4,
+              "detected_nuclei": 4,
+              "detection_fraction": 0.013377926421404682,
+              "log2cpm": 2.2799853404545245
+            }
+          }
+        },
+        {
+          "cell_type": "Endothelial_cell",
+          "nuclei": 440,
+          "total_umi": 1543560,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 55,
+              "detected_nuclei": 40,
+              "detection_fraction": 0.09090909090909091,
+              "log2cpm": 5.195029250138389
+            },
+            "PLXNB2": {
+              "umi": 19,
+              "detected_nuclei": 17,
+              "detection_fraction": 0.038636363636363635,
+              "log2cpm": 3.734352739984011
+            },
+            "PLXNB1": {
+              "umi": 8,
+              "detected_nuclei": 8,
+              "detection_fraction": 0.01818181818181818,
+              "log2cpm": 2.6282659666905066
+            },
+            "CD72": {
+              "umi": 11,
+              "detected_nuclei": 9,
+              "detection_fraction": 0.020454545454545454,
+              "log2cpm": 3.0226133905258887
+            },
+            "SEMA4C": {
+              "umi": 20,
+              "detected_nuclei": 19,
+              "detection_fraction": 0.04318181818181818,
+              "log2cpm": 3.8029232016136962
+            },
+            "COL1A1": {
+              "umi": 3,
+              "detected_nuclei": 3,
+              "detection_fraction": 0.006818181818181818,
+              "log2cpm": 1.5575615671925196
+            }
+          }
+        },
+        {
+          "cell_type": "Hepatic_stellate_cells",
+          "nuclei": 425,
+          "total_umi": 1327671,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 13,
+              "detected_nuclei": 11,
+              "detection_fraction": 0.02588235294117647,
+              "log2cpm": 3.431834521988866
+            },
+            "PLXNB2": {
+              "umi": 50,
+              "detected_nuclei": 45,
+              "detection_fraction": 0.10588235294117647,
+              "log2cpm": 5.272767206694346
+            },
+            "PLXNB1": {
+              "umi": 19,
+              "detected_nuclei": 18,
+              "detection_fraction": 0.042352941176470586,
+              "log2cpm": 3.936475338054687
+            },
+            "CD72": {
+              "umi": 5,
+              "detected_nuclei": 5,
+              "detection_fraction": 0.011764705882352941,
+              "log2cpm": 2.252776902741445
+            },
+            "SEMA4C": {
+              "umi": 17,
+              "detected_nuclei": 16,
+              "detection_fraction": 0.03764705882352941,
+              "log2cpm": 3.7870538733136745
+            },
+            "COL1A1": {
+              "umi": 134,
+              "detected_nuclei": 99,
+              "detection_fraction": 0.23294117647058823,
+              "log2cpm": 6.671415365238418
+            }
+          }
+        },
+        {
+          "cell_type": "Hepatocytes",
+          "nuclei": 3065,
+          "total_umi": 18487904,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 69,
+              "detected_nuclei": 64,
+              "detection_fraction": 0.020880913539967374,
+              "log2cpm": 2.2425018913740615
+            },
+            "PLXNB2": {
+              "umi": 353,
+              "detected_nuclei": 332,
+              "detection_fraction": 0.10831973898858074,
+              "log2cpm": 4.328661657269273
+            },
+            "PLXNB1": {
+              "umi": 1000,
+              "detected_nuclei": 806,
+              "detection_fraction": 0.26296900489396413,
+              "log2cpm": 5.783703362492012
+            },
+            "CD72": {
+              "umi": 26,
+              "detected_nuclei": 24,
+              "detection_fraction": 0.007830342577487765,
+              "log2cpm": 1.2668314554594917
+            },
+            "SEMA4C": {
+              "umi": 62,
+              "detected_nuclei": 60,
+              "detection_fraction": 0.01957585644371941,
+              "log2cpm": 2.122190312705424
+            },
+            "COL1A1": {
+              "umi": 24,
+              "detected_nuclei": 24,
+              "detection_fraction": 0.007830342577487765,
+              "log2cpm": 1.200470501203783
+            }
+          }
+        },
+        {
+          "cell_type": "Immune_system_cells",
+          "nuclei": 224,
+          "total_umi": 456107,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 271,
+              "detected_nuclei": 131,
+              "detection_fraction": 0.5848214285714286,
+              "log2cpm": 9.217130913676364
+            },
+            "PLXNB2": {
+              "umi": 4,
+              "detected_nuclei": 4,
+              "detection_fraction": 0.017857142857142856,
+              "log2cpm": 3.288339658156676
+            },
+            "PLXNB1": {
+              "umi": 5,
+              "detected_nuclei": 5,
+              "detection_fraction": 0.022321428571428572,
+              "log2cpm": 3.5804277204903427
+            },
+            "CD72": {
+              "umi": 12,
+              "detected_nuclei": 8,
+              "detection_fraction": 0.03571428571428571,
+              "log2cpm": 4.771337120539816
+            },
+            "SEMA4C": {
+              "umi": 0,
+              "detected_nuclei": 0,
+              "detection_fraction": 0.0,
+              "log2cpm": 0.0
+            },
+            "COL1A1": {
+              "umi": 2,
+              "detected_nuclei": 2,
+              "detection_fraction": 0.008928571428571428,
+              "log2cpm": 2.428929195992418
+            }
+          }
+        },
+        {
+          "cell_type": "Macrophages",
+          "nuclei": 239,
+          "total_umi": 844542,
+          "eligible": true,
+          "genes": {
+            "SEMA4D": {
+              "umi": 93,
+              "detected_nuclei": 58,
+              "detection_fraction": 0.24267782426778242,
+              "log2cpm": 6.7959598584875724
+            },
+            "PLXNB2": {
+              "umi": 26,
+              "detected_nuclei": 21,
+              "detection_fraction": 0.08786610878661087,
+              "log2cpm": 4.9903158091623325
+            },
+            "PLXNB1": {
+              "umi": 2,
+              "detected_nuclei": 2,
+              "detection_fraction": 0.008368200836820083,
+              "log2cpm": 1.7519553060231297
+            },
+            "CD72": {
+              "umi": 22,
+              "detected_nuclei": 22,
+              "detection_fraction": 0.09205020920502092,
+              "log2cpm": 4.757536537046177
+            },
+            "SEMA4C": {
+              "umi": 2,
+              "detected_nuclei": 2,
+              "detection_fraction": 0.008368200836820083,
+              "log2cpm": 1.7519553060231297
+            },
+            "COL1A1": {
+              "umi": 1,
+              "detected_nuclei": 1,
+              "detection_fraction": 0.0041841004184100415,
+              "log2cpm": 1.1270215626695022
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "primary": [
+    {
+      "gene": "SEMA4D",
+      "cell_type": "Macrophages",
+      "donor_log2cpm": {
+        "AM042": 6.4775309747132175,
+        "AM048": 6.908961642865353,
+        "AM061": 6.359114124061728,
+        "AM031": 6.434177396636512,
+        "AM062": 6.551685983450974,
+        "AM072": 6.7959598584875724
+      },
+      "available": true,
+      "mean_log2cpm_difference": 0.012072165644919863,
+      "exact_permutation_p": 1.0,
+      "loo_min": -0.20031461874554157,
+      "loo_max": 0.2555003715818014,
+      "loo_direction_stable": false,
+      "bh_q": 1.0
+    },
+    {
+      "gene": "PLXNB2",
+      "cell_type": "Hepatic_stellate_cells",
+      "donor_log2cpm": {
+        "AM042": 4.6939352145423,
+        "AM048": 4.808601790366558,
+        "AM061": 5.293486311531975,
+        "AM031": 5.179750571907176,
+        "AM062": 5.068639006505921,
+        "AM072": 5.272767206694346
+      },
+      "available": true,
+      "mean_log2cpm_difference": 0.24171115622220274,
+      "exact_permutation_p": 0.4,
+      "loo_min": 0.07315073825728113,
+      "loo_max": 0.474990386846331,
+      "loo_direction_stable": true,
+      "bh_q": 0.8
+    }
+  ],
+  "pair_direction_stable": false,
+  "independent_mechanistic_validation": false,
+  "treatment_effect_estimated": false,
+  "binding": {
+    "spec_sha256": "8efb62fb9ea106995627f63c6542c1b7ad1fe1bf3863c9fdab141975d4de07b1",
+    "manifest_sha256": "f84c8d95243071b76d7167dad5cca09100346bc268d4e2a0b2bcbe791eb7f857",
+    "code_sha256": "6da0169863b54e1a0b7fdc76f11c122fd1e488897b599263cb0fe056a66d8bcf",
+    "shared_code_sha256": "19f7a74e5f7ab49ea85e41c4990192eb5adad2d6f75d70f5e8c38efcde2bd2ad"
+  }
+}

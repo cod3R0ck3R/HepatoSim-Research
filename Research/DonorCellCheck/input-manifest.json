@@ -1,0 +1,128 @@
+[
+  {
+    "name": "GSM6416567_6854-13_barcodes.tsv.gz",
+    "size": 6279154,
+    "sha256": "ce9da3a6c359afefa881803ab82e3fb295f7b73458e9eeb0f107f9efaba2cfba",
+    "azul_mirror_uri": "s3://humancellatlas/file/ce9da3a6c359afefa881803ab82e3fb295f7b73458e9eeb0f107f9efaba2cfba.sha256"
+  },
+  {
+    "name": "GSM6416567_6854-13_features.tsv.gz",
+    "size": 294478,
+    "sha256": "a698fb66875f9f5c2c19a83bd95193d2cef39168436495505041941b55c24a3f",
+    "azul_mirror_uri": "s3://humancellatlas/file/a698fb66875f9f5c2c19a83bd95193d2cef39168436495505041941b55c24a3f.sha256"
+  },
+  {
+    "name": "GSM6416567_6854-13_matrix.mtx.gz",
+    "size": 130935534,
+    "sha256": "c048c65b9446323188c055981bc2e3b77e5c59349ff3571695a84b57e5bf1ab4",
+    "azul_mirror_uri": "s3://humancellatlas/file/c048c65b9446323188c055981bc2e3b77e5c59349ff3571695a84b57e5bf1ab4.sha256"
+  },
+  {
+    "name": "GSM6416569_6854-14_barcodes.tsv.gz",
+    "size": 6078497,
+    "sha256": "e722c35d7719975c710126b99cff305523550060fa8deec3d858e75cbb263f42",
+    "azul_mirror_uri": "s3://humancellatlas/file/e722c35d7719975c710126b99cff305523550060fa8deec3d858e75cbb263f42.sha256"
+  },
+  {
+    "name": "GSM6416569_6854-14_features.tsv.gz",
+    "size": 294478,
+    "sha256": "a698fb66875f9f5c2c19a83bd95193d2cef39168436495505041941b55c24a3f",
+    "azul_mirror_uri": "s3://humancellatlas/file/a698fb66875f9f5c2c19a83bd95193d2cef39168436495505041941b55c24a3f.sha256"
+  },
+  {
+    "name": "GSM6416569_6854-14_matrix.mtx.gz",
+    "size": 107477782,
+    "sha256": "d21259f2d3d30e397646fdd9615264709f3809cee170d942e31bceb3413d9877",
+    "azul_mirror_uri": "s3://humancellatlas/file/d21259f2d3d30e397646fdd9615264709f3809cee170d942e31bceb3413d9877.sha256"
+  },
+  {
+    "name": "GSM6416578_6854-18_barcodes.tsv.gz",
+    "size": 2986359,
+    "sha256": "5c5c8a253aebc45a761539f25b6542089e8fdbe1d46d43c4cd3890879ffe19a1",
+    "azul_mirror_uri": "s3://humancellatlas/file/5c5c8a253aebc45a761539f25b6542089e8fdbe1d46d43c4cd3890879ffe19a1.sha256"
+  },
+  {
+    "name": "GSM6416578_6854-18_features.tsv.gz",
+    "size": 294478,
+    "sha256": "a698fb66875f9f5c2c19a83bd95193d2cef39168436495505041941b55c24a3f",
+    "azul_mirror_uri": "s3://humancellatlas/file/a698fb66875f9f5c2c19a83bd95193d2cef39168436495505041941b55c24a3f.sha256"
+  },
+  {
+    "name": "GSM6416578_6854-18_matrix.mtx.gz",
+    "size": 70648383,
+    "sha256": "0742324bf5843f3386a5ccd1b303a7274f9919e5dc01dd5c8aa2d907679c34b7",
+    "azul_mirror_uri": "s3://humancellatlas/file/0742324bf5843f3386a5ccd1b303a7274f9919e5dc01dd5c8aa2d907679c34b7.sha256"
+  },
+  {
+    "name": "GSM8493744_6854-32_barcodes.tsv.gz",
+    "size": 3763792,
+    "sha256": "0020d3585e786c9937e17ba59a01bb9c95b1281d3b505d0103f49fe78c51570e",
+    "azul_mirror_uri": "s3://humancellatlas/file/0020d3585e786c9937e17ba59a01bb9c95b1281d3b505d0103f49fe78c51570e.sha256"
+  },
+  {
+    "name": "GSM8493744_6854-32_features.tsv.gz",
+    "size": 540406,
+    "sha256": "a0870373c884506c4f60ea6b3c7402dac1ae6e835ece86d46f9a47659bc4a8c6",
+    "azul_mirror_uri": "s3://humancellatlas/file/a0870373c884506c4f60ea6b3c7402dac1ae6e835ece86d46f9a47659bc4a8c6.sha256"
+  },
+  {
+    "name": "GSM8493744_6854-32_matrix.mtx.gz",
+    "size": 58110238,
+    "sha256": "c1c07e153fcf8d4dcedec67650a897a63d2ef5c81e416959ba9e09ef2f9db117",
+    "azul_mirror_uri": "s3://humancellatlas/file/c1c07e153fcf8d4dcedec67650a897a63d2ef5c81e416959ba9e09ef2f9db117.sha256"
+  },
+  {
+    "name": "GSM8493745_6854-33_barcodes.tsv.gz",
+    "size": 4439795,
+    "sha256": "8927f682a5d41bd3fbb9045a9915ea3369b0ae928567d13e1ff8124cdd0f7b4d",
+    "azul_mirror_uri": "s3://humancellatlas/file/8927f682a5d41bd3fbb9045a9915ea3369b0ae928567d13e1ff8124cdd0f7b4d.sha256"
+  },
+  {
+    "name": "GSM8493745_6854-33_features.tsv.gz",
+    "size": 540406,
+    "sha256": "a0870373c884506c4f60ea6b3c7402dac1ae6e835ece86d46f9a47659bc4a8c6",
+    "azul_mirror_uri": "s3://humancellatlas/file/a0870373c884506c4f60ea6b3c7402dac1ae6e835ece86d46f9a47659bc4a8c6.sha256"
+  },
+  {
+    "name": "GSM8493745_6854-33_matrix.mtx.gz",
+    "size": 66820984,
+    "sha256": "a4ad2947994bff0f658266841d8e843145947493a5150fc555e21fdd0da9a03e",
+    "azul_mirror_uri": "s3://humancellatlas/file/a4ad2947994bff0f658266841d8e843145947493a5150fc555e21fdd0da9a03e.sha256"
+  },
+  {
+    "name": "GSM8493746_6854-34_barcodes.tsv.gz",
+    "size": 4111462,
+    "sha256": "c6718f32967f5e611936c463dfb2a6c44b3362b1a47900e858758f257dd07ade",
+    "azul_mirror_uri": "s3://humancellatlas/file/c6718f32967f5e611936c463dfb2a6c44b3362b1a47900e858758f257dd07ade.sha256"
+  },
+  {
+    "name": "GSM8493746_6854-34_features.tsv.gz",
+    "size": 540406,
+    "sha256": "a0870373c884506c4f60ea6b3c7402dac1ae6e835ece86d46f9a47659bc4a8c6",
+    "azul_mirror_uri": "s3://humancellatlas/file/a0870373c884506c4f60ea6b3c7402dac1ae6e835ece86d46f9a47659bc4a8c6.sha256"
+  },
+  {
+    "name": "GSM8493746_6854-34_matrix.mtx.gz",
+    "size": 83834526,
+    "sha256": "3ff9c7e7d196cafc1bba84c8eb40019453628f994b79b7cc9dfd52480e898f42",
+    "azul_mirror_uri": "s3://humancellatlas/file/3ff9c7e7d196cafc1bba84c8eb40019453628f994b79b7cc9dfd52480e898f42.sha256"
+  },
+  {
+    "name": "FibroticLiverWatsonMERFISH_metadata_24-02-2025.xlsx",
+    "size": 64118,
+    "sha256": "97cad10df5a735292d173d25c7a48f102dd1baad44967d29c0c841ecf9351a63",
+    "azul_mirror_uri": "s3://humancellatlas/file/97cad10df5a735292d173d25c7a48f102dd1baad44967d29c0c841ecf9351a63.sha256"
+  },
+  {
+    "name": "cell_properties_healthy_diseased_nucseq.csv",
+    "size": 6000084,
+    "sha256": "519a9e4e4c82f1ceb41e68a80f12d9a8367e0ad64b559a558cc6f753fc5e9b5d",
+    "azul_mirror_uri": "s3://humancellatlas/file/519a9e4e4c82f1ceb41e68a80f12d9a8367e0ad64b559a558cc6f753fc5e9b5d.sha256"
+  },
+  {
+    "name": "gene_names_healthy_diseased_nucseq.csv",
+    "size": 248150,
+    "sha256": "cf276149d8517658b33180c2bd154467c297b020eec5bdef93643a3710febfec",
+    "azul_mirror_uri": "s3://humancellatlas/file/cf276149d8517658b33180c2bd154467c297b020eec5bdef93643a3710febfec.sha256"
+  }
+]
