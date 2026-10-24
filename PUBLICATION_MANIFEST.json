@@ -132,8 +132,8 @@
     },
     {
       "path": "DECISIONS.md",
-      "original_sha256": "4db6344097f3ca8464854397191dfafda1f96b3167565aa17c23dcc5fbb21f0b",
-      "published_sha256": "4db6344097f3ca8464854397191dfafda1f96b3167565aa17c23dcc5fbb21f0b",
+      "original_sha256": "713b15987d4c09af9e44539aea48fea67579607302a283e7e68efd0385680fed",
+      "published_sha256": "713b15987d4c09af9e44539aea48fea67579607302a283e7e68efd0385680fed",
       "metadata_redacted": false
     },
     {
@@ -281,6 +281,12 @@
       "metadata_redacted": false
     },
     {
+      "path": "Docs/25-UniformCohort.md",
+      "original_sha256": "3b8315816f248c084b4af0cadac963a598414244da92b9a9c21477e2bf2c4b40",
+      "published_sha256": "3b8315816f248c084b4af0cadac963a598414244da92b9a9c21477e2bf2c4b40",
+      "metadata_redacted": false
+    },
+    {
       "path": "Docs/README-HSR001.md",
       "original_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
       "published_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
@@ -336,26 +342,26 @@
     },
     {
       "path": "README.de.md",
-      "original_sha256": "6c84cb1b572a6a8f4a71dc0270dcff5f33b0787d8057637c665d409ebacb942f",
-      "published_sha256": "6c84cb1b572a6a8f4a71dc0270dcff5f33b0787d8057637c665d409ebacb942f",
+      "original_sha256": "fec23aff9653c336850fe01d987dda0e3cbbdb4225e7f288898ff56897cc8d3a",
+      "published_sha256": "fec23aff9653c336850fe01d987dda0e3cbbdb4225e7f288898ff56897cc8d3a",
       "metadata_redacted": false
     },
     {
       "path": "README.md",
-      "original_sha256": "d087abd5fa53ccd79bebb5d29380b7b983de1ab294562ed260988abaed5d58ef",
-      "published_sha256": "d087abd5fa53ccd79bebb5d29380b7b983de1ab294562ed260988abaed5d58ef",
+      "original_sha256": "3fe62838b2ddf3531a669b3ac6fc01ac8cdcadc9495b9874dc34ba62c5cf2921",
+      "published_sha256": "3fe62838b2ddf3531a669b3ac6fc01ac8cdcadc9495b9874dc34ba62c5cf2921",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_PLAN.md",
-      "original_sha256": "73cfc06abe2fa8e7854b6c9c273b24e903159a5dc1e0ff2343de3aebbf7cf87c",
-      "published_sha256": "73cfc06abe2fa8e7854b6c9c273b24e903159a5dc1e0ff2343de3aebbf7cf87c",
+      "original_sha256": "26d64a29dd48bd91471e4d59cb9f2b6f2de21beec789d61f1f45f31a0ff8750f",
+      "published_sha256": "26d64a29dd48bd91471e4d59cb9f2b6f2de21beec789d61f1f45f31a0ff8750f",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_STATE.json",
-      "original_sha256": "03aba58dd3a707f68065bffe4963ba25cecad50b620bef478e90079d96ab0930",
-      "published_sha256": "31595ad2728c6608dfd3f1fe5d88e103fb0e5488f4228ae0125402461e4be9f1",
+      "original_sha256": "ee3768b7d9451a0a851b3a1b47dadbf2b6e46bd678e382cd2f106051911b20b2",
+      "published_sha256": "e7722b94062cc10582d82b594579ada6773bdf5feedf18ea6cce253aefcfd22f",
       "metadata_redacted": true
     },
     {
@@ -714,8 +720,8 @@
     },
     {
       "path": "Research/GEOSampleCheck/analyze_geo.py",
-      "original_sha256": "19f7a74e5f7ab49ea85e41c4990192eb5adad2d6f75d70f5e8c38efcde2bd2ad",
-      "published_sha256": "19f7a74e5f7ab49ea85e41c4990192eb5adad2d6f75d70f5e8c38efcde2bd2ad",
+      "original_sha256": "a5bca3f3971dc56520bfe04998b27bd3c9f2b01ff294c6862553e7c700892eb7",
+      "published_sha256": "a5bca3f3971dc56520bfe04998b27bd3c9f2b01ff294c6862553e7c700892eb7",
       "metadata_redacted": false
     },
     {
@@ -1967,6 +1973,114 @@
       "metadata_redacted": false
     },
     {
+      "path": "Research/UniformCohort/README.md",
+      "original_sha256": "fc59fc9acc4d3f4d75a2a73e1c6ec150b653f5cc64ed509e7036465fd9e0d71b",
+      "published_sha256": "fc59fc9acc4d3f4d75a2a73e1c6ec150b653f5cc64ed509e7036465fd9e0d71b",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/analysis-spec-v1.json",
+      "original_sha256": "aa198432e73c252061c2314292b1d21f575950dae3cbb87c6c68f30e3cfce957",
+      "published_sha256": "aa198432e73c252061c2314292b1d21f575950dae3cbb87c6c68f30e3cfce957",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/analysis-spec-v2.json",
+      "original_sha256": "de1173a0b66058345d5bb9ddb904f2114fc4ed8e901bae50535df539c592b6fc",
+      "published_sha256": "de1173a0b66058345d5bb9ddb904f2114fc4ed8e901bae50535df539c592b6fc",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/analyze.py",
+      "original_sha256": "e3d2c82768a67dcffea96aaff3d2581979291f4d2b3d35f1f7ea3c46c269a665",
+      "published_sha256": "e3d2c82768a67dcffea96aaff3d2581979291f4d2b3d35f1f7ea3c46c269a665",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/compartment-result-v2.json",
+      "original_sha256": "d79f05dbf070f3f312b0db7075c799ec8abed1d8d0a4f7cfc695afff538d491c",
+      "published_sha256": "d79f05dbf070f3f312b0db7075c799ec8abed1d8d0a4f7cfc695afff538d491c",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/compartment-spec-v1.json",
+      "original_sha256": "fed825d6f63fa7bb7dc29ed38bac5256961844ed4fd201195bea01aa6e9528ec",
+      "published_sha256": "fed825d6f63fa7bb7dc29ed38bac5256961844ed4fd201195bea01aa6e9528ec",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/compartment-spec-v2.json",
+      "original_sha256": "cc5d843b681d8db9befcb41ff2299e223376e0fafa60a3d8a18ffe723d3c317f",
+      "published_sha256": "cc5d843b681d8db9befcb41ff2299e223376e0fafa60a3d8a18ffe723d3c317f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/compartments.py",
+      "original_sha256": "5f3badcf5efb7e8bca6cbf594bb2c93283be6155c889b020bd59af3e92f8e323",
+      "published_sha256": "5f3badcf5efb7e8bca6cbf594bb2c93283be6155c889b020bd59af3e92f8e323",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/fetch_data.py",
+      "original_sha256": "8a03a55fec5f1dbb6559595b6b3ac2c13d6508e8090c2e6c89af79b60385bcc1",
+      "published_sha256": "8a03a55fec5f1dbb6559595b6b3ac2c13d6508e8090c2e6c89af79b60385bcc1",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/label-sensitivity-result-v1.json",
+      "original_sha256": "26134673c9b1a49b30186568460384a71032ef029084330654f0a94be4f02e04",
+      "published_sha256": "26134673c9b1a49b30186568460384a71032ef029084330654f0a94be4f02e04",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/label-sensitivity-spec-v1.json",
+      "original_sha256": "97f50bf86ad1dd3faf5838063f6e2a262b38c6515c9255240560a6e2c93b8735",
+      "published_sha256": "97f50bf86ad1dd3faf5838063f6e2a262b38c6515c9255240560a6e2c93b8735",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/label_sensitivity.py",
+      "original_sha256": "40b31b5138423756f70dfc2650cf63d6c59a2d3f33b3ebdc24c683c2b2792573",
+      "published_sha256": "40b31b5138423756f70dfc2650cf63d6c59a2d3f33b3ebdc24c683c2b2792573",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/local-worker-review.json",
+      "original_sha256": "f926b7b634d31500f50d5a1ff1fd6958889492b05b71cb1ae3d6a9942418b67b",
+      "published_sha256": "f926b7b634d31500f50d5a1ff1fd6958889492b05b71cb1ae3d6a9942418b67b",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/result-v2.json",
+      "original_sha256": "51278b3ebe442170a5c75f20d948945fa0c2c2516b2e46336f0864c4c5ae93c3",
+      "published_sha256": "51278b3ebe442170a5c75f20d948945fa0c2c2516b2e46336f0864c4c5ae93c3",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/selection-spec-v1.json",
+      "original_sha256": "59d3ce5643f79175a382d4c58ad768c87976bad9e31015160bfc361f39796a43",
+      "published_sha256": "59d3ce5643f79175a382d4c58ad768c87976bad9e31015160bfc361f39796a43",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/source-register.json",
+      "original_sha256": "a2ce59adb3224a6420a4605130db91764fa1837673121612afe8260babf7678c",
+      "published_sha256": "a2ce59adb3224a6420a4605130db91764fa1837673121612afe8260babf7678c",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/test_analyze.py",
+      "original_sha256": "d814b74bd50e40db90242166e39aed250321b32dc4ec96553353b438710a8d1d",
+      "published_sha256": "d814b74bd50e40db90242166e39aed250321b32dc4ec96553353b438710a8d1d",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/verification.json",
+      "original_sha256": "43e61e3ba4abfee410aff4e8126d4fb8058f7b49a0ba2345ef2527cc3fd516fb",
+      "published_sha256": "43e61e3ba4abfee410aff4e8126d4fb8058f7b49a0ba2345ef2527cc3fd516fb",
+      "metadata_redacted": false
+    },
+    {
       "path": "SECURITY.md",
       "original_sha256": "412a7cd61028a52a0cb59fb02f476273e160d36e7b7ecafbe2137db6a1f19561",
       "published_sha256": "412a7cd61028a52a0cb59fb02f476273e160d36e7b7ecafbe2137db6a1f19561",
@@ -2106,8 +2220,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "original_sha256": "b56d35f4b60962dc49df469f128b2336845c9ca7c6327bd697691fceb025521f",
-      "published_sha256": "b56d35f4b60962dc49df469f128b2336845c9ca7c6327bd697691fceb025521f",
+      "original_sha256": "ac314991290ca99f570b5f6851985e85b35eb999ab477d8bea9358ee4aeac3ef",
+      "published_sha256": "ac314991290ca99f570b5f6851985e85b35eb999ab477d8bea9358ee4aeac3ef",
       "metadata_redacted": false
     },
     {
@@ -2195,5 +2309,6 @@
   "taa_transfer_note": "Original analytic result and source metadata only; no source PDF, subject tables, GEO archive, correspondence or private database.",
   "geo_sample_note": "Nine-matrix local scan; publication QC group totals reproduced; exploratory eight-gene sample contrasts, exact resume/replay. No independent validation or drug effect. Source matrices, upstream code and private logs excluded.",
   "sema_independent_note": "External human NAFLD association: SEMA4D positive, PLXNB2 not increased; frozen joint rule failed. No raw clinical metadata, contact files or private worker logs.",
-  "gse210077_note": "Six donor/36 cell-type strata; primary and post hoc negative joint direction finding. Raw matrices, individual-nucleus labels, source contacts, private logs and databases excluded. Reference confounding and age conflicts retained."
+  "gse210077_note": "Six donor/36 cell-type strata; primary and post hoc negative joint direction finding. Raw matrices, individual-nucleus labels, source contacts, private logs and databases excluded. Reference confounding and age conflicts retained.",
+  "updated_utc": "2026-10-24T17:21:59.262951+00:00"
 }

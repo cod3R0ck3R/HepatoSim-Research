@@ -113,3 +113,7 @@ Selected separate GSE135251 human collection before count inspection; excluded k
 ### 2026-10-24 GSE210077
 
 GSE210077: use six author-annotated donors, exclude other40-series samples before outcome analysis. Preserve primary negative joint result. Treat raw reference mismatch as condition-confounded; common-ID denominator sensitivity is post hoc, not alignment harmonization. Reject local translation negation error. No therapy inference.
+
+### 2026-10-24 uniform cohort selection
+
+Selected GSE244832 over larger integrated/overlapping atlases and an archive beyond the1.5 GB cap. Use explicit published reanalysis assignments, preserve broad myeloid scope. Repair source NASH/NAFL spelling in version2 before valid effects; preserve invalid version1. Workbook label conflict discovered after primary effects: publish separately frozen post hoc sensitivity, never silently replace primary. Both branches fail joint-increase rule. No drug or clinical inference.

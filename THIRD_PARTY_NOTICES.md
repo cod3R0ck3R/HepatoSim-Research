@@ -28,3 +28,7 @@ The new expression analysis cites Ramachandran et al. (2012), DOI10.1073/pnas.11
 ## GSE210077 / Watson human liver study
 
 Watson et al., Nature Communications (2025), DOI 10.1038/s41467-024-55325-4; GEO GSE210077; HCA project 64809a52-f703-4aec-b3a5-eca808a971d0. Source matrices, single-nucleus labels, workbook and publications are not included. Their original terms remain applicable; our MIT license does not relicense them. Hash-pinned retrieval metadata and newly computed donor/cell-type aggregates document provenance. See Research/DonorCellCheck/provenance.json.
+
+### GSE244832 and reanalysis mapping
+
+Raw GEO matrices, original workbook, PDFs and supplementary ZIP are retrieved privately; no redistribution here. Source records and derived analyses cite DOI10.1016/j.jhep.2024.10.044 and DOI10.3390/ijms27177920 (the latter CC BY4.0). No third-party code copied; upstream rights unchanged. Own analysis code/results follow the project MIT license.

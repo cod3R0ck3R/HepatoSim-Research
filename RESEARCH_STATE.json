@@ -56,7 +56,7 @@
     "new_compute_authorized": false,
     "automatic_resume": false
   },
-  "updated_utc": "2026-10-24T16:28:39.869509+00:00",
+  "updated_utc": "2026-10-24T17:21:59.259306+00:00",
   "bounded_research_20261024": {
     "specification": "Research/Expression/specification-v1.json",
     "account_budget": {
@@ -133,7 +133,7 @@
     "local_worker": "queued resource-blocked, cancelled before execution; no fallback",
     "independent_validation": false
   },
-  "next_step": "Audit and analyze GSE210077 at donor/cell-type level under a new bounded scope",
+  "next_step": "Resolve GSE244832 donor-label conflict and author cell annotation; no automatic additional calculations.",
   "geo_sample_check": {
     "status": "completed_exploratory_analysis",
     "specification": "Research/GEOSampleCheck/specification-v1.json",
@@ -207,5 +207,30 @@
     "ceiling_used_percent": 21.15,
     "next_step": "Larger donor cohort with harmonized raw processing; no automatic further calculations",
     "clinical_validation": false
+  },
+  "uniform_cohort": {
+    "status": "verified_results_in_this_commit",
+    "accession": "GSE244832",
+    "donors": 18,
+    "nuclei_expected": 128223,
+    "scope": "Outcome-blind exploratory donor/cluster analysis and separately frozen published-reanalysis compartment addendum",
+    "specification": "Research/UniformCohort/analysis-spec-v1.json",
+    "addendum": "Research/UniformCohort/compartment-spec-v1.json",
+    "budget_start_used_percent": 20,
+    "budget_ceiling_used_percent": 24,
+    "stop_substantive_at": 23,
+    "next_step": "Resolve source donor-label conflicts and original cell annotations; no automatic additional calculations.",
+    "report": "Docs/25-UniformCohort.md",
+    "tests_passed": 22,
+    "source_label_conflicts": [
+      "JB321",
+      "JB337"
+    ],
+    "joint_direction_primary": false,
+    "joint_direction_sensitivity": false,
+    "result": "Research/UniformCohort/compartment-result-v2.json",
+    "database_records_added": 2,
+    "label_sensitivity": "Research/UniformCohort/label-sensitivity-result-v1.json",
+    "verification": "Research/UniformCohort/verification.json"
   }
 }

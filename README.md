@@ -123,3 +123,7 @@ A separate human NAFLD cohort supports increased SEMA4D RNA, but not the prespec
 ## GSE210077: donor/cell-type check (24 October 2026)
 
 Six human donors and 27,692 annotated nuclei were analyzed by cell type. The joint macrophage-SEMA4D/HSC-PLXNB2 direction criterion failed. A post hoc shared-gene denominator check preserved that result; reference/condition confounding remains unresolved. Fourteen tests and both exact cache replays passed. [Report / Bericht](Docs/24-DonorCellCheck.md) · [Reproduce / Wiederholen](Research/DonorCellCheck/README.md).
+
+## Larger common-pipeline cohort (24 October 2026)
+
+GSE244832:18 human donors,128,223 nuclei. Myeloid SEMA4D trends higher, HSC PLXNB2 lower; neither passes the two-test adjustment. Two conflicting donor group labels were tested separately; the joint-increase hypothesis fails under both.22 tests and three exact cached replays passed. [Report](Docs/25-UniformCohort.md) · [Reproduce](Research/UniformCohort/README.md). No treatment-effect claim.

@@ -1,0 +1,24 @@
+{
+  "provider": "local ollama",
+  "model": "hermes3:8b",
+  "digest": "4f6b83f30b62bc3d0cf9be09266db222805ee815c8fd7d8b38f863f655be78b7",
+  "goose_version": "1.45.0",
+  "ollama_version": {
+    "version": "0.40.10"
+  },
+  "wall_seconds": 23.363,
+  "native_model_blob": "sha256-c8985d236593f7a17da2a3da49588aa951a9b1e57ce97753364fbf59e63af84a",
+  "local_native_inference_verified": true,
+  "output_sha256": "8c4fc20b1850bcf8b00e79ab46925545514dd4b914061c4980734b2f8362e337",
+  "task_sha256": "4ce03cb557cc943e9dee86f568a69bf6927462af9e93b8ed39ab74a347b6b2c4",
+  "usage": {
+    "total_tokens": 1216,
+    "input_tokens": 1105,
+    "output_tokens": 111,
+    "cache_read_input_tokens": 4,
+    "cache_write_input_tokens": 0,
+    "status": "completed"
+  },
+  "review": "Accepted only as a wording sanity check: association is not causation, direct signaling or treatment benefit. These limitations independently follow from the observational design. No numerical or scientific evidence derived from AI. No measured token savings claimed.",
+  "status": "one bounded task completed; model unloaded; own process group absent"
+}

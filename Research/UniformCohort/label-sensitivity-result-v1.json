@@ -1,0 +1,2238 @@
+{
+  "schema_version": 1,
+  "accession": "GSE244832",
+  "donor_compartment_values": [
+    {
+      "donor": "JB288",
+      "condition": "NORMAL",
+      "compartment": "myeloid",
+      "nuclei": 250,
+      "total_UMI": 237859,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 10,
+          "detected_nuclei": 9,
+          "log2cpm": 5.427663617596772
+        },
+        "PLXNB2": {
+          "UMI": 14,
+          "detected_nuclei": 14,
+          "log2cpm": 5.903481794582679
+        },
+        "NGFR": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD163": {
+          "UMI": 248,
+          "detected_nuclei": 136,
+          "log2cpm": 10.027400829381863
+        },
+        "HNF4A": {
+          "UMI": 15,
+          "detected_nuclei": 13,
+          "log2cpm": 6.001409786173108
+        },
+        "PECAM1": {
+          "UMI": 26,
+          "detected_nuclei": 23,
+          "log2cpm": 6.785399576761346
+        },
+        "MYH11": {
+          "UMI": 2,
+          "detected_nuclei": 2,
+          "log2cpm": 3.2339406203149603
+        },
+        "CD69": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 2.379668472304457
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 2.379668472304457
+        }
+      }
+    },
+    {
+      "donor": "JB289",
+      "condition": "NAFL",
+      "compartment": "myeloid",
+      "nuclei": 247,
+      "total_UMI": 232914,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 24,
+          "detected_nuclei": 23,
+          "log2cpm": 6.701026728901966
+        },
+        "PLXNB2": {
+          "UMI": 44,
+          "detected_nuclei": 36,
+          "log2cpm": 7.569179118090368
+        },
+        "NGFR": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD163": {
+          "UMI": 521,
+          "detected_nuclei": 206,
+          "log2cpm": 11.127915112790971
+        },
+        "HNF4A": {
+          "UMI": 23,
+          "detected_nuclei": 20,
+          "log2cpm": 6.640228946324809
+        },
+        "PECAM1": {
+          "UMI": 81,
+          "detected_nuclei": 63,
+          "log2cpm": 8.446123227967844
+        },
+        "MYH11": {
+          "UMI": 2,
+          "detected_nuclei": 2,
+          "log2cpm": 3.261058422457991
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 2.404202905485846
+        }
+      }
+    },
+    {
+      "donor": "JB290",
+      "condition": "NASH",
+      "compartment": "myeloid",
+      "nuclei": 571,
+      "total_UMI": 1103901,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 206,
+          "detected_nuclei": 143,
+          "log2cpm": 7.551600123924187
+        },
+        "PLXNB2": {
+          "UMI": 119,
+          "detected_nuclei": 97,
+          "log2cpm": 6.765528406412625
+        },
+        "NGFR": {
+          "UMI": 2,
+          "detected_nuclei": 1,
+          "log2cpm": 1.4914717487942222
+        },
+        "CD163": {
+          "UMI": 875,
+          "detected_nuclei": 308,
+          "log2cpm": 9.632347371067645
+        },
+        "HNF4A": {
+          "UMI": 31,
+          "detected_nuclei": 29,
+          "log2cpm": 4.862065913026684
+        },
+        "PECAM1": {
+          "UMI": 354,
+          "detected_nuclei": 204,
+          "log2cpm": 8.32948660476636
+        },
+        "MYH11": {
+          "UMI": 17,
+          "detected_nuclei": 12,
+          "log2cpm": 4.035617901137349
+        },
+        "CD69": {
+          "UMI": 14,
+          "detected_nuclei": 10,
+          "log2cpm": 3.774238514239209
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 8,
+          "detected_nuclei": 8,
+          "log2cpm": 3.0438740749959954
+        }
+      }
+    },
+    {
+      "donor": "JB303",
+      "condition": "NORMAL",
+      "compartment": "myeloid",
+      "nuclei": 486,
+      "total_UMI": 707483,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 69,
+          "detected_nuclei": 58,
+          "log2cpm": 6.622474243395648
+        },
+        "PLXNB2": {
+          "UMI": 53,
+          "detected_nuclei": 46,
+          "log2cpm": 6.246283818917175
+        },
+        "NGFR": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 1.271103827685401
+        },
+        "CD163": {
+          "UMI": 860,
+          "detected_nuclei": 317,
+          "log2cpm": 10.248611814286198
+        },
+        "HNF4A": {
+          "UMI": 57,
+          "detected_nuclei": 54,
+          "log2cpm": 6.349919114744509
+        },
+        "PECAM1": {
+          "UMI": 175,
+          "detected_nuclei": 125,
+          "log2cpm": 7.95626443650031
+        },
+        "MYH11": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 1.271103827685401
+        }
+      }
+    },
+    {
+      "donor": "JB304",
+      "condition": "NAFL",
+      "compartment": "myeloid",
+      "nuclei": 145,
+      "total_UMI": 179418,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 11,
+          "detected_nuclei": 8,
+          "log2cpm": 5.961376638264975
+        },
+        "PLXNB2": {
+          "UMI": 14,
+          "detected_nuclei": 14,
+          "log2cpm": 6.304329872553872
+        },
+        "NGFR": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD163": {
+          "UMI": 272,
+          "detected_nuclei": 113,
+          "log2cpm": 10.567017625123341
+        },
+        "HNF4A": {
+          "UMI": 29,
+          "detected_nuclei": 19,
+          "log2cpm": 7.345482662942068
+        },
+        "PECAM1": {
+          "UMI": 43,
+          "detected_nuclei": 36,
+          "log2cpm": 7.910875352686802
+        },
+        "MYH11": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 2.716678577393452
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        }
+      }
+    },
+    {
+      "donor": "JB305",
+      "condition": "NASH",
+      "compartment": "myeloid",
+      "nuclei": 241,
+      "total_UMI": 324077,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 25,
+          "detected_nuclei": 20,
+          "log2cpm": 6.288029242006499
+        },
+        "PLXNB2": {
+          "UMI": 25,
+          "detected_nuclei": 22,
+          "log2cpm": 6.288029242006499
+        },
+        "NGFR": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 2.0305784824668516
+        },
+        "CD163": {
+          "UMI": 336,
+          "detected_nuclei": 146,
+          "log2cpm": 10.019299712786006
+        },
+        "HNF4A": {
+          "UMI": 10,
+          "detected_nuclei": 10,
+          "log2cpm": 4.993532361317636
+        },
+        "PECAM1": {
+          "UMI": 68,
+          "detected_nuclei": 52,
+          "log2cpm": 7.719913619990177
+        },
+        "MYH11": {
+          "UMI": 2,
+          "detected_nuclei": 2,
+          "log2cpm": 2.842249327889563
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 4,
+          "detected_nuclei": 4,
+          "log2cpm": 3.737983673561286
+        }
+      }
+    },
+    {
+      "donor": "JB317",
+      "condition": "NORMAL",
+      "compartment": "myeloid",
+      "nuclei": 342,
+      "total_UMI": 488046,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 91,
+          "detected_nuclei": 66,
+          "log2cpm": 7.550422307115859
+        },
+        "PLXNB2": {
+          "UMI": 60,
+          "detected_nuclei": 52,
+          "log2cpm": 6.953489113408558
+        },
+        "NGFR": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD163": {
+          "UMI": 588,
+          "detected_nuclei": 234,
+          "log2cpm": 10.235780261530552
+        },
+        "HNF4A": {
+          "UMI": 23,
+          "detected_nuclei": 20,
+          "log2cpm": 5.5887657553825285
+        },
+        "PECAM1": {
+          "UMI": 155,
+          "detected_nuclei": 109,
+          "log2cpm": 8.315570821028615
+        },
+        "MYH11": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 1.6083300869626411
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        }
+      }
+    },
+    {
+      "donor": "JB318",
+      "condition": "NAFL",
+      "compartment": "myeloid",
+      "nuclei": 503,
+      "total_UMI": 963509,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 125,
+          "detected_nuclei": 94,
+          "log2cpm": 7.030491994766751
+        },
+        "PLXNB2": {
+          "UMI": 65,
+          "detected_nuclei": 58,
+          "log2cpm": 6.09722619371772
+        },
+        "NGFR": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 1.0270641630956852
+        },
+        "CD163": {
+          "UMI": 1188,
+          "detected_nuclei": 353,
+          "log2cpm": 10.269118674334544
+        },
+        "HNF4A": {
+          "UMI": 16,
+          "detected_nuclei": 15,
+          "log2cpm": 4.1379926777714395
+        },
+        "PECAM1": {
+          "UMI": 214,
+          "detected_nuclei": 151,
+          "log2cpm": 7.80157791884786
+        },
+        "MYH11": {
+          "UMI": 5,
+          "detected_nuclei": 5,
+          "log2cpm": 2.629791431843707
+        },
+        "CD69": {
+          "UMI": 2,
+          "detected_nuclei": 2,
+          "log2cpm": 1.620936391185968
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 3,
+          "detected_nuclei": 3,
+          "log2cpm": 2.040408204643017
+        }
+      }
+    },
+    {
+      "donor": "JB319",
+      "condition": "NASH",
+      "compartment": "myeloid",
+      "nuclei": 232,
+      "total_UMI": 499759,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 56,
+          "detected_nuclei": 48,
+          "log2cpm": 6.820868355255437
+        },
+        "PLXNB2": {
+          "UMI": 23,
+          "detected_nuclei": 22,
+          "log2cpm": 5.555269602953613
+        },
+        "NGFR": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD163": {
+          "UMI": 360,
+          "detected_nuclei": 127,
+          "log2cpm": 9.494550031425774
+        },
+        "HNF4A": {
+          "UMI": 6,
+          "detected_nuclei": 5,
+          "log2cpm": 3.7010817731062984
+        },
+        "PECAM1": {
+          "UMI": 130,
+          "detected_nuclei": 89,
+          "log2cpm": 8.028598878929952
+        },
+        "MYH11": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD69": {
+          "UMI": 3,
+          "detected_nuclei": 2,
+          "log2cpm": 2.8079511254287084
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 2,
+          "detected_nuclei": 2,
+          "log2cpm": 2.3224845590314565
+        }
+      }
+    },
+    {
+      "donor": "JB320",
+      "condition": "NORMAL",
+      "compartment": "myeloid",
+      "nuclei": 24,
+      "total_UMI": 40552,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 2,
+          "detected_nuclei": 2,
+          "log2cpm": 5.6530425964305575
+        },
+        "PLXNB2": {
+          "UMI": 5,
+          "detected_nuclei": 5,
+          "log2cpm": 6.957664855264482
+        },
+        "NGFR": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD163": {
+          "UMI": 49,
+          "detected_nuclei": 15,
+          "log2cpm": 10.239986433704193
+        },
+        "HNF4A": {
+          "UMI": 15,
+          "detected_nuclei": 5,
+          "log2cpm": 8.53486873164351
+        },
+        "PECAM1": {
+          "UMI": 2,
+          "detected_nuclei": 2,
+          "log2cpm": 5.6530425964305575
+        },
+        "MYH11": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        }
+      }
+    },
+    {
+      "donor": "JB321",
+      "condition": "NAFL",
+      "compartment": "myeloid",
+      "nuclei": 449,
+      "total_UMI": 1030447,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 116,
+          "detected_nuclei": 92,
+          "log2cpm": 6.827469801158379
+        },
+        "PLXNB2": {
+          "UMI": 40,
+          "detected_nuclei": 38,
+          "log2cpm": 5.315352663202315
+        },
+        "NGFR": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD163": {
+          "UMI": 2444,
+          "detected_nuclei": 410,
+          "log2cpm": 11.212366412039835
+        },
+        "HNF4A": {
+          "UMI": 18,
+          "detected_nuclei": 15,
+          "log2cpm": 4.206967240669322
+        },
+        "PECAM1": {
+          "UMI": 233,
+          "detected_nuclei": 163,
+          "log2cpm": 7.827282120968108
+        },
+        "MYH11": {
+          "UMI": 4,
+          "detected_nuclei": 4,
+          "log2cpm": 2.2874162988008875
+        },
+        "CD69": {
+          "UMI": 2,
+          "detected_nuclei": 2,
+          "log2cpm": 1.5562603080054285
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 0.9785270663996157
+        }
+      }
+    },
+    {
+      "donor": "JB322",
+      "condition": "NASH",
+      "compartment": "myeloid",
+      "nuclei": 352,
+      "total_UMI": 474804,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 66,
+          "detected_nuclei": 54,
+          "log2cpm": 7.129331719041415
+        },
+        "PLXNB2": {
+          "UMI": 30,
+          "detected_nuclei": 28,
+          "log2cpm": 6.004141042838421
+        },
+        "NGFR": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD163": {
+          "UMI": 861,
+          "detected_nuclei": 266,
+          "log2cpm": 10.82526079742288
+        },
+        "HNF4A": {
+          "UMI": 9,
+          "detected_nuclei": 9,
+          "log2cpm": 4.3186921051929374
+        },
+        "PECAM1": {
+          "UMI": 135,
+          "detected_nuclei": 97,
+          "log2cpm": 8.156476755492008
+        },
+        "MYH11": {
+          "UMI": 7,
+          "detected_nuclei": 3,
+          "log2cpm": 3.9766317561196423
+        },
+        "CD69": {
+          "UMI": 2,
+          "detected_nuclei": 2,
+          "log2cpm": 2.381910276709423
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 1.6351192402933001
+        }
+      }
+    },
+    {
+      "donor": "JB336",
+      "condition": "NORMAL",
+      "compartment": "myeloid",
+      "nuclei": 67,
+      "total_UMI": 63641,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 6,
+          "detected_nuclei": 4,
+          "log2cpm": 6.5740840254268615
+        },
+        "PLXNB2": {
+          "UMI": 6,
+          "detected_nuclei": 6,
+          "log2cpm": 6.5740840254268615
+        },
+        "NGFR": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD163": {
+          "UMI": 58,
+          "detected_nuclei": 30,
+          "log2cpm": 9.833462821504751
+        },
+        "HNF4A": {
+          "UMI": 5,
+          "detected_nuclei": 5,
+          "log2cpm": 6.314074809431527
+        },
+        "PECAM1": {
+          "UMI": 17,
+          "detected_nuclei": 12,
+          "log2cpm": 8.066753297958291
+        },
+        "MYH11": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        }
+      }
+    },
+    {
+      "donor": "JB337",
+      "condition": "NASH",
+      "compartment": "myeloid",
+      "nuclei": 331,
+      "total_UMI": 626634,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 48,
+          "detected_nuclei": 46,
+          "log2cpm": 6.277979869753362
+        },
+        "PLXNB2": {
+          "UMI": 48,
+          "detected_nuclei": 41,
+          "log2cpm": 6.277979869753362
+        },
+        "NGFR": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD163": {
+          "UMI": 873,
+          "detected_nuclei": 248,
+          "log2cpm": 10.445178074819632
+        },
+        "HNF4A": {
+          "UMI": 17,
+          "detected_nuclei": 15,
+          "log2cpm": 4.813990142425315
+        },
+        "PECAM1": {
+          "UMI": 109,
+          "detected_nuclei": 88,
+          "log2cpm": 7.450759581266628
+        },
+        "MYH11": {
+          "UMI": 3,
+          "detected_nuclei": 3,
+          "log2cpm": 2.532936200926899
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 1.3761947197159683
+        }
+      }
+    },
+    {
+      "donor": "JB338",
+      "condition": "NASH",
+      "compartment": "myeloid",
+      "nuclei": 200,
+      "total_UMI": 207099,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 24,
+          "detected_nuclei": 22,
+          "log2cpm": 6.868965798264467
+        },
+        "PLXNB2": {
+          "UMI": 18,
+          "detected_nuclei": 17,
+          "log2cpm": 6.458036673448608
+        },
+        "NGFR": {
+          "UMI": 3,
+          "detected_nuclei": 3,
+          "log2cpm": 3.952876396569301
+        },
+        "CD163": {
+          "UMI": 185,
+          "detected_nuclei": 89,
+          "log2cpm": 9.804603095547991
+        },
+        "HNF4A": {
+          "UMI": 17,
+          "detected_nuclei": 13,
+          "log2cpm": 6.3765394917048654
+        },
+        "PECAM1": {
+          "UMI": 41,
+          "detected_nuclei": 38,
+          "log2cpm": 7.636428503163323
+        },
+        "MYH11": {
+          "UMI": 2,
+          "detected_nuclei": 2,
+          "log2cpm": 3.4137588510521244
+        },
+        "CD69": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 2.5431515108324865
+        },
+        "CD19": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 2.5431515108324865
+        },
+        "KRT19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        }
+      }
+    },
+    {
+      "donor": "JB339",
+      "condition": "NASH",
+      "compartment": "myeloid",
+      "nuclei": 195,
+      "total_UMI": 226293,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 66,
+          "detected_nuclei": 49,
+          "log2cpm": 8.193068337867825
+        },
+        "PLXNB2": {
+          "UMI": 13,
+          "detected_nuclei": 10,
+          "log2cpm": 5.86907299870536
+        },
+        "NGFR": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD163": {
+          "UMI": 136,
+          "detected_nuclei": 90,
+          "log2cpm": 9.23359751115967
+        },
+        "HNF4A": {
+          "UMI": 19,
+          "detected_nuclei": 14,
+          "log2cpm": 6.40874485694382
+        },
+        "PECAM1": {
+          "UMI": 12,
+          "detected_nuclei": 11,
+          "log2cpm": 5.755651278315846
+        },
+        "MYH11": {
+          "UMI": 16,
+          "detected_nuclei": 9,
+          "log2cpm": 6.163997676523347
+        },
+        "CD69": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 2.438039862454714
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 5,
+          "detected_nuclei": 3,
+          "log2cpm": 4.5295241452571755
+        }
+      }
+    },
+    {
+      "donor": "JB340",
+      "condition": "NASH",
+      "compartment": "myeloid",
+      "nuclei": 765,
+      "total_UMI": 1552488,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 163,
+          "detected_nuclei": 141,
+          "log2cpm": 6.727821912519523
+        },
+        "PLXNB2": {
+          "UMI": 110,
+          "detected_nuclei": 98,
+          "log2cpm": 6.166996763586637
+        },
+        "NGFR": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD163": {
+          "UMI": 2905,
+          "detected_nuclei": 655,
+          "log2cpm": 10.870511129249747
+        },
+        "HNF4A": {
+          "UMI": 23,
+          "detected_nuclei": 22,
+          "log2cpm": 3.9832152036507815
+        },
+        "PECAM1": {
+          "UMI": 330,
+          "detected_nuclei": 247,
+          "log2cpm": 7.738511353784545
+        },
+        "MYH11": {
+          "UMI": 4,
+          "detected_nuclei": 4,
+          "log2cpm": 1.8385522526960902
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 0.71732206144687
+        },
+        "KRT19": {
+          "UMI": 6,
+          "detected_nuclei": 6,
+          "log2cpm": 2.2823698695485497
+        }
+      }
+    },
+    {
+      "donor": "JB341",
+      "condition": "NASH",
+      "compartment": "myeloid",
+      "nuclei": 343,
+      "total_UMI": 770890,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 157,
+          "detected_nuclei": 99,
+          "log2cpm": 7.677090312233534
+        },
+        "PLXNB2": {
+          "UMI": 37,
+          "detected_nuclei": 31,
+          "log2cpm": 5.614605954870778
+        },
+        "NGFR": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 1.1998776823281738
+        },
+        "CD163": {
+          "UMI": 559,
+          "detected_nuclei": 191,
+          "log2cpm": 9.50409573497088
+        },
+        "HNF4A": {
+          "UMI": 10,
+          "detected_nuclei": 8,
+          "log2cpm": 3.804468641177188
+        },
+        "PECAM1": {
+          "UMI": 103,
+          "detected_nuclei": 74,
+          "log2cpm": 7.072661064179997
+        },
+        "MYH11": {
+          "UMI": 12,
+          "detected_nuclei": 9,
+          "log2cpm": 4.05019024588235
+        },
+        "CD69": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 1.1998776823281738
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 6,
+          "detected_nuclei": 6,
+          "log2cpm": 3.1347485628008256
+        }
+      }
+    },
+    {
+      "donor": "JB288",
+      "condition": "NORMAL",
+      "compartment": "HSC",
+      "nuclei": 199,
+      "total_UMI": 310521,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 13,
+          "detected_nuclei": 13,
+          "log2cpm": 5.4217323933302985
+        },
+        "PLXNB2": {
+          "UMI": 28,
+          "detected_nuclei": 20,
+          "log2cpm": 6.510503650531089
+        },
+        "NGFR": {
+          "UMI": 9,
+          "detected_nuclei": 7,
+          "log2cpm": 4.906099156824547
+        },
+        "CD163": {
+          "UMI": 13,
+          "detected_nuclei": 8,
+          "log2cpm": 5.4217323933302985
+        },
+        "HNF4A": {
+          "UMI": 42,
+          "detected_nuclei": 29,
+          "log2cpm": 7.0901818018002984
+        },
+        "PECAM1": {
+          "UMI": 6,
+          "detected_nuclei": 4,
+          "log2cpm": 4.344996375965105
+        },
+        "MYH11": {
+          "UMI": 26,
+          "detected_nuclei": 10,
+          "log2cpm": 6.404805168033253
+        },
+        "CD69": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 2.0773777279931194
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        }
+      }
+    },
+    {
+      "donor": "JB289",
+      "condition": "NAFL",
+      "compartment": "HSC",
+      "nuclei": 178,
+      "total_UMI": 267361,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 10,
+          "detected_nuclei": 7,
+          "log2cpm": 5.263132571374596
+        },
+        "PLXNB2": {
+          "UMI": 51,
+          "detected_nuclei": 43,
+          "log2cpm": 7.58310779176138
+        },
+        "NGFR": {
+          "UMI": 12,
+          "detected_nuclei": 11,
+          "log2cpm": 5.519892079690301
+        },
+        "CD163": {
+          "UMI": 13,
+          "detected_nuclei": 9,
+          "log2cpm": 5.632948589142069
+        },
+        "HNF4A": {
+          "UMI": 19,
+          "detected_nuclei": 17,
+          "log2cpm": 6.17122613819819
+        },
+        "PECAM1": {
+          "UMI": 4,
+          "detected_nuclei": 4,
+          "log2cpm": 3.9964832216753905
+        },
+        "MYH11": {
+          "UMI": 19,
+          "detected_nuclei": 8,
+          "log2cpm": 6.17122613819819
+        },
+        "CD69": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 2.2449665861513197
+        },
+        "CD19": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 2.2449665861513197
+        },
+        "KRT19": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 2.2449665861513197
+        }
+      }
+    },
+    {
+      "donor": "JB290",
+      "condition": "NASH",
+      "compartment": "HSC",
+      "nuclei": 2039,
+      "total_UMI": 3452240,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 140,
+          "detected_nuclei": 117,
+          "log2cpm": 5.376893921395011
+        },
+        "PLXNB2": {
+          "UMI": 331,
+          "detected_nuclei": 299,
+          "log2cpm": 6.598123633270834
+        },
+        "NGFR": {
+          "UMI": 53,
+          "detected_nuclei": 50,
+          "log2cpm": 4.0314261582471325
+        },
+        "CD163": {
+          "UMI": 22,
+          "detected_nuclei": 19,
+          "log2cpm": 2.8821879611615384
+        },
+        "HNF4A": {
+          "UMI": 111,
+          "detected_nuclei": 106,
+          "log2cpm": 5.051069124347645
+        },
+        "PECAM1": {
+          "UMI": 47,
+          "detected_nuclei": 42,
+          "log2cpm": 3.869313654751141
+        },
+        "MYH11": {
+          "UMI": 799,
+          "detected_nuclei": 208,
+          "log2cpm": 7.860738954597399
+        },
+        "CD69": {
+          "UMI": 15,
+          "detected_nuclei": 15,
+          "log2cpm": 2.418191292734597
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 22,
+          "detected_nuclei": 11,
+          "log2cpm": 2.8821879611615384
+        }
+      }
+    },
+    {
+      "donor": "JB303",
+      "condition": "NORMAL",
+      "compartment": "HSC",
+      "nuclei": 418,
+      "total_UMI": 663558,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 20,
+          "detected_nuclei": 19,
+          "log2cpm": 4.96072230538158
+        },
+        "PLXNB2": {
+          "UMI": 49,
+          "detected_nuclei": 44,
+          "log2cpm": 6.225821239056886
+        },
+        "NGFR": {
+          "UMI": 20,
+          "detected_nuclei": 17,
+          "log2cpm": 4.96072230538158
+        },
+        "CD163": {
+          "UMI": 6,
+          "detected_nuclei": 3,
+          "log2cpm": 3.327998229869142
+        },
+        "HNF4A": {
+          "UMI": 40,
+          "detected_nuclei": 37,
+          "log2cpm": 5.937370070529269
+        },
+        "PECAM1": {
+          "UMI": 6,
+          "detected_nuclei": 6,
+          "log2cpm": 3.327998229869142
+        },
+        "MYH11": {
+          "UMI": 168,
+          "detected_nuclei": 33,
+          "log2cpm": 7.989710004956988
+        },
+        "CD69": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 1.3259776879998701
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        }
+      }
+    },
+    {
+      "donor": "JB304",
+      "condition": "NAFL",
+      "compartment": "HSC",
+      "nuclei": 135,
+      "total_UMI": 247196,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 6,
+          "detected_nuclei": 4,
+          "log2cpm": 4.65948149025076
+        },
+        "PLXNB2": {
+          "UMI": 19,
+          "detected_nuclei": 16,
+          "log2cpm": 6.282849075469921
+        },
+        "NGFR": {
+          "UMI": 4,
+          "detected_nuclei": 3,
+          "log2cpm": 4.102783384261754
+        },
+        "CD163": {
+          "UMI": 2,
+          "detected_nuclei": 2,
+          "log2cpm": 3.184398658001661
+        },
+        "HNF4A": {
+          "UMI": 44,
+          "detected_nuclei": 23,
+          "log2cpm": 7.483786824009431
+        },
+        "PECAM1": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 2.3349609025662286
+        },
+        "MYH11": {
+          "UMI": 13,
+          "detected_nuclei": 3,
+          "log2cpm": 5.743887811732164
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        }
+      }
+    },
+    {
+      "donor": "JB305",
+      "condition": "NASH",
+      "compartment": "HSC",
+      "nuclei": 1593,
+      "total_UMI": 2635171,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 18,
+          "detected_nuclei": 16,
+          "log2cpm": 2.9691369052031495
+        },
+        "PLXNB2": {
+          "UMI": 136,
+          "detected_nuclei": 129,
+          "log2cpm": 5.717252914248991
+        },
+        "NGFR": {
+          "UMI": 221,
+          "detected_nuclei": 182,
+          "log2cpm": 6.407106704345231
+        },
+        "CD163": {
+          "UMI": 19,
+          "detected_nuclei": 16,
+          "log2cpm": 3.0374100350245206
+        },
+        "HNF4A": {
+          "UMI": 92,
+          "detected_nuclei": 77,
+          "log2cpm": 5.166407969827474
+        },
+        "PECAM1": {
+          "UMI": 39,
+          "detected_nuclei": 38,
+          "log2cpm": 3.981834260723361
+        },
+        "MYH11": {
+          "UMI": 329,
+          "detected_nuclei": 120,
+          "log2cpm": 6.975556623837063
+        },
+        "CD69": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 0.46412664729696884
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 18,
+          "detected_nuclei": 18,
+          "log2cpm": 2.9691369052031495
+        }
+      }
+    },
+    {
+      "donor": "JB317",
+      "condition": "NORMAL",
+      "compartment": "HSC",
+      "nuclei": 340,
+      "total_UMI": 861538,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 40,
+          "detected_nuclei": 38,
+          "log2cpm": 5.56768526586637
+        },
+        "PLXNB2": {
+          "UMI": 58,
+          "detected_nuclei": 45,
+          "log2cpm": 6.094266997848761
+        },
+        "NGFR": {
+          "UMI": 21,
+          "detected_nuclei": 18,
+          "log2cpm": 4.665336659599703
+        },
+        "CD163": {
+          "UMI": 10,
+          "detected_nuclei": 6,
+          "log2cpm": 3.6561701627818035
+        },
+        "HNF4A": {
+          "UMI": 27,
+          "detected_nuclei": 20,
+          "log2cpm": 5.015216657866246
+        },
+        "PECAM1": {
+          "UMI": 4,
+          "detected_nuclei": 4,
+          "log2cpm": 2.4964264620273235
+        },
+        "MYH11": {
+          "UMI": 41,
+          "detected_nuclei": 14,
+          "log2cpm": 5.602567076158395
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        }
+      }
+    },
+    {
+      "donor": "JB318",
+      "condition": "NAFL",
+      "compartment": "HSC",
+      "nuclei": 560,
+      "total_UMI": 1113587,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 34,
+          "detected_nuclei": 30,
+          "log2cpm": 4.978743201581267
+        },
+        "PLXNB2": {
+          "UMI": 52,
+          "detected_nuclei": 49,
+          "log2cpm": 5.575794784914308
+        },
+        "NGFR": {
+          "UMI": 144,
+          "detected_nuclei": 111,
+          "log2cpm": 7.025824520793204
+        },
+        "CD163": {
+          "UMI": 2,
+          "detected_nuclei": 2,
+          "log2cpm": 1.483363317239036
+        },
+        "HNF4A": {
+          "UMI": 23,
+          "detected_nuclei": 19,
+          "log2cpm": 4.436560094502208
+        },
+        "PECAM1": {
+          "UMI": 4,
+          "detected_nuclei": 4,
+          "log2cpm": 2.1991213713017497
+        },
+        "MYH11": {
+          "UMI": 88,
+          "detected_nuclei": 30,
+          "log2cpm": 6.322359234317474
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        }
+      }
+    },
+    {
+      "donor": "JB319",
+      "condition": "NASH",
+      "compartment": "HSC",
+      "nuclei": 468,
+      "total_UMI": 1054624,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 25,
+          "detected_nuclei": 21,
+          "log2cpm": 4.626738796450331
+        },
+        "PLXNB2": {
+          "UMI": 53,
+          "detected_nuclei": 48,
+          "log2cpm": 5.679617397221653
+        },
+        "NGFR": {
+          "UMI": 54,
+          "detected_nuclei": 46,
+          "log2cpm": 5.70606310122214
+        },
+        "CD163": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 0.9621456686875633
+        },
+        "HNF4A": {
+          "UMI": 3,
+          "detected_nuclei": 3,
+          "log2cpm": 1.9428394007901304
+        },
+        "PECAM1": {
+          "UMI": 14,
+          "detected_nuclei": 11,
+          "log2cpm": 3.835406037551792
+        },
+        "MYH11": {
+          "UMI": 72,
+          "detected_nuclei": 26,
+          "log2cpm": 6.114174952830556
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        }
+      }
+    },
+    {
+      "donor": "JB320",
+      "condition": "NORMAL",
+      "compartment": "HSC",
+      "nuclei": 189,
+      "total_UMI": 456990,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 9,
+          "detected_nuclei": 9,
+          "log2cpm": 4.371146569957689
+        },
+        "PLXNB2": {
+          "UMI": 22,
+          "detected_nuclei": 21,
+          "log2cpm": 5.618858164178084
+        },
+        "NGFR": {
+          "UMI": 18,
+          "detected_nuclei": 14,
+          "log2cpm": 5.335860888451967
+        },
+        "CD163": {
+          "UMI": 4,
+          "detected_nuclei": 4,
+          "log2cpm": 3.2858352227960816
+        },
+        "HNF4A": {
+          "UMI": 64,
+          "detected_nuclei": 20,
+          "log2cpm": 7.140030412933678
+        },
+        "PECAM1": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 1.6727564743180487
+        },
+        "MYH11": {
+          "UMI": 165,
+          "detected_nuclei": 41,
+          "log2cpm": 8.500077930482872
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        }
+      }
+    },
+    {
+      "donor": "JB321",
+      "condition": "NAFL",
+      "compartment": "HSC",
+      "nuclei": 285,
+      "total_UMI": 545989,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 17,
+          "detected_nuclei": 14,
+          "log2cpm": 5.006125573416668
+        },
+        "PLXNB2": {
+          "UMI": 30,
+          "detected_nuclei": 29,
+          "log2cpm": 5.805967256109835
+        },
+        "NGFR": {
+          "UMI": 6,
+          "detected_nuclei": 6,
+          "log2cpm": 3.583667387373228
+        },
+        "CD163": {
+          "UMI": 11,
+          "detected_nuclei": 8,
+          "log2cpm": 4.402376060193486
+        },
+        "HNF4A": {
+          "UMI": 21,
+          "detected_nuclei": 18,
+          "log2cpm": 5.3024036264960905
+        },
+        "PECAM1": {
+          "UMI": 4,
+          "detected_nuclei": 3,
+          "log2cpm": 3.057650402568174
+        },
+        "MYH11": {
+          "UMI": 158,
+          "detected_nuclei": 28,
+          "log2cpm": 8.181813778756288
+        },
+        "CD69": {
+          "UMI": 3,
+          "detected_nuclei": 2,
+          "log2cpm": 2.69924427018406
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        }
+      }
+    },
+    {
+      "donor": "JB322",
+      "condition": "NASH",
+      "compartment": "HSC",
+      "nuclei": 1644,
+      "total_UMI": 2994236,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 73,
+          "detected_nuclei": 68,
+          "log2cpm": 4.665630155901596
+        },
+        "PLXNB2": {
+          "UMI": 195,
+          "detected_nuclei": 181,
+          "log2cpm": 6.047126684649235
+        },
+        "NGFR": {
+          "UMI": 23,
+          "detected_nuclei": 20,
+          "log2cpm": 3.117931911927111
+        },
+        "CD163": {
+          "UMI": 59,
+          "detected_nuclei": 37,
+          "log2cpm": 4.371874243688211
+        },
+        "HNF4A": {
+          "UMI": 59,
+          "detected_nuclei": 49,
+          "log2cpm": 4.371874243688211
+        },
+        "PECAM1": {
+          "UMI": 28,
+          "detected_nuclei": 25,
+          "log2cpm": 3.371740100881431
+        },
+        "MYH11": {
+          "UMI": 575,
+          "detected_nuclei": 144,
+          "log2cpm": 7.592723359051312
+        },
+        "CD69": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 0.4157316407777359
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 0.4157316407777359
+        }
+      }
+    },
+    {
+      "donor": "JB336",
+      "condition": "NORMAL",
+      "compartment": "HSC",
+      "nuclei": 391,
+      "total_UMI": 472446,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 17,
+          "detected_nuclei": 17,
+          "log2cpm": 5.2087883372339085
+        },
+        "PLXNB2": {
+          "UMI": 49,
+          "detected_nuclei": 45,
+          "log2cpm": 6.710331979798509
+        },
+        "NGFR": {
+          "UMI": 53,
+          "detected_nuclei": 44,
+          "log2cpm": 6.822502421009041
+        },
+        "CD163": {
+          "UMI": 2,
+          "detected_nuclei": 2,
+          "log2cpm": 2.3877176662398067
+        },
+        "HNF4A": {
+          "UMI": 33,
+          "detected_nuclei": 29,
+          "log2cpm": 6.146680729156838
+        },
+        "PECAM1": {
+          "UMI": 4,
+          "detected_nuclei": 4,
+          "log2cpm": 3.2428427177926804
+        },
+        "MYH11": {
+          "UMI": 241,
+          "detected_nuclei": 49,
+          "log2cpm": 8.997493419219863
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        }
+      }
+    },
+    {
+      "donor": "JB337",
+      "condition": "NASH",
+      "compartment": "HSC",
+      "nuclei": 370,
+      "total_UMI": 628452,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 21,
+          "detected_nuclei": 18,
+          "log2cpm": 5.104984043159632
+        },
+        "PLXNB2": {
+          "UMI": 39,
+          "detected_nuclei": 38,
+          "log2cpm": 5.978590243933398
+        },
+        "NGFR": {
+          "UMI": 47,
+          "detected_nuclei": 43,
+          "log2cpm": 6.243877290890646
+        },
+        "CD163": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 1.3736267321133897
+        },
+        "HNF4A": {
+          "UMI": 14,
+          "detected_nuclei": 14,
+          "log2cpm": 4.540830741163854
+        },
+        "PECAM1": {
+          "UMI": 3,
+          "detected_nuclei": 3,
+          "log2cpm": 2.5294797214766245
+        },
+        "MYH11": {
+          "UMI": 88,
+          "detected_nuclei": 24,
+          "log2cpm": 7.13982354644205
+        },
+        "CD69": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 1.3736267321133897
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        }
+      }
+    },
+    {
+      "donor": "JB338",
+      "condition": "NASH",
+      "compartment": "HSC",
+      "nuclei": 1813,
+      "total_UMI": 2489114,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 45,
+          "detected_nuclei": 43,
+          "log2cpm": 4.253892628665758
+        },
+        "PLXNB2": {
+          "UMI": 149,
+          "detected_nuclei": 141,
+          "log2cpm": 5.927438008764475
+        },
+        "NGFR": {
+          "UMI": 263,
+          "detected_nuclei": 217,
+          "log2cpm": 6.73687658993658
+        },
+        "CD163": {
+          "UMI": 15,
+          "detected_nuclei": 11,
+          "log2cpm": 2.8127529925036856
+        },
+        "HNF4A": {
+          "UMI": 160,
+          "detected_nuclei": 121,
+          "log2cpm": 6.0285669509866535
+        },
+        "PECAM1": {
+          "UMI": 29,
+          "detected_nuclei": 28,
+          "log2cpm": 3.6611489538016864
+        },
+        "MYH11": {
+          "UMI": 323,
+          "detected_nuclei": 159,
+          "log2cpm": 7.030833176522127
+        },
+        "CD69": {
+          "UMI": 3,
+          "detected_nuclei": 3,
+          "log2cpm": 1.1409409956197936
+        },
+        "CD19": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 0.48722842910992203
+        },
+        "KRT19": {
+          "UMI": 2,
+          "detected_nuclei": 2,
+          "log2cpm": 0.8507984271805399
+        }
+      }
+    },
+    {
+      "donor": "JB339",
+      "condition": "NASH",
+      "compartment": "HSC",
+      "nuclei": 1071,
+      "total_UMI": 2269438,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 53,
+          "detected_nuclei": 42,
+          "log2cpm": 4.6060749626088215
+        },
+        "PLXNB2": {
+          "UMI": 162,
+          "detected_nuclei": 131,
+          "log2cpm": 6.177585209454078
+        },
+        "NGFR": {
+          "UMI": 31,
+          "detected_nuclei": 29,
+          "log2cpm": 3.8737905157099366
+        },
+        "CD163": {
+          "UMI": 48,
+          "detected_nuclei": 34,
+          "log2cpm": 4.469274579983015
+        },
+        "HNF4A": {
+          "UMI": 456,
+          "detected_nuclei": 229,
+          "log2cpm": 7.657717190276859
+        },
+        "PECAM1": {
+          "UMI": 49,
+          "detected_nuclei": 40,
+          "log2cpm": 4.497692103273891
+        },
+        "MYH11": {
+          "UMI": 227,
+          "detected_nuclei": 124,
+          "log2cpm": 6.658565168794684
+        },
+        "CD69": {
+          "UMI": 8,
+          "detected_nuclei": 8,
+          "log2cpm": 2.177950251463728
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 2,
+          "detected_nuclei": 2,
+          "log2cpm": 0.9117111006558489
+        }
+      }
+    },
+    {
+      "donor": "JB340",
+      "condition": "NASH",
+      "compartment": "HSC",
+      "nuclei": 490,
+      "total_UMI": 918204,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 24,
+          "detected_nuclei": 22,
+          "log2cpm": 4.76224156153469
+        },
+        "PLXNB2": {
+          "UMI": 64,
+          "detected_nuclei": 57,
+          "log2cpm": 6.143664560292207
+        },
+        "NGFR": {
+          "UMI": 107,
+          "detected_nuclei": 89,
+          "log2cpm": 6.876907811672045
+        },
+        "CD163": {
+          "UMI": 30,
+          "detected_nuclei": 22,
+          "log2cpm": 5.073497990191367
+        },
+        "HNF4A": {
+          "UMI": 22,
+          "detected_nuclei": 21,
+          "log2cpm": 4.641535463641426
+        },
+        "PECAM1": {
+          "UMI": 10,
+          "detected_nuclei": 10,
+          "log2cpm": 3.5717770311825094
+        },
+        "MYH11": {
+          "UMI": 46,
+          "detected_nuclei": 20,
+          "log2cpm": 5.675189261798804
+        },
+        "CD69": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "CD19": {
+          "UMI": 0,
+          "detected_nuclei": 0,
+          "log2cpm": 0.0
+        },
+        "KRT19": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 1.0628695363512939
+        }
+      }
+    },
+    {
+      "donor": "JB341",
+      "condition": "NASH",
+      "compartment": "HSC",
+      "nuclei": 1757,
+      "total_UMI": 4029709,
+      "genes": {
+        "SEMA4D": {
+          "UMI": 39,
+          "detected_nuclei": 33,
+          "log2cpm": 3.4165855183543363
+        },
+        "PLXNB2": {
+          "UMI": 139,
+          "detected_nuclei": 135,
+          "log2cpm": 5.149495372870711
+        },
+        "NGFR": {
+          "UMI": 116,
+          "detected_nuclei": 101,
+          "log2cpm": 4.896572066388394
+        },
+        "CD163": {
+          "UMI": 12,
+          "detected_nuclei": 10,
+          "log2cpm": 1.992000669993786
+        },
+        "HNF4A": {
+          "UMI": 21,
+          "detected_nuclei": 19,
+          "log2cpm": 2.6348939527349002
+        },
+        "PECAM1": {
+          "UMI": 51,
+          "detected_nuclei": 45,
+          "log2cpm": 3.771463134289094
+        },
+        "MYH11": {
+          "UMI": 632,
+          "detected_nuclei": 234,
+          "log2cpm": 7.302274685023897
+        },
+        "CD69": {
+          "UMI": 7,
+          "detected_nuclei": 4,
+          "log2cpm": 1.452647163040237
+        },
+        "CD19": {
+          "UMI": 1,
+          "detected_nuclei": 1,
+          "log2cpm": 0.31979927331107244
+        },
+        "KRT19": {
+          "UMI": 27,
+          "detected_nuclei": 27,
+          "log2cpm": 2.9449026018274336
+        }
+      }
+    }
+  ],
+  "tests": [
+    {
+      "compartment": "myeloid",
+      "gene": "SEMA4D",
+      "disease_donors": [
+        "JB290",
+        "JB305",
+        "JB319",
+        "JB322",
+        "JB337",
+        "JB338",
+        "JB339",
+        "JB340",
+        "JB341"
+      ],
+      "control_donors": [
+        "JB288",
+        "JB303",
+        "JB317",
+        "JB320",
+        "JB336"
+      ],
+      "mean_log2cpm_difference": 0.6938799387697756,
+      "exact_permutation_p": 0.11188811188811189,
+      "permutations": 2002,
+      "bootstrap95": [
+        -0.094676512801808,
+        1.4642580839611063
+      ],
+      "loo_min": 0.31770512353257097,
+      "loo_max": 1.0877808544266516,
+      "loo_sign_stable": true,
+      "status": "exploratory_tested",
+      "bh_q_2": 0.21828171828171827
+    },
+    {
+      "compartment": "HSC",
+      "gene": "PLXNB2",
+      "disease_donors": [
+        "JB290",
+        "JB305",
+        "JB319",
+        "JB322",
+        "JB337",
+        "JB338",
+        "JB339",
+        "JB340",
+        "JB341"
+      ],
+      "control_donors": [
+        "JB288",
+        "JB303",
+        "JB317",
+        "JB320",
+        "JB336"
+      ],
+      "mean_log2cpm_difference": -0.29652373687093636,
+      "exact_permutation_p": 0.21828171828171827,
+      "permutations": 2002,
+      "bootstrap95": [
+        -0.7077582292653049,
+        0.12071840659685142
+      ],
+      "loo_min": -0.5326346678794689,
+      "loo_max": -0.07868768142434757,
+      "loo_sign_stable": true,
+      "status": "exploratory_tested",
+      "bh_q_2": 0.21828171828171827
+    }
+  ],
+  "compartment_nuclei": {
+    "myeloid": 5743,
+    "HSC": 13940
+  },
+  "marker_coherence_descriptive": {
+    "CD163": {
+      "myeloid": {
+        "pooled_cpm": 1368.7825892663518,
+        "detected_fraction": 0.6850078356259794
+      },
+      "HSC": {
+        "pooled_cpm": 10.625581504624844,
+        "detected_fraction": 0.013988522238163558
+      }
+    },
+    "NGFR": {
+      "myeloid": {
+        "pooled_cpm": 0.9249919885416104,
+        "detected_fraction": 0.0013930001741250218
+      },
+      "HSC": {
+        "pooled_cpm": 47.3035146983669,
+        "detected_fraction": 0.07230989956958393
+      }
+    }
+  },
+  "joint_direction_rule_met": false,
+  "label_scope": "Published reanalysis assignments; myeloid is not pure macrophages. Marker coherence does not prove purity.",
+  "independent_biological_validation": false,
+  "drug_effect_estimated": false,
+  "analysis_role": "post hoc source-provenance sensitivity, after primary effects; not independent confirmation",
+  "binding": {
+    "input_result_sha256": "51278b3ebe442170a5c75f20d948945fa0c2c2516b2e46336f0864c4c5ae93c3",
+    "spec_sha256": "97f50bf86ad1dd3faf5838063f6e2a262b38c6515c9255240560a6e2c93b8735",
+    "compartment_spec_sha256": "cc5d843b681d8db9befcb41ff2299e223376e0fafa60a3d8a18ffe723d3c317f",
+    "code_sha256": "40b31b5138423756f70dfc2650cf63d6c59a2d3f33b3ebdc24c683c2b2792573",
+    "compartment_code_sha256": "5f3badcf5efb7e8bca6cbf594bb2c93283be6155c889b020bd59af3e92f8e323"
+  }
+}

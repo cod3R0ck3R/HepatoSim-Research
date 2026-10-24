@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "frozen_utc": "2026-10-24T17:08:34.488035+00:00",
+  "timing": "Mapping found in supplementary PDF while outcome-blind count scan was running. No SEMA4D/PLXNB2 values or contrasts inspected. Separate exploratory addendum; original 36-slot cluster plan unchanged.",
+  "compartments": {
+    "myeloid": [
+      5
+    ],
+    "HSC": [
+      3,
+      11
+    ]
+  },
+  "mapping_source": "2026 published reanalysis DOI 10.3390/ijms27177920, Supplementary Tables S19 (HSC clusters 3+11) and S20 (Myeloid cluster 5). These are reanalysis assignments, not verified original-author per-cell labels.",
+  "mapping_file_sha256": {
+    "TableS19_HSC_external_validation.csv": "b276cd36c75fd456e85a9276cf874d6cc0e288b0eac6d1fb2d85cf09544f0797",
+    "TableS20_SAMac_external_validation.csv": "e21f3a16035adf1d9bba9bd281e01eb98234d990972f39b84ec38b921b246cee"
+  },
+  "contrasts": [
+    [
+      "myeloid",
+      "SEMA4D"
+    ],
+    [
+      "HSC",
+      "PLXNB2"
+    ]
+  ],
+  "min_nuclei": 20,
+  "min_donors_per_group": 3,
+  "statistics": "Same donor statistics as analysis-spec-v1.json, separate BH family of two exploratory tests; recompute CPM after merging raw cluster counts.",
+  "seed": 20261024,
+  "marker_coherence": "Descriptively compare myeloid CD163 and HSC NGFR pooled CPM across the two mapped compartments; agreement supports label coherence, not purity or independent annotation validation.",
+  "joint_direction_rule": "Both mean differences positive and all leave-one-from-each-group differences positive; separate from q<0.05 and not a biological validation threshold.",
+  "limitations": [
+    "Broad myeloid SEMA4D is not a pure macrophage replication.",
+    "Independent per-cell labels/purity not verified.",
+    "No causal ligand-receptor test or drug-effect inference."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "unit_tests": 8,
+  "shared_regression_tests": 7,
+  "previous_donor_tests": 7,
+  "real_run": true,
+  "cache_replay_byte_identical": true,
+  "compartment_replay_byte_identical": true,
+  "source_cache_checksums_verified": true,
+  "source_count_oracles_exact": true,
+  "result_sha256": "51278b3ebe442170a5c75f20d948945fa0c2c2516b2e46336f0864c4c5ae93c3",
+  "compartment_result_sha256": "d79f05dbf070f3f312b0db7075c799ec8abed1d8d0a4f7cfc695afff538d491c",
+  "checkpoint_sha256": "493606ce3738ce631651749fe4b68245d6745848408e66d023362970312b4fd1",
+  "code_sha256": {
+    "Research/UniformCohort/fetch_data.py": "8a03a55fec5f1dbb6559595b6b3ac2c13d6508e8090c2e6c89af79b60385bcc1",
+    "Research/UniformCohort/compartments.py": "5f3badcf5efb7e8bca6cbf594bb2c93283be6155c889b020bd59af3e92f8e323",
+    "Research/UniformCohort/test_analyze.py": "d814b74bd50e40db90242166e39aed250321b32dc4ec96553353b438710a8d1d",
+    "Research/UniformCohort/analyze.py": "e3d2c82768a67dcffea96aaff3d2581979291f4d2b3d35f1f7ea3c46c269a665",
+    "Research/GEOSampleCheck/analyze_geo.py": "a5bca3f3971dc56520bfe04998b27bd3c9f2b01ff294c6862553e7c700892eb7",
+    "Research/UniformCohort/label_sensitivity.py": "40b31b5138423756f70dfc2650cf63d6c59a2d3f33b3ebdc24c683c2b2792573"
+  },
+  "environment": {
+    "python": "3.15.0",
+    "numpy": "2.5.4",
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O"
+  },
+  "base_commit": "f5d5e47b0a2c6ddd78a6e7bc8282ac6342389a65",
+  "failures": "Two initial launches failed before tests/counts because the coordinator daemon lacked Documents access; byte-identical execution mirror used. Original supplement retrieval failed; reanalysis mapping explicitly sourced from Tables S19/S20 before outcome inspection. Source NASH/NAFL labels required a versioned correction; unknown contrast labels now fail a regression test. Two source donor-group conflicts were then discovered and tested in a separately frozen post hoc workbook sensitivity; primary retained.",
+  "label_sensitivity_replay_byte_identical": true,
+  "label_sensitivity_result_sha256": "26134673c9b1a49b30186568460384a71032ef029084330654f0a94be4f02e04",
+  "metadata_label_correction_verified": true,
+  "original_aggregate_payload_unchanged": true,
+  "original_invalid_summary_sha256": "d07b923869969f9aa30e0758a958c73943137516cb4bb36e9e132984b2d58f8a",
+  "original_scan_execution": {
+    "wall_seconds": 283.444,
+    "cpu_seconds": 39.486,
+    "peak_rss_bytes": 137756672,
+    "result_sha256": "d07b923869969f9aa30e0758a958c73943137516cb4bb36e9e132984b2d58f8a",
+    "tested": 0
+  },
+  "database": {
+    "first": {
+      "inserted": 2,
+      "already_present": 0,
+      "simulation_runs_preserved": 2,
+      "user_version": 1,
+      "quick_check": "ok"
+    },
+    "replay": {
+      "inserted": 0,
+      "already_present": 2,
+      "simulation_runs_preserved": 2,
+      "user_version": 1,
+      "quick_check": "ok"
+    }
+  },
+  "budget": {
+    "start_used_percent": 20,
+    "latest_displayed_used_percent": 22,
+    "ceiling": 24,
+    "note": "Account-wide rounded display, not exact task-attributed cost or savings."
+  }
+}

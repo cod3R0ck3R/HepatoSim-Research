@@ -1,0 +1,129 @@
+{
+  "schema_version": 2,
+  "frozen_utc": "2026-10-24T17:14:26.409244+00:00",
+  "accession": "GSE244832",
+  "purpose": "Exploratory donor-resolved cluster audit; cell-type assignments are unavailable. No macrophage/HSC replication claim.",
+  "selection_spec_sha256": "59d3ce5643f79175a382d4c58ad768c87976bad9e31015160bfc361f39796a43",
+  "dimensions": [
+    27200,
+    128223,
+    236313523
+  ],
+  "matrix_member": "processed_files/hLIVER_counts.mtx.gz",
+  "matrix_encoding": "plain integer MatrixMarket inside gzip tar despite .gz member suffix",
+  "files": {
+    "processed.tar.gz": {
+      "sha256": "574c75f0546eff4c3d3f1a266df383b2cada1ad8a876d0cae0f6b397a90d6e1a",
+      "bytes": 727189398
+    },
+    "hLIVER_genes.csv": {
+      "sha256": "c1327de37b65f98597fd123097f42a3f854ff3ff34c9334e6fdc2a0d078496aa",
+      "bytes": 271102
+    },
+    "hLIVER_cells.csv": {
+      "sha256": "9d65d3ed040bdbc4cb7d20da639b2ba367410c749bd4d0550d44fbf0b305fc2a",
+      "bytes": 3014230
+    },
+    "hLIVER_metadata.csv": {
+      "sha256": "46725c6f74a0bcbec2c90b92267a67844880def15ed016a2e62775726f2d0176",
+      "bytes": 8675511
+    },
+    "metadata.xlsx": {
+      "sha256": "cc56b353e0b5d452ab64a35f9c07e57169f75ec644780f1b0eac8348a633b0cd",
+      "bytes": 6227
+    }
+  },
+  "donors": {
+    "JB288": "NORMAL",
+    "JB289": "NAFL",
+    "JB290": "NASH",
+    "JB303": "NORMAL",
+    "JB304": "NAFL",
+    "JB305": "NASH",
+    "JB317": "NORMAL",
+    "JB318": "NAFL",
+    "JB319": "NASH",
+    "JB320": "NORMAL",
+    "JB321": "NASH",
+    "JB322": "NASH",
+    "JB336": "NORMAL",
+    "JB337": "NAFL",
+    "JB338": "NASH",
+    "JB339": "NASH",
+    "JB340": "NASH",
+    "JB341": "NASH"
+  },
+  "clusters": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "targets": [
+    "SEMA4D",
+    "PLXNB2"
+  ],
+  "markers": [
+    "NGFR",
+    "CD163",
+    "HNF4A",
+    "PECAM1",
+    "MYH11",
+    "CD69",
+    "CD19",
+    "KRT19"
+  ],
+  "marker_source": "Kim et al., DOI 10.1016/j.jhep.2024.10.044; marker expression is descriptive and does not establish purity or author labels.",
+  "contrast": [
+    "NASH",
+    "NORMAL"
+  ],
+  "min_nuclei": 20,
+  "min_donors_per_group": 3,
+  "normalization": "Sum raw counts per donor and original cluster, divide by all 27200-gene counts; log2(1+CPM). No pooled-cell inference.",
+  "statistics": {
+    "effect": "difference of donor mean log2(1+CPM), MASH minus NORMAL; not a fold change",
+    "test": "two-sided exhaustive donor-label permutation conditional on group sizes",
+    "multiple_testing": "BH over all 36 prespecified cluster-gene slots; untestable slots contribute p=1",
+    "bootstrap": "5000 independent within-group donor percentile bootstrap; 95% intervals descriptive, not simultaneous",
+    "rng": "numpy PCG64",
+    "seed": 20261024,
+    "loo": "remove one donor from each group, all combinations",
+    "exploratory_flag": "q<0.05; not an acceptance criterion for biological or clinical validation"
+  },
+  "MASL": "descriptive only, never pooled with NORMAL",
+  "annotation_gate": "No confirmatory compartment comparison until primary annotation or independently validated assignments available. No cluster assigned by SEMA4D/PLXNB2 signal or matching published compartment size.",
+  "limits": [
+    "Observational MASH comparison; no alcohol-specific or decompensated cirrhosis claim.",
+    "Different study/accessions from prior cohorts; donor overlap not independently excluded.",
+    "Common reported pipeline and feature list, not an independent FASTQ reprocessing or proof of absent batch effects."
+  ],
+  "budget": {
+    "workers": 1,
+    "wall_seconds": 900,
+    "parser_max_nnz": 300000000,
+    "parser_rss_MiB": 512,
+    "average_core_fraction": 0.2,
+    "retries": 1
+  },
+  "source_condition_labels": {
+    "NORMAL": "NORMAL",
+    "NAFL": "MASL terminology in article",
+    "NASH": "MASH terminology in article"
+  },
+  "amendment": "Technical label correction: source CSV uses NASH/NAFL, not MASH/MASL. Version1 completed count audit but returned zero eligible disease donors and zero tests. No gene values or valid contrasts inspected before correction. Original files retained; no success criterion changed."
+}

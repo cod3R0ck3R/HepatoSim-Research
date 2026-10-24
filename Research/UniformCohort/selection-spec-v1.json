@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "frozen_utc": "2026-10-24T16:52:03.204638+00:00",
+  "question": "Find a larger donor-resolved human liver cohort to test macrophage SEMA4D and HSC PLXNB2 with reduced processing confounding.",
+  "eligibility": [
+    "More than six unique human liver donors, preferably at least five independent donors per relevant disease/control group.",
+    "Explicit donor metadata and author cell-type annotation or accessible validated compartment assignments.",
+    "One common processing pipeline/reference within the tested comparison; integrated multi-study embeddings alone do not demonstrate common raw processing.",
+    "Healthy/nonfibrotic versus documented fibrotic disease groups; no substitution of blood for liver or immune-only for HSC evidence.",
+    "Accessible data and legal reproducible retrieval within compute/disk budget.",
+    "No known overlap with GSE210077, GSE135251 or already-used development studies; unknown overlaps must be flagged."
+  ],
+  "ranking": "Prioritize identifiability and common processing over total cell count or newer publication date. Record rejected/partially useful sources before viewing target effects.",
+  "budget": {
+    "start_used_percent": 20,
+    "remaining_percent": 80,
+    "max_additional_percentage_points": 4,
+    "max_used_percent": 24,
+    "stop_substantive_at": 23,
+    "workers": 1,
+    "download_limit_bytes": 1500000000,
+    "compute_seconds": 900,
+    "retries_per_access": 1
+  },
+  "fallback": "If no qualified accessible cohort fits, publish the executed eligibility/data audit and exact blocker; no synthetic or pooled-cell substitute, no unqualified treatment claim."
+}

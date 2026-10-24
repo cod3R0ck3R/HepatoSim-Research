@@ -123,3 +123,7 @@ Eine getrennte menschliche NAFLD-Kohorte stützt erhöhte SEMA4D-RNA, jedoch nic
 ## GSE210077: donor/cell-type check (24 October 2026)
 
 Sechs menschliche Spender und 27.692 annotierte Zellkerne wurden nach Zelltyp ausgewertet. Das gemeinsame Richtungskriterium für Makrophagen-SEMA4D und Sternzell-PLXNB2 wurde nicht erfüllt. Die nachträgliche Prüfung gemeinsamer Gen-IDs ändert das nicht; Referenz und Erkrankungsgruppe bleiben konfundiert.14 Tests und beide identischen Cache-Wiederholungen bestanden. [Report / Bericht](Docs/24-DonorCellCheck.md) · [Reproduce / Wiederholen](Research/DonorCellCheck/README.md).
+
+## Größere Kohorte mit gemeinsamer Verarbeitung (24. Oktober 2026)
+
+GSE244832:18 menschliche Spender,128.223 Zellkerne. Myeloides SEMA4D tendenziell höher, Sternzell-PLXNB2 niedriger; keiner besteht die Korrektur für zwei Tests. Zwei widersprüchliche Spendergruppen wurden separat geprüft; die Hypothese eines gemeinsamen Anstiegs besteht unter beiden Zuordnungen nicht.22 Tests und drei identische Cache-Wiederholungen bestanden. [Bericht](Docs/25-UniformCohort.md) · [Wiederholen](Research/UniformCohort/README.md). Keine Aussage zur Behandlungswirkung.

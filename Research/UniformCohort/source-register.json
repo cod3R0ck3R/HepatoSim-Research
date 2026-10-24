@@ -1,0 +1,103 @@
+{
+  "checked_date": "2026-10-24",
+  "selected": "GSE244832",
+  "scope": "Larger donor-resolved cohort with a common reported pipeline; exploratory expression, not independent treatment validation.",
+  "retrievals": [
+    {
+      "name": "metadata.xlsx",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE244nnn/GSE244832/suppl/GSE244832_240605_18liver_metadata.xlsx",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE244nnn/GSE244832/suppl/GSE244832_240605_18liver_metadata.xlsx",
+      "bytes": 6227,
+      "sha256": "cc56b353e0b5d452ab64a35f9c07e57169f75ec644780f1b0eac8348a633b0cd",
+      "retrieved_utc": "2026-10-24T16:53:27.862115+00:00"
+    },
+    {
+      "name": "paper-search.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39522884&format=json",
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39522884&format=json",
+      "bytes": 1377,
+      "sha256": "f6cffca122b6800f21ecbf4220638792cebd968e3eccb38a4fccf8c0a1e5b1c4",
+      "retrieved_utc": "2026-10-24T16:53:28.330213+00:00"
+    },
+    {
+      "name": "processed.tar.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE244nnn/GSE244832/suppl/GSE244832_hLIVER_processed_files.tar.gz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE244nnn/GSE244832/suppl/GSE244832_hLIVER_processed_files.tar.gz",
+      "bytes": 727189398,
+      "sha256": "574c75f0546eff4c3d3f1a266df383b2cada1ad8a876d0cae0f6b397a90d6e1a",
+      "retrieved_utc": "2026-10-24T16:54:51.531723+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13566530/fullTextXML",
+      "name": "reanalysis.xml",
+      "bytes": 208395,
+      "sha256": "ae86ed23e197a4a6df75732dfd036977d55bcd5b5ed8fff05a99d3f013c73815"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13566530/supplementaryFiles",
+      "name": "reanalysis-supp.zip",
+      "bytes": 5678963,
+      "sha256": "5128fe25f20af5efa7e39d26625881ad7d36292d52175aa6664bffe6dc263c11"
+    }
+  ],
+  "primary_article": {
+    "doi": "10.1016/j.jhep.2024.10.044",
+    "pmid": "39522884",
+    "pmc": "PMC12306656",
+    "citation_year": 2025,
+    "online_year": 2024,
+    "accession_discrepancy": "PMC author manuscript data availability states GSE224688; GEO GSE244832 cites PMID39522884 and the 18-donor workbook agrees. Retain discrepancy."
+  },
+  "mapping": {
+    "doi": "10.3390/ijms27177920",
+    "pmc": "PMC13566530",
+    "locations": [
+      "TableS19_HSC_external_validation.csv",
+      "TableS20_SAMac_external_validation.csv"
+    ],
+    "role": "Published reanalysis compartment assignments, not independently validated author cell labels"
+  },
+  "candidates": [
+    {
+      "id": "GSE244832",
+      "donors": 18,
+      "decision": "selected: 5 NORMAL, 4 MASL, 9 MASH; all 18 RNA samples NextSeq500; same Cell Ranger3.0.2/hg38 reported processing; common 27200-gene matrix; reanalysis labels available"
+    },
+    {
+      "id": "GSE202379",
+      "decision": "not selected: 59 libraries do not equal independent donors; small usable healthy compartments reported in reanalysis; annotation RDS2.6GB and June2025 sample-label correction require additional audit",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202379"
+    },
+    {
+      "id": "GSE289173",
+      "decision": "promising future48-donor cohort; GEO1.9GB count archive exceeds this1.5GB download budget; processed Zenodo14586466 not evaluated; phenotype counts need reconciliation",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE289173"
+    },
+    {
+      "id": "10.1038/s41588-026-02774-w",
+      "decision": "77-patient integrated atlas is not one raw-processing cohort; includes development-study GSE243981/GSE245620, so entire atlas not independent",
+      "url": "https://doi.org/10.1038/s41588-026-02774-w"
+    }
+  ],
+  "access_failures": [
+    {
+      "source": "EuropePMC PMC12306656 supplementaryFiles",
+      "result": "297-byte XML: not open access; not a ZIP; no supplement consumed"
+    },
+    {
+      "source": "PMC12306656 supplemental docx endpoint",
+      "result": "1817-byte HTML preparation page, not DOCX; original supplement unavailable through this route"
+    },
+    {
+      "source": "MDPI fulltext browser request",
+      "result": "HTTP429; reanalysis XML and supplement obtained through public EuropePMC API instead"
+    }
+  ],
+  "reuse": "No raw matrices, PDFs, supplementary tables, private mail or original images redistributed. Our code and derived summaries retain project MIT; upstream rights unchanged.",
+  "independence": "No known same-accession overlap with prior study sources; actual donor identity overlap cannot be excluded from anonymous identifiers.",
+  "label_conflicts": {
+    "JB321": "NASH in cell metadata, MASL in workbook",
+    "JB337": "NAFL in cell metadata, MASH in workbook"
+  },
+  "selection_limitation": "Common processing qualified; source disease labels remain conflicting, so exploratory only."
+}

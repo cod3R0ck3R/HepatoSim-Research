@@ -74,3 +74,7 @@ Completed frozen six-gene external-cohort comparison: SEMA4D positive, PLXNB2 no
 ### 2026-10-24 GSE210077
 
 GSE210077 donor/cell-type milestone completed:14 tests, exact primary and post hoc replays, two local evidence records. Remaining uncertainty: condition-confounded library reference and small heterogeneous donor cohort; next work requires a separately authorized harmonized cohort/perturbation check.
+
+### 2026-10-24 GSE244832
+
+Completed common-pipeline cohort audit:18 donors,128223 nuclei,22 tests, three exact replay checks, two SQLite evidence records. Joint SEMA4D/PLXNB2 increase failed under both source-label assignments. Next: resolve JB321/JB337 clinical-label conflict and original per-cell annotations; separately budget GSE289173 if needed. No automatic follow-up.

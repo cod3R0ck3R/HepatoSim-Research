@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "frozen_utc": "2026-10-24T17:17:19.023841+00:00",
+  "status": "post hoc source-provenance sensitivity, after primary effects; not independent confirmation",
+  "question": "Does swapping the two conflicting donor labels according to the author workbook alter conclusions?",
+  "source": "GSE244832_240605_18liver_metadata.xlsx",
+  "source_sha256": "cc56b353e0b5d452ab64a35f9c07e57169f75ec644780f1b0eac8348a633b0cd",
+  "extraction": "Headroom MarkItDown; inspected all18 donor rows; underscore removed from RNA_ID for join, historical NAFL/NASH terminology matched to MASL/MASH",
+  "conflicts": {
+    "JB337": {
+      "matrix_metadata": "NAFL",
+      "workbook": "NASH",
+      "accession": "GSM7830572"
+    },
+    "JB321": {
+      "matrix_metadata": "NASH",
+      "workbook": "NAFL",
+      "accession": "GSM7830569"
+    }
+  },
+  "rule": "Report both assignments without choosing the more favorable result. All counts, clusters, statistics and thresholds unchanged. Source truth unresolved; GEO sample pages contain tissue only for these donors."
+}

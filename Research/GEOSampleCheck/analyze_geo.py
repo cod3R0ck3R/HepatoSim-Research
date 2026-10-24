@@ -41,7 +41,7 @@ def read_checkpoint(path, binding):
     return old['sample']
 
 
-def coordinates(stream, expected=None, chunk=100000, max_cells=100000):
+def coordinates(stream, expected=None, chunk=100000, max_cells=100000, max_nnz=100000000):
     if stream.readline().strip() != b'%%MatrixMarket matrix coordinate integer general':
         raise ValueError('Unsupported MatrixMarket header')
     line = stream.readline()
@@ -51,7 +51,7 @@ def coordinates(stream, expected=None, chunk=100000, max_cells=100000):
     if len(dims) != 3 or min(dims) <= 0 or (expected and dims != expected):
         raise ValueError('Invalid dimensions')
     genes, cells, nnz = dims
-    if not 1 <= max_cells <= 10000000 or genes > 100000 or cells > max_cells or nnz > 100000000:
+    if not 1 <= max_cells <= 10000000 or not 1 <= max_nnz <= 300000000 or genes > 100000 or cells > max_cells or nnz > max_nnz:
         raise ValueError('Exceeds bounded parser capacity')
     seen, previous, total = 0, -1, 0
     while True:
