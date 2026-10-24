@@ -11,10 +11,13 @@ xcodebuild -project Apps/HepatoSim.xcodeproj -scheme HepatoSim-macOS \
   CODE_SIGN_IDENTITY=- CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM= \
   MARKETING_VERSION=0.1.0 CURRENT_PROJECT_VERSION=1 build
 app="$build_dir/Build/Products/Release/HepatoSimResearch.app"
+/usr/bin/strip -S -x "$app/Contents/MacOS/HepatoSimResearch"
+codesign --force --sign - --options runtime --entitlements Apps/macOS.entitlements "$app"
 codesign --verify --deep --strict "$app"
 /usr/bin/plutil -lint "$app/Contents/Info.plist"
-/usr/bin/lipo -archs "$app/Contents/MacOS/HepatoSimResearch"
-/usr/bin/ditto -c -k --sequesterRsrc --keepParent "$app" "$archive_dir/HepatoSim-Research-0.1.0-alpha.1-macOS-arm64.zip"
+archs=$(/usr/bin/lipo -archs "$app/Contents/MacOS/HepatoSimResearch")
+case "$archs" in "x86_64 arm64"|"arm64 x86_64") ;; *) exit 1 ;; esac
+/usr/bin/ditto -c -k --sequesterRsrc --keepParent "$app" "$archive_dir/HepatoSim-Research-0.1.0-alpha.1-macOS-universal.zip"
 cd "$archive_dir"
-/usr/bin/shasum -a 256 HepatoSim-Research-0.1.0-alpha.1-macOS-arm64.zip > SHA256SUMS.txt
+/usr/bin/shasum -a 256 HepatoSim-Research-0.1.0-alpha.1-macOS-universal.zip > SHA256SUMS.txt
 printf 'Ad-hoc signed research prerelease, not notarized: %s\n' "$archive_dir"

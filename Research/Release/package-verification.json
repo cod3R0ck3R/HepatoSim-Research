@@ -1,0 +1,25 @@
+{
+  "build_exit": 0,
+  "sign_verify_exit": 0,
+  "architectures": [
+    "arm64",
+    "x86_64"
+  ],
+  "ui_tested_architecture": "arm64",
+  "minimum_macos": "14.0",
+  "signing": "ad-hoc; not Apple-notarized",
+  "debug_and_local_symbols_stripped": true,
+  "private_path_and_secret_pattern_scan_passed": true,
+  "file_count": 10,
+  "archive_bytes": 710251,
+  "sha256": "c73d9b5cfe50074f510b75609627d6ff11efba538a443263cc65fde7088d205e",
+  "limitations": [
+    "Intel execution not tested",
+    "iOS distribution not tested",
+    "medical validation absent"
+  ],
+  "actual_app_path_launch_verified": true,
+  "gui_scope": "Dashboard launched, displayed research disclaimer and editable parameter fields; no new simulation or full workflow test",
+  "source_tree_matches_commit": "fd9944b3e0d307dd8bae98202df98f1d756c1fa0",
+  "runtime_gatekeeper_download_tested": false
+}

@@ -104,4 +104,6 @@ No open-source license has been selected for original HepatoSim code. Public vis
 
 ## Collagen check and macOS prerelease preparation
 
-Maintained by **Johnnie 4 free**. [The new internal collagen comparison](Docs/19-CollagenInternalCheck.md) passed five software tests and exact replay. It does not identify a treatment effect or provide independent biological validation. [Run the check](Research/CollagenCheck/README.md). The macOS packaging script produces an Apple Silicon research prerelease with ad-hoc signing; it is not notarized. The release is experimental, requires macOS 14 or later, and is not a medical product. No iPhone binary is included. The existing licensing status remains unchanged.
+Maintained by **Johnnie 4 free**. [The new internal collagen comparison](Docs/19-CollagenInternalCheck.md) passed five software tests and exact replay. It does not identify a treatment effect or provide independent biological validation. [Run the check](Research/CollagenCheck/README.md). The macOS packaging script produces a universal macOS research prerelease (launch tested on Apple Silicon) with ad-hoc signing; it is not notarized. The release is experimental, requires macOS 14 or later, and is not a medical product. No iPhone binary is included. The existing licensing status remains unchanged.
+
+[macOS release verification / Prüfung](Docs/20-MacOSReleaseVerification.md).

@@ -294,14 +294,14 @@
     },
     {
       "path": "README.de.md",
-      "original_sha256": "bcfbaf1f08389bf0655abc11a6a4c1a506fbfe183c18a56dfe721738097818cd",
-      "published_sha256": "bcfbaf1f08389bf0655abc11a6a4c1a506fbfe183c18a56dfe721738097818cd",
+      "original_sha256": "d89ce18d439314ac870733ad0906a65a3665ed5e98410cf8a74fd88af2a697c3",
+      "published_sha256": "d89ce18d439314ac870733ad0906a65a3665ed5e98410cf8a74fd88af2a697c3",
       "metadata_redacted": false
     },
     {
       "path": "README.md",
-      "original_sha256": "da1a41901ec2162f769e5e0c6f2dc75cc0044c6668913a5825d66fd64c7405d2",
-      "published_sha256": "da1a41901ec2162f769e5e0c6f2dc75cc0044c6668913a5825d66fd64c7405d2",
+      "original_sha256": "4a306d88244ebdb32a3b5b055e82136116b6abf02492db065db7c611c32f013b",
+      "published_sha256": "4a306d88244ebdb32a3b5b055e82136116b6abf02492db065db7c611c32f013b",
       "metadata_redacted": false
     },
     {
@@ -1590,8 +1590,8 @@
     },
     {
       "path": "Scripts/package-macos-release.sh",
-      "original_sha256": "e3b57c6405a9dfde4d76c7b32d19b06882f313c5bc32140699791aaedb5d8db2",
-      "published_sha256": "e3b57c6405a9dfde4d76c7b32d19b06882f313c5bc32140699791aaedb5d8db2",
+      "original_sha256": "a09dfecd6161bc0e52ffa1573bc694736a04b59349fd630ae62ea759faeba718",
+      "published_sha256": "a09dfecd6161bc0e52ffa1573bc694736a04b59349fd630ae62ea759faeba718",
       "metadata_redacted": false
     },
     {
@@ -1658,6 +1658,18 @@
       "path": "Research/CollagenCheck/results-v1/environment.json",
       "original_sha256": "048dc2a7693b8fbc30f199775d3516516a528894b0257927b87b8d5de3202702",
       "published_sha256": "048dc2a7693b8fbc30f199775d3516516a528894b0257927b87b8d5de3202702",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Release/package-verification.json",
+      "original_sha256": "68cc80e87c9dcf21a9d219e010d604007b6e8ed7142d8d53c985118f05f6d934",
+      "published_sha256": "68cc80e87c9dcf21a9d219e010d604007b6e8ed7142d8d53c985118f05f6d934",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/20-MacOSReleaseVerification.md",
+      "original_sha256": "db66201b0e09dcae924b5417b205c615744edab8a6e89d8411041034e24c731f",
+      "published_sha256": "db66201b0e09dcae924b5417b205c615744edab8a6e89d8411041034e24c731f",
       "metadata_redacted": false
     }
   ],

@@ -104,4 +104,6 @@ Für eigenen HepatoSim-Code wurde keine Open-Source-Lizenz gewählt. Öffentlich
 
 ## Kollagenprüfung und Vorbereitung der macOS-Vorabversion
 
-Maintainer: **Johnnie 4 free**. [Der neue interne Kollagenvergleich](Docs/19-CollagenInternalCheck.md) bestand fünf Softwaretests und die exakte Wiederholung. Er identifiziert keine Behandlungswirkung und liefert keine unabhängige biologische Validierung. [Prüfung ausführen](Research/CollagenCheck/README.md). Das macOS-Packaging erzeugt eine Apple-Silicon-Forschungsvorabversion mit Ad-hoc-Signatur; sie ist nicht notarisiert. Die Version ist experimentell, benötigt macOS 14 oder neuer und ist kein Medizinprodukt. Kein iPhone-Binärpaket enthalten. Der bestehende Lizenzstatus bleibt unverändert.
+Maintainer: **Johnnie 4 free**. [Der neue interne Kollagenvergleich](Docs/19-CollagenInternalCheck.md) bestand fünf Softwaretests und die exakte Wiederholung. Er identifiziert keine Behandlungswirkung und liefert keine unabhängige biologische Validierung. [Prüfung ausführen](Research/CollagenCheck/README.md). Das macOS-Packaging erzeugt eine universelle macOS-Forschungsvorabversion (Start auf Apple Silicon geprüft) mit Ad-hoc-Signatur; sie ist nicht notarisiert. Die Version ist experimentell, benötigt macOS 14 oder neuer und ist kein Medizinprodukt. Kein iPhone-Binärpaket enthalten. Der bestehende Lizenzstatus bleibt unverändert.
+
+[macOS release verification / Prüfung](Docs/20-MacOSReleaseVerification.md).
