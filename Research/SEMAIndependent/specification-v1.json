@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "sema-external-association-v1",
+  "frozen_utc": "2026-10-24T15:35:54.210988+00:00",
+  "target_data_viewed": false,
+  "dataset": "GSE135251",
+  "question": "Do SEMA4D and PLXNB2 show higher whole-liver RNA expression in advanced vs minimal fibrosis in a separately collected human NAFLD cohort?",
+  "scope": "External retrospective association; not receptor-specific causality, treatment efficacy, longitudinal regression, or independent validation of Kappa. No reported reuse found in Pham main text; supplements not fully audited.",
+  "unit": "one patient biopsy/library; verify unique GEO, title and BioSample",
+  "inclusion": "disease=NAFLD and fibrosis stage 0..4; controls excluded",
+  "primary_groups": {
+    "advanced": [
+      3,
+      4
+    ],
+    "minimal": [
+      0,
+      1
+    ]
+  },
+  "excluded_primary": "stage 2 retained only for stage trend",
+  "genes": {
+    "SEMA4D": "ENSG00000187764",
+    "PLXNB2": "ENSG00000196576",
+    "PLXNB1": "ENSG00000164050",
+    "CD72": "ENSG00000137101",
+    "SEMA4C": "ENSG00000168758",
+    "COL1A1": "ENSG00000108821"
+  },
+  "primary_targets": [
+    "SEMA4D",
+    "PLXNB2"
+  ],
+  "comparison_genes": [
+    "PLXNB1",
+    "CD72",
+    "SEMA4C",
+    "COL1A1"
+  ],
+  "measurement": "HTSeq integer counts, GRCh38 Ensembl release 78; remove __ summary rows from denominator; log2(1+1e6*count/total_gene_counts)",
+  "tests": {
+    "effect": "mean advanced minus mean minimal log2(CPM+1)",
+    "permutation": "9999 random label permutations, two-sided absolute mean contrast, plus-one correction",
+    "multiplicity": "Benjamini-Hochberg across all six prespecified genes",
+    "interval": "2000 bootstrap resamples of each group, percentile 95%, unadjusted descriptive",
+    "seed": 20261024
+  },
+  "sensitivity": [
+    "F3 only versus F0/F1 effect",
+    "minimum and maximum leave-one-patient-out primary effect",
+    "Spearman correlation with numeric fibrosis stage among all NAFLD samples, descriptive, average tied ranks"
+  ],
+  "acceptance": "Pair concordance requires BOTH target genes positive, BH q<0.05 and descriptive lower CI>0; reported association only. Negative/mixed result retained unchanged. No therapeutic success threshold.",
+  "missingness": "fail on duplicate genes/GEO/title/BioSample, missing target or mismatched files, negative/noninteger counts; do not impute or tune exclusions",
+  "resource_budget": {
+    "workers": 1,
+    "max_peak_rss_mib": 512,
+    "cpu_duty_fraction": 0.2,
+    "max_seconds": 600,
+    "network_max_bytes": 60000000,
+    "local_ai": "one existing hermes3 task, 120s; no retries"
+  },
+  "statistical_limits": [
+    "cross-sectional, cell mixture, unadjusted sex/age/batch/unavailable covariates",
+    "CPM composition bias",
+    "no temporal, cellular or drug response inference",
+    "current stable Ensembl IDs cross-checked against original count IDs; no identifier substitution"
+  ]
+}

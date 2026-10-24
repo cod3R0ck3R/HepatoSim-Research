@@ -115,3 +115,7 @@ Die unveränderte CCl4-Rate verfehlte bei TAA das vorab definierte Vergleichskri
 ## Prüfung der neun GEO-Bibliotheken (24. Oktober 2026)
 
 Neun echte Matrizen wurden lokal geprüft: 38.136 gefilterte Zellen und alle drei Gruppensummen stimmen mit der Publikation überein. Sieben Tests und exakte echte Wiederaufnahme/Wiederholung bestanden. SEMA4D–PLXNB2 begründet eine Zelltyp-Folgeprüfung; LMCD1 bei Rückbildung und CTSL zeigen wichtige Sensitivitätsgrenzen. Explorative Auswertung der Autorendaten, kein Arzneimittelwirksamkeitsnachweis. Die lokale KI-Prüfung blieb blockiert und wurde nicht verwendet. [Prüfung und Mechanismusfragen](Docs/22-GEOSampleCheck.md) · [Wiederholen/fortsetzen](Research/GEOSampleCheck/README.md).
+
+## Externe SEMA4D–PLXNB2-Prüfung (24. Oktober 2026)
+
+Eine getrennte menschliche NAFLD-Kohorte stützt erhöhte SEMA4D-RNA, jedoch nicht den vorab geforderten gemeinsamen Anstieg von SEMA4D und PLXNB2. Alle 216 Zähldateien wurden geprüft; 206 erkrankte Biopsien gingen in die Analyse ein. Fünf Tests und eine identische Cache-Wiederholung bestanden. Lokale Goose-Inferenz fand statt; unbelegte Vorschläge wurden verworfen. [Ergebnisse und Grenzen](Docs/23-SEMAIndependent.md) · [Wiederholen](Research/SEMAIndependent/README.md).

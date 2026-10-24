@@ -1,0 +1,9 @@
+{
+  "wall_seconds": 46.45439166703727,
+  "cpu_seconds": 7.712001,
+  "peak_rss_bytes": 57606144,
+  "cache_used": false,
+  "python": "3.15.0",
+  "numpy": "2.5.4",
+  "result_sha256": "01ea41500ea898fee17d2c88af81df2d9646a94ea340b9f3dcb9ac908294dfd5"
+}

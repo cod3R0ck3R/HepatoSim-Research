@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "milestone": "reproducible research follow-up",
-  "status": "bounded_expression_reanalysis_completed",
+  "status": "sema_external_analysis_completed",
   "checked_date": "2026-10-23",
   "publication_base_commit": "fe31263a7ec3a39b78a7e24a2753dab5f6dbbd81",
   "own_code_license": "MIT",
@@ -47,7 +47,7 @@
     "clinical_use": "not_validated",
     "expression": "Exploratory E-MEXP-3177 reanalysis; no independent biological validation"
   },
-  "next_executable_step": "Obtain joint collagen formation/clearance measurements and an independent evaluation cohort; no further unconstrained fitting",
+  "next_executable_step": "Audit and analyze GSE210077 at donor/cell-type level under a new bounded scope",
   "data_collection": {
     "report": "Docs/17-DataCollectionStatus.md",
     "new_simulations": 0,
@@ -56,7 +56,7 @@
     "new_compute_authorized": false,
     "automatic_resume": false
   },
-  "updated_utc": "2026-10-24T13:46:03.655573+00:00",
+  "updated_utc": "2026-10-24T15:47:25.385268+00:00",
   "bounded_research_20261024": {
     "specification": "Research/Expression/specification-v1.json",
     "account_budget": {
@@ -133,7 +133,7 @@
     "local_worker": "queued resource-blocked, cancelled before execution; no fallback",
     "independent_validation": false
   },
-  "next_step": "Obtain animal-level cell annotations and batch/pooling metadata; independent protein/activity and collagen-turnover evaluation for SEMA4D\u2013PLXNB2. LMCD1 regression RNA and CTSL not robust.",
+  "next_step": "Audit and analyze GSE210077 at donor/cell-type level under a new bounded scope",
   "geo_sample_check": {
     "status": "completed_exploratory_analysis",
     "specification": "Research/GEOSampleCheck/specification-v1.json",
@@ -146,7 +146,7 @@
     "local_ai_job": "hepatosim-geoqc-local-20261024",
     "source_code_sha_verified": true,
     "tests_passed": 7,
-    "next_step": "Obtain animal-level cell annotations and batch/pooling metadata; independent protein/activity and collagen-turnover evaluation for SEMA4D\u2013PLXNB2. LMCD1 regression RNA and CTSL not robust.",
+    "next_step": "Obtain animal-level cell annotations and batch/pooling metadata; independent protein/activity and collagen-turnover evaluation for SEMA4D–PLXNB2. LMCD1 regression RNA and CTSL not robust.",
     "synthetic_resume_replay_exact": true,
     "metadata_result": "Research/GEOSampleCheck/metadata-result.json",
     "report": "Docs/22-GEOSampleCheck.md",
@@ -163,5 +163,27 @@
     "local_worker_status": "resource_blocked_cancelled_before_inference",
     "independent_biological_validation": false,
     "drug_efficacy_estimated": false
+  },
+  "sema_independent": {
+    "status": "analysis_complete_publication_pending",
+    "report": "Docs/23-SEMAIndependent.md",
+    "specification": "Research/SEMAIndependent/specification-v1.json",
+    "result": "Research/SEMAIndependent/result-v1.json",
+    "result_sha256": "01ea41500ea898fee17d2c88af81df2d9646a94ea340b9f3dcb9ac908294dfd5",
+    "dataset": "GSE135251",
+    "libraries_checked": 216,
+    "disease_samples": 206,
+    "joint_positive_rule_met": false,
+    "unit_tests": 5,
+    "cache_replay_exact": true,
+    "local_worker": "verified local inference; scientific suggestions rejected",
+    "clinical_validation": false,
+    "baseline_used_percent": 15,
+    "ceiling_used_percent": 19.25,
+    "stop_substantive_at_displayed_percent": 18,
+    "next_step": "Audit and analyze GSE210077 at donor/cell-type level under a new bounded scope",
+    "database_records_added": 2,
+    "simulation_runs_preserved": 2,
+    "observed_used_percent_before_publication": 16
   }
 }

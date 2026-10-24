@@ -1,0 +1,131 @@
+{
+  "specification": "sema-external-association-v1",
+  "inputs": {
+    "archive": "0f4527224ad66cfa9e3f1a603b2a460554876200b2e964e7b0c9798bf13537aa",
+    "metadata": "58dcc86abc8016270f38946709f1329f7e84be9aece009f3afc6bd21516dfe50",
+    "spec": "e013e8dbccb0b371c39a4dcd72b5d69180eb75b9d601aaeea1beccc2f7c9549e",
+    "code": "23aee00cfdb8fac78fe95363c5391aa36e0ec1d85e2ea4190b472249f328720f"
+  },
+  "cohort": {
+    "libraries": 216,
+    "NAFLD": 206,
+    "controls_excluded": 10,
+    "stage_counts_NAFLD": {
+      "2": 53,
+      "3": 54,
+      "0": 38,
+      "1": 47,
+      "4": 14
+    },
+    "advanced": 68,
+    "minimal": 85
+  },
+  "qc": {
+    "total_gene_count_range": [
+      14692247,
+      37815440
+    ],
+    "feature_counts": [
+      64253
+    ]
+  },
+  "genes": {
+    "SEMA4D": {
+      "effect": 0.30856713654084045,
+      "p": 0.0001,
+      "ci95_unadjusted": [
+        0.15354465641974654,
+        0.47571632306414413
+      ],
+      "leave_one_out_range": [
+        0.28274707550998235,
+        0.32397611867731113
+      ],
+      "F3_vs_minimal_effect": 0.27616712230304685,
+      "stage_spearman_descriptive": 0.2653504309379038,
+      "zero_count_libraries": 0,
+      "bh_q_six_genes": 0.00030000000000000003
+    },
+    "PLXNB2": {
+      "effect": -0.13364354576032067,
+      "p": 0.102,
+      "ci95_unadjusted": [
+        -0.29746782141249467,
+        0.027905673394063742
+      ],
+      "leave_one_out_range": [
+        -0.15291376642420573,
+        -0.11496481792890023
+      ],
+      "F3_vs_minimal_effect": -0.17084666076617783,
+      "stage_spearman_descriptive": -0.10060143532470303,
+      "zero_count_libraries": 0,
+      "bh_q_six_genes": 0.153
+    },
+    "PLXNB1": {
+      "effect": 0.122830839801499,
+      "p": 0.1771,
+      "ci95_unadjusted": [
+        -0.05108705400839886,
+        0.30050803695421513
+      ],
+      "leave_one_out_range": [
+        0.10054390024500304,
+        0.15025444361995977
+      ],
+      "F3_vs_minimal_effect": 0.06796210903024935,
+      "stage_spearman_descriptive": 0.10792099471973371,
+      "zero_count_libraries": 0,
+      "bh_q_six_genes": 0.21252
+    },
+    "CD72": {
+      "effect": 0.14831193570294898,
+      "p": 0.0839,
+      "ci95_unadjusted": [
+        -0.021225900267984796,
+        0.3218439799388531
+      ],
+      "leave_one_out_range": [
+        0.10236740264460109,
+        0.1653350734343224
+      ],
+      "F3_vs_minimal_effect": 0.13753755055404815,
+      "stage_spearman_descriptive": 0.1350213547237157,
+      "zero_count_libraries": 0,
+      "bh_q_six_genes": 0.153
+    },
+    "SEMA4C": {
+      "effect": 0.05056556815723523,
+      "p": 0.4256,
+      "ci95_unadjusted": [
+        -0.07672273488234406,
+        0.1775336852179083
+      ],
+      "leave_one_out_range": [
+        0.035764193860551075,
+        0.06751373752083811
+      ],
+      "F3_vs_minimal_effect": 0.023788742827434373,
+      "stage_spearman_descriptive": 0.07749632012593151,
+      "zero_count_libraries": 0,
+      "bh_q_six_genes": 0.4256
+    },
+    "COL1A1": {
+      "effect": 1.0835744398002123,
+      "p": 0.0001,
+      "ci95_unadjusted": [
+        0.7150650968363289,
+        1.4411090077659772
+      ],
+      "leave_one_out_range": [
+        1.0393263940233868,
+        1.1243174085270327
+      ],
+      "F3_vs_minimal_effect": 0.982207073229111,
+      "stage_spearman_descriptive": 0.41105657862911243,
+      "zero_count_libraries": 0,
+      "bh_q_six_genes": 0.00030000000000000003
+    }
+  },
+  "pair_association_rule_met": false
+}

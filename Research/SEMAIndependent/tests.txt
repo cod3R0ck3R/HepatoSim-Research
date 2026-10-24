@@ -1,0 +1,10 @@
+test_bad_counts (test_analyze.Checks.test_bad_counts) ... ok
+test_bh_and_ties (test_analyze.Checks.test_bh_and_ties) ... ok
+test_counts_summary_excluded (test_analyze.Checks.test_counts_summary_excluded) ... ok
+test_direction_and_loo (test_analyze.Checks.test_direction_and_loo) ... ok
+test_null_and_replay (test_analyze.Checks.test_null_and_replay) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.678s
+
+OK

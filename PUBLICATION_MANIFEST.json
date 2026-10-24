@@ -132,8 +132,8 @@
     },
     {
       "path": "DECISIONS.md",
-      "original_sha256": "69de5730a17f796c5ee2c9a91588f92f4d943fd84f003fb1610d851aef73da87",
-      "published_sha256": "69de5730a17f796c5ee2c9a91588f92f4d943fd84f003fb1610d851aef73da87",
+      "original_sha256": "b7d27877a64d239bc0343c18c882c8d90e4101f48a2b940da43bb33cc564ba8f",
+      "published_sha256": "b7d27877a64d239bc0343c18c882c8d90e4101f48a2b940da43bb33cc564ba8f",
       "metadata_redacted": false
     },
     {
@@ -269,6 +269,12 @@
       "metadata_redacted": false
     },
     {
+      "path": "Docs/23-SEMAIndependent.md",
+      "original_sha256": "c83597566a63ecfe635fc52e33af2ff627523cdb389328e06720d57ee50c32ed",
+      "published_sha256": "c83597566a63ecfe635fc52e33af2ff627523cdb389328e06720d57ee50c32ed",
+      "metadata_redacted": false
+    },
+    {
       "path": "Docs/README-HSR001.md",
       "original_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
       "published_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
@@ -324,26 +330,26 @@
     },
     {
       "path": "README.de.md",
-      "original_sha256": "227add9333f937dd0b3257f9e25400c4e64475846b24b483c0a35a05f3b82f0a",
-      "published_sha256": "227add9333f937dd0b3257f9e25400c4e64475846b24b483c0a35a05f3b82f0a",
+      "original_sha256": "e1407ddbc25341dca4454e41890b3dc06938f72cfa58feb543988eb1a1f9429e",
+      "published_sha256": "e1407ddbc25341dca4454e41890b3dc06938f72cfa58feb543988eb1a1f9429e",
       "metadata_redacted": false
     },
     {
       "path": "README.md",
-      "original_sha256": "bad464d589ead2aeff204d4016ef25a6966baee9588eb82a3a8e07818501fdfa",
-      "published_sha256": "bad464d589ead2aeff204d4016ef25a6966baee9588eb82a3a8e07818501fdfa",
+      "original_sha256": "65f79f3d4619d365c5f7935eda2c182b3de495ec218b7818534fabde74a81de6",
+      "published_sha256": "65f79f3d4619d365c5f7935eda2c182b3de495ec218b7818534fabde74a81de6",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_PLAN.md",
-      "original_sha256": "fd2c88e5c5831d1ff1f6f72853fbe1036fa139dbbc38b079cfeaf19b976e2ef9",
-      "published_sha256": "fd2c88e5c5831d1ff1f6f72853fbe1036fa139dbbc38b079cfeaf19b976e2ef9",
+      "original_sha256": "52374ae5cd1ca3696519995ac257684e537fbde1c54d50df8845f723f8996c9f",
+      "published_sha256": "52374ae5cd1ca3696519995ac257684e537fbde1c54d50df8845f723f8996c9f",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_STATE.json",
-      "original_sha256": "80ed736524a08e8f65a6fd91ba7660424de064ca401b3b2aba065c9df416c25b",
-      "published_sha256": "4f725e319423821f8434de77c651d0e82c730c069f2fb74900cf45db1e0601cb",
+      "original_sha256": "e4996ab8c03ba11e5b881dffde4690b030d73a3bdc0f97c349a8f0deda79a56a",
+      "published_sha256": "f05b30ee8afeb3f39bc6ac15cb29ab69702491ad0f669aec5e01f67210d643c4",
       "metadata_redacted": true
     },
     {
@@ -372,8 +378,14 @@
     },
     {
       "path": "Research/Candidates/README.md",
-      "original_sha256": "81dcddc0cfca7eb3d6237214c4dacf004a6bf80a530d6d7578ca69db2da221ee",
-      "published_sha256": "81dcddc0cfca7eb3d6237214c4dacf004a6bf80a530d6d7578ca69db2da221ee",
+      "original_sha256": "4d62a7c48d299127896e3ce81d7be9ade2210ebb52459b108432ca5b117feb2c",
+      "published_sha256": "4d62a7c48d299127896e3ce81d7be9ade2210ebb52459b108432ca5b117feb2c",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Candidates/SEMA4D-PLXNB2.md",
+      "original_sha256": "602b2320983d312093024c32ddd8e4a30941edf5ef7704f1251d4f4c9db287e9",
+      "published_sha256": "602b2320983d312093024c32ddd8e4a30941edf5ef7704f1251d4f4c9db287e9",
       "metadata_redacted": false
     },
     {
@@ -1655,6 +1667,90 @@
       "metadata_redacted": false
     },
     {
+      "path": "Research/SEMAIndependent/README.md",
+      "original_sha256": "16709b86f8926a967065caf96b1dfb4b453f15d5df7e93afa129d9d04ee9d8fe",
+      "published_sha256": "16709b86f8926a967065caf96b1dfb4b453f15d5df7e93afa129d9d04ee9d8fe",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/SEMAIndependent/analyze.py",
+      "original_sha256": "23aee00cfdb8fac78fe95363c5391aa36e0ec1d85e2ea4190b472249f328720f",
+      "published_sha256": "23aee00cfdb8fac78fe95363c5391aa36e0ec1d85e2ea4190b472249f328720f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/SEMAIndependent/database-verification.json",
+      "original_sha256": "90ec7714914970aeffd33cf7fd34a461a13b5793fc73c751cee8634d77e53810",
+      "published_sha256": "90ec7714914970aeffd33cf7fd34a461a13b5793fc73c751cee8634d77e53810",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/SEMAIndependent/fetch_data.py",
+      "original_sha256": "58a6e652d32968f2fe0d4b3720387c2a1d0d88b3a17d401d9a6b94e1fbd17d19",
+      "published_sha256": "58a6e652d32968f2fe0d4b3720387c2a1d0d88b3a17d401d9a6b94e1fbd17d19",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/SEMAIndependent/local-worker-review.json",
+      "original_sha256": "ac8c1048ea7f54df797a308e52e99d6bdf7643c149b9d8c087b0bb617d5ffa04",
+      "published_sha256": "ac8c1048ea7f54df797a308e52e99d6bdf7643c149b9d8c087b0bb617d5ffa04",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/SEMAIndependent/provenance.json",
+      "original_sha256": "7d53c230567a7e14a49cbba4792680b176c8d40675c382b6c0cf2f0507bf9ed0",
+      "published_sha256": "7d53c230567a7e14a49cbba4792680b176c8d40675c382b6c0cf2f0507bf9ed0",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/SEMAIndependent/result-v1.json",
+      "original_sha256": "01ea41500ea898fee17d2c88af81df2d9646a94ea340b9f3dcb9ac908294dfd5",
+      "published_sha256": "01ea41500ea898fee17d2c88af81df2d9646a94ea340b9f3dcb9ac908294dfd5",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/SEMAIndependent/result-v1.json.execution.json",
+      "original_sha256": "64ec3c26864e8af75e3618aca7741d24d4607ba775ddb1b7716eff7f9586556c",
+      "published_sha256": "64ec3c26864e8af75e3618aca7741d24d4607ba775ddb1b7716eff7f9586556c",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/SEMAIndependent/source-search.json",
+      "original_sha256": "45ac183718836e57eafc59186631b54ec39309135db179ad43a1387ad8f79d41",
+      "published_sha256": "45ac183718836e57eafc59186631b54ec39309135db179ad43a1387ad8f79d41",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/SEMAIndependent/specification-v1.json",
+      "original_sha256": "e013e8dbccb0b371c39a4dcd72b5d69180eb75b9d601aaeea1beccc2f7c9549e",
+      "published_sha256": "e013e8dbccb0b371c39a4dcd72b5d69180eb75b9d601aaeea1beccc2f7c9549e",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/SEMAIndependent/specification-v1.sha256",
+      "original_sha256": "dc94dc8939f8e973578052aaee96ac25769bd6cd27a16c32c9bd6364bc9b75c2",
+      "published_sha256": "dc94dc8939f8e973578052aaee96ac25769bd6cd27a16c32c9bd6364bc9b75c2",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/SEMAIndependent/test_analyze.py",
+      "original_sha256": "fe971ac9b760c4358965752c6453cff77c1ba875e2989ee31b39f5063c9d1c65",
+      "published_sha256": "fe971ac9b760c4358965752c6453cff77c1ba875e2989ee31b39f5063c9d1c65",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/SEMAIndependent/tests.txt",
+      "original_sha256": "c80ffa932b5c247b70c808b75479e9a02409e0a03ecd79385b60092f342c654f",
+      "published_sha256": "c80ffa932b5c247b70c808b75479e9a02409e0a03ecd79385b60092f342c654f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/SEMAIndependent/verification.json",
+      "original_sha256": "6f0486c353570dffe0acd13ce089058e254ae5245e6d46571971711a01811b45",
+      "published_sha256": "6f0486c353570dffe0acd13ce089058e254ae5245e6d46571971711a01811b45",
+      "metadata_redacted": false
+    },
+    {
       "path": "Research/TAATransfer/CollagenCheck-tests.txt",
       "original_sha256": "6273232de4d3ef7acd4ecafa5c86beeeb974f56586b21089a2990b3f72facbe6",
       "published_sha256": "6273232de4d3ef7acd4ecafa5c86beeeb974f56586b21089a2990b3f72facbe6",
@@ -1971,5 +2067,6 @@
     "policy": "Reviewed source and newly calculated aggregate results only; curated operational state; original source intensities, private correspondence and native worker logs excluded; no new licence."
   },
   "taa_transfer_note": "Original analytic result and source metadata only; no source PDF, subject tables, GEO archive, correspondence or private database.",
-  "geo_sample_note": "Nine-matrix local scan; publication QC group totals reproduced; exploratory eight-gene sample contrasts, exact resume/replay. No independent validation or drug effect. Source matrices, upstream code and private logs excluded."
+  "geo_sample_note": "Nine-matrix local scan; publication QC group totals reproduced; exploratory eight-gene sample contrasts, exact resume/replay. No independent validation or drug effect. Source matrices, upstream code and private logs excluded.",
+  "sema_independent_note": "External human NAFLD association: SEMA4D positive, PLXNB2 not increased; frozen joint rule failed. No raw clinical metadata, contact files or private worker logs."
 }

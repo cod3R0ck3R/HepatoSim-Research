@@ -1,0 +1,13 @@
+{
+  "unit_tests": 5,
+  "real_run": true,
+  "cache_replay_byte_identical": true,
+  "result_sha256": "01ea41500ea898fee17d2c88af81df2d9646a94ea340b9f3dcb9ac908294dfd5",
+  "analyzer_sha256": "23aee00cfdb8fac78fe95363c5391aa36e0ec1d85e2ea4190b472249f328720f",
+  "source_cache_checksums_verified": true,
+  "code_sha256": {
+    "Research/SEMAIndependent/fetch_data.py": "58a6e652d32968f2fe0d4b3720387c2a1d0d88b3a17d401d9a6b94e1fbd17d19",
+    "Research/SEMAIndependent/test_analyze.py": "fe971ac9b760c4358965752c6453cff77c1ba875e2989ee31b39f5063c9d1c65",
+    "Research/SEMAIndependent/analyze.py": "23aee00cfdb8fac78fe95363c5391aa36e0ec1d85e2ea4190b472249f328720f"
+  }
+}

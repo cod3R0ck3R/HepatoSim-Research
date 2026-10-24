@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135251/suppl/GSE135251_RAW.tar",
+      "bytes": 45854720,
+      "sha256": "0f4527224ad66cfa9e3f1a603b2a460554876200b2e964e7b0c9798bf13537aa",
+      "retrieved_utc": "2026-10-24T15:36:01.848894+00:00",
+      "name": "GSE135251_RAW.tar"
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135251/miniml/GSE135251_family.xml.tgz",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135251/miniml/GSE135251_family.xml.tgz",
+      "retrieved_utc": "2026-10-24T15:34:29.246570+00:00",
+      "bytes": 14379,
+      "sha256": "58dcc86abc8016270f38946709f1329f7e84be9aece009f3afc6bd21516dfe50",
+      "name": "GSE135251_family.xml.tgz"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11697218/fullTextXML",
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11697218/fullTextXML",
+      "retrieved_utc": "2026-10-24T15:32:43.461339+00:00",
+      "bytes": 182014,
+      "sha256": "203bc5abe3d76e77fe33b7fd3c32842c344e9a279fd35cb6d3487946f120493f",
+      "name": "spatial.xml"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33268509&format=json",
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33268509&format=json",
+      "retrieved_utc": "2026-10-24T15:32:43.868493+00:00",
+      "bytes": 1305,
+      "sha256": "dba5033f847e5d2d396dcebe97a3609c081cbc46beb6164df61875501d02625f",
+      "name": "GSE135251-paper-search.json"
+    },
+    {
+      "url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/SEMA4D?content-type=application/json",
+      "resolved_url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/SEMA4D?content-type=application/json",
+      "retrieved_utc": "2026-10-24T15:34:37.375685+00:00",
+      "bytes": 425,
+      "sha256": "ccd8c4a0a2eed5d27cacb6854190ba36a02bf145823c9290307092e7c0037070",
+      "name": "SEMA4D.json"
+    },
+    {
+      "url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/PLXNB2?content-type=application/json",
+      "resolved_url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/PLXNB2?content-type=application/json",
+      "retrieved_utc": "2026-10-24T15:34:37.749342+00:00",
+      "bytes": 421,
+      "sha256": "7b77117ecd5051b52e569e9d4eb0effd2a90a840741628f1bea500d9f81070ab",
+      "name": "PLXNB2.json"
+    },
+    {
+      "url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/PLXNB1?content-type=application/json",
+      "resolved_url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/PLXNB1?content-type=application/json",
+      "retrieved_utc": "2026-10-24T15:34:38.090822+00:00",
+      "bytes": 421,
+      "sha256": "1efe1fe5159b1dba78841a6c7befe707fc244b33619ada1de26288cb9bca9513",
+      "name": "PLXNB1.json"
+    },
+    {
+      "url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/CD72?content-type=application/json",
+      "resolved_url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/CD72?content-type=application/json",
+      "retrieved_utc": "2026-10-24T15:34:39.135767+00:00",
+      "bytes": 422,
+      "sha256": "9653f151f0557434c3c5655a998762ecc66578bc85c4b75bc9b97ccc626b8c4a",
+      "name": "CD72.json"
+    },
+    {
+      "url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/SEMA4C?content-type=application/json",
+      "resolved_url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/SEMA4C?content-type=application/json",
+      "retrieved_utc": "2026-10-24T15:34:43.395470+00:00",
+      "bytes": 426,
+      "sha256": "87a9de830a6603d68d615dffc81e676e40606d48a385d33e28ad3f55eb3e1ca4",
+      "name": "SEMA4C.json"
+    },
+    {
+      "url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/COL1A1?content-type=application/json",
+      "resolved_url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/COL1A1?content-type=application/json",
+      "retrieved_utc": "2026-10-24T15:34:46.617328+00:00",
+      "bytes": 442,
+      "sha256": "b8e7b696f9e2d4911958b979995c42fcb1d20cd41f8d4941a072133f83cf6df1",
+      "name": "COL1A1.json"
+    }
+  ],
+  "retrieval_errors": [
+    "Initial all/full GEO SOFT response reached a 10 MB read cap before samples; not used. Replaced by complete MINiML archive with 216 samples.",
+    "Europe PMC fullTextXML for binding papers PMC6672150 and PMC3030677 unavailable; primary full texts were inspected through web search, not claimed downloaded."
+  ],
+  "redistribution": "Raw counts, MINiML contacts, publications and private AI logs are not distributed. Aggregate output and own code only. Original dataset terms unchanged."
+}

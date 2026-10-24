@@ -67,3 +67,6 @@ Completed: frozen same-study transfer test, negative median-transfer baseline co
 Nine-library metadata and seven software checks completed. Full count-entry/QC scan and bounded local methodological review require coordinator capacity. Freeze 8 genes and 2 contrasts before expression results; whole-library analyses are exploratory and composition-confounded. No intervention effect, independent validation or parameter calibration. Next: inspect real scan output, compare published cell totals without retuning, then evaluate direction sensitivity; retain any discrepancy.
 
 Completion: all nine real matrices checked, published QC group sizes matched, seven tests and real resume/replay passed. Prioritize cell-resolved SEMA4D–PLXNB2 follow-up; LMCD1 regression and CTSL sensitivity prevent a simple reversal claim. No new automatic computation without a separately bounded question.
+
+## SEMA external cohort — 24 October 2026
+Completed frozen six-gene external-cohort comparison: SEMA4D positive, PLXNB2 not significantly increased; joint rule failed. Next bounded question: donor-aware GSE210077 cell-type/spatial review after overlap audit. No automatic additional analyses.

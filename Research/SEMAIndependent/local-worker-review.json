@@ -1,0 +1,25 @@
+{
+  "provider": "ollama",
+  "model": "hermes3:8b",
+  "digest": "4f6b83f30b62bc3d0cf9be09266db222805ee815c8fd7d8b38f863f655be78b7",
+  "goose_version": "1.45.0",
+  "ollama_version": {
+    "version": "0.40.10"
+  },
+  "wall_seconds": 34.802,
+  "tokens": {
+    "total_tokens": 1336,
+    "input_tokens": 1051,
+    "output_tokens": 285,
+    "cache_read_input_tokens": 4,
+    "cache_write_input_tokens": 0
+  },
+  "native_runner_matched_to_local_blob": true,
+  "inference_verified_after_review": true,
+  "unloaded_after_job": true,
+  "task": "Bounded inference-logic review; no files edited, no scientific numbers produced",
+  "review": "Rejected unsupported receptor suggestions NRP1/RGS14/RYK and unrequested pediatric-study claim; no scientific claim or experiment proposal adopted. General species/confounding caveats checked separately against study design.",
+  "output_sha256": "fdd78b32d4f23782ec29245aa806259fdb494da7eaf8d71d8801532acf284162",
+  "token_savings": "Not measured; no claim",
+  "coordinator": "Own uncertain session resolved only after process/PGID absence and unloaded Ollama verified; no retry"
+}

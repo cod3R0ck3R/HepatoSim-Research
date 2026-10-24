@@ -115,3 +115,7 @@ The fixed CCl4-to-TAA median transfer missed the predefined baseline criterion. 
 ## Nine-library GEO check (24 October 2026)
 
 Nine real matrices were checked locally: 38,136 retained cells and all three group totals match the paper. Seven software tests and exact real resume/replay passed. SEMA4D–PLXNB2 warrants a cell-resolved follow-up; LMCD1 regression and CTSL patterns have important sensitivity limits. This is exploratory author-data reanalysis, not a drug-efficacy result. The local AI review remained resource-blocked and was not used. [Audit and mechanism questions](Docs/22-GEOSampleCheck.md) · [Reproduce/resume](Research/GEOSampleCheck/README.md).
+
+## External SEMA4D–PLXNB2 check (24 October 2026)
+
+A separate human NAFLD cohort supports increased SEMA4D RNA, but not the prespecified joint increase of SEMA4D and PLXNB2. All 216 count files were checked; 206 diseased biopsies informed the analysis. Five tests and exact cached replay passed. Local Goose inference ran; unsupported suggestions were rejected. [Results and limits](Docs/23-SEMAIndependent.md) · [Reproduce](Research/SEMAIndependent/README.md).

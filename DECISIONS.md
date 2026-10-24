@@ -106,3 +106,6 @@ Use the nine available GSE295293 libraries as reported biological replicates, wh
 A direct system query showed38%free memory while the kernel warning persisted. The parser was changed to enforce20%of one core across parsing and aggregation and stop above512MiB observed peak RSS. All7tests passed again; the coordinator admitted this genuinely low-demand job under its unchanged light-job rules. The numerical specification was not changed. Goose remains a heavy job. The previous unrestricted job was cancelled before start.
 
 Outcome: low-load real scan completed in524.981s,77.188CPU seconds,90112000bytes peak RSS. All group counts matched without retuning. Keep null/unstable LMCD1 regression and QC-sensitive CTSL findings visible. No invented Kappa/drug parameter mapping. Local Goose review was cancelled before start because the heavy resource gate remained active; no inference claimed.
+
+## SEMA external cohort — 24 October 2026
+Selected separate GSE135251 human collection before count inspection; excluded known author-reused datasets. Preserved negative joint SEMA4D/PLXNB2 result and fixed criteria. Ligand blockade cannot isolate PLXNB2. Local hermes3 ran but hallucinated receptor suggestions; rejected. Publication contains aggregate results and own code only, no private contacts or raw clinical metadata.

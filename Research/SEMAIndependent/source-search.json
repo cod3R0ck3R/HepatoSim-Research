@@ -1,0 +1,71 @@
+{
+  "searched_on": "2026-10-24",
+  "queries": [
+    "SEMA4D PLXNB2 liver fibrosis GEO Wang AOX1",
+    "Knockout of Sema4D alleviates liver fibrosis GEO RNA sequencing data",
+    "SEMA4D PLXNB2 binding receptor study",
+    "SEMA4D GSE135251",
+    "PLXNB2 GSE135251",
+    "Spatial transcriptomics healthy fibrotic human liver data availability"
+  ],
+  "search_limit": "Targeted source search, not a systematic review; absence of a search hit is not proof of non-use.",
+  "candidates": [
+    {
+      "id": "GSE135251",
+      "decision": "analyzed",
+      "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135251",
+      "doi": "10.1126/scitranslmed.aba4448",
+      "collection": "216 human biopsies, 206 NAFLD and 10 controls; single time point",
+      "independence": "Separately collected cohort from Govaere et al. 2020. No GSE135251, article DOI or PMID found in inspected Pham main text. Govaere appears in an unrelated 2018 monocyte paper. No documented reuse found; all supplements and donor overlap not exhaustively audited. External replication, not sealed confirmatory holdout.",
+      "access": "Complete MINiML and gene count archive downloaded and hashed; original article full text unavailable through Europe PMC",
+      "limits": "No intervention, no longitudinal regression, no covariate adjustment or cell-type separation"
+    },
+    {
+      "id": "GSE210077",
+      "decision": "next cell-resolved candidate, not calculated",
+      "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE210077",
+      "doi": "10.1038/s41467-024-55325-4",
+      "data_doi": "10.5061/dryad.37pvmcvsg",
+      "collection": "Three healthy and three fibrotic human donors; MERFISH and snRNA-seq",
+      "independence": "Separate study; no accession/DOI/Moffitt match found in inspected Pham main text. Complete supplement overlap audit remains open. This study itself discusses SEMA4D/PLXNB2 in healthy zonal signaling; cannot call that author-derived observation a blinded validation.",
+      "access": "Article XML retrieved; processed data deposit identified, no counts downloaded in this milestone",
+      "limits": "Six donor units, cellular/spatial analysis needed; no treatment arm"
+    },
+    {
+      "id": "Wang2023",
+      "decision": "independent intervention evidence, raw-data replication blocked",
+      "doi": "10.1016/j.phrs.2023.106886",
+      "source": "https://www.sciencedirect.com/science/article/pii/S1043661823002426",
+      "access": "Publisher states data used are confidential. No public linked RNA accession established in this bounded search.",
+      "limits": "Cited by Pham, therefore prior development knowledge; Sema4D knockout/AOX1 findings do not isolate PLXNB2"
+    },
+    {
+      "id": "GSE240729",
+      "decision": "not used as confirmatory data",
+      "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE240729",
+      "doi": "10.1038/s41467-024-48956-0",
+      "limits": "SEMA4D biomarker study explicitly cited by Pham; already informs target choice"
+    },
+    {
+      "id": "GSE295293",
+      "decision": "development data, previously reanalyzed",
+      "limits": "Original Pham nine-library cohort, not independent"
+    },
+    {
+      "id": "GSE212837/GSE245620/GSE240029",
+      "decision": "exclude from independent confirmation",
+      "limits": "Explicitly reused in Pham main text; accession spellings retained as printed, not silently corrected"
+    },
+    {
+      "id": "GSE136103",
+      "decision": "independence unresolved, not analyzed",
+      "limits": "Ramachandran 2019 human cirrhosis atlas cited by Pham; unnamed human fibrosis dataset reuse in supplement not fully audited"
+    }
+  ],
+  "correction_audit": {
+    "article": "10.1016/j.mcn.2010.11.005",
+    "corrigendum": "10.1016/j.mcn.2023.103837",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10247391/",
+    "decision": "Exclude removed Figure 6 transwell assay and associated quantification; flag other results as author-retained, not independently revalidated."
+  }
+}
