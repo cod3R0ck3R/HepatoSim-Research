@@ -1,0 +1,336 @@
+{
+  "retrieved_utc": "2026-10-24T14:52:00.817523+00:00",
+  "samples": [
+    {
+      "accession": "GSM8944960",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8944960",
+      "source_sha256": "9dd2c0e70b770fd3f3bc39b4a54b620ef9ff26cc54b3025cf0aabc3e58f14a4d",
+      "metadata": {
+        "Sample_title": [
+          "control livers, nontreated-1"
+        ],
+        "Sample_source_name_ch1": [
+          "livers"
+        ],
+        "Sample_organism_ch1": [
+          "Mus musculus"
+        ],
+        "Sample_characteristics_ch1": [
+          "tissue: livers",
+          "cell type: all liver cell types",
+          "age: 8 weeks old",
+          "Sex: Male",
+          "treatment: nontreated"
+        ],
+        "Sample_description": [
+          "Library name: control_livers_wt1198",
+          "10x Genomics"
+        ],
+        "Sample_data_processing": [
+          "Demultiplexing and gene expression quantification were performed using Cell Ranger v7.1.0 (10x Genomics)",
+          "Assembly: Mouse Mm10",
+          "Supplementary files format and content: Tab-separared values files and matrix files"
+        ],
+        "Sample_relation": [
+          "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN48095789",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX28495497"
+        ]
+      }
+    },
+    {
+      "accession": "GSM8944961",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8944961",
+      "source_sha256": "16252ba9a96aa291121b7df404b2b28e1df45aaa608a7456e5fae5c12e750328",
+      "metadata": {
+        "Sample_title": [
+          "control livers, nontreated-2"
+        ],
+        "Sample_source_name_ch1": [
+          "livers"
+        ],
+        "Sample_organism_ch1": [
+          "Mus musculus"
+        ],
+        "Sample_characteristics_ch1": [
+          "tissue: livers",
+          "cell type: all liver cell types",
+          "age: 8 weeks old",
+          "Sex: Male",
+          "treatment: nontreated"
+        ],
+        "Sample_description": [
+          "Library name: control_livers_wt1199",
+          "10x Genomics"
+        ],
+        "Sample_data_processing": [
+          "Demultiplexing and gene expression quantification were performed using Cell Ranger v7.1.0 (10x Genomics)",
+          "Assembly: Mouse Mm10",
+          "Supplementary files format and content: Tab-separared values files and matrix files"
+        ],
+        "Sample_relation": [
+          "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN48095788",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX28495498"
+        ]
+      }
+    },
+    {
+      "accession": "GSM8944962",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8944962",
+      "source_sha256": "0f749ba687831b15710d657d587ea3fd06c031376b8e112c744540451dbf5b30",
+      "metadata": {
+        "Sample_title": [
+          "control livers, nontreated-3"
+        ],
+        "Sample_source_name_ch1": [
+          "livers"
+        ],
+        "Sample_organism_ch1": [
+          "Mus musculus"
+        ],
+        "Sample_characteristics_ch1": [
+          "tissue: livers",
+          "cell type: all liver cell types",
+          "age: 8 weeks old",
+          "Sex: Male",
+          "treatment: nontreated"
+        ],
+        "Sample_description": [
+          "Library name: control_livers_wt1200",
+          "10x Genomics"
+        ],
+        "Sample_data_processing": [
+          "Demultiplexing and gene expression quantification were performed using Cell Ranger v7.1.0 (10x Genomics)",
+          "Assembly: Mouse Mm10",
+          "Supplementary files format and content: Tab-separared values files and matrix files"
+        ],
+        "Sample_relation": [
+          "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN48095787",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX28495499"
+        ]
+      }
+    },
+    {
+      "accession": "GSM8944963",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8944963",
+      "source_sha256": "8a53538cd2d372cd6f7ed23d2b515ff30467c9b0d78a46d6daba0ab03cd462de",
+      "metadata": {
+        "Sample_title": [
+          "fibrosis livers, thioacetamide treated-1"
+        ],
+        "Sample_source_name_ch1": [
+          "livers"
+        ],
+        "Sample_organism_ch1": [
+          "Mus musculus"
+        ],
+        "Sample_characteristics_ch1": [
+          "tissue: livers",
+          "cell type: all liver cell types",
+          "age: 8 weeks old",
+          "Sex: Male",
+          "treatment: thioacetamide treated"
+        ],
+        "Sample_description": [
+          "Library name: fibrosis_livers_wt11",
+          "10x Genomics"
+        ],
+        "Sample_data_processing": [
+          "Demultiplexing and gene expression quantification were performed using Cell Ranger v7.1.0 (10x Genomics)",
+          "Assembly: Mouse Mm10",
+          "Supplementary files format and content: Tab-separared values files and matrix files"
+        ],
+        "Sample_relation": [
+          "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN48095786",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX28495500"
+        ]
+      }
+    },
+    {
+      "accession": "GSM8944964",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8944964",
+      "source_sha256": "6fba1fbf357f827cff8f2c2ce4d0ba693b09167059d1365f8ae0de889b62a8f4",
+      "metadata": {
+        "Sample_title": [
+          "fibrosis livers, thioacetamide treated-2"
+        ],
+        "Sample_source_name_ch1": [
+          "livers"
+        ],
+        "Sample_organism_ch1": [
+          "Mus musculus"
+        ],
+        "Sample_characteristics_ch1": [
+          "tissue: livers",
+          "cell type: all liver cell types",
+          "age: 8 weeks old",
+          "Sex: Male",
+          "treatment: thioacetamide treated"
+        ],
+        "Sample_description": [
+          "Library name: fibrosis_livers_wt13",
+          "10x Genomics"
+        ],
+        "Sample_data_processing": [
+          "Demultiplexing and gene expression quantification were performed using Cell Ranger v7.1.0 (10x Genomics)",
+          "Assembly: Mouse Mm10",
+          "Supplementary files format and content: Tab-separared values files and matrix files"
+        ],
+        "Sample_relation": [
+          "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN48095785",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX28495501"
+        ]
+      }
+    },
+    {
+      "accession": "GSM8944965",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8944965",
+      "source_sha256": "8357c0728d7b14a4077a10ce12ba2137e69a4dd7c5bafc133273b656dfe413da",
+      "metadata": {
+        "Sample_title": [
+          "fibrosis livers, thioacetamide treated-3"
+        ],
+        "Sample_source_name_ch1": [
+          "livers"
+        ],
+        "Sample_organism_ch1": [
+          "Mus musculus"
+        ],
+        "Sample_characteristics_ch1": [
+          "tissue: livers",
+          "cell type: all liver cell types",
+          "age: 8 weeks old",
+          "Sex: Male",
+          "treatment: thioacetamide treated"
+        ],
+        "Sample_description": [
+          "Library name: fibrosis_livers_wt14",
+          "10x Genomics"
+        ],
+        "Sample_data_processing": [
+          "Demultiplexing and gene expression quantification were performed using Cell Ranger v7.1.0 (10x Genomics)",
+          "Assembly: Mouse Mm10",
+          "Supplementary files format and content: Tab-separared values files and matrix files"
+        ],
+        "Sample_relation": [
+          "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN48095784",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX28495502"
+        ]
+      }
+    },
+    {
+      "accession": "GSM8944966",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8944966",
+      "source_sha256": "f185e2b930c7c438b473cb51e63aa40077f19841edccf06333c52c9367402c35",
+      "metadata": {
+        "Sample_title": [
+          "fibrosis livers, thioacetamide treated, regression 2 weeks-1"
+        ],
+        "Sample_source_name_ch1": [
+          "livers"
+        ],
+        "Sample_organism_ch1": [
+          "Mus musculus"
+        ],
+        "Sample_characteristics_ch1": [
+          "tissue: livers",
+          "cell type: all liver cell types",
+          "age: 8 weeks old",
+          "Sex: Male",
+          "treatment: thioacetamide treated, regression 2 weeks"
+        ],
+        "Sample_description": [
+          "Library name: regressed_2w_livers_wt1815",
+          "10x Genomics"
+        ],
+        "Sample_data_processing": [
+          "Demultiplexing and gene expression quantification were performed using Cell Ranger v7.1.0 (10x Genomics)",
+          "Assembly: Mouse Mm10",
+          "Supplementary files format and content: Tab-separared values files and matrix files"
+        ],
+        "Sample_relation": [
+          "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN48095783",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX28495503"
+        ]
+      }
+    },
+    {
+      "accession": "GSM8944967",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8944967",
+      "source_sha256": "4a42172b36d05b52b7df862d34b68b47d943e13e4b07afce21ec0158abcfd022",
+      "metadata": {
+        "Sample_title": [
+          "fibrosis livers, thioacetamide treated, regression 2 weeks-2"
+        ],
+        "Sample_source_name_ch1": [
+          "livers"
+        ],
+        "Sample_organism_ch1": [
+          "Mus musculus"
+        ],
+        "Sample_characteristics_ch1": [
+          "tissue: livers",
+          "cell type: all liver cell types",
+          "age: 8 weeks old",
+          "Sex: Male",
+          "treatment: thioacetamide treated, regression 2 weeks"
+        ],
+        "Sample_description": [
+          "Library name: regressed_2w_livers_wt1816",
+          "10x Genomics"
+        ],
+        "Sample_data_processing": [
+          "Demultiplexing and gene expression quantification were performed using Cell Ranger v7.1.0 (10x Genomics)",
+          "Assembly: Mouse Mm10",
+          "Supplementary files format and content: Tab-separared values files and matrix files"
+        ],
+        "Sample_relation": [
+          "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN48095782",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX28495504"
+        ]
+      }
+    },
+    {
+      "accession": "GSM8944968",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8944968",
+      "source_sha256": "0cb99ab53b955b0320d22d3d8011d3c487edf51572390201effd48f92ca7f3f8",
+      "metadata": {
+        "Sample_title": [
+          "fibrosis livers, thioacetamide treated, regression 2 weeks-3"
+        ],
+        "Sample_source_name_ch1": [
+          "livers"
+        ],
+        "Sample_organism_ch1": [
+          "Mus musculus"
+        ],
+        "Sample_characteristics_ch1": [
+          "tissue: livers",
+          "cell type: all liver cell types",
+          "age: 8 weeks old",
+          "Sex: Male",
+          "treatment: thioacetamide treated, regression 2 weeks"
+        ],
+        "Sample_description": [
+          "Library name: regressed_2w_livers_wt1817",
+          "10x Genomics"
+        ],
+        "Sample_data_processing": [
+          "Demultiplexing and gene expression quantification were performed using Cell Ranger v7.1.0 (10x Genomics)",
+          "Assembly: Mouse Mm10",
+          "Supplementary files format and content: Tab-separared values files and matrix files"
+        ],
+        "Sample_relation": [
+          "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN48095781",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX28495505"
+        ]
+      }
+    }
+  ],
+  "author_commit": "8b90c0177df6892952c137e247460212d5b07d08",
+  "author_script_sha256": "10340154194a7dc291fce970862b74b792217c7240c4788049f3c7bcaea90bf1",
+  "author_script_url": "https://github.com/phamminhduc-kawadalab/Fixed-single-cell-RNA-sequencing/blob/8b90c0177df6892952c137e247460212d5b07d08/20250413_Fixed_scRNA_seq_HSCs.R",
+  "author_pipeline_note": "Lines390-391 integrate exactly these9samples. Additional CYGB setup at210-297 is unused by that integration list. No full Seurat replay performed.",
+  "licensing": "No LICENSE file in retrieved author tree; upstream code retained privately for audit, not redistributed. Article CC BY-NC-ND4.0; GEO archive not redistributed. Own code and derived analytical metrics only.",
+  "replication": "Article sec3.1 states three biological replicates per group. Nine distinct GEO BioSamples and library IDs agree. Animal-to-library mapping, pooling and processing batches not independently verified.",
+  "supplement_access": "PMC mmc1.pdf request returned HTML instead of PDF; no claim to have read supplement."
+}

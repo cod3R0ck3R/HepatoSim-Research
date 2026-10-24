@@ -1,5 +1,9 @@
 # Entscheidungen zur Forschungsversion
 
+## 2026-10-23: Sammelphase auf Nutzerwunsch
+
+Neue Simulationen und Kalibrierungen bis zu einer erneuten Nutzerfreigabe zurückstellen. Kein automatischer Start nach einer geschätzten Zahl von Tagen. Literaturhinweise getrennt von gelieferten Messdaten erfassen. Die neu bezogene Ramachandran-Genexpressionsmatrix ersetzt keine Kollagenzeitreihe. Bouguéon zitiert Ramachandran als Referenz 60 innerhalb der Diskussion zur Matrixremodellierung; eine unangetastete unabhängige Prüfmenge ist damit nicht belegt. Campana/Iredale ist bereits Referenz 6 und ein Review. Datenaufnahme mit Originalen, Provenienz, Zugriffslücken und Integritätskontrollen außerhalb des öffentlichen Quellbaums aufbewahren. Keine private Korrespondenz veröffentlichen. Details: `../Datenaufnahme-2026-10-23/README.md`.
+
 ## 2026-10-22: HSR-002 begonnen
 
 - HSR-BG2024-001 bleibt als abgeschlossener historischer Teilreproduktionsversuch unverändert. Sein erschöpftes Budget wird nicht rückwirkend verlängert.
@@ -58,9 +62,17 @@ Versioned public NCBI supplements downloaded and verified. CCl4-only TableS2 agg
 The legacy contrast analyzer required seeds101–105 even for the frozen three-seed pilot. Added an explicit seed argument selected from the frozen mechanism specification; older benchmarks keep their five-seed default. Three new synthetic arithmetic/boundary tests and47existing analysis tests passed on the isolated candidate. Scientific acceptance, input/model/runner bytes and numerical outputs were not changed. This corrects an analysis integration gap, not a post hoc change of the seed set. Incomplete conditions still withhold comparisons.
 
 
-## 2026-10-23: bounded execution and source-data update
+## 2026-10-22: timeout preserved; independent planned runs continued
 
-Pilot1.3.0 and subset1.3.1 remain incomplete after two900-second timeouts; partial traces are retained and the two unstarted follow-ups cancelled. Do not retry from CSV or infer a biological effect. See Research/Reference/mechanism-subset-timeout-2026-10-23.md. Jerez source-table conversion succeeded, but units, normalization and animal/field mapping remain unresolved; Sato animal-level measurements remain unavailable. No new fitting, independent prediction or clinical validation. New scientific execution requires a separately specified runtime-feasibility diagnostic and budget.
+Benchmark1.3.0 remains incomplete after the900-second timeout of without_reinactivation-103. The retained partial trace is not analysed as a full trajectory or restarted as an RNG checkpoint. A separate frozen1.3.1 subset executes only the three previously unstarted10pct runs; model parameters, seeds and acceptance criteria remain unchanged. Combined wall-time allocation stays below the original5400seconds. See Research/Reference/mechanism-continuation-2026-10-22.md. Sato2023 is a new data-access lead, not an independent validation dataset.
+
+## 2026-10-23: stop subset1.3.1 after its first incomplete run
+
+The10pct seed101 run timed out after900.0925867500482seconds, retaining103rows through model day45. The actual read-only inspector exits1 and rejects it as not_completed. Cancelled both never-started follow-up jobs; no replacement seed, extended limit or new series. Verified pinned source/runtime/trace hashes and process end before resolving the administrative group-escape state as interrupted. The detached process start tuple was transient in supervisor memory and is explicitly not reconstructed. Preserve all artifacts and withhold aggregate mechanism inference. A new computational budget and prespecified diagnostic are needed to separate host contention from model/runtime cost. This is not a biological negative result.
+
+## 2026-10-23: close existing Jerez conversion without claiming a benchmark
+
+The bounded, previously queued MarkItDown conversion succeeded. Its source checksum, UTF-8 output and Figure6E table structure passed a separate light integrity check. Three groups with six numeric entries each are available, but unit, normalization and animal/field mapping remain unresolved. Do not import phagocytosis ImageJ methods into collagen quantification. No statistics, fitting or simulation were performed; raw tables remain private pending rights and identifier review. This ongoing-injury endpoint design cannot close the withdrawal-trajectory gap. Preserve the current benchmark and document requirements for any future endpoint study. See the dated addendum in Research/Reference/jerez2026-data-triage.md.
 
 
 ## 2026-10-23: preserve evidence during the numerical pause
@@ -76,9 +88,21 @@ User authorized at most 15% of remaining account capacity, baseline 5% used: cei
 
 Current public maintainer and all new commit attribution: Johnnie 4 free (user instruction). Historical Git commits remain unchanged. The aggregate CPA check cannot identify a drug effect; no Kappa modification or clinical claim. Failed one-attempt local translation produced no accepted output; no retry under the frozen budget.
 
+Release published as Johnnie 4 free. Final package excludes local debug paths; ad-hoc signing and missing notarization disclosed. No historical author rewrite. Publishing verification refreshed canonical asset URLs after draft publication; no duplicate upload.
+
 ## 2026-10-24 — MIT license authorized
 
 The project owner requested an open-source license permitting reuse. Original project code/documentation, including the own app code in 0.1.0-alpha.1, are licensed under MIT; copyright Johnnie 4 free. Historical no-license statements describe the earlier state and are superseded by this decision. Upstream AGPL models and data/publication rights remain unchanged. No clinical validation is implied.
 
 ## 2026-10-24 TAA/evidence decision
 Keep failed fixed CCl4-to-TAA transfer; do not refit the primary model after seeing errors. Quartile sensitivity is not probabilistic uncertainty. Keep new synthesis, RNA and CPA data separate. Add evidence table to existing schema1 database without touching runs. Prioritize GSE295293 sample audit and synthesis measurement-model review; exclude adipose dataset and unresolved overlapping cohorts as validation. Local Hermes task cancelled while queued due to resource pressure; no cloud fallback.
+
+## GEO9 scope and resource gate —24 October2026
+
+Use the nine available GSE295293 libraries as reported biological replicates, while animal mapping/pooling/batches remain unverified. Reimplement only declared QC and sample-level sums; do not claim full Seurat reproduction. Extra CYGB setup in upstream source is outside its nine-library integration list. Keep source files private because no upstream code license was found. Memory pressure2 blocks heavy counts/Goose jobs; metadata-only checks are genuinely small, not a bypass. No cell-as-animal inference, forced cell-count match or clinical efficacy ranking.
+
+### Resource revision before real expression inspection
+
+A direct system query showed38%free memory while the kernel warning persisted. The parser was changed to enforce20%of one core across parsing and aggregation and stop above512MiB observed peak RSS. All7tests passed again; the coordinator admitted this genuinely low-demand job under its unchanged light-job rules. The numerical specification was not changed. Goose remains a heavy job. The previous unrestricted job was cancelled before start.
+
+Outcome: low-load real scan completed in524.981s,77.188CPU seconds,90112000bytes peak RSS. All group counts matched without retuning. Keep null/unstable LMCD1 regression and QC-sensitive CTSL findings visible. No invented Kappa/drug parameter mapping. Local Goose review was cancelled before start because the heavy resource gate remained active; no inference claimed.

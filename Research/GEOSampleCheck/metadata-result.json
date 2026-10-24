@@ -1,0 +1,343 @@
+{
+  "scope": "Feature/barcode lists and matrix headers only; no count-entry, cell-QC or expression-effect claim",
+  "spec_sha256": "3bea8b72e2e47051c62ad324c35bcc2a91f1bf8ee93741f4e494cd335c5327f3",
+  "archive_sha256": "6992e81fc6ff8345ce48f94933c5a4ebb33e6bf2eb2da1796bc58a9204be655e",
+  "samples": [
+    {
+      "sample": "GSM8944960",
+      "group": "control",
+      "dimensions": [
+        19059,
+        6323,
+        15274318
+      ],
+      "target_feature_ids": {
+        "Sema4d": [
+          "ENSMUSG00000021451"
+        ],
+        "Plxnb2": [
+          "ENSMUSG00000036606"
+        ],
+        "Lmcd1": [
+          "ENSMUSG00000057604"
+        ],
+        "Col1a1": [
+          "ENSMUSG00000001506"
+        ],
+        "Acta2": [
+          "ENSMUSG00000035783"
+        ],
+        "Timp1": [
+          "ENSMUSG00000001131"
+        ],
+        "Mmp14": [
+          "ENSMUSG00000000957"
+        ],
+        "Ctsl": [
+          "ENSMUSG00000021477"
+        ]
+      },
+      "mitochondrial_feature_count": 13,
+      "feature_and_barcode_ids_unique": true
+    },
+    {
+      "sample": "GSM8944961",
+      "group": "control",
+      "dimensions": [
+        19059,
+        6004,
+        13597503
+      ],
+      "target_feature_ids": {
+        "Sema4d": [
+          "ENSMUSG00000021451"
+        ],
+        "Plxnb2": [
+          "ENSMUSG00000036606"
+        ],
+        "Lmcd1": [
+          "ENSMUSG00000057604"
+        ],
+        "Col1a1": [
+          "ENSMUSG00000001506"
+        ],
+        "Acta2": [
+          "ENSMUSG00000035783"
+        ],
+        "Timp1": [
+          "ENSMUSG00000001131"
+        ],
+        "Mmp14": [
+          "ENSMUSG00000000957"
+        ],
+        "Ctsl": [
+          "ENSMUSG00000021477"
+        ]
+      },
+      "mitochondrial_feature_count": 13,
+      "feature_and_barcode_ids_unique": true
+    },
+    {
+      "sample": "GSM8944962",
+      "group": "control",
+      "dimensions": [
+        19059,
+        6717,
+        15104487
+      ],
+      "target_feature_ids": {
+        "Sema4d": [
+          "ENSMUSG00000021451"
+        ],
+        "Plxnb2": [
+          "ENSMUSG00000036606"
+        ],
+        "Lmcd1": [
+          "ENSMUSG00000057604"
+        ],
+        "Col1a1": [
+          "ENSMUSG00000001506"
+        ],
+        "Acta2": [
+          "ENSMUSG00000035783"
+        ],
+        "Timp1": [
+          "ENSMUSG00000001131"
+        ],
+        "Mmp14": [
+          "ENSMUSG00000000957"
+        ],
+        "Ctsl": [
+          "ENSMUSG00000021477"
+        ]
+      },
+      "mitochondrial_feature_count": 13,
+      "feature_and_barcode_ids_unique": true
+    },
+    {
+      "sample": "GSM8944963",
+      "group": "fibrosis",
+      "dimensions": [
+        19059,
+        6636,
+        14701743
+      ],
+      "target_feature_ids": {
+        "Sema4d": [
+          "ENSMUSG00000021451"
+        ],
+        "Plxnb2": [
+          "ENSMUSG00000036606"
+        ],
+        "Lmcd1": [
+          "ENSMUSG00000057604"
+        ],
+        "Col1a1": [
+          "ENSMUSG00000001506"
+        ],
+        "Acta2": [
+          "ENSMUSG00000035783"
+        ],
+        "Timp1": [
+          "ENSMUSG00000001131"
+        ],
+        "Mmp14": [
+          "ENSMUSG00000000957"
+        ],
+        "Ctsl": [
+          "ENSMUSG00000021477"
+        ]
+      },
+      "mitochondrial_feature_count": 13,
+      "feature_and_barcode_ids_unique": true
+    },
+    {
+      "sample": "GSM8944964",
+      "group": "fibrosis",
+      "dimensions": [
+        19059,
+        6239,
+        13761683
+      ],
+      "target_feature_ids": {
+        "Sema4d": [
+          "ENSMUSG00000021451"
+        ],
+        "Plxnb2": [
+          "ENSMUSG00000036606"
+        ],
+        "Lmcd1": [
+          "ENSMUSG00000057604"
+        ],
+        "Col1a1": [
+          "ENSMUSG00000001506"
+        ],
+        "Acta2": [
+          "ENSMUSG00000035783"
+        ],
+        "Timp1": [
+          "ENSMUSG00000001131"
+        ],
+        "Mmp14": [
+          "ENSMUSG00000000957"
+        ],
+        "Ctsl": [
+          "ENSMUSG00000021477"
+        ]
+      },
+      "mitochondrial_feature_count": 13,
+      "feature_and_barcode_ids_unique": true
+    },
+    {
+      "sample": "GSM8944965",
+      "group": "fibrosis",
+      "dimensions": [
+        19059,
+        5409,
+        13311163
+      ],
+      "target_feature_ids": {
+        "Sema4d": [
+          "ENSMUSG00000021451"
+        ],
+        "Plxnb2": [
+          "ENSMUSG00000036606"
+        ],
+        "Lmcd1": [
+          "ENSMUSG00000057604"
+        ],
+        "Col1a1": [
+          "ENSMUSG00000001506"
+        ],
+        "Acta2": [
+          "ENSMUSG00000035783"
+        ],
+        "Timp1": [
+          "ENSMUSG00000001131"
+        ],
+        "Mmp14": [
+          "ENSMUSG00000000957"
+        ],
+        "Ctsl": [
+          "ENSMUSG00000021477"
+        ]
+      },
+      "mitochondrial_feature_count": 13,
+      "feature_and_barcode_ids_unique": true
+    },
+    {
+      "sample": "GSM8944966",
+      "group": "regression",
+      "dimensions": [
+        19059,
+        3284,
+        9271979
+      ],
+      "target_feature_ids": {
+        "Sema4d": [
+          "ENSMUSG00000021451"
+        ],
+        "Plxnb2": [
+          "ENSMUSG00000036606"
+        ],
+        "Lmcd1": [
+          "ENSMUSG00000057604"
+        ],
+        "Col1a1": [
+          "ENSMUSG00000001506"
+        ],
+        "Acta2": [
+          "ENSMUSG00000035783"
+        ],
+        "Timp1": [
+          "ENSMUSG00000001131"
+        ],
+        "Mmp14": [
+          "ENSMUSG00000000957"
+        ],
+        "Ctsl": [
+          "ENSMUSG00000021477"
+        ]
+      },
+      "mitochondrial_feature_count": 13,
+      "feature_and_barcode_ids_unique": true
+    },
+    {
+      "sample": "GSM8944967",
+      "group": "regression",
+      "dimensions": [
+        19059,
+        4528,
+        12341900
+      ],
+      "target_feature_ids": {
+        "Sema4d": [
+          "ENSMUSG00000021451"
+        ],
+        "Plxnb2": [
+          "ENSMUSG00000036606"
+        ],
+        "Lmcd1": [
+          "ENSMUSG00000057604"
+        ],
+        "Col1a1": [
+          "ENSMUSG00000001506"
+        ],
+        "Acta2": [
+          "ENSMUSG00000035783"
+        ],
+        "Timp1": [
+          "ENSMUSG00000001131"
+        ],
+        "Mmp14": [
+          "ENSMUSG00000000957"
+        ],
+        "Ctsl": [
+          "ENSMUSG00000021477"
+        ]
+      },
+      "mitochondrial_feature_count": 13,
+      "feature_and_barcode_ids_unique": true
+    },
+    {
+      "sample": "GSM8944968",
+      "group": "regression",
+      "dimensions": [
+        19059,
+        3853,
+        9593544
+      ],
+      "target_feature_ids": {
+        "Sema4d": [
+          "ENSMUSG00000021451"
+        ],
+        "Plxnb2": [
+          "ENSMUSG00000036606"
+        ],
+        "Lmcd1": [
+          "ENSMUSG00000057604"
+        ],
+        "Col1a1": [
+          "ENSMUSG00000001506"
+        ],
+        "Acta2": [
+          "ENSMUSG00000035783"
+        ],
+        "Timp1": [
+          "ENSMUSG00000001131"
+        ],
+        "Mmp14": [
+          "ENSMUSG00000000957"
+        ],
+        "Ctsl": [
+          "ENSMUSG00000021477"
+        ]
+      },
+      "mitochondrial_feature_count": 13,
+      "feature_and_barcode_ids_unique": true
+    }
+  ],
+  "sample_count": 9,
+  "raw_barcodes": 48993,
+  "declared_nonzero_entries": 116958320
+}

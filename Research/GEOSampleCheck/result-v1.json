@@ -1,0 +1,1341 @@
+{
+  "schema_version": 1,
+  "scope": "Exploratory reanalysis of author development data, not independent validation or drug efficacy",
+  "samples": [
+    {
+      "sample": "GSM8944960",
+      "group": "control",
+      "matrix_member": "GSM8944960_Fixed_RNA_control_wt1198_matrix.mtx.gz",
+      "dimensions": [
+        19059,
+        6323,
+        15274318
+      ],
+      "feature_sha256": "ae37fc203e870994c54b21f6b1955b85158a1caed05d4d9cb092c6eb5ec5318d",
+      "barcode_sha256": "feae1c5bcf03b37393ce6bc1448effb089ad8c932b8fe5a521f93bbfa755ae16",
+      "unique_coordinates": true,
+      "raw_barcodes": 6323,
+      "retained_barcodes": 4435,
+      "genes_retained": 13918,
+      "mitochondrial_features": 13,
+      "raw_cell_counts": {
+        "min": 497.0,
+        "q25": 951.0,
+        "median": 2764.0,
+        "q75": 21050.5,
+        "max": 88367.0
+      },
+      "qc_input_detected_genes": {
+        "min": 280.0,
+        "q25": 724.0,
+        "median": 1534.0,
+        "q75": 4254.0,
+        "max": 7241.0
+      },
+      "qc_input_mitochondrial_percent": {
+        "min": 0.0,
+        "q25": 0.809983034002564,
+        "median": 1.2658227848101267,
+        "q75": 1.9829734832471584,
+        "max": 17.364016736401673
+      },
+      "exclusions_overlapping": {
+        "low_features": 0,
+        "high_features": 1873,
+        "high_counts": 1712,
+        "high_mito": 0
+      },
+      "raw": {
+        "total": 72105207,
+        "targets": {
+          "Sema4d": 187,
+          "Plxnb2": 9206,
+          "Lmcd1": 81,
+          "Col1a1": 645,
+          "Acta2": 17,
+          "Timp1": 42,
+          "Mmp14": 2244,
+          "Ctsl": 23322
+        }
+      },
+      "qc": {
+        "total": 16502044,
+        "targets": {
+          "Sema4d": 170,
+          "Plxnb2": 2262,
+          "Lmcd1": 77,
+          "Col1a1": 549,
+          "Acta2": 14,
+          "Timp1": 36,
+          "Mmp14": 795,
+          "Ctsl": 5549
+        }
+      }
+    },
+    {
+      "sample": "GSM8944961",
+      "group": "control",
+      "matrix_member": "GSM8944961_Fixed_RNA_control_wt1199_matrix.mtx.gz",
+      "dimensions": [
+        19059,
+        6004,
+        13597503
+      ],
+      "feature_sha256": "ae37fc203e870994c54b21f6b1955b85158a1caed05d4d9cb092c6eb5ec5318d",
+      "barcode_sha256": "9eab40bfaea6774a3c334492342dd284993b52458d7da69ca3f928a67f2027aa",
+      "unique_coordinates": true,
+      "raw_barcodes": 6004,
+      "retained_barcodes": 4432,
+      "genes_retained": 13978,
+      "mitochondrial_features": 13,
+      "raw_cell_counts": {
+        "min": 499.0,
+        "q25": 986.0,
+        "median": 1659.0,
+        "q75": 18362.5,
+        "max": 90310.0
+      },
+      "qc_input_detected_genes": {
+        "min": 290.0,
+        "q25": 765.75,
+        "median": 1155.0,
+        "q75": 4143.0,
+        "max": 7709.0
+      },
+      "qc_input_mitochondrial_percent": {
+        "min": 0.0,
+        "q25": 0.8173691110041108,
+        "median": 1.3358303869616712,
+        "q75": 2.102294311093818,
+        "max": 15.466197822141561
+      },
+      "exclusions_overlapping": {
+        "low_features": 0,
+        "high_features": 1571,
+        "high_counts": 1410,
+        "high_mito": 0
+      },
+      "raw": {
+        "total": 60880003,
+        "targets": {
+          "Sema4d": 248,
+          "Plxnb2": 8296,
+          "Lmcd1": 63,
+          "Col1a1": 570,
+          "Acta2": 4,
+          "Timp1": 4,
+          "Mmp14": 2048,
+          "Ctsl": 31641
+        }
+      },
+      "qc": {
+        "total": 11698380,
+        "targets": {
+          "Sema4d": 219,
+          "Plxnb2": 1812,
+          "Lmcd1": 59,
+          "Col1a1": 524,
+          "Acta2": 3,
+          "Timp1": 4,
+          "Mmp14": 645,
+          "Ctsl": 6335
+        }
+      }
+    },
+    {
+      "sample": "GSM8944962",
+      "group": "control",
+      "matrix_member": "GSM8944962_Fixed_RNA_control_wt1200_matrix.mtx.gz",
+      "dimensions": [
+        19059,
+        6717,
+        15104487
+      ],
+      "feature_sha256": "ae37fc203e870994c54b21f6b1955b85158a1caed05d4d9cb092c6eb5ec5318d",
+      "barcode_sha256": "00f42df120ea6e8a871a520fd65e378e3b7e64d51b9d5171457d8089565dde6c",
+      "unique_coordinates": true,
+      "raw_barcodes": 6717,
+      "retained_barcodes": 5081,
+      "genes_retained": 14033,
+      "mitochondrial_features": 13,
+      "raw_cell_counts": {
+        "min": 497.0,
+        "q25": 967.0,
+        "median": 2187.0,
+        "q75": 18121.0,
+        "max": 127794.0
+      },
+      "qc_input_detected_genes": {
+        "min": 293.0,
+        "q25": 741.0,
+        "median": 1378.0,
+        "q75": 3933.0,
+        "max": 8031.0
+      },
+      "qc_input_mitochondrial_percent": {
+        "min": 0.0,
+        "q25": 0.6195786864931846,
+        "median": 1.0218978102189782,
+        "q75": 1.5915873241438112,
+        "max": 14.471968709256846
+      },
+      "exclusions_overlapping": {
+        "low_features": 0,
+        "high_features": 1621,
+        "high_counts": 1491,
+        "high_mito": 0
+      },
+      "raw": {
+        "total": 67884768,
+        "targets": {
+          "Sema4d": 211,
+          "Plxnb2": 7913,
+          "Lmcd1": 46,
+          "Col1a1": 805,
+          "Acta2": 15,
+          "Timp1": 310,
+          "Mmp14": 2145,
+          "Ctsl": 30657
+        }
+      },
+      "qc": {
+        "total": 18128511,
+        "targets": {
+          "Sema4d": 189,
+          "Plxnb2": 2356,
+          "Lmcd1": 42,
+          "Col1a1": 709,
+          "Acta2": 11,
+          "Timp1": 271,
+          "Mmp14": 792,
+          "Ctsl": 7796
+        }
+      }
+    },
+    {
+      "sample": "GSM8944963",
+      "group": "fibrosis",
+      "matrix_member": "GSM8944963_Fixed_RNA_firosis_wt11_matrix.mtx.gz",
+      "dimensions": [
+        19059,
+        6636,
+        14701743
+      ],
+      "feature_sha256": "ae37fc203e870994c54b21f6b1955b85158a1caed05d4d9cb092c6eb5ec5318d",
+      "barcode_sha256": "73cb3d229b6603175877ab4676aeff1ddebe579d038f107ea803cc6916942a6c",
+      "unique_coordinates": true,
+      "raw_barcodes": 6636,
+      "retained_barcodes": 5459,
+      "genes_retained": 14825,
+      "mitochondrial_features": 13,
+      "raw_cell_counts": {
+        "min": 498.0,
+        "q25": 1189.75,
+        "median": 2098.0,
+        "q75": 5541.75,
+        "max": 166753.0
+      },
+      "qc_input_detected_genes": {
+        "min": 295.0,
+        "q25": 903.0,
+        "median": 1440.0,
+        "q75": 2829.5,
+        "max": 9609.0
+      },
+      "qc_input_mitochondrial_percent": {
+        "min": 0.0,
+        "q25": 0.6092784956180773,
+        "median": 1.0641881426599165,
+        "q75": 1.7284147110663106,
+        "max": 21.794871794871796
+      },
+      "exclusions_overlapping": {
+        "low_features": 0,
+        "high_features": 1171,
+        "high_counts": 838,
+        "high_mito": 1
+      },
+      "raw": {
+        "total": 55566579,
+        "targets": {
+          "Sema4d": 2655,
+          "Plxnb2": 11329,
+          "Lmcd1": 257,
+          "Col1a1": 31110,
+          "Acta2": 562,
+          "Timp1": 214,
+          "Mmp14": 4011,
+          "Ctsl": 20808
+        }
+      },
+      "qc": {
+        "total": 13897200,
+        "targets": {
+          "Sema4d": 2338,
+          "Plxnb2": 3822,
+          "Lmcd1": 176,
+          "Col1a1": 26454,
+          "Acta2": 423,
+          "Timp1": 142,
+          "Mmp14": 1735,
+          "Ctsl": 4906
+        }
+      }
+    },
+    {
+      "sample": "GSM8944964",
+      "group": "fibrosis",
+      "matrix_member": "GSM8944964_Fixed_RNA_firosis_wt13_matrix.mtx.gz",
+      "dimensions": [
+        19059,
+        6239,
+        13761683
+      ],
+      "feature_sha256": "ae37fc203e870994c54b21f6b1955b85158a1caed05d4d9cb092c6eb5ec5318d",
+      "barcode_sha256": "26d343905858a493c0b004ef2dbf3c4fd981ab587ce7b1b7f788aae39da7116e",
+      "unique_coordinates": true,
+      "raw_barcodes": 6239,
+      "retained_barcodes": 5168,
+      "genes_retained": 14869,
+      "mitochondrial_features": 13,
+      "raw_cell_counts": {
+        "min": 497.0,
+        "q25": 1218.5,
+        "median": 2095.0,
+        "q75": 4924.0,
+        "max": 189899.0
+      },
+      "qc_input_detected_genes": {
+        "min": 304.0,
+        "q25": 914.0,
+        "median": 1430.0,
+        "q75": 2551.0,
+        "max": 10541.0
+      },
+      "qc_input_mitochondrial_percent": {
+        "min": 0.0,
+        "q25": 0.667739200083014,
+        "median": 1.2126111560226354,
+        "q75": 2.0719149021134706,
+        "max": 25.719424460431654
+      },
+      "exclusions_overlapping": {
+        "low_features": 0,
+        "high_features": 1038,
+        "high_counts": 881,
+        "high_mito": 2
+      },
+      "raw": {
+        "total": 60467968,
+        "targets": {
+          "Sema4d": 1624,
+          "Plxnb2": 10158,
+          "Lmcd1": 261,
+          "Col1a1": 8453,
+          "Acta2": 152,
+          "Timp1": 84,
+          "Mmp14": 2977,
+          "Ctsl": 28616
+        }
+      },
+      "qc": {
+        "total": 12841723,
+        "targets": {
+          "Sema4d": 1374,
+          "Plxnb2": 3008,
+          "Lmcd1": 195,
+          "Col1a1": 7420,
+          "Acta2": 129,
+          "Timp1": 62,
+          "Mmp14": 1481,
+          "Ctsl": 5004
+        }
+      }
+    },
+    {
+      "sample": "GSM8944965",
+      "group": "fibrosis",
+      "matrix_member": "GSM8944965_Fixed_RNA_firosis_wt14_matrix.mtx.gz",
+      "dimensions": [
+        19059,
+        5409,
+        13311163
+      ],
+      "feature_sha256": "ae37fc203e870994c54b21f6b1955b85158a1caed05d4d9cb092c6eb5ec5318d",
+      "barcode_sha256": "d8181c95aeee517cbc8cc5cc5d25291204dfc97fb33b1ac099b3278702a8b771",
+      "unique_coordinates": true,
+      "raw_barcodes": 5409,
+      "retained_barcodes": 4359,
+      "genes_retained": 14902,
+      "mitochondrial_features": 13,
+      "raw_cell_counts": {
+        "min": 497.0,
+        "q25": 1406.0,
+        "median": 2612.0,
+        "q75": 6483.0,
+        "max": 176979.0
+      },
+      "qc_input_detected_genes": {
+        "min": 251.0,
+        "q25": 1024.0,
+        "median": 1683.0,
+        "q75": 3037.0,
+        "max": 9412.0
+      },
+      "qc_input_mitochondrial_percent": {
+        "min": 0.0,
+        "q25": 0.6935687263556116,
+        "median": 1.2474012474012475,
+        "q75": 2.165137614678899,
+        "max": 41.9973544973545
+      },
+      "exclusions_overlapping": {
+        "low_features": 0,
+        "high_features": 1018,
+        "high_counts": 814,
+        "high_mito": 4
+      },
+      "raw": {
+        "total": 59241389,
+        "targets": {
+          "Sema4d": 1727,
+          "Plxnb2": 10532,
+          "Lmcd1": 222,
+          "Col1a1": 13034,
+          "Acta2": 291,
+          "Timp1": 102,
+          "Mmp14": 3410,
+          "Ctsl": 29271
+        }
+      },
+      "qc": {
+        "total": 12330041,
+        "targets": {
+          "Sema4d": 1421,
+          "Plxnb2": 3095,
+          "Lmcd1": 157,
+          "Col1a1": 11184,
+          "Acta2": 217,
+          "Timp1": 68,
+          "Mmp14": 1603,
+          "Ctsl": 4756
+        }
+      }
+    },
+    {
+      "sample": "GSM8944966",
+      "group": "regression",
+      "matrix_member": "GSM8944966_Fixed_RNA_regression_wt1815_matrix.mtx.gz",
+      "dimensions": [
+        19059,
+        3284,
+        9271979
+      ],
+      "feature_sha256": "ae37fc203e870994c54b21f6b1955b85158a1caed05d4d9cb092c6eb5ec5318d",
+      "barcode_sha256": "861aaa08f66baff122aced15d00dafb6cf9cb8c828e24f445457a56db8bb0d1e",
+      "unique_coordinates": true,
+      "raw_barcodes": 3284,
+      "retained_barcodes": 2568,
+      "genes_retained": 14291,
+      "mitochondrial_features": 13,
+      "raw_cell_counts": {
+        "min": 870.0,
+        "q25": 2381.75,
+        "median": 4072.5,
+        "q75": 11553.75,
+        "max": 339864.0
+      },
+      "qc_input_detected_genes": {
+        "min": 169.0,
+        "q25": 1450.75,
+        "median": 2199.0,
+        "q75": 3410.0,
+        "max": 9909.0
+      },
+      "qc_input_mitochondrial_percent": {
+        "min": 0.0,
+        "q25": 0.7822672983490577,
+        "median": 1.1354168421083273,
+        "q75": 1.6703745505699905,
+        "max": 10.670299727520437
+      },
+      "exclusions_overlapping": {
+        "low_features": 1,
+        "high_features": 637,
+        "high_counts": 614,
+        "high_mito": 0
+      },
+      "raw": {
+        "total": 63503378,
+        "targets": {
+          "Sema4d": 659,
+          "Plxnb2": 10045,
+          "Lmcd1": 223,
+          "Col1a1": 2611,
+          "Acta2": 93,
+          "Timp1": 35,
+          "Mmp14": 2170,
+          "Ctsl": 25646
+        }
+      },
+      "qc": {
+        "total": 10854807,
+        "targets": {
+          "Sema4d": 545,
+          "Plxnb2": 2342,
+          "Lmcd1": 182,
+          "Col1a1": 2170,
+          "Acta2": 71,
+          "Timp1": 28,
+          "Mmp14": 1128,
+          "Ctsl": 5721
+        }
+      }
+    },
+    {
+      "sample": "GSM8944967",
+      "group": "regression",
+      "matrix_member": "GSM8944967_Fixed_RNA_regression_wt1816_matrix.mtx.gz",
+      "dimensions": [
+        19059,
+        4528,
+        12341900
+      ],
+      "feature_sha256": "ae37fc203e870994c54b21f6b1955b85158a1caed05d4d9cb092c6eb5ec5318d",
+      "barcode_sha256": "8d32342dac9157209a4907ab08360eefcf105fc57af7a433446078c17fba33bd",
+      "unique_coordinates": true,
+      "raw_barcodes": 4528,
+      "retained_barcodes": 3520,
+      "genes_retained": 14389,
+      "mitochondrial_features": 13,
+      "raw_cell_counts": {
+        "min": 588.0,
+        "q25": 2198.0,
+        "median": 3870.0,
+        "q75": 12673.25,
+        "max": 311074.0
+      },
+      "qc_input_detected_genes": {
+        "min": 112.0,
+        "q25": 1364.75,
+        "median": 2090.0,
+        "q75": 3502.25,
+        "max": 9576.0
+      },
+      "qc_input_mitochondrial_percent": {
+        "min": 0.0,
+        "q25": 0.9262518905096055,
+        "median": 1.3367257524643743,
+        "q75": 1.9667189788078114,
+        "max": 11.343993085566119
+      },
+      "exclusions_overlapping": {
+        "low_features": 6,
+        "high_features": 916,
+        "high_counts": 847,
+        "high_mito": 0
+      },
+      "raw": {
+        "total": 76308870,
+        "targets": {
+          "Sema4d": 854,
+          "Plxnb2": 11976,
+          "Lmcd1": 253,
+          "Col1a1": 2783,
+          "Acta2": 243,
+          "Timp1": 49,
+          "Mmp14": 3340,
+          "Ctsl": 31996
+        }
+      },
+      "qc": {
+        "total": 14880449,
+        "targets": {
+          "Sema4d": 723,
+          "Plxnb2": 2946,
+          "Lmcd1": 206,
+          "Col1a1": 2345,
+          "Acta2": 198,
+          "Timp1": 43,
+          "Mmp14": 1667,
+          "Ctsl": 7038
+        }
+      }
+    },
+    {
+      "sample": "GSM8944968",
+      "group": "regression",
+      "matrix_member": "GSM8944968_Fixed_RNA_regression_wt1817_matrix.mtx.gz",
+      "dimensions": [
+        19059,
+        3853,
+        9593544
+      ],
+      "feature_sha256": "ae37fc203e870994c54b21f6b1955b85158a1caed05d4d9cb092c6eb5ec5318d",
+      "barcode_sha256": "9a2273f359a655c44d0958a629dd14ca1d65b225c524f18026d09fa38dd18979",
+      "unique_coordinates": true,
+      "raw_barcodes": 3853,
+      "retained_barcodes": 3114,
+      "genes_retained": 14520,
+      "mitochondrial_features": 13,
+      "raw_cell_counts": {
+        "min": 583.0,
+        "q25": 1806.0,
+        "median": 3105.0,
+        "q75": 8353.0,
+        "max": 246986.0
+      },
+      "qc_input_detected_genes": {
+        "min": 160.0,
+        "q25": 1186.0,
+        "median": 1824.0,
+        "q75": 3055.0,
+        "max": 9387.0
+      },
+      "qc_input_mitochondrial_percent": {
+        "min": 0.0657030223390276,
+        "q25": 0.8902077151335311,
+        "median": 1.3113651647612643,
+        "q75": 2.0425677995193956,
+        "max": 12.24545207711105
+      },
+      "exclusions_overlapping": {
+        "low_features": 2,
+        "high_features": 669,
+        "high_counts": 627,
+        "high_mito": 0
+      },
+      "raw": {
+        "total": 55474306,
+        "targets": {
+          "Sema4d": 834,
+          "Plxnb2": 8427,
+          "Lmcd1": 164,
+          "Col1a1": 2414,
+          "Acta2": 44,
+          "Timp1": 41,
+          "Mmp14": 2017,
+          "Ctsl": 23674
+        }
+      },
+      "qc": {
+        "total": 10812182,
+        "targets": {
+          "Sema4d": 765,
+          "Plxnb2": 2232,
+          "Lmcd1": 131,
+          "Col1a1": 2063,
+          "Acta2": 34,
+          "Timp1": 37,
+          "Mmp14": 1109,
+          "Ctsl": 5311
+        }
+      }
+    }
+  ],
+  "contrasts": {
+    "raw": [
+      {
+        "gene": "Sema4d",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 1.8453626573181223,
+          "GSM8944961": 2.3430061383584353,
+          "GSM8944962": 2.038509336417329,
+          "GSM8944963": 5.60823321133641,
+          "GSM8944964": 4.799978085412709,
+          "GSM8944965": 4.914177779165178,
+          "GSM8944966": 3.5080990910324448,
+          "GSM8944967": 3.6077871139801174,
+          "GSM8944968": 4.00306131225339
+        },
+        "mean_log2cpm_difference": 3.0318369812734707,
+        "exact_permutation_p": 0.1,
+        "loo_min": 2.6663201949010613,
+        "loo_max": 3.319269498383068,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333
+      },
+      {
+        "gene": "Sema4d",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 1.8453626573181223,
+          "GSM8944961": 2.3430061383584353,
+          "GSM8944962": 2.038509336417329,
+          "GSM8944963": 5.60823321133641,
+          "GSM8944964": 4.799978085412709,
+          "GSM8944965": 4.914177779165178,
+          "GSM8944966": 3.5080990910324448,
+          "GSM8944967": 3.6077871139801174,
+          "GSM8944968": 4.00306131225339
+        },
+        "mean_log2cpm_difference": -1.4011471862161158,
+        "exact_permutation_p": 0.1,
+        "loo_min": -1.7032623927445125,
+        "loo_max": -1.0516537191721893,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333
+      },
+      {
+        "gene": "Plxnb2",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 7.007582949273875,
+          "GSM8944961": 7.10085218009648,
+          "GSM8944962": 6.877316985013032,
+          "GSM8944963": 7.678646230073739,
+          "GSM8944964": 7.40079209845763,
+          "GSM8944965": 7.482050513677608,
+          "GSM8944966": 7.314520361748665,
+          "GSM8944967": 7.303243072808742,
+          "GSM8944968": 7.256521630701882
+        },
+        "mean_log2cpm_difference": 0.525245575941863,
+        "exact_permutation_p": 0.1,
+        "loo_min": 0.38720374138244207,
+        "loo_max": 0.6378984047322209,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333
+      },
+      {
+        "gene": "Plxnb2",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 7.007582949273875,
+          "GSM8944961": 7.10085218009648,
+          "GSM8944962": 6.877316985013032,
+          "GSM8944963": 7.678646230073739,
+          "GSM8944964": 7.40079209845763,
+          "GSM8944965": 7.482050513677608,
+          "GSM8944966": 7.314520361748665,
+          "GSM8944967": 7.303243072808742,
+          "GSM8944968": 7.256521630701882
+        },
+        "mean_log2cpm_difference": -0.2290679256498951,
+        "exact_permutation_p": 0.1,
+        "loo_min": -0.3004660201203624,
+        "loo_max": -0.1325395887889158,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333
+      },
+      {
+        "gene": "Lmcd1",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 1.0863479976999637,
+          "GSM8944961": 1.0249029880167733,
+          "GSM8944962": 0.7464149969520756,
+          "GSM8944963": 2.4918741997705123,
+          "GSM8944964": 2.410431986628046,
+          "GSM8944965": 2.2471315526130664,
+          "GSM8944966": 2.173646907298882,
+          "GSM8944967": 2.109518703648255,
+          "GSM8944968": 1.984160433292385
+        },
+        "mean_log2cpm_difference": 1.4305905854476038,
+        "exact_permutation_p": 0.1,
+        "loo_min": 1.2731562767621876,
+        "loo_max": 1.5654941007148546,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333
+      },
+      {
+        "gene": "Lmcd1",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 1.0863479976999637,
+          "GSM8944961": 1.0249029880167733,
+          "GSM8944962": 0.7464149969520756,
+          "GSM8944963": 2.4918741997705123,
+          "GSM8944964": 2.410431986628046,
+          "GSM8944965": 2.2471315526130664,
+          "GSM8944966": 2.173646907298882,
+          "GSM8944967": 2.109518703648255,
+          "GSM8944968": 1.984160433292385
+        },
+        "mean_log2cpm_difference": -0.2940372315907007,
+        "exact_permutation_p": 0.1,
+        "loo_min": -0.4043135247289591,
+        "loo_max": -0.18719896414698756,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333
+      },
+      {
+        "gene": "Col1a1",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 3.314009442228562,
+          "GSM8944961": 3.373325287372598,
+          "GSM8944962": 3.6846314085042104,
+          "GSM8944963": 9.131519802964723,
+          "GSM8944964": 7.137432025737155,
+          "GSM8944965": 7.788001115534707,
+          "GSM8944966": 5.396293878963139,
+          "GSM8944967": 5.2276718988679365,
+          "GSM8944968": 5.476240433848585
+        },
+        "mean_log2cpm_difference": 4.561662268710405,
+        "exact_permutation_p": 0.1,
+        "loo_min": 3.9337382226975266,
+        "loo_max": 5.116093094449135,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333
+      },
+      {
+        "gene": "Col1a1",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 3.314009442228562,
+          "GSM8944961": 3.373325287372598,
+          "GSM8944962": 3.6846314085042104,
+          "GSM8944963": 9.131519802964723,
+          "GSM8944964": 7.137432025737155,
+          "GSM8944965": 7.788001115534707,
+          "GSM8944966": 5.396293878963139,
+          "GSM8944967": 5.2276718988679365,
+          "GSM8944968": 5.476240433848585
+        },
+        "mean_log2cpm_difference": -2.6522489108523093,
+        "exact_permutation_p": 0.1,
+        "loo_min": -3.1477775703341777,
+        "loo_max": -2.0264494142300693,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333
+      },
+      {
+        "gene": "Acta2",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 0.3054062944178777,
+          "GSM8944961": 0.0918054563307395,
+          "GSM8944962": 0.28801909884517135,
+          "GSM8944963": 3.474305352558039,
+          "GSM8944964": 1.813002350933218,
+          "GSM8944965": 2.563672208928506,
+          "GSM8944966": 1.301288555121888,
+          "GSM8944967": 2.0650299616371526,
+          "GSM8944968": 0.8425042147454215
+        },
+        "mean_log2cpm_difference": 2.3885830209419914,
+        "exact_permutation_p": 0.1,
+        "loo_min": 1.8916245832993377,
+        "loo_max": 2.829076503155317,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333
+      },
+      {
+        "gene": "Acta2",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 0.3054062944178777,
+          "GSM8944961": 0.0918054563307395,
+          "GSM8944962": 0.28801909884517135,
+          "GSM8944963": 3.474305352558039,
+          "GSM8944964": 1.813002350933218,
+          "GSM8944965": 2.563672208928506,
+          "GSM8944966": 1.301288555121888,
+          "GSM8944967": 2.0650299616371526,
+          "GSM8944968": 0.8425042147454215
+        },
+        "mean_log2cpm_difference": -1.2140523936384333,
+        "exact_permutation_p": 0.2,
+        "loo_min": -1.9470923958096178,
+        "loo_max": -0.505178021551342,
+        "loo_direction_stable": true,
+        "bh_q": 0.24615384615384617
+      },
+      {
+        "gene": "Timp1",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 0.6621892770886031,
+          "GSM8944961": 0.0918054563307395,
+          "GSM8944962": 2.476786563128901,
+          "GSM8944963": 2.278352314066437,
+          "GSM8944964": 1.2565066444534327,
+          "GSM8944965": 1.4445447441201733,
+          "GSM8944966": 0.6333398634291115,
+          "GSM8944967": 0.715565871490109,
+          "GSM8944968": 0.7983250466035553
+        },
+        "mean_log2cpm_difference": 0.5828741353639328,
+        "exact_permutation_p": 0.5,
+        "loo_min": -0.21896222582194902,
+        "loo_max": 1.4844511623836336,
+        "loo_direction_stable": false,
+        "bh_q": 0.5333333333333333
+      },
+      {
+        "gene": "Timp1",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 0.6621892770886031,
+          "GSM8944961": 0.0918054563307395,
+          "GSM8944962": 2.476786563128901,
+          "GSM8944963": 2.278352314066437,
+          "GSM8944964": 1.2565066444534327,
+          "GSM8944965": 1.4445447441201733,
+          "GSM8944966": 0.6333398634291115,
+          "GSM8944967": 0.715565871490109,
+          "GSM8944968": 0.7983250466035553
+        },
+        "mean_log2cpm_difference": -0.9440576403724222,
+        "exact_permutation_p": 0.1,
+        "loo_min": -1.1869956616336947,
+        "loo_max": -0.5935802352399708,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333
+      },
+      {
+        "gene": "Mmp14",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 5.005453531818252,
+          "GSM8944961": 5.114364766778381,
+          "GSM8944962": 5.0266966185826325,
+          "GSM8944963": 6.193450001712665,
+          "GSM8944964": 5.650554285792526,
+          "GSM8944965": 5.871870949179144,
+          "GSM8944966": 5.136331289705707,
+          "GSM8944967": 5.484443842354287,
+          "GSM8944968": 5.223390691454056
+        },
+        "mean_log2cpm_difference": 0.8564534398350219,
+        "exact_permutation_p": 0.1,
+        "loo_min": 0.6906819248053289,
+        "loo_max": 1.0165854002454626,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333
+      },
+      {
+        "gene": "Mmp14",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 5.005453531818252,
+          "GSM8944961": 5.114364766778381,
+          "GSM8944962": 5.0266966185826325,
+          "GSM8944963": 6.193450001712665,
+          "GSM8944964": 5.650554285792526,
+          "GSM8944965": 5.871870949179144,
+          "GSM8944966": 5.136331289705707,
+          "GSM8944967": 5.484443842354287,
+          "GSM8944968": 5.223390691454056
+        },
+        "mean_log2cpm_difference": -0.6239031377234276,
+        "exact_permutation_p": 0.1,
+        "loo_min": -0.8527994848660239,
+        "loo_max": -0.40729535058166366,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333
+      },
+      {
+        "gene": "Ctsl",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 8.34182588737507,
+          "GSM8944961": 9.024384253155738,
+          "GSM8944962": 8.822103985987555,
+          "GSM8944963": 8.552552666649374,
+          "GSM8944964": 8.889480526679915,
+          "GSM8944965": 8.951567762146764,
+          "GSM8944966": 8.661252690362597,
+          "GSM8944967": 8.715261738124289,
+          "GSM8944968": 8.740644710622574
+        },
+        "mean_log2cpm_difference": 0.06842894298589641,
+        "exact_permutation_p": 0.8,
+        "loo_min": -0.20222752290700186,
+        "loo_max": 0.3385592077320254,
+        "loo_direction_stable": false,
+        "bh_q": 0.8
+      },
+      {
+        "gene": "Ctsl",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 8.34182588737507,
+          "GSM8944961": 9.024384253155738,
+          "GSM8944962": 8.822103985987555,
+          "GSM8944963": 8.552552666649374,
+          "GSM8944964": 8.889480526679915,
+          "GSM8944965": 8.951567762146764,
+          "GSM8944966": 8.661252690362597,
+          "GSM8944967": 8.715261738124289,
+          "GSM8944968": 8.740644710622574
+        },
+        "mean_log2cpm_difference": -0.09214727212219742,
+        "exact_permutation_p": 0.5,
+        "loo_min": -0.23226693016989586,
+        "loo_max": 0.006936627708787668,
+        "loo_direction_stable": false,
+        "bh_q": 0.5333333333333333
+      }
+    ],
+    "qc": [
+      {
+        "gene": "Sema4d",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 3.4984748041942697,
+          "GSM8944961": 4.301627209911147,
+          "GSM8944962": 3.514193814401204,
+          "GSM8944963": 7.402886953156063,
+          "GSM8944964": 6.754820550658137,
+          "GSM8944965": 6.861049438011984,
+          "GSM8944966": 5.678302110573423,
+          "GSM8944967": 5.631897126695063,
+          "GSM8944968": 6.164977822618133
+        },
+        "mean_log2cpm_difference": 3.234820371106523,
+        "exact_permutation_p": 0.1,
+        "loo_min": 2.9000244821788854,
+        "loo_max": 3.6256338862862876,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333,
+        "direction_stable_across_qc_and_loo": true
+      },
+      {
+        "gene": "Sema4d",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 3.4984748041942697,
+          "GSM8944961": 4.301627209911147,
+          "GSM8944962": 3.514193814401204,
+          "GSM8944963": 7.402886953156063,
+          "GSM8944964": 6.754820550658137,
+          "GSM8944965": 6.861049438011984,
+          "GSM8944966": 5.678302110573423,
+          "GSM8944967": 5.631897126695063,
+          "GSM8944968": 6.164977822618133
+        },
+        "mean_log2cpm_difference": -1.181193293979856,
+        "exact_permutation_p": 0.1,
+        "loo_min": -1.4768685769497818,
+        "loo_max": -0.8862950277392825,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333,
+        "direction_stable_across_qc_and_loo": true
+      },
+      {
+        "gene": "Plxnb2",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 7.10929712183502,
+          "GSM8944961": 7.284414574637605,
+          "GSM8944962": 7.032993786583259,
+          "GSM8944963": 8.108626008344947,
+          "GSM8944964": 7.877968001050523,
+          "GSM8944965": 7.97735407632589,
+          "GSM8944966": 7.759934410537127,
+          "GSM8944967": 7.636464371273256,
+          "GSM8944968": 7.696507298937027
+        },
+        "mean_log2cpm_difference": 0.8457475342218261,
+        "exact_permutation_p": 0.1,
+        "loo_min": 0.7308051904518944,
+        "loo_max": 0.9718445881262792,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333,
+        "direction_stable_across_qc_and_loo": true
+      },
+      {
+        "gene": "Plxnb2",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 7.10929712183502,
+          "GSM8944961": 7.284414574637605,
+          "GSM8944962": 7.032993786583259,
+          "GSM8944963": 8.108626008344947,
+          "GSM8944964": 7.877968001050523,
+          "GSM8944965": 7.97735407632589,
+          "GSM8944966": 7.759934410537127,
+          "GSM8944967": 7.636464371273256,
+          "GSM8944968": 7.696507298937027
+        },
+        "mean_log2cpm_difference": -0.29034733499131704,
+        "exact_permutation_p": 0.1,
+        "loo_min": -0.3765042072302771,
+        "loo_max": -0.19944018395112995,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333,
+        "direction_stable_across_qc_and_loo": true
+      },
+      {
+        "gene": "Lmcd1",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 2.502353170642647,
+          "GSM8944961": 2.595368398942676,
+          "GSM8944962": 1.7297887995976138,
+          "GSM8944963": 3.7723524894072407,
+          "GSM8944964": 4.016574605957954,
+          "GSM8944965": 3.779588443680677,
+          "GSM8944966": 4.1511091263190885,
+          "GSM8944967": 3.891775761877513,
+          "GSM8944968": 3.713251861805046
+        },
+        "mean_log2cpm_difference": 1.5803350566209788,
+        "exact_permutation_p": 0.1,
+        "loo_min": 1.2271096817512976,
+        "loo_max": 1.782010539699185,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333,
+        "direction_stable_across_qc_and_loo": true
+      },
+      {
+        "gene": "Lmcd1",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 2.502353170642647,
+          "GSM8944961": 2.595368398942676,
+          "GSM8944962": 1.7297887995976138,
+          "GSM8944963": 3.7723524894072407,
+          "GSM8944964": 4.016574605957954,
+          "GSM8944965": 3.779588443680677,
+          "GSM8944966": 4.1511091263190885,
+          "GSM8944967": 3.891775761877513,
+          "GSM8944968": 3.713251861805046
+        },
+        "mean_log2cpm_difference": 0.06254040365192504,
+        "exact_permutation_p": 0.7,
+        "loo_min": -0.09556771297803568,
+        "loo_max": 0.2454719775543417,
+        "loo_direction_stable": false,
+        "bh_q": 0.7,
+        "direction_stable_across_qc_and_loo": false
+      },
+      {
+        "gene": "Col1a1",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 5.098815600999714,
+          "GSM8944961": 5.517040269909046,
+          "GSM8944962": 5.325878027112132,
+          "GSM8944963": 10.895233627138408,
+          "GSM8944964": 9.176931292203873,
+          "GSM8944965": 9.826632607492082,
+          "GSM8944966": 7.650415838954311,
+          "GSM8944967": 7.309151905890378,
+          "GSM8944968": 7.583483728059362
+        },
+        "mean_log2cpm_difference": 4.6523545429378235,
+        "exact_permutation_p": 0.1,
+        "loo_min": 4.080322801337388,
+        "loo_max": 5.1485863032593215,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333,
+        "direction_stable_across_qc_and_loo": true
+      },
+      {
+        "gene": "Col1a1",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 5.098815600999714,
+          "GSM8944961": 5.517040269909046,
+          "GSM8944962": 5.325878027112132,
+          "GSM8944963": 10.895233627138408,
+          "GSM8944964": 9.176931292203873,
+          "GSM8944965": 9.826632607492082,
+          "GSM8944966": 7.650415838954311,
+          "GSM8944967": 7.309151905890378,
+          "GSM8944968": 7.583483728059362
+        },
+        "mean_log2cpm_difference": -2.451915351310104,
+        "exact_permutation_p": 0.1,
+        "loo_min": -2.9146153003403743,
+        "loo_max": -1.8848321663411411,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333,
+        "direction_stable_across_qc_and_loo": true
+      },
+      {
+        "gene": "Acta2",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 0.8862611909392494,
+          "GSM8944961": 0.32934839721509035,
+          "GSM8944962": 0.684171522226145,
+          "GSM8944963": 4.97442771586556,
+          "GSM8944964": 3.4653712764893494,
+          "GSM8944965": 4.217175850448367,
+          "GSM8944966": 2.914733067941416,
+          "GSM8944967": 3.838553494521083,
+          "GSM8944968": 2.051233274195668
+        },
+        "mean_log2cpm_difference": 3.58573124414093,
+        "exact_permutation_p": 0.1,
+        "loo_min": 3.056057206886161,
+        "loo_max": 4.089041823436346,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333,
+        "direction_stable_across_qc_and_loo": true
+      },
+      {
+        "gene": "Acta2",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 0.8862611909392494,
+          "GSM8944961": 0.32934839721509035,
+          "GSM8944962": 0.684171522226145,
+          "GSM8944963": 4.97442771586556,
+          "GSM8944964": 3.4653712764893494,
+          "GSM8944965": 4.217175850448367,
+          "GSM8944966": 2.914733067941416,
+          "GSM8944967": 3.838553494521083,
+          "GSM8944968": 2.051233274195668
+        },
+        "mean_log2cpm_difference": -1.2841516687150363,
+        "exact_permutation_p": 0.2,
+        "loo_min": -2.112818612088421,
+        "loo_max": -0.46463028223760894,
+        "loo_direction_stable": true,
+        "bh_q": 0.24615384615384617,
+        "direction_stable_across_qc_and_loo": true
+      },
+      {
+        "gene": "Timp1",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 1.6697288578971088,
+          "GSM8944961": 0.4243069291587162,
+          "GSM8944962": 3.995378542045097,
+          "GSM8944963": 3.487728872708382,
+          "GSM8944964": 2.543003987803184,
+          "GSM8944965": 2.70376201584272,
+          "GSM8944966": 1.8397590207115715,
+          "GSM8944967": 1.9596580547066156,
+          "GSM8944968": 2.144720545443811
+        },
+        "mean_log2cpm_difference": 0.8816935157511212,
+        "exact_permutation_p": 0.5,
+        "loo_min": -0.2091706981481507,
+        "loo_max": 2.0487275507476386,
+        "loo_direction_stable": false,
+        "bh_q": 0.5333333333333333,
+        "direction_stable_across_qc_and_loo": false
+      },
+      {
+        "gene": "Timp1",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 1.6697288578971088,
+          "GSM8944961": 0.4243069291587162,
+          "GSM8944962": 3.995378542045097,
+          "GSM8944963": 3.487728872708382,
+          "GSM8944964": 2.543003987803184,
+          "GSM8944965": 2.70376201584272,
+          "GSM8944966": 1.8397590207115715,
+          "GSM8944967": 1.9596580547066156,
+          "GSM8944968": 2.144720545443811
+        },
+        "mean_log2cpm_difference": -0.9301190851640961,
+        "exact_permutation_p": 0.1,
+        "loo_min": -1.1960369065664573,
+        "loo_max": -0.5711937017477386,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333,
+        "direction_stable_across_qc_and_loo": true
+      },
+      {
+        "gene": "Mmp14",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 5.619878090790096,
+          "GSM8944961": 5.81085023296453,
+          "GSM8944962": 5.481818443295001,
+          "GSM8944963": 6.975507441212441,
+          "GSM8944964": 6.862044703378594,
+          "GSM8944965": 7.033507556358134,
+          "GSM8944966": 6.713105943986358,
+          "GSM8944967": 6.820513291004688,
+          "GSM8944968": 6.69445526765983
+        },
+        "mean_log2cpm_difference": 1.3195043112998475,
+        "exact_permutation_p": 0.1,
+        "loo_min": 1.2034119104182048,
+        "loo_max": 1.4536592317427388,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333,
+        "direction_stable_across_qc_and_loo": true
+      },
+      {
+        "gene": "Mmp14",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 5.619878090790096,
+          "GSM8944961": 5.81085023296453,
+          "GSM8944962": 5.481818443295001,
+          "GSM8944963": 6.975507441212441,
+          "GSM8944964": 6.862044703378594,
+          "GSM8944965": 7.033507556358134,
+          "GSM8944966": 6.713105943986358,
+          "GSM8944967": 6.820513291004688,
+          "GSM8944968": 6.69445526765983
+        },
+        "mean_log2cpm_difference": -0.21432839943276338,
+        "exact_permutation_p": 0.1,
+        "loo_min": -0.3007268929621931,
+        "loo_max": -0.15196645479999393,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333,
+        "direction_stable_across_qc_and_loo": true
+      },
+      {
+        "gene": "Ctsl",
+        "contrast": "fibrosis-control",
+        "sample_log2cpm": {
+          "GSM8944960": 8.397723290847807,
+          "GSM8944961": 9.083553713294547,
+          "GSM8944962": 8.75168073900769,
+          "GSM8944963": 8.467690122062507,
+          "GSM8944964": 8.609796828054552,
+          "GSM8944965": 8.595162688465965,
+          "GSM8944966": 9.044524180224407,
+          "GSM8944967": 8.888650716332359,
+          "GSM8944968": 8.943116083395546
+        },
+        "mean_log2cpm_difference": -0.18676936818900636,
+        "exact_permutation_p": 0.5,
+        "loo_min": -0.38619082088688295,
+        "loo_max": 0.027777743332510596,
+        "loo_direction_stable": false,
+        "bh_q": 0.5333333333333333,
+        "direction_stable_across_qc_and_loo": false
+      },
+      {
+        "gene": "Ctsl",
+        "contrast": "regression-fibrosis",
+        "sample_log2cpm": {
+          "GSM8944960": 8.397723290847807,
+          "GSM8944961": 9.083553713294547,
+          "GSM8944962": 8.75168073900769,
+          "GSM8944963": 8.467690122062507,
+          "GSM8944964": 8.609796828054552,
+          "GSM8944965": 8.595162688465965,
+          "GSM8944966": 9.044524180224407,
+          "GSM8944967": 8.888650716332359,
+          "GSM8944968": 8.943116083395546
+        },
+        "mean_log2cpm_difference": 0.40121378045642686,
+        "exact_permutation_p": 0.1,
+        "loo_min": 0.3134036416036938,
+        "loo_max": 0.4623937265457396,
+        "loo_direction_stable": true,
+        "bh_q": 0.13333333333333333,
+        "direction_stable_across_qc_and_loo": false
+      }
+    ]
+  },
+  "totals": {
+    "raw_barcodes": 48993,
+    "retained_barcodes": 38136
+  },
+  "independent_validation": false,
+  "drug_effect_estimated": false,
+  "binding": {
+    "spec_sha256": "3bea8b72e2e47051c62ad324c35bcc2a91f1bf8ee93741f4e494cd335c5327f3",
+    "code_sha256": "c03551d27c87024faa7e54766032af7c332825bfcce7f299c2b1d7013bb2371e",
+    "archive_sha256": "6992e81fc6ff8345ce48f94933c5a4ebb33e6bf2eb2da1796bc58a9204be655e"
+  }
+}

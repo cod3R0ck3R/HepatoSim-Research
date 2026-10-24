@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "frozen_at_utc": "2026-10-24T14:49:13.015147+00:00",
+  "question": "Which prespecified fibrosis-related genes differ across nine whole-liver RNA libraries, and are directions sensitive to filtering or sample removal?",
+  "scope": "Exploratory reanalysis of author development data, not independent validation or drug efficacy",
+  "accession": "GSE295293",
+  "archive_sha256": "6992e81fc6ff8345ce48f94933c5a4ebb33e6bf2eb2da1796bc58a9204be655e",
+  "author_commit": "8b90c0177df6892952c137e247460212d5b07d08",
+  "groups": {
+    "control": [
+      "GSM8944960",
+      "GSM8944961",
+      "GSM8944962"
+    ],
+    "fibrosis": [
+      "GSM8944963",
+      "GSM8944964",
+      "GSM8944965"
+    ],
+    "regression": [
+      "GSM8944966",
+      "GSM8944967",
+      "GSM8944968"
+    ]
+  },
+  "targets": [
+    "Sema4d",
+    "Plxnb2",
+    "Lmcd1",
+    "Col1a1",
+    "Acta2",
+    "Timp1",
+    "Mmp14",
+    "Ctsl"
+  ],
+  "target_rationale": "First3 are article hypotheses; remaining5 are prespecified matrix/activation/remodelling context, not drug effects",
+  "qc": {
+    "gene_min_cells": 3,
+    "features_strict_min": 200,
+    "features_strict_max": 4000,
+    "counts_strict_max": 20000,
+    "mitochondrial_percent_strict_max": 20,
+    "mitochondrial_symbol_prefix": "mt-",
+    "source": "author HSC R script lines33-37; same thresholds for nine samples; independently implemented, not author Seurat pipeline replay"
+  },
+  "aggregation": "Gene-count sums per library before QC and after stated gene/cell QC. log2(1+1e6*gene_sum/library_total). Samples, never cells, are replicates. No inferred cell labels.",
+  "contrasts": [
+    [
+      "fibrosis",
+      "control"
+    ],
+    [
+      "regression",
+      "fibrosis"
+    ]
+  ],
+  "statistics": "Difference of mean log2(CPM+1); full six-library label enumeration20, two-sided abs-statistic; BH across16 gene/contrast tests per QC branch; minimum possible two-sided p=0.1; conditional on exchangeability, not confirmed by design metadata",
+  "sensitivity": "Nine leave-one-library-out-per-group contrasts (2vs2), min/max. Descriptive stable direction requires all nine strictly same sign as full contrast and both QC branches same sign. No efficacy acceptance threshold.",
+  "limitations": [
+    "batch, pooling and animal-to-library bijection not yet independently confirmed",
+    "separate sacrifice groups, not repeated measures",
+    "cell composition and fixed probe coverage confounding",
+    "author-selected target genes, not independent discovery",
+    "no collagen quantity/clearance measurements or pharmacological intervention in these9libraries"
+  ],
+  "budget": {
+    "baseline_used_percent": 13,
+    "ceiling_used_percent": 17.35,
+    "stop_substantive_at_displayed_percent": 16,
+    "max_workers": 1,
+    "max_analysis_seconds": 600,
+    "max_local_ai_attempts": 1,
+    "max_local_ai_seconds": 180,
+    "no_new_dependencies": true
+  },
+  "verification": [
+    "archive hash and exact9sample members",
+    "positive integer counts, coordinate bounds, exact nnz, unique coordinates, feature/barcode identities",
+    "synthetic parser and statistical oracle tests",
+    "deterministic aggregate replay; raw matrices not needlessly repeated"
+  ]
+}

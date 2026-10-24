@@ -1,0 +1,16 @@
+{
+  "first": {
+    "inserted": 1,
+    "already_present": 0,
+    "simulation_runs_preserved": 2,
+    "user_version": 1,
+    "quick_check": "ok"
+  },
+  "replay": {
+    "inserted": 0,
+    "already_present": 1,
+    "simulation_runs_preserved": 2,
+    "user_version": 1,
+    "quick_check": "ok"
+  }
+}

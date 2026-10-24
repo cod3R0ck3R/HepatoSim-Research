@@ -111,3 +111,7 @@ Maintainer: **Johnnie 4 free**. [Der neue interne Kollagenvergleich](Docs/19-Col
 ## TAA-Übertragung und Datenaufnahme (24.Oktober2026)
 
 Die unveränderte CCl4-Rate verfehlte bei TAA das vorab definierte Vergleichskriterium.16 Tests bestanden;12 geprüfte Forschungseinträge wurden lokal ergänzt, bestehende Simulationsläufe unverändert erhalten. Ein TAA-Einzelzellarchiv von 2026 und menschliche Kollagensynthese-Tabellen wurden aufgenommen. Dies ist keine klinische Validierung. Siehe [Bericht](Docs/21-TAATransferAndEvidence.md) und [Reproduktion/Datenaufnahme](Research/TAATransfer/README.md).
+
+## Prüfung der neun GEO-Bibliotheken (24. Oktober 2026)
+
+Neun echte Matrizen wurden lokal geprüft: 38.136 gefilterte Zellen und alle drei Gruppensummen stimmen mit der Publikation überein. Sieben Tests und exakte echte Wiederaufnahme/Wiederholung bestanden. SEMA4D–PLXNB2 begründet eine Zelltyp-Folgeprüfung; LMCD1 bei Rückbildung und CTSL zeigen wichtige Sensitivitätsgrenzen. Explorative Auswertung der Autorendaten, kein Arzneimittelwirksamkeitsnachweis. Die lokale KI-Prüfung blieb blockiert und wurde nicht verwendet. [Prüfung und Mechanismusfragen](Docs/22-GEOSampleCheck.md) · [Wiederholen/fortsetzen](Research/GEOSampleCheck/README.md).

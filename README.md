@@ -111,3 +111,7 @@ Maintained by **Johnnie 4 free**. [The new internal collagen comparison](Docs/19
 ## TAA transfer and evidence intake (24 October2026)
 
 The fixed CCl4-to-TAA median transfer missed the predefined baseline criterion. Sixteen tests passed, and twelve reviewed evidence records were added locally without changing existing simulation runs. A2026 TAA single-cell archive and human collagen-synthesis tables were acquired. These are not clinical validation. See [report](Docs/21-TAATransferAndEvidence.md) and [reproduction/data intake](Research/TAATransfer/README.md).
+
+## Nine-library GEO check (24 October 2026)
+
+Nine real matrices were checked locally: 38,136 retained cells and all three group totals match the paper. Seven software tests and exact real resume/replay passed. SEMA4D–PLXNB2 warrants a cell-resolved follow-up; LMCD1 regression and CTSL patterns have important sensitivity limits. This is exploratory author-data reanalysis, not a drug-efficacy result. The local AI review remained resource-blocked and was not used. [Audit and mechanism questions](Docs/22-GEOSampleCheck.md) · [Reproduce/resume](Research/GEOSampleCheck/README.md).

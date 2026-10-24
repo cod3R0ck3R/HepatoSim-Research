@@ -1,0 +1,41 @@
+{
+  "hepatosim-geoqc-lowload-counts-20261024": {
+    "log_sha256": "18a0f641448c39f3db3c5715fbecb4f0ee8d6d099f3514674d5ff19db7c6a347",
+    "metrics": {
+      "seconds": 524.981,
+      "cpu_seconds": 77.188,
+      "observed_peak_rss_bytes": 90112000,
+      "result_sha256": "06e6ca844cd012d35aeec359e79d819f0c6368414f1f796c96f8be1ccff33e18",
+      "totals": {
+        "raw_barcodes": 48993,
+        "retained_barcodes": 38136
+      }
+    }
+  },
+  "hepatosim-geoqc-replay-20261024": {
+    "log_sha256": "e9b4a2cb7fc74b97b3f24fb41dbf03dc7b5a86d0ac588e5daf1b27466457dd29",
+    "metrics": {
+      "seconds": 0.031,
+      "cpu_seconds": 0.006,
+      "observed_peak_rss_bytes": 35979264,
+      "result_sha256": "06e6ca844cd012d35aeec359e79d819f0c6368414f1f796c96f8be1ccff33e18",
+      "totals": {
+        "raw_barcodes": 48993,
+        "retained_barcodes": 38136
+      }
+    }
+  },
+  "hepatosim-geoqc-resume-20261024": {
+    "log_sha256": "983cb24f80a93c2189c64551ab4197823d97166d31c4466b53b9cc9d1100aab9",
+    "metrics": {
+      "seconds": 0.213,
+      "cpu_seconds": 0.208,
+      "observed_peak_rss_bytes": 39337984,
+      "result_sha256": "06e6ca844cd012d35aeec359e79d819f0c6368414f1f796c96f8be1ccff33e18",
+      "totals": {
+        "raw_barcodes": 48993,
+        "retained_barcodes": 38136
+      }
+    }
+  }
+}

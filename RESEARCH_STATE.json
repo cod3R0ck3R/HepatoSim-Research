@@ -133,5 +133,35 @@
     "local_worker": "queued resource-blocked, cancelled before execution; no fallback",
     "independent_validation": false
   },
-  "next_step": "Freeze sample-level QC/pseudobulk plan for GSE295293; audit pool/batch and animal independence before expression inference"
+  "next_step": "Obtain animal-level cell annotations and batch/pooling metadata; independent protein/activity and collagen-turnover evaluation for SEMA4D\u2013PLXNB2. LMCD1 regression RNA and CTSL not robust.",
+  "geo_sample_check": {
+    "status": "completed_exploratory_analysis",
+    "specification": "Research/GEOSampleCheck/specification-v1.json",
+    "baseline_used_percent": 13,
+    "ceiling_used_percent": 17.35,
+    "stop_substantive_at_displayed_percent": 16,
+    "targets_prespecified": 8,
+    "samples": 9,
+    "local_counts_job": "hepatosim-geoqc-lowload-counts-20261024",
+    "local_ai_job": "hepatosim-geoqc-local-20261024",
+    "source_code_sha_verified": true,
+    "tests_passed": 7,
+    "next_step": "Obtain animal-level cell annotations and batch/pooling metadata; independent protein/activity and collagen-turnover evaluation for SEMA4D\u2013PLXNB2. LMCD1 regression RNA and CTSL not robust.",
+    "synthetic_resume_replay_exact": true,
+    "metadata_result": "Research/GEOSampleCheck/metadata-result.json",
+    "report": "Docs/22-GEOSampleCheck.md",
+    "database_records_added": 2,
+    "simulation_runs_preserved": 2,
+    "verification": "Research/GEOSampleCheck/verification.json",
+    "full_matrix_scan_executed": true,
+    "result": "Research/GEOSampleCheck/result-v1.json",
+    "result_sha256": "06e6ca844cd012d35aeec359e79d819f0c6368414f1f796c96f8be1ccff33e18",
+    "raw_barcodes": 48993,
+    "retained_barcodes": 38136,
+    "published_group_sizes_matched": true,
+    "real_resume_replay_exact": true,
+    "local_worker_status": "resource_blocked_cancelled_before_inference",
+    "independent_biological_validation": false,
+    "drug_efficacy_estimated": false
+  }
 }

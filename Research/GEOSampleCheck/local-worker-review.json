@@ -1,0 +1,17 @@
+{
+  "provider": "ollama",
+  "model": "hermes3:8b",
+  "digest": "4f6b83f30b62bc3d0cf9be09266db222805ee815c8fd7d8b38f863f655be78b7",
+  "installed_size_bytes": 4661227243,
+  "status": "resource_blocked_cancelled_before_execution",
+  "job": "hepatosim-geoqc-local-20261024",
+  "reason": "Coordinator repeatedly reported memory pressure2; latest queued reason also external indexing load. Cancelled before start after data analysis completed; no inference or model output.",
+  "timeout_seconds": 180,
+  "max_attempts": 1,
+  "inference_verified": false,
+  "result_integrated": false,
+  "consumption_values": null,
+  "token_savings_claimed": false,
+  "scope": "Short methodological critique; not a source of scientific evidence",
+  "wall_seconds": null
+}

@@ -4,6 +4,10 @@
 
 New research, simulation and calibration are paused by user request. Resume only after explicit authorization and a separately frozen budget and test specification; older computational next steps below are historical and do not authorize execution. Existing data-intake limitations are recorded in [the bilingual checkpoint](Docs/17-DataCollectionStatus.md). No automatic restart.
 
+## Aktuelle Nutzersteuerung – 23.10.2026: Daten sammeln
+
+Für einige Tage Rückmeldungen, Literatur und bereitgestellte Daten sammeln. **Keine neuen Simulationen oder Kalibrierungen starten.** Kein fester Wiederanlauftermin; neue Nutzerfreigabe und dokumentierte Benchmark-/Budgetentscheidung erforderlich. Diese Steuerung hat Vorrang vor älteren Rechenschritten dieses Plans. Die lokale Datenaufnahme liegt unter `../Datenaufnahme-2026-10-23/README.md` und `manifest.json`. Veröffentlichungsrechte und Datenunabhängigkeit bleiben getrennte Prüfungen. Der stündliche Mailmonitor löst keine Berechnung oder Antwortmail aus.
+
 Beginn: 22.10.2026. Fortsetzung von HSR-BG2024-001; dessen Rohdaten und Grenzen bleiben erhalten.
 
 ## Forschungsfragen und Abnahme
@@ -32,9 +36,17 @@ Forschungsfrage → verfügbare Evidenz → vorab festgelegter Test → Ausführ
 Siehe `Docs/13-TechnicalControls.md` für tatsächlich geschlossene Replay-/Raster-/Resume-Prüfungen. Anschließend vorab eingefrorener Pilot1.3: Default und zwei Originalmodellvarianten, Seeds101–103; fünf geprüfte Archivläufe wiederverwenden, sechs neue Läufe einzeln koordinieren, je900s und insgesamt5400s. Kein neuer Fit. Der Drei-Seed-Pilot ersetzt nicht den früher geplanten Fünf-Seed-Vergleich; vollständige Kontraste erst nach allen vorgesehenen Läufen. Arzneimittelabbildung, Parameterintervalle und unabhängige Biologie bleiben offen.
 
 
-## 2026-10-23: bounded execution and source-data update
+## 2026-10-22 continuation checkpoint
 
-Pilot1.3.0 and subset1.3.1 remain incomplete after two900-second timeouts; partial traces are retained and the two unstarted follow-ups cancelled. Do not retry from CSV or infer a biological effect. See Research/Reference/mechanism-subset-timeout-2026-10-23.md. Jerez source-table conversion succeeded, but units, normalization and animal/field mapping remain unresolved; Sato animal-level measurements remain unavailable. No new fitting, independent prediction or clinical validation. New scientific execution requires a separately specified runtime-feasibility diagnostic and budget.
+Inspect the1.3.1 coordinator jobs and result manifests before further execution. Preserve the1.3.0 timeout; never retry automatically. Verify every completed new trajectory before any subset comparison, and keep the full original pilot marked incomplete. In parallel, review the Sato2023 supplemental material and request animal-level data and reuse terms; freeze any future biological benchmark before evaluation. Contact lists and dispatch receipts remain private.
+
+## 2026-10-23: subset stopped at its first timeout
+
+The first1.3.1 contrast reached its900-second limit at model day45; its preserved trace is incomplete. Both unstarted dependent jobs were cancelled, and the ended reservation was resolved only as interrupted after lifecycle checks. See `Research/Reference/mechanism-subset-timeout-2026-10-23.md`. Do not launch another series or retry from CSV. Next computational decision requires a separately specified runtime-feasibility diagnostic and budget; no cause is inferred from timeout alone. Independently inspect the already queued Jerez conversion once it ends. Outreach remains51confirmed/8unconfirmed/141unattempted; this diagnostic authorizes no additional send action.
+
+## 2026-10-23: queued data-conversion closeout
+
+The existing Jerez conversion and a bounded source/output integrity check passed. Figure6E contains three groups with six numerical entries each; units, normalization and biological-replicate mapping remain unqualified. No statistical analysis or new simulation followed. See the dated addendum in `Research/Reference/jerez2026-data-triage.md`. Next scientific work, after the goal budget is restored, must first resolve these measurement definitions and prespecify any separate endpoint benchmark; the current withdrawal benchmark stays unchanged. Raw-data redistribution remains withheld. Do not repeat the completed conversion.
 
 
 ## 2026-10-24: bounded expression reanalysis completed
@@ -45,5 +57,13 @@ HSR-EXPR-001 uses available E-MEXP-3177 processed measurements, not a new collag
 
 Bounded collagen check completed: frozen retrospective comparison, 5 tests, exact replay. Next: qualify formation-versus-clearance measurements before treatment parameterization. User additionally requested a macOS prerelease; build and release verification are tracked separately.
 
+MacOS prerelease v0.1.0-alpha.1 published; source commit 9ae34e4f458d8c1542469c6f02bda45cf61f1db9. Anonymous asset download and SHA-256 verification passed. Bounded analysis and release task complete; further numerical research requires new informative data or explicit next scope.
+
 ## 2026-10-24 TAA transfer and evidence intake
 Completed: frozen same-study transfer test, negative median-transfer baseline comparison,16 tests,12 immutable evidence records in existing database. Downloaded GSE295293 and Decaris supplementary measurements. Next: sample-level QC and prespecified animal-level pseudobulk; independent joint synthesis/clearance cohort remains missing. No further unconstrained sweeps.
+
+## GEO sample audit —24 October2026
+
+Nine-library metadata and seven software checks completed. Full count-entry/QC scan and bounded local methodological review require coordinator capacity. Freeze 8 genes and 2 contrasts before expression results; whole-library analyses are exploratory and composition-confounded. No intervention effect, independent validation or parameter calibration. Next: inspect real scan output, compare published cell totals without retuning, then evaluate direction sensitivity; retain any discrepancy.
+
+Completion: all nine real matrices checked, published QC group sizes matched, seven tests and real resume/replay passed. Prioritize cell-resolved SEMA4D–PLXNB2 follow-up; LMCD1 regression and CTSL sensitivity prevent a simple reversal claim. No new automatic computation without a separately bounded question.

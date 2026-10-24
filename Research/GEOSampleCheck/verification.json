@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "status": "completed_exploratory_sample_reanalysis",
+  "tests_passed": 7,
+  "tests_job": "hepatosim-geoqc-lowload-tests-20261024",
+  "metadata_job": "hepatosim-geoqc-metadata-20261024",
+  "metadata_assertions_passed": true,
+  "metadata_sha256": "1dd792e6a9f0d73ca1b49b8cea33acb53f728c490ec95f8c0c19a49924200085",
+  "spec_sha256": "3bea8b72e2e47051c62ad324c35bcc2a91f1bf8ee93741f4e494cd335c5327f3",
+  "code_sha256": {
+    "Research/GEOSampleCheck/audit_metadata.py": "095039ea06ac94ab9439378ab573d5e4f7f5da12722795ffc80d20f199f0cc5f",
+    "Research/GEOSampleCheck/analyze_geo.py": "c03551d27c87024faa7e54766032af7c332825bfcce7f299c2b1d7013bb2371e",
+    "Research/GEOSampleCheck/test_analyze_geo.py": "9cec6e466f781367b851186159feed0e1bf9ee6ed6794fe2ab4f621f527c5c37"
+  },
+  "full_matrix_scan_executed": true,
+  "aggregate_replay_executed": true,
+  "biological_validation": false,
+  "drug_effect_estimated": false,
+  "budget": {
+    "baseline_used_percent": 13,
+    "ceiling_used_percent": 17.35,
+    "stop_substantive_at_displayed_percent": 16
+  },
+  "publication_base_commit": "4983f122d8dcd14a56dfbfd7f5f18dbc8ee6105e",
+  "environment": {
+    "python": "Python 3.15.0",
+    "numpy": "2.5.4",
+    "macos": "27.0.1",
+    "architecture": "arm64"
+  },
+  "numerical_scope": "All116958320unique positive integer coordinates validated twice; seven software tests passed; real checkpoint resume and aggregate replay byte-identical. Not an independent biological validation.",
+  "synthetic_cli_resume_and_replay_exact": true,
+  "real_checkpoint_resume_executed": true,
+  "replay_exact": true,
+  "result_sha256": "06e6ca844cd012d35aeec359e79d819f0c6368414f1f796c96f8be1ccff33e18",
+  "published_group_cell_totals_equal": true
+}

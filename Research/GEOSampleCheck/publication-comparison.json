@@ -1,0 +1,16 @@
+{
+  "source": "Pham et al2026, DOI10.1016/j.jhepr.2026.101783, Results sec3.1/Fig1D",
+  "published_group_cell_totals": {
+    "control": 13948,
+    "fibrosis": 14986,
+    "regression": 9202
+  },
+  "observed_group_cell_totals": {
+    "control": 13948,
+    "fibrosis": 14986,
+    "regression": 9202
+  },
+  "all_group_totals_equal": true,
+  "exact_filtered_cell_identity_compared": false,
+  "scope": "Reproduction of reported post-QC group sizes only; not Seurat cell annotations, treatment effect, or independent biological validation"
+}

@@ -132,9 +132,9 @@
     },
     {
       "path": "DECISIONS.md",
-      "original_sha256": "9734ee1d32e33d19476a90de27f19f46810a45db5b2f41ea6db756007d4f55c6",
-      "published_sha256": "fcbed1423ea269753a81a8723e7540da8638e581cfd4d0ba52207aceacf325a9",
-      "metadata_redacted": true
+      "original_sha256": "69de5730a17f796c5ee2c9a91588f92f4d943fd84f003fb1610d851aef73da87",
+      "published_sha256": "69de5730a17f796c5ee2c9a91588f92f4d943fd84f003fb1610d851aef73da87",
+      "metadata_redacted": false
     },
     {
       "path": "Docs/01-Architecture.md",
@@ -263,6 +263,12 @@
       "metadata_redacted": false
     },
     {
+      "path": "Docs/22-GEOSampleCheck.md",
+      "original_sha256": "fc34b1edb13af90865cf159be7714d89a8220965ef4bbd3e115d9dfb9c51990a",
+      "published_sha256": "fc34b1edb13af90865cf159be7714d89a8220965ef4bbd3e115d9dfb9c51990a",
+      "metadata_redacted": false
+    },
+    {
       "path": "Docs/README-HSR001.md",
       "original_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
       "published_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
@@ -318,26 +324,26 @@
     },
     {
       "path": "README.de.md",
-      "original_sha256": "c53797092f75e2ed2409c2160d13dc10b6031dd34fc862f62de4952a2c333ae7",
-      "published_sha256": "c53797092f75e2ed2409c2160d13dc10b6031dd34fc862f62de4952a2c333ae7",
+      "original_sha256": "227add9333f937dd0b3257f9e25400c4e64475846b24b483c0a35a05f3b82f0a",
+      "published_sha256": "227add9333f937dd0b3257f9e25400c4e64475846b24b483c0a35a05f3b82f0a",
       "metadata_redacted": false
     },
     {
       "path": "README.md",
-      "original_sha256": "c8e65672d320661df5bb918a85c0cd7ab613f2a9f3c51fa1827986d0b1badc22",
-      "published_sha256": "c8e65672d320661df5bb918a85c0cd7ab613f2a9f3c51fa1827986d0b1badc22",
+      "original_sha256": "bad464d589ead2aeff204d4016ef25a6966baee9588eb82a3a8e07818501fdfa",
+      "published_sha256": "bad464d589ead2aeff204d4016ef25a6966baee9588eb82a3a8e07818501fdfa",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_PLAN.md",
-      "original_sha256": "2392aae80eec1c6654d222d6b080852df52202179795f8828433884f397bedaa",
-      "published_sha256": "2b1c2818cf995a7db60d6635fa138ccecc81237827c33a144650d96834e7592e",
-      "metadata_redacted": true
+      "original_sha256": "fd2c88e5c5831d1ff1f6f72853fbe1036fa139dbbc38b079cfeaf19b976e2ef9",
+      "published_sha256": "fd2c88e5c5831d1ff1f6f72853fbe1036fa139dbbc38b079cfeaf19b976e2ef9",
+      "metadata_redacted": false
     },
     {
       "path": "RESEARCH_STATE.json",
-      "original_sha256": "7434acd5d45c01ef971a8d55c90a41ffebfe2bb4fd7118694ef9238fc3526f36",
-      "published_sha256": "b1ccd649d1a8bd42dc57c20598b108a4bc55f32bc25b916c943b483155e2d8ff",
+      "original_sha256": "80ed736524a08e8f65a6fd91ba7660424de064ca401b3b2aba065c9df416c25b",
+      "published_sha256": "4f725e319423821f8434de77c651d0e82c730c069f2fb74900cf45db1e0601cb",
       "metadata_redacted": true
     },
     {
@@ -554,6 +560,120 @@
       "path": "Research/Expression/verification.json",
       "original_sha256": "82e9d512f1a21ca647affb73573d09fac8029536ceca6849355d5afaa7cb4e6b",
       "published_sha256": "82e9d512f1a21ca647affb73573d09fac8029536ceca6849355d5afaa7cb4e6b",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/README.md",
+      "original_sha256": "38016cf8eba847eba6b8d1774ee9f2d7bd8cca7590c2de693c579c6bbda4489d",
+      "published_sha256": "38016cf8eba847eba6b8d1774ee9f2d7bd8cca7590c2de693c579c6bbda4489d",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/analysis-database-verification.json",
+      "original_sha256": "832b86855be74a1387068291ac209adc34655a640c11568ce303b829096f49d9",
+      "published_sha256": "832b86855be74a1387068291ac209adc34655a640c11568ce303b829096f49d9",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/analyze_geo.py",
+      "original_sha256": "c03551d27c87024faa7e54766032af7c332825bfcce7f299c2b1d7013bb2371e",
+      "published_sha256": "c03551d27c87024faa7e54766032af7c332825bfcce7f299c2b1d7013bb2371e",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/audit_metadata.py",
+      "original_sha256": "095039ea06ac94ab9439378ab573d5e4f7f5da12722795ffc80d20f199f0cc5f",
+      "published_sha256": "095039ea06ac94ab9439378ab573d5e4f7f5da12722795ffc80d20f199f0cc5f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/contrast-table.md",
+      "original_sha256": "5c8128dc8625e3c76716298a5e835a3aed4ee790c863b325caec898b705f5147",
+      "published_sha256": "5c8128dc8625e3c76716298a5e835a3aed4ee790c863b325caec898b705f5147",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/database-verification.json",
+      "original_sha256": "832b86855be74a1387068291ac209adc34655a640c11568ce303b829096f49d9",
+      "published_sha256": "832b86855be74a1387068291ac209adc34655a640c11568ce303b829096f49d9",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/execution-summary.json",
+      "original_sha256": "a4e9e575067afcf181a88c89e9363a37c5f774deb0137666c1b704491a055607",
+      "published_sha256": "a4e9e575067afcf181a88c89e9363a37c5f774deb0137666c1b704491a055607",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/local-worker-review.json",
+      "original_sha256": "5a070e0ae1e3b00f697fc711e9b1aa3d95ac6c65c6003553e3282b00dfe693de",
+      "published_sha256": "5a070e0ae1e3b00f697fc711e9b1aa3d95ac6c65c6003553e3282b00dfe693de",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/metadata-result.json",
+      "original_sha256": "1dd792e6a9f0d73ca1b49b8cea33acb53f728c490ec95f8c0c19a49924200085",
+      "published_sha256": "1dd792e6a9f0d73ca1b49b8cea33acb53f728c490ec95f8c0c19a49924200085",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/provenance.json",
+      "original_sha256": "dc5be0f4aad136a32b8a9259af5226122c45d287da8d84ff9517acb219ff8678",
+      "published_sha256": "dc5be0f4aad136a32b8a9259af5226122c45d287da8d84ff9517acb219ff8678",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/publication-comparison.json",
+      "original_sha256": "d2aa6cdeed88f65c368153466cde3a25e63f333efbb4ba03594ea45d50691d74",
+      "published_sha256": "d2aa6cdeed88f65c368153466cde3a25e63f333efbb4ba03594ea45d50691d74",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/resource-amendment.json",
+      "original_sha256": "5748f0cd41a3b4736891d999a8423217b8ecd1d5b33853201703657ecd38b3cd",
+      "published_sha256": "5748f0cd41a3b4736891d999a8423217b8ecd1d5b33853201703657ecd38b3cd",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/result-v1.json",
+      "original_sha256": "06e6ca844cd012d35aeec359e79d819f0c6368414f1f796c96f8be1ccff33e18",
+      "published_sha256": "06e6ca844cd012d35aeec359e79d819f0c6368414f1f796c96f8be1ccff33e18",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/sample-table.md",
+      "original_sha256": "2391eb09bd50a1756ecb5195a5dbc44ca4efc94f091ea9fa7fbe333645de5c5e",
+      "published_sha256": "2391eb09bd50a1756ecb5195a5dbc44ca4efc94f091ea9fa7fbe333645de5c5e",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/specification-v1.json",
+      "original_sha256": "3bea8b72e2e47051c62ad324c35bcc2a91f1bf8ee93741f4e494cd335c5327f3",
+      "published_sha256": "3bea8b72e2e47051c62ad324c35bcc2a91f1bf8ee93741f4e494cd335c5327f3",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/specification-v1.sha256",
+      "original_sha256": "43fd1128a72656596559721326c4940df48d3e660d2277086ebe7b7b70608c6a",
+      "published_sha256": "43fd1128a72656596559721326c4940df48d3e660d2277086ebe7b7b70608c6a",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/test_analyze_geo.py",
+      "original_sha256": "9cec6e466f781367b851186159feed0e1bf9ee6ed6794fe2ab4f621f527c5c37",
+      "published_sha256": "9cec6e466f781367b851186159feed0e1bf9ee6ed6794fe2ab4f621f527c5c37",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/tests.txt",
+      "original_sha256": "43a4110df8bbc2ab1ca07933a05fff774efc7b4774eba8a6bf8657bfea75236f",
+      "published_sha256": "43a4110df8bbc2ab1ca07933a05fff774efc7b4774eba8a6bf8657bfea75236f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/GEOSampleCheck/verification.json",
+      "original_sha256": "9f475658aafc5004f494688d6820f351661939f92be7474229e994d2f131df96",
+      "published_sha256": "9f475658aafc5004f494688d6820f351661939f92be7474229e994d2f131df96",
       "metadata_redacted": false
     },
     {
@@ -1850,5 +1970,6 @@
     ],
     "policy": "Reviewed source and newly calculated aggregate results only; curated operational state; original source intensities, private correspondence and native worker logs excluded; no new licence."
   },
-  "taa_transfer_note": "Original analytic result and source metadata only; no source PDF, subject tables, GEO archive, correspondence or private database."
+  "taa_transfer_note": "Original analytic result and source metadata only; no source PDF, subject tables, GEO archive, correspondence or private database.",
+  "geo_sample_note": "Nine-matrix local scan; publication QC group totals reproduced; exploratory eight-gene sample contrasts, exact resume/replay. No independent validation or drug effect. Source matrices, upstream code and private logs excluded."
 }

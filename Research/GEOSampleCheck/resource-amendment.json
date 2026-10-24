@@ -1,0 +1,13 @@
+{
+  "date_utc": "2026-10-24T15:10:11.922150+00:00",
+  "before_real_expression_analysis": true,
+  "reason": "Direct memory_pressure -Q reports38percent free while kernel warning remains2. Change actual demand rather than override coordinator limits.",
+  "changes": [
+    "Streaming chunks100000entries",
+    "Parsing and aggregation duty-limited to20percent of one core",
+    "Abort after observed peak RSS exceeds512MiB",
+    "One process; coordinator light1worker1GiB;600s timeout unchanged"
+  ],
+  "scientific_specification_changed": false,
+  "local_ai": "Still heavy7GiB and subject to coordinator heavy gate; no relabeling"
+}
