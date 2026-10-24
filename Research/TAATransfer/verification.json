@@ -1,0 +1,27 @@
+{
+  "replay_exact": true,
+  "runs": 2,
+  "python": "3.15.0 (main, Oct  9 2026, 11:16:41) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "solver": "analytic closed form; no RNG",
+  "result_sha256": "879dc68f15da5982ba4c48be5d9c1e4e8ea8e4c65cf1a556bebd32560865bedb",
+  "distinct_tests_passed": 16,
+  "test_suites": {
+    "data": 9,
+    "collagen": 5,
+    "transfer": 2
+  },
+  "code_sha256": {
+    "Research/Data/test_extract_hofer_cpa.py": "92a8f8de5d653a972bb90e23bd4a89950e56a7878a6b0c68ad3b0d9a0571d950",
+    "Research/Data/import_evidence.py": "b037c517fdbd596f7b9e1c31e771c09b4d56e62f3a1bc947d9087b6bbe866f04",
+    "Research/Data/extract_decaris_collagen.py": "3829436e626d7763b62906b64c185e9e64cb63e091e482b7c918c0823328ef3b",
+    "Research/Data/extract_hofer_cpa.py": "daba8524ba073bf08f72ed381f2bd80a81da75cb08420cb2cc33100faeaca138",
+    "Research/Data/test_import_evidence.py": "1fdf0bf1bbfe9b0b3d3b1ff67e885c4837b879eb43be40af2fd3efbeac103baa",
+    "Research/Data/test_decaris.py": "1e4d3e6401cbcc728320b2c3e8a4279f8cfbde22cd6906d93cf5489e35b5c9de",
+    "Research/TAATransfer/analyze_transfer.py": "6b4e2f0c3d3286c28fd2bad0bce60e1e966afd9e65cb2630f5641e11c3c5fe1f",
+    "Research/TAATransfer/fetch_geo.py": "be6f749abcb0596d4a0b8419671eabbbb6edbe63b91f97e7a266ad97681fd13b",
+    "Research/TAATransfer/test_transfer.py": "b3b09d491a92c8279d7d166b89e465e4d78ef46e8f7e1038b69e996537394411",
+    "Research/CollagenCheck/analyze_collagen.py": "6947ba5bea9d26cd9cb013ab1a089ed105e05f8b041d3f2269bff789a14e4f8c",
+    "Research/CollagenCheck/test_collagen.py": "0cbc067e8b1eba34ccb6cf43644be5649dad434cb0811e13e73bdfd788bb0e0d"
+  }
+}

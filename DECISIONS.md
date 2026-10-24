@@ -79,3 +79,6 @@ Current public maintainer and all new commit attribution: Johnnie 4 free (user i
 ## 2026-10-24 — MIT license authorized
 
 The project owner requested an open-source license permitting reuse. Original project code/documentation, including the own app code in 0.1.0-alpha.1, are licensed under MIT; copyright Johnnie 4 free. Historical no-license statements describe the earlier state and are superseded by this decision. Upstream AGPL models and data/publication rights remain unchanged. No clinical validation is implied.
+
+## 2026-10-24 TAA/evidence decision
+Keep failed fixed CCl4-to-TAA transfer; do not refit the primary model after seeing errors. Quartile sensitivity is not probabilistic uncertainty. Keep new synthesis, RNA and CPA data separate. Add evidence table to existing schema1 database without touching runs. Prioritize GSE295293 sample audit and synthesis measurement-model review; exclude adipose dataset and unresolved overlapping cohorts as validation. Local Hermes task cancelled while queued due to resource pressure; no cloud fallback.

@@ -44,3 +44,6 @@ HSR-EXPR-001 uses available E-MEXP-3177 processed measurements, not a new collag
 ## 2026-10-24 — collagen check and prerelease
 
 Bounded collagen check completed: frozen retrospective comparison, 5 tests, exact replay. Next: qualify formation-versus-clearance measurements before treatment parameterization. User additionally requested a macOS prerelease; build and release verification are tracked separately.
+
+## 2026-10-24 TAA transfer and evidence intake
+Completed: frozen same-study transfer test, negative median-transfer baseline comparison,16 tests,12 immutable evidence records in existing database. Downloaded GSE295293 and Decaris supplementary measurements. Next: sample-level QC and prespecified animal-level pseudobulk; independent joint synthesis/clearance cohort remains missing. No further unconstrained sweeps.

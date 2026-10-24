@@ -107,3 +107,7 @@ Original HepatoSim code and original project documentation are licensed under th
 Maintained by **Johnnie 4 free**. [The new internal collagen comparison](Docs/19-CollagenInternalCheck.md) passed five software tests and exact replay. It does not identify a treatment effect or provide independent biological validation. [Run the check](Research/CollagenCheck/README.md). The macOS packaging script produces a universal macOS research prerelease (launch tested on Apple Silicon) with ad-hoc signing; it is not notarized. The release is experimental, requires macOS 14 or later, and is not a medical product. No iPhone binary is included. Original HepatoSim code and this app release are now MIT-licensed; third-party terms remain applicable.
 
 [macOS release verification / Prüfung](Docs/20-MacOSReleaseVerification.md).
+
+## TAA transfer and evidence intake (24 October2026)
+
+The fixed CCl4-to-TAA median transfer missed the predefined baseline criterion. Sixteen tests passed, and twelve reviewed evidence records were added locally without changing existing simulation runs. A2026 TAA single-cell archive and human collagen-synthesis tables were acquired. These are not clinical validation. See [report](Docs/21-TAATransferAndEvidence.md) and [reproduction/data intake](Research/TAATransfer/README.md).

@@ -1,0 +1,30 @@
+{
+  "first": {
+    "inserted": 12,
+    "already_present": 0,
+    "simulation_runs_preserved": 2,
+    "user_version": 1,
+    "quick_check": "ok"
+  },
+  "replay": {
+    "inserted": 0,
+    "already_present": 12,
+    "simulation_runs_preserved": 2,
+    "user_version": 1,
+    "quick_check": "ok"
+  },
+  "record_ids": [
+    "decaris2015-collagen-20261024-v1",
+    "decaris2015-review-20261024-v1",
+    "gardner2007-review-20261024-v1",
+    "gse295293-intake-20261024-v1",
+    "hofer2025-cpa-20261024-v1",
+    "hofer2025-review-20261024-v1",
+    "konigshofer2026-review-20261024-v1",
+    "pham2026-review-20261024-v1",
+    "stat1_2026-review-20261024-v1",
+    "taa-search-20261024-v1",
+    "taa-transfer-20261024-v1",
+    "takahashi2025-review-20261024-v1"
+  ]
+}

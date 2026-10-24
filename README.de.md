@@ -107,3 +107,7 @@ Eigener HepatoSim-Code und eigene Projektdokumentation stehen unter der [MIT-Liz
 Maintainer: **Johnnie 4 free**. [Der neue interne Kollagenvergleich](Docs/19-CollagenInternalCheck.md) bestand fünf Softwaretests und die exakte Wiederholung. Er identifiziert keine Behandlungswirkung und liefert keine unabhängige biologische Validierung. [Prüfung ausführen](Research/CollagenCheck/README.md). Das macOS-Packaging erzeugt eine universelle macOS-Forschungsvorabversion (Start auf Apple Silicon geprüft) mit Ad-hoc-Signatur; sie ist nicht notarisiert. Die Version ist experimentell, benötigt macOS 14 oder neuer und ist kein Medizinprodukt. Kein iPhone-Binärpaket enthalten. Eigener HepatoSim-Code und diese App-Version sind jetzt MIT-lizenziert; Fremdlizenzen gelten weiterhin.
 
 [macOS release verification / Prüfung](Docs/20-MacOSReleaseVerification.md).
+
+## TAA-Übertragung und Datenaufnahme (24.Oktober2026)
+
+Die unveränderte CCl4-Rate verfehlte bei TAA das vorab definierte Vergleichskriterium.16 Tests bestanden;12 geprüfte Forschungseinträge wurden lokal ergänzt, bestehende Simulationsläufe unverändert erhalten. Ein TAA-Einzelzellarchiv von 2026 und menschliche Kollagensynthese-Tabellen wurden aufgenommen. Dies ist keine klinische Validierung. Siehe [Bericht](Docs/21-TAATransferAndEvidence.md) und [Reproduktion/Datenaufnahme](Research/TAATransfer/README.md).

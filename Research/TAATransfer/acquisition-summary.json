@@ -1,0 +1,78 @@
+{
+  "geo": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE295nnn/GSE295293/suppl/GSE295293_RAW.tar",
+    "sha256": "6992e81fc6ff8345ce48f94933c5a4ebb33e6bf2eb2da1796bc58a9204be655e",
+    "bytes": 424663040,
+    "seconds": 65.1291275410913,
+    "matrix_headers": [
+      {
+        "file": "GSM8944960_Fixed_RNA_control_wt1198_matrix.mtx.gz",
+        "features": 19059,
+        "barcodes": 6323,
+        "nonzero_entries": 15274318
+      },
+      {
+        "file": "GSM8944961_Fixed_RNA_control_wt1199_matrix.mtx.gz",
+        "features": 19059,
+        "barcodes": 6004,
+        "nonzero_entries": 13597503
+      },
+      {
+        "file": "GSM8944962_Fixed_RNA_control_wt1200_matrix.mtx.gz",
+        "features": 19059,
+        "barcodes": 6717,
+        "nonzero_entries": 15104487
+      },
+      {
+        "file": "GSM8944963_Fixed_RNA_firosis_wt11_matrix.mtx.gz",
+        "features": 19059,
+        "barcodes": 6636,
+        "nonzero_entries": 14701743
+      },
+      {
+        "file": "GSM8944964_Fixed_RNA_firosis_wt13_matrix.mtx.gz",
+        "features": 19059,
+        "barcodes": 6239,
+        "nonzero_entries": 13761683
+      },
+      {
+        "file": "GSM8944965_Fixed_RNA_firosis_wt14_matrix.mtx.gz",
+        "features": 19059,
+        "barcodes": 5409,
+        "nonzero_entries": 13311163
+      },
+      {
+        "file": "GSM8944966_Fixed_RNA_regression_wt1815_matrix.mtx.gz",
+        "features": 19059,
+        "barcodes": 3284,
+        "nonzero_entries": 9271979
+      },
+      {
+        "file": "GSM8944967_Fixed_RNA_regression_wt1816_matrix.mtx.gz",
+        "features": 19059,
+        "barcodes": 4528,
+        "nonzero_entries": 12341900
+      },
+      {
+        "file": "GSM8944968_Fixed_RNA_regression_wt1817_matrix.mtx.gz",
+        "features": 19059,
+        "barcodes": 3853,
+        "nonzero_entries": 9593544
+      }
+    ],
+    "scope": "Downloaded archive and inspected headers only; raw entries, QC and sample-level inference not yet audited"
+  },
+  "decaris": {
+    "doi": "10.1371/journal.pone.0123311",
+    "hepatic_subjects": 6,
+    "collagen_chains": 3,
+    "measurement_rows": 18,
+    "values": 54,
+    "pdf_sha256": {
+      "Decaris-S1.pdf": "cacfd7a40669193e29fe021628c03f696b623a38f008379bb7339be5e3740d91",
+      "Decaris-S2.pdf": "45524bd65a235e26c0308f0639288f03bca0338b93da0d7ec5b4da84f963eb72"
+    },
+    "status": "extracted printed complete rows; no calibration or treatment analysis"
+  },
+  "research_scope": "Data retained locally; no patient correspondence or experimental protocols published"
+}

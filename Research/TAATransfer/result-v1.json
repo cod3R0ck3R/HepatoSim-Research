@@ -1,0 +1,93 @@
+{
+  "scope": "retrospective same-study transfer check; all aggregate values previously seen",
+  "ccl4_rate_per_day": 0.07954439100111625,
+  "taa_descriptive_rate_per_day": 0.010768305167946192,
+  "comparisons": {
+    "fixed_ccl4_transfer": {
+      "endpoints": [
+        {
+          "day": 7,
+          "prediction_cpa_percent": 2.506292134831461,
+          "signed_error_percentage_points": -1.0737078651685392,
+          "absolute_error_percentage_points": 1.0737078651685392
+        },
+        {
+          "day": 14,
+          "prediction_cpa_percent": 1.7649539199596016,
+          "signed_error_percentage_points": -1.1750460800403983,
+          "absolute_error_percentage_points": 1.1750460800403983
+        }
+      ],
+      "mae_percentage_points": 1.1243769726044688
+    },
+    "constant": {
+      "endpoints": [
+        {
+          "day": 7,
+          "prediction_cpa_percent": 3.8,
+          "signed_error_percentage_points": 0.21999999999999975,
+          "absolute_error_percentage_points": 0.21999999999999975
+        },
+        {
+          "day": 14,
+          "prediction_cpa_percent": 3.8,
+          "signed_error_percentage_points": 0.8599999999999999,
+          "absolute_error_percentage_points": 0.8599999999999999
+        }
+      ],
+      "mae_percentage_points": 0.5399999999999998
+    },
+    "taa_day0_day7_fit": {
+      "endpoints": [
+        {
+          "day": 7,
+          "prediction_cpa_percent": 3.58,
+          "signed_error_percentage_points": 0.0,
+          "absolute_error_percentage_points": 0.0
+        },
+        {
+          "day": 14,
+          "prediction_cpa_percent": 3.375973597359736,
+          "signed_error_percentage_points": 0.43597359735973606,
+          "absolute_error_percentage_points": 0.43597359735973606
+        }
+      ],
+      "mae_percentage_points": 0.21798679867986803
+    },
+    "zero_offset_ccl4_transfer": {
+      "endpoints": [
+        {
+          "day": 7,
+          "prediction_cpa_percent": 2.252857142857143,
+          "signed_error_percentage_points": -1.327142857142857,
+          "absolute_error_percentage_points": 1.327142857142857
+        },
+        {
+          "day": 14,
+          "prediction_cpa_percent": 1.335622448979592,
+          "signed_error_percentage_points": -1.604377551020408,
+          "absolute_error_percentage_points": 1.604377551020408
+        }
+      ],
+      "mae_percentage_points": 1.4657602040816324
+    }
+  },
+  "primary_beats_constant_day14": false,
+  "sensitivity": {
+    "combinations": 243,
+    "day14_prediction_min_max": [
+      1.2791390229939463,
+      3.022697690678551
+    ],
+    "interpretation": "quartile-corner sensitivity; not confidence or credible interval"
+  },
+  "independent_biological_validation": false,
+  "drug_effect_identified": false,
+  "provenance": {
+    "spec_sha256": "f48d16d500f2dc9d595cac46d3f9fb647440b506103fedc3f447ecfdb0a2ef68",
+    "code_sha256": "6b4e2f0c3d3286c28fd2bad0bce60e1e966afd9e65cb2630f5641e11c3c5fe1f",
+    "helper_sha256": "6947ba5bea9d26cd9cb013ab1a089ed105e05f8b041d3f2269bff789a14e4f8c",
+    "ccl4_sha256": "ce73f13ec5e2a2d5057a9824b33a5878bd37a13c678a9ceb7ad3e657bbddea44",
+    "taa_sha256": "3eaf00fe1a3843386e67c46ab6afc750a943acd9fd55cc6167843ae5ee21f18f"
+  }
+}

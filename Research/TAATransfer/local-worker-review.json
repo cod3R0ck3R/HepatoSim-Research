@@ -1,0 +1,12 @@
+{
+  "status": "not_executed_resource_blocked",
+  "provider": "ollama",
+  "requested_model": "hermes3:8b",
+  "requested_digest": "4f6b83f30b62bc3d0cf9be09266db222805ee815c8fd7d8b38f863f655be78b7",
+  "job": "hepatosim-taa-local-20261024",
+  "reason": "Speicherdruck: 2 (normal=1)",
+  "review": "Cancelled while queued after bounded wait; no inference, no AI output integrated, no token-saving claim",
+  "attempts": 0,
+  "queue_requests": 1,
+  "fallback": false
+}

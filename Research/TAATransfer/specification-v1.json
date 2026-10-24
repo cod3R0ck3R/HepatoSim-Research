@@ -1,0 +1,38 @@
+{
+  "id": "taa-transfer-v1",
+  "frozen_utc": "2026-10-24T14:21:03.326140+00:00",
+  "source_doi": "10.1002/ueg2.12643",
+  "source_table": "Supplementary Table2 page13",
+  "pdf_sha256": "b26583fb964fa2ec4629725a35458014ddfa34e7387e679306aab181dcfeea2a",
+  "ccl4_sha256": "ce73f13ec5e2a2d5057a9824b33a5878bd37a13c678a9ceb7ad3e657bbddea44",
+  "taa_sha256": "3eaf00fe1a3843386e67c46ab6afc750a943acd9fd55cc6167843ae5ee21f18f",
+  "system": "male C57BL/6JRj mice, 12-week exposure, separate sacrifice groups, TAA groups n8 each",
+  "measurement": "PSR collagen proportionate area percent, group medians and quartiles",
+  "primary": "Transfer CCl4 day0/day7 healthy-offset exponential rate unchanged; initialize with TAA healthy and day0 medians; evaluate day7 and day14",
+  "secondary": "Fit TAA day0/day7 for retrospective day14 description; day7 in-sample excluded from evidence of prediction",
+  "role": "All values inspected before specification; retrospective same-study transfer check, not independent validation",
+  "comparators": [
+    "constant TAA day0",
+    "TAA day0/day7 fit (development comparator)",
+    "zero-offset CCl4 rate transfer"
+  ],
+  "metrics": [
+    "signed and absolute CPA percentage-point error at7/14days",
+    "MAE over7/14days; TAA-fit MAE includes in-sample point and is descriptive only"
+  ],
+  "criterion": "Primary day14 absolute error smaller than constant baseline; descriptive criterion only, no clinical threshold or significance claim",
+  "sensitivity": "243 quartile corners for CCl4 healthy/day0/day7 and TAA healthy/day0; no probability or CI interpretation",
+  "budget": {
+    "max_runs": 2,
+    "max_seconds_per_run": 120,
+    "max_workers": 1,
+    "local_ai_attempts": 1,
+    "local_ai_timeout_seconds": 180,
+    "baseline_used_percent": 10,
+    "ceiling_used_percent": 14.5,
+    "stop_substantive_at_displayed_percent": 13,
+    "search_max_candidates": 8
+  },
+  "code_base_commit": "284444c457cb1ca243ecbfc0d580e3e2f06bd48b",
+  "original_kappa_modified": false
+}

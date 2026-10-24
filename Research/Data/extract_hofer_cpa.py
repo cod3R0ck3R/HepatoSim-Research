@@ -11,11 +11,13 @@ PDF_SHA256 = 'b26583fb964fa2ec4629725a35458014ddfa34e7387e679306aab181dcfeea2a'
 MARKDOWN_SHA256 = '2dfd2736ef980e5b3c02bd71778412ab2aa52ed22b569109d8d05884301c3743'
 
 
-def extract(text):
+def extract(text, toxin="CCl4"):
+    if toxin not in ("CCl4", "TAA"):
+        raise ValueError("Unsupported toxin")
     start, end = '\nCCl Healthy controls', '\nTAA Healthy controls'
     if text.count(start) != 1 or text.count(end) != 1:
         raise ValueError('Expected distinct CCl4 and TAA sections exactly once')
-    section = text.split(start)[1].split(end)[0]
+    section = text.split(start)[1].split(end)[0] if toxin == 'CCl4' else text.split(end)[1].split('Data presented as median')[0]
     if end not in text.split(start)[1]:
         raise ValueError('Unexpected section order')
     groups = re.findall(r'\((C-|C\+|R1|R2)\) n=(\d+)', section)
@@ -33,7 +35,7 @@ def extract(text):
         median, q1, q3 = map(float, triple)
         if int(n) < 1 or not 0 <= q1 <= median <= q3 <= 100:
             raise ValueError('Invalid animal count or CPA quartiles')
-        rows.append({'study': 'Hofer2025', 'toxin': 'CCl4', 'group': group,
+        rows.append({'study': 'Hofer2025', 'toxin': toxin, 'group': group,
                      'days_after_withdrawal': day, 'n_animals': int(n),
                      'median_cpa_percent': median, 'q1_cpa_percent': q1, 'q3_cpa_percent': q3,
                      'statistic': 'median_and_IQR', 'unit': 'percent_collagen_proportionate_area',
@@ -44,6 +46,7 @@ def extract(text):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--toxin', choices=('CCl4', 'TAA'), default='CCl4')
     parser.add_argument('--markdown', required=True, type=Path)
     parser.add_argument('--source-pdf', required=True, type=Path)
     parser.add_argument('--output', required=True, type=Path)
@@ -55,7 +58,7 @@ def main():
     if args.output.exists() or args.output.with_suffix('.provenance.json').exists():
         raise FileExistsError('Output or provenance already exists; retain previous evidence')
     text = args.markdown.read_text()
-    rows = extract(text)
+    rows = extract(text, args.toxin)
     with args.output.open('x', newline='') as stream:
         writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
         writer.writeheader()

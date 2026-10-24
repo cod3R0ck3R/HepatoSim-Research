@@ -104,5 +104,34 @@
     "authorization": "Project owner explicitly requested open-source reuse",
     "scope": "original project code and documentation, including own application code in 0.1.0-alpha.1",
     "third_party_licenses": "unchanged"
-  }
+  },
+  "taa_transfer": {
+    "status": "completed_with_negative_median_transfer",
+    "specification": "Research/TAATransfer/specification-v1.json",
+    "spec_sha256": "f48d16d500f2dc9d595cac46d3f9fb647440b506103fedc3f447ecfdb0a2ef68",
+    "budget": {
+      "max_runs": 2,
+      "max_seconds_per_run": 120,
+      "max_workers": 1,
+      "local_ai_attempts": 1,
+      "local_ai_timeout_seconds": 180,
+      "baseline_used_percent": 10,
+      "ceiling_used_percent": 14.5,
+      "stop_substantive_at_displayed_percent": 13,
+      "search_max_candidates": 8
+    },
+    "next_step": "Freeze sample-level QC/pseudobulk plan for GSE295293; audit pool/batch and animal independence before expression inference",
+    "report": "Docs/21-TAATransferAndEvidence.md",
+    "result": "Research/TAATransfer/result-v1.json",
+    "result_sha256": "879dc68f15da5982ba4c48be5d9c1e4e8ea8e4c65cf1a556bebd32560865bedb",
+    "tests_passed": 16,
+    "exact_replay": true,
+    "database_records_added": 12,
+    "database_replay_new_records": 0,
+    "simulation_runs_preserved": 2,
+    "geo_archive_bytes": 424663040,
+    "local_worker": "queued resource-blocked, cancelled before execution; no fallback",
+    "independent_validation": false
+  },
+  "next_step": "Freeze sample-level QC/pseudobulk plan for GSE295293; audit pool/batch and animal independence before expression inference"
 }

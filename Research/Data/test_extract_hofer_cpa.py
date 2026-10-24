@@ -26,6 +26,13 @@ class ExtractionTests(unittest.TestCase):
         self.assertEqual([r['median_cpa_percent'] for r in rows], [1, 10, 8, 4])
         self.assertEqual([r['days_after_withdrawal'] for r in rows], [None, 0, 7, 14])
 
+    def test_taa_is_not_ccl4(self):
+        rows = extract(FIXTURE, 'TAA')
+        self.assertEqual([r['n_animals'] for r in rows], [9]*4)
+        self.assertEqual([r['median_cpa_percent'] for r in rows], [2,20,18,14])
+        self.assertTrue(all(r['toxin'] == 'TAA' for r in rows))
+        with self.assertRaises(ValueError): extract(FIXTURE, 'unknown')
+
     def test_missing_ccl4_marker_is_not_replaced_with_taa(self):
         with self.assertRaises(ValueError): extract(FIXTURE.replace('CCl Healthy', 'Unknown Healthy'))
 

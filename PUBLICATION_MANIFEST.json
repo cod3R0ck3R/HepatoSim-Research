@@ -132,9 +132,9 @@
     },
     {
       "path": "DECISIONS.md",
-      "original_sha256": "999c0dffac5b250922da9d6d1a64144a4b3e72216a01d49cc3c7ec0d34ccba3c",
-      "published_sha256": "999c0dffac5b250922da9d6d1a64144a4b3e72216a01d49cc3c7ec0d34ccba3c",
-      "metadata_redacted": false
+      "original_sha256": "9734ee1d32e33d19476a90de27f19f46810a45db5b2f41ea6db756007d4f55c6",
+      "published_sha256": "fcbed1423ea269753a81a8723e7540da8638e581cfd4d0ba52207aceacf325a9",
+      "metadata_redacted": true
     },
     {
       "path": "Docs/01-Architecture.md",
@@ -245,6 +245,24 @@
       "metadata_redacted": false
     },
     {
+      "path": "Docs/19-CollagenInternalCheck.md",
+      "original_sha256": "98c9d93861af3a843e2f56759289568902c70e7652838e9611adf2f839553c8f",
+      "published_sha256": "98c9d93861af3a843e2f56759289568902c70e7652838e9611adf2f839553c8f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/20-MacOSReleaseVerification.md",
+      "original_sha256": "db66201b0e09dcae924b5417b205c615744edab8a6e89d8411041034e24c731f",
+      "published_sha256": "db66201b0e09dcae924b5417b205c615744edab8a6e89d8411041034e24c731f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/21-TAATransferAndEvidence.md",
+      "original_sha256": "51fd51ffda171cda7cf6d4dbf78cc04c3698b1210c5213e2065df51502bd0ebe",
+      "published_sha256": "51fd51ffda171cda7cf6d4dbf78cc04c3698b1210c5213e2065df51502bd0ebe",
+      "metadata_redacted": false
+    },
+    {
       "path": "Docs/README-HSR001.md",
       "original_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
       "published_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
@@ -287,6 +305,12 @@
       "metadata_redacted": false
     },
     {
+      "path": "LICENSE",
+      "original_sha256": "054314e62e21d18f1c3ffb74eff3573244bdcae05e392aa9618ac64b16584e9a",
+      "published_sha256": "054314e62e21d18f1c3ffb74eff3573244bdcae05e392aa9618ac64b16584e9a",
+      "metadata_redacted": false
+    },
+    {
       "path": "Package.swift",
       "original_sha256": "9ba06de0d0154d4e0c62ee3fa8ff2b4d29445bfb01d9667fba9dace6aced379e",
       "published_sha256": "9ba06de0d0154d4e0c62ee3fa8ff2b4d29445bfb01d9667fba9dace6aced379e",
@@ -294,26 +318,26 @@
     },
     {
       "path": "README.de.md",
-      "original_sha256": "bab61d7e33b5f6aa095289473a798295722385b2f88682efffd108088725992e",
-      "published_sha256": "bab61d7e33b5f6aa095289473a798295722385b2f88682efffd108088725992e",
+      "original_sha256": "c53797092f75e2ed2409c2160d13dc10b6031dd34fc862f62de4952a2c333ae7",
+      "published_sha256": "c53797092f75e2ed2409c2160d13dc10b6031dd34fc862f62de4952a2c333ae7",
       "metadata_redacted": false
     },
     {
       "path": "README.md",
-      "original_sha256": "4739dde84598aaa3869cb26eb62ac4140857e7543530deb06e33c4908d58899d",
-      "published_sha256": "4739dde84598aaa3869cb26eb62ac4140857e7543530deb06e33c4908d58899d",
+      "original_sha256": "c8e65672d320661df5bb918a85c0cd7ab613f2a9f3c51fa1827986d0b1badc22",
+      "published_sha256": "c8e65672d320661df5bb918a85c0cd7ab613f2a9f3c51fa1827986d0b1badc22",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_PLAN.md",
-      "original_sha256": "e3dea4cffc48c384cd90c11a6392788bddd0f6f99143b6638304a0af009dd22b",
-      "published_sha256": "e3dea4cffc48c384cd90c11a6392788bddd0f6f99143b6638304a0af009dd22b",
-      "metadata_redacted": false
+      "original_sha256": "2392aae80eec1c6654d222d6b080852df52202179795f8828433884f397bedaa",
+      "published_sha256": "2b1c2818cf995a7db60d6635fa138ccecc81237827c33a144650d96834e7592e",
+      "metadata_redacted": true
     },
     {
       "path": "RESEARCH_STATE.json",
-      "original_sha256": "8c25c83c35a070a473c40e4eb71a39589dd6a1f45ff49236b5b3496b142ad195",
-      "published_sha256": "8c25c83c35a070a473c40e4eb71a39589dd6a1f45ff49236b5b3496b142ad195",
+      "original_sha256": "7434acd5d45c01ef971a8d55c90a41ffebfe2bb4fd7118694ef9238fc3526f36",
+      "published_sha256": "b1ccd649d1a8bd42dc57c20598b108a4bc55f32bc25b916c943b483155e2d8ff",
       "metadata_redacted": true
     },
     {
@@ -365,15 +389,105 @@
       "metadata_redacted": false
     },
     {
+      "path": "Research/CollagenCheck/README.md",
+      "original_sha256": "20d6b29b341a7be43e6ddac6764dde5681a8902af678eda71bf81173816224f0",
+      "published_sha256": "20d6b29b341a7be43e6ddac6764dde5681a8902af678eda71bf81173816224f0",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/analyze_collagen.py",
+      "original_sha256": "6947ba5bea9d26cd9cb013ab1a089ed105e05f8b041d3f2269bff789a14e4f8c",
+      "published_sha256": "6947ba5bea9d26cd9cb013ab1a089ed105e05f8b041d3f2269bff789a14e4f8c",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/local-worker-review.json",
+      "original_sha256": "c4a8d6b6b6f5d305886cddfaf2e35016da12ec3086ced61dc375cd1d4deb0f49",
+      "published_sha256": "c4a8d6b6b6f5d305886cddfaf2e35016da12ec3086ced61dc375cd1d4deb0f49",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/results-v1/SHA256SUMS",
+      "original_sha256": "db5ea442d80811978b6daeb8ae5769a2de0ee6c7d1ab4e60e3e02c477d44addc",
+      "published_sha256": "db5ea442d80811978b6daeb8ae5769a2de0ee6c7d1ab4e60e3e02c477d44addc",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/results-v1/environment.json",
+      "original_sha256": "048dc2a7693b8fbc30f199775d3516516a528894b0257927b87b8d5de3202702",
+      "published_sha256": "048dc2a7693b8fbc30f199775d3516516a528894b0257927b87b8d5de3202702",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/results-v1/result.json",
+      "original_sha256": "d405db07dd0662d79e51936d0f190d0b620d65209a014d13ce52651b54629287",
+      "published_sha256": "d405db07dd0662d79e51936d0f190d0b620d65209a014d13ce52651b54629287",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/specification-v1.json",
+      "original_sha256": "00dddc70c9298ef2f1200bd267775beb37eb27ba70d01a1e140152c42859f6f0",
+      "published_sha256": "00dddc70c9298ef2f1200bd267775beb37eb27ba70d01a1e140152c42859f6f0",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/specification-v1.sha256",
+      "original_sha256": "2aec2a2d948339c32196dfaab7a8a63955081a853608cc0be28d88e73ac6209f",
+      "published_sha256": "2aec2a2d948339c32196dfaab7a8a63955081a853608cc0be28d88e73ac6209f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/test_collagen.py",
+      "original_sha256": "0cbc067e8b1eba34ccb6cf43644be5649dad434cb0811e13e73bdfd788bb0e0d",
+      "published_sha256": "0cbc067e8b1eba34ccb6cf43644be5649dad434cb0811e13e73bdfd788bb0e0d",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/tests.txt",
+      "original_sha256": "4c34701e8e43cddb89197c2ed9487267ccd0a4968f7849339ed668d32b55d913",
+      "published_sha256": "4c34701e8e43cddb89197c2ed9487267ccd0a4968f7849339ed668d32b55d913",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/verification.json",
+      "original_sha256": "836c6d45ecc51905fb453f2d921717443515249e06166571aeaed0cd160e9f13",
+      "published_sha256": "836c6d45ecc51905fb453f2d921717443515249e06166571aeaed0cd160e9f13",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Data/extract_decaris_collagen.py",
+      "original_sha256": "3829436e626d7763b62906b64c185e9e64cb63e091e482b7c918c0823328ef3b",
+      "published_sha256": "3829436e626d7763b62906b64c185e9e64cb63e091e482b7c918c0823328ef3b",
+      "metadata_redacted": false
+    },
+    {
       "path": "Research/Data/extract_hofer_cpa.py",
-      "original_sha256": "be68344d00e74d8a22ba995cef2cecebf95cecf5aff411b01547eb45889b0d25",
-      "published_sha256": "be68344d00e74d8a22ba995cef2cecebf95cecf5aff411b01547eb45889b0d25",
+      "original_sha256": "daba8524ba073bf08f72ed381f2bd80a81da75cb08420cb2cc33100faeaca138",
+      "published_sha256": "daba8524ba073bf08f72ed381f2bd80a81da75cb08420cb2cc33100faeaca138",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Data/import_evidence.py",
+      "original_sha256": "b037c517fdbd596f7b9e1c31e771c09b4d56e62f3a1bc947d9087b6bbe866f04",
+      "published_sha256": "b037c517fdbd596f7b9e1c31e771c09b4d56e62f3a1bc947d9087b6bbe866f04",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Data/test_decaris.py",
+      "original_sha256": "1e4d3e6401cbcc728320b2c3e8a4279f8cfbde22cd6906d93cf5489e35b5c9de",
+      "published_sha256": "1e4d3e6401cbcc728320b2c3e8a4279f8cfbde22cd6906d93cf5489e35b5c9de",
       "metadata_redacted": false
     },
     {
       "path": "Research/Data/test_extract_hofer_cpa.py",
-      "original_sha256": "6fb1305e1928903769d00cac75f6eb9097f37ea2d6b673392c9c89fa67c35540",
-      "published_sha256": "6fb1305e1928903769d00cac75f6eb9097f37ea2d6b673392c9c89fa67c35540",
+      "original_sha256": "92a8f8de5d653a972bb90e23bd4a89950e56a7878a6b0c68ad3b0d9a0571d950",
+      "published_sha256": "92a8f8de5d653a972bb90e23bd4a89950e56a7878a6b0c68ad3b0d9a0571d950",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/Data/test_import_evidence.py",
+      "original_sha256": "1fdf0bf1bbfe9b0b3d3b1ff67e885c4837b879eb43be40af2fd3efbeac103baa",
+      "published_sha256": "1fdf0bf1bbfe9b0b3d3b1ff67e885c4837b879eb43be40af2fd3efbeac103baa",
       "metadata_redacted": false
     },
     {
@@ -1415,6 +1529,102 @@
       "metadata_redacted": false
     },
     {
+      "path": "Research/Release/package-verification.json",
+      "original_sha256": "68cc80e87c9dcf21a9d219e010d604007b6e8ed7142d8d53c985118f05f6d934",
+      "published_sha256": "68cc80e87c9dcf21a9d219e010d604007b6e8ed7142d8d53c985118f05f6d934",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/TAATransfer/CollagenCheck-tests.txt",
+      "original_sha256": "6273232de4d3ef7acd4ecafa5c86beeeb974f56586b21089a2990b3f72facbe6",
+      "published_sha256": "6273232de4d3ef7acd4ecafa5c86beeeb974f56586b21089a2990b3f72facbe6",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/TAATransfer/README.md",
+      "original_sha256": "c96f1904bd434cc1397c0f3aa280fd591620d49dde44da7543219f8edaba2dc0",
+      "published_sha256": "c96f1904bd434cc1397c0f3aa280fd591620d49dde44da7543219f8edaba2dc0",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/TAATransfer/TAATransfer-tests.txt",
+      "original_sha256": "a6707d4eff38012da33ddc34bc6dc076a3b17151cfc9aef223c8790cbe64c3da",
+      "published_sha256": "a6707d4eff38012da33ddc34bc6dc076a3b17151cfc9aef223c8790cbe64c3da",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/TAATransfer/acquisition-summary.json",
+      "original_sha256": "e45a8a218d8ae2db104234ff8e1c269934b66c9ed5b331a201d454dc7236a7e2",
+      "published_sha256": "e45a8a218d8ae2db104234ff8e1c269934b66c9ed5b331a201d454dc7236a7e2",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/TAATransfer/analyze_transfer.py",
+      "original_sha256": "6b4e2f0c3d3286c28fd2bad0bce60e1e966afd9e65cb2630f5641e11c3c5fe1f",
+      "published_sha256": "6b4e2f0c3d3286c28fd2bad0bce60e1e966afd9e65cb2630f5641e11c3c5fe1f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/TAATransfer/data-final-tests.txt",
+      "original_sha256": "eab4281419f49474c6773f172eab4705e82da9e9196e5418e92a366609bcb99e",
+      "published_sha256": "eab4281419f49474c6773f172eab4705e82da9e9196e5418e92a366609bcb99e",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/TAATransfer/database-verification.json",
+      "original_sha256": "480f560d771182ffe69df7392f1dabfc30a39f6cc1bb31d5598e5bf095ad1183",
+      "published_sha256": "480f560d771182ffe69df7392f1dabfc30a39f6cc1bb31d5598e5bf095ad1183",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/TAATransfer/evidence-catalog.json",
+      "original_sha256": "9c98e68c57b53a4e5a79275f35f71566d6f9aaef7a4558980031d8b7d179e601",
+      "published_sha256": "9c98e68c57b53a4e5a79275f35f71566d6f9aaef7a4558980031d8b7d179e601",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/TAATransfer/fetch_geo.py",
+      "original_sha256": "be6f749abcb0596d4a0b8419671eabbbb6edbe63b91f97e7a266ad97681fd13b",
+      "published_sha256": "be6f749abcb0596d4a0b8419671eabbbb6edbe63b91f97e7a266ad97681fd13b",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/TAATransfer/local-worker-review.json",
+      "original_sha256": "0fa43f8b2220b5af0c2f1f07a21b51967ffc80a7a3de0a126aefc6f7a79e63dd",
+      "published_sha256": "0fa43f8b2220b5af0c2f1f07a21b51967ffc80a7a3de0a126aefc6f7a79e63dd",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/TAATransfer/result-v1.json",
+      "original_sha256": "879dc68f15da5982ba4c48be5d9c1e4e8ea8e4c65cf1a556bebd32560865bedb",
+      "published_sha256": "879dc68f15da5982ba4c48be5d9c1e4e8ea8e4c65cf1a556bebd32560865bedb",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/TAATransfer/specification-v1.json",
+      "original_sha256": "f48d16d500f2dc9d595cac46d3f9fb647440b506103fedc3f447ecfdb0a2ef68",
+      "published_sha256": "f48d16d500f2dc9d595cac46d3f9fb647440b506103fedc3f447ecfdb0a2ef68",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/TAATransfer/specification-v1.sha256",
+      "original_sha256": "63688759a73f5ffe9081dd591dc16896b01b98471971629c662b3a84030107fc",
+      "published_sha256": "63688759a73f5ffe9081dd591dc16896b01b98471971629c662b3a84030107fc",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/TAATransfer/test_transfer.py",
+      "original_sha256": "b3b09d491a92c8279d7d166b89e465e4d78ef46e8f7e1038b69e996537394411",
+      "published_sha256": "b3b09d491a92c8279d7d166b89e465e4d78ef46e8f7e1038b69e996537394411",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/TAATransfer/verification.json",
+      "original_sha256": "675a787dbdca948b21aa8d292c70cb3df8f490aedad5d6ac531561fefd814438",
+      "published_sha256": "675a787dbdca948b21aa8d292c70cb3df8f490aedad5d6ac531561fefd814438",
+      "metadata_redacted": false
+    },
+    {
       "path": "SECURITY.md",
       "original_sha256": "412a7cd61028a52a0cb59fb02f476273e160d36e7b7ecafbe2137db6a1f19561",
       "published_sha256": "412a7cd61028a52a0cb59fb02f476273e160d36e7b7ecafbe2137db6a1f19561",
@@ -1430,6 +1640,12 @@
       "path": "Scripts/export_public.py",
       "original_sha256": "d01c36f7b1bf94831808a16e5036c2437dac8ce36d3f17c3eeeccbaa20bbd38e",
       "published_sha256": "d01c36f7b1bf94831808a16e5036c2437dac8ce36d3f17c3eeeccbaa20bbd38e",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Scripts/package-macos-release.sh",
+      "original_sha256": "5bceae4e7a7f79d716e95d024e29ef3dfa1a4dc82bc1b5d317a46f2e5c232540",
+      "published_sha256": "5bceae4e7a7f79d716e95d024e29ef3dfa1a4dc82bc1b5d317a46f2e5c232540",
       "metadata_redacted": false
     },
     {
@@ -1581,102 +1797,6 @@
       "original_sha256": "27c70fa7157f8727606b662ec9daf99dc7c0949a83d3fbab3aca46301b8a4534",
       "published_sha256": "27c70fa7157f8727606b662ec9daf99dc7c0949a83d3fbab3aca46301b8a4534",
       "metadata_redacted": false
-    },
-    {
-      "path": "Docs/19-CollagenInternalCheck.md",
-      "original_sha256": "98c9d93861af3a843e2f56759289568902c70e7652838e9611adf2f839553c8f",
-      "published_sha256": "98c9d93861af3a843e2f56759289568902c70e7652838e9611adf2f839553c8f",
-      "metadata_redacted": false
-    },
-    {
-      "path": "Scripts/package-macos-release.sh",
-      "original_sha256": "5bceae4e7a7f79d716e95d024e29ef3dfa1a4dc82bc1b5d317a46f2e5c232540",
-      "published_sha256": "5bceae4e7a7f79d716e95d024e29ef3dfa1a4dc82bc1b5d317a46f2e5c232540",
-      "metadata_redacted": false
-    },
-    {
-      "path": "Research/CollagenCheck/tests.txt",
-      "original_sha256": "4c34701e8e43cddb89197c2ed9487267ccd0a4968f7849339ed668d32b55d913",
-      "published_sha256": "4c34701e8e43cddb89197c2ed9487267ccd0a4968f7849339ed668d32b55d913",
-      "metadata_redacted": false
-    },
-    {
-      "path": "Research/CollagenCheck/analyze_collagen.py",
-      "original_sha256": "6947ba5bea9d26cd9cb013ab1a089ed105e05f8b041d3f2269bff789a14e4f8c",
-      "published_sha256": "6947ba5bea9d26cd9cb013ab1a089ed105e05f8b041d3f2269bff789a14e4f8c",
-      "metadata_redacted": false
-    },
-    {
-      "path": "Research/CollagenCheck/README.md",
-      "original_sha256": "20d6b29b341a7be43e6ddac6764dde5681a8902af678eda71bf81173816224f0",
-      "published_sha256": "20d6b29b341a7be43e6ddac6764dde5681a8902af678eda71bf81173816224f0",
-      "metadata_redacted": false
-    },
-    {
-      "path": "Research/CollagenCheck/specification-v1.sha256",
-      "original_sha256": "2aec2a2d948339c32196dfaab7a8a63955081a853608cc0be28d88e73ac6209f",
-      "published_sha256": "2aec2a2d948339c32196dfaab7a8a63955081a853608cc0be28d88e73ac6209f",
-      "metadata_redacted": false
-    },
-    {
-      "path": "Research/CollagenCheck/test_collagen.py",
-      "original_sha256": "0cbc067e8b1eba34ccb6cf43644be5649dad434cb0811e13e73bdfd788bb0e0d",
-      "published_sha256": "0cbc067e8b1eba34ccb6cf43644be5649dad434cb0811e13e73bdfd788bb0e0d",
-      "metadata_redacted": false
-    },
-    {
-      "path": "Research/CollagenCheck/local-worker-review.json",
-      "original_sha256": "c4a8d6b6b6f5d305886cddfaf2e35016da12ec3086ced61dc375cd1d4deb0f49",
-      "published_sha256": "c4a8d6b6b6f5d305886cddfaf2e35016da12ec3086ced61dc375cd1d4deb0f49",
-      "metadata_redacted": false
-    },
-    {
-      "path": "Research/CollagenCheck/verification.json",
-      "original_sha256": "836c6d45ecc51905fb453f2d921717443515249e06166571aeaed0cd160e9f13",
-      "published_sha256": "836c6d45ecc51905fb453f2d921717443515249e06166571aeaed0cd160e9f13",
-      "metadata_redacted": false
-    },
-    {
-      "path": "Research/CollagenCheck/specification-v1.json",
-      "original_sha256": "00dddc70c9298ef2f1200bd267775beb37eb27ba70d01a1e140152c42859f6f0",
-      "published_sha256": "00dddc70c9298ef2f1200bd267775beb37eb27ba70d01a1e140152c42859f6f0",
-      "metadata_redacted": false
-    },
-    {
-      "path": "Research/CollagenCheck/results-v1/result.json",
-      "original_sha256": "d405db07dd0662d79e51936d0f190d0b620d65209a014d13ce52651b54629287",
-      "published_sha256": "d405db07dd0662d79e51936d0f190d0b620d65209a014d13ce52651b54629287",
-      "metadata_redacted": false
-    },
-    {
-      "path": "Research/CollagenCheck/results-v1/SHA256SUMS",
-      "original_sha256": "db5ea442d80811978b6daeb8ae5769a2de0ee6c7d1ab4e60e3e02c477d44addc",
-      "published_sha256": "db5ea442d80811978b6daeb8ae5769a2de0ee6c7d1ab4e60e3e02c477d44addc",
-      "metadata_redacted": false
-    },
-    {
-      "path": "Research/CollagenCheck/results-v1/environment.json",
-      "original_sha256": "048dc2a7693b8fbc30f199775d3516516a528894b0257927b87b8d5de3202702",
-      "published_sha256": "048dc2a7693b8fbc30f199775d3516516a528894b0257927b87b8d5de3202702",
-      "metadata_redacted": false
-    },
-    {
-      "path": "Research/Release/package-verification.json",
-      "original_sha256": "68cc80e87c9dcf21a9d219e010d604007b6e8ed7142d8d53c985118f05f6d934",
-      "published_sha256": "68cc80e87c9dcf21a9d219e010d604007b6e8ed7142d8d53c985118f05f6d934",
-      "metadata_redacted": false
-    },
-    {
-      "path": "Docs/20-MacOSReleaseVerification.md",
-      "original_sha256": "db66201b0e09dcae924b5417b205c615744edab8a6e89d8411041034e24c731f",
-      "published_sha256": "db66201b0e09dcae924b5417b205c615744edab8a6e89d8411041034e24c731f",
-      "metadata_redacted": false
-    },
-    {
-      "path": "LICENSE",
-      "original_sha256": "054314e62e21d18f1c3ffb74eff3573244bdcae05e392aa9618ac64b16584e9a",
-      "published_sha256": "054314e62e21d18f1c3ffb74eff3573244bdcae05e392aa9618ac64b16584e9a",
-      "metadata_redacted": false
     }
   ],
   "incremental_update": {
@@ -1729,5 +1849,6 @@
       "THIRD_PARTY_NOTICES.md"
     ],
     "policy": "Reviewed source and newly calculated aggregate results only; curated operational state; original source intensities, private correspondence and native worker logs excluded; no new licence."
-  }
+  },
+  "taa_transfer_note": "Original analytic result and source metadata only; no source PDF, subject tables, GEO archive, correspondence or private database."
 }
