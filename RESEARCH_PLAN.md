@@ -40,3 +40,7 @@ Pilot1.3.0 and subset1.3.1 remain incomplete after two900-second timeouts; parti
 ## 2026-10-24: bounded expression reanalysis completed
 
 HSR-EXPR-001 uses available E-MEXP-3177 processed measurements, not a new collagen time series. Frozen specification, two byte-identical full executions, ten focused tests and local worker review are in Research/Expression and Docs/18-ExpressionReanalysis.md. Do not retry the incomplete Kappa pilot or fit degradation rates to expression intensity. Next research step requires sample/animal/batch mapping, verified probe annotation and matched independent collagen/protease measurements. New runs require a separately specified scope/budget; no ongoing research automation was resumed.
+
+## 2026-10-24 — collagen check and prerelease
+
+Bounded collagen check completed: frozen retrospective comparison, 5 tests, exact replay. Next: qualify formation-versus-clearance measurements before treatment parameterization. User additionally requested a macOS prerelease; build and release verification are tracked separately.

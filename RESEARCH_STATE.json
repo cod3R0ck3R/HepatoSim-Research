@@ -47,7 +47,7 @@
     "clinical_use": "not_validated",
     "expression": "Exploratory E-MEXP-3177 reanalysis; no independent biological validation"
   },
-  "next_executable_step": "Await qualified sample/animal/batch metadata and independent collagen/protease data; no automatic new simulation.",
+  "next_executable_step": "Obtain joint collagen formation/clearance measurements and an independent evaluation cohort; no further unconstrained fitting",
   "data_collection": {
     "report": "Docs/17-DataCollectionStatus.md",
     "new_simulations": 0,
@@ -56,7 +56,7 @@
     "new_compute_authorized": false,
     "automatic_resume": false
   },
-  "updated_utc": "2026-10-24T12:59:18.534822+00:00",
+  "updated_utc": "2026-10-24T13:46:03.655573+00:00",
   "bounded_research_20261024": {
     "specification": "Research/Expression/specification-v1.json",
     "account_budget": {
@@ -79,6 +79,23 @@
     "independent_biological_validation": false
   },
   "packages": {
-    "local_goose": "2026-10-24: local offline Hermes inference verified from manifest/model-layer/server logs; normalization suggestion rejected; detector regression tested"
+    "local_goose": "2026-10-24: local offline Hermes inference verified from manifest/model-layer/server logs; normalization suggestion rejected; detector regression tested",
+    "collagen_internal_check": "completed_internal_check"
+  },
+  "collagen_internal_check_20261024": {
+    "status": "completed_internal_check",
+    "report": "Docs/19-CollagenInternalCheck.md",
+    "result": "Research/CollagenCheck/results-v1/result.json",
+    "primary_error_cpa_percentage_points": 0.47044943820224994,
+    "tests_passed": 5,
+    "replay_exact": true,
+    "independent_biological_validation": false,
+    "drug_effect_identified": false,
+    "budget_baseline_used_percent": 7,
+    "stop_substantive_at_displayed_percent": 10,
+    "max_total_used_percent": 11.65,
+    "local_worker_status": "failed; no output integrated",
+    "next_step": "Obtain joint collagen formation/clearance measurements and an independent evaluation cohort; no further unconstrained fitting",
+    "public_maintainer": "Johnnie 4 free"
   }
 }

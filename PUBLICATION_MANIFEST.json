@@ -132,9 +132,9 @@
     },
     {
       "path": "DECISIONS.md",
-      "original_sha256": "513fdfd73430da08ad928e0f36c0d82437582b57ad74b068284efdfa7ce1c792",
-      "published_sha256": "0118fba3ce70d98929ba3ae455e4f4fa1faaf2680fc20f68fa8905fd4abb866e",
-      "metadata_redacted": true
+      "original_sha256": "f1dddf92cacc43927b51f9ed837ae6e3d026cbdd39070825ce75e5dcf8597a86",
+      "published_sha256": "f1dddf92cacc43927b51f9ed837ae6e3d026cbdd39070825ce75e5dcf8597a86",
+      "metadata_redacted": false
     },
     {
       "path": "Docs/01-Architecture.md",
@@ -294,26 +294,26 @@
     },
     {
       "path": "README.de.md",
-      "original_sha256": "947c0c979aba39af401d88f6fec898c3715b87cf87d8272948fa813b5c5bed5f",
-      "published_sha256": "947c0c979aba39af401d88f6fec898c3715b87cf87d8272948fa813b5c5bed5f",
+      "original_sha256": "bcfbaf1f08389bf0655abc11a6a4c1a506fbfe183c18a56dfe721738097818cd",
+      "published_sha256": "bcfbaf1f08389bf0655abc11a6a4c1a506fbfe183c18a56dfe721738097818cd",
       "metadata_redacted": false
     },
     {
       "path": "README.md",
-      "original_sha256": "de4f1192d361655ec981aba3cb4d14d32486d8ce3a9caefd43710cd9d144373f",
-      "published_sha256": "de4f1192d361655ec981aba3cb4d14d32486d8ce3a9caefd43710cd9d144373f",
+      "original_sha256": "da1a41901ec2162f769e5e0c6f2dc75cc0044c6668913a5825d66fd64c7405d2",
+      "published_sha256": "da1a41901ec2162f769e5e0c6f2dc75cc0044c6668913a5825d66fd64c7405d2",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_PLAN.md",
-      "original_sha256": "270968c23bd97bfc04162ba4b8dba2396acac337834cec70505e289137577c82",
-      "published_sha256": "da1dddf2e06f8dba295c75623ee7ed22f957843d9bb195859d96f1a0c219f28b",
-      "metadata_redacted": true
+      "original_sha256": "e3dea4cffc48c384cd90c11a6392788bddd0f6f99143b6638304a0af009dd22b",
+      "published_sha256": "e3dea4cffc48c384cd90c11a6392788bddd0f6f99143b6638304a0af009dd22b",
+      "metadata_redacted": false
     },
     {
       "path": "RESEARCH_STATE.json",
-      "original_sha256": "a4ca2601815614712cfb7158bb01d01af270c056d58467779e14c450ca388d2b",
-      "published_sha256": "7f465ce8530f96fa62441cbc0999787b3a79fbef3b28521a83a988f5a5eea7dc",
+      "original_sha256": "d42341238a0c0387464e1bd24e61194679ee3f51b471302611d6dee74419dfc9",
+      "published_sha256": "d42341238a0c0387464e1bd24e61194679ee3f51b471302611d6dee74419dfc9",
       "metadata_redacted": true
     },
     {
@@ -1580,6 +1580,84 @@
       "path": "Tests/HepatoUITests/ResearchSessionTests.swift",
       "original_sha256": "27c70fa7157f8727606b662ec9daf99dc7c0949a83d3fbab3aca46301b8a4534",
       "published_sha256": "27c70fa7157f8727606b662ec9daf99dc7c0949a83d3fbab3aca46301b8a4534",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/19-CollagenInternalCheck.md",
+      "original_sha256": "98c9d93861af3a843e2f56759289568902c70e7652838e9611adf2f839553c8f",
+      "published_sha256": "98c9d93861af3a843e2f56759289568902c70e7652838e9611adf2f839553c8f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Scripts/package-macos-release.sh",
+      "original_sha256": "e3b57c6405a9dfde4d76c7b32d19b06882f313c5bc32140699791aaedb5d8db2",
+      "published_sha256": "e3b57c6405a9dfde4d76c7b32d19b06882f313c5bc32140699791aaedb5d8db2",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/tests.txt",
+      "original_sha256": "4c34701e8e43cddb89197c2ed9487267ccd0a4968f7849339ed668d32b55d913",
+      "published_sha256": "4c34701e8e43cddb89197c2ed9487267ccd0a4968f7849339ed668d32b55d913",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/analyze_collagen.py",
+      "original_sha256": "6947ba5bea9d26cd9cb013ab1a089ed105e05f8b041d3f2269bff789a14e4f8c",
+      "published_sha256": "6947ba5bea9d26cd9cb013ab1a089ed105e05f8b041d3f2269bff789a14e4f8c",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/README.md",
+      "original_sha256": "20d6b29b341a7be43e6ddac6764dde5681a8902af678eda71bf81173816224f0",
+      "published_sha256": "20d6b29b341a7be43e6ddac6764dde5681a8902af678eda71bf81173816224f0",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/specification-v1.sha256",
+      "original_sha256": "2aec2a2d948339c32196dfaab7a8a63955081a853608cc0be28d88e73ac6209f",
+      "published_sha256": "2aec2a2d948339c32196dfaab7a8a63955081a853608cc0be28d88e73ac6209f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/test_collagen.py",
+      "original_sha256": "0cbc067e8b1eba34ccb6cf43644be5649dad434cb0811e13e73bdfd788bb0e0d",
+      "published_sha256": "0cbc067e8b1eba34ccb6cf43644be5649dad434cb0811e13e73bdfd788bb0e0d",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/local-worker-review.json",
+      "original_sha256": "c4a8d6b6b6f5d305886cddfaf2e35016da12ec3086ced61dc375cd1d4deb0f49",
+      "published_sha256": "c4a8d6b6b6f5d305886cddfaf2e35016da12ec3086ced61dc375cd1d4deb0f49",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/verification.json",
+      "original_sha256": "836c6d45ecc51905fb453f2d921717443515249e06166571aeaed0cd160e9f13",
+      "published_sha256": "836c6d45ecc51905fb453f2d921717443515249e06166571aeaed0cd160e9f13",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/specification-v1.json",
+      "original_sha256": "00dddc70c9298ef2f1200bd267775beb37eb27ba70d01a1e140152c42859f6f0",
+      "published_sha256": "00dddc70c9298ef2f1200bd267775beb37eb27ba70d01a1e140152c42859f6f0",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/results-v1/result.json",
+      "original_sha256": "d405db07dd0662d79e51936d0f190d0b620d65209a014d13ce52651b54629287",
+      "published_sha256": "d405db07dd0662d79e51936d0f190d0b620d65209a014d13ce52651b54629287",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/results-v1/SHA256SUMS",
+      "original_sha256": "db5ea442d80811978b6daeb8ae5769a2de0ee6c7d1ab4e60e3e02c477d44addc",
+      "published_sha256": "db5ea442d80811978b6daeb8ae5769a2de0ee6c7d1ab4e60e3e02c477d44addc",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/CollagenCheck/results-v1/environment.json",
+      "original_sha256": "048dc2a7693b8fbc30f199775d3516516a528894b0257927b87b8d5de3202702",
+      "published_sha256": "048dc2a7693b8fbc30f199775d3516516a528894b0257927b87b8d5de3202702",
       "metadata_redacted": false
     }
   ],

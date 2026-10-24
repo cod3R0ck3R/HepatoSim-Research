@@ -1,0 +1,13 @@
+{
+  "provider": "ollama",
+  "requested_model": "hermes3:8b",
+  "requested_digest": "4f6b83f30b62bc3d0cf9be09266db222805ee815c8fd7d8b38f863f655be78b7",
+  "task": "Translate bounded scientific limitations",
+  "attempts": 1,
+  "status": "failed_before_output",
+  "exit_code": 2,
+  "output_available": false,
+  "inference_verified": false,
+  "reason": "Coordinator job exited 2; no worker audit/output created. Job stdout capture was not enabled, so precise failure is not recoverable from its output. No retry within the frozen one-attempt budget. No generated translation integrated.",
+  "previous_verified_local_task": "Research/Expression/local-worker-review.json"
+}

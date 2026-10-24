@@ -1,0 +1,55 @@
+{
+  "id": "collagen-internal-check-v1",
+  "frozen_utc": "2026-10-24T13:32:58.026001+00:00",
+  "question": "Can an early net collagen decline describe the later group median, and does that identify a clearance mechanism?",
+  "source_doi": "10.1002/ueg2.12643",
+  "table": "Supplementary Table 2, CCl4 only",
+  "input_sha256": "ce73f13ec5e2a2d5057a9824b33a5878bd37a13c678a9ceb7ad3e657bbddea44",
+  "system": "male C57BL/6JRj mice; 12 weeks CCl4; separate sacrifice groups",
+  "measurement": "Picro-Sirius-red collagen proportionate area, percent; group medians and IQR, not individual trajectories",
+  "fit_days": [
+    0,
+    7
+  ],
+  "check_day": 14,
+  "role": "retrospective internal temporal check; all values previously inspected; not independent validation",
+  "primary": "healthy-offset exponential fitted exactly to day0 and day7 medians",
+  "alternatives": [
+    "zero-offset exponential",
+    "constant day0 median",
+    "linear extrapolation from day0 and day7 medians"
+  ],
+  "metrics": [
+    "absolute error in CPA percentage points",
+    "relative absolute error to day14 median",
+    "signed prediction-minus-observation error"
+  ],
+  "scientific_criterion": "Descriptive improvement over constant baseline if absolute error is smaller; no clinical acceptance threshold, no significance test",
+  "sensitivity": "27 combinations of q1,median,q3 for healthy,day0,day7; report prediction min/max; no probability or confidence interpretation",
+  "mechanism": "X=C-h; production=qX and clearance=(r+q)X yield identical net exponential; q not identifiable from net CPA even with a perfect trajectory",
+  "q_over_r_illustrations": [
+    0,
+    1,
+    4
+  ],
+  "clearance_fraction_illustration": 0.25,
+  "illustration_scope": "arbitrary mathematical counterexamples; not plausible biological bounds, calibrated treatment effects or drug predictions",
+  "software_acceptance": [
+    "strict input hash/schema/groups/quartiles",
+    "analytic synthetic fixture",
+    "net balance identity",
+    "replay byte-identical results",
+    "no overwrite"
+  ],
+  "budget": {
+    "max_analysis_runs": 2,
+    "max_seconds_per_run": 120,
+    "max_workers": 1,
+    "local_ai_attempts": 1,
+    "local_ai_timeout_seconds": 180,
+    "usage_baseline_percent": 7,
+    "max_additional_percentage_points": 4.65,
+    "stop_substantive_at_displayed_percent": 10
+  },
+  "publication": "No source PDF or extracted table; publish original code, derived analytical metrics and caveats only"
+}

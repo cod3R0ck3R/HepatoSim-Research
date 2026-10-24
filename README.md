@@ -101,3 +101,7 @@ The actual sanitized publication snapshot passed **90 research software tests**.
 Use synthetic inputs and appropriately licensed public aggregates only. SQLite has no additional database encryption; platform protections do not authorize patient-data use. Do not submit secrets or identifiable health data. [Security](SECURITY.md) · [Contributing](CONTRIBUTING.md) · [Third-party notices](THIRD_PARTY_NOTICES.md).
 
 No open-source license has been selected for original HepatoSim code. Public visibility is not an open-source license. Separately included original models retain AGPL-3.0-or-later. No new license is granted over third-party material. Previous README content is preserved in `Docs/README-HSR001.md`; current progress is tracked in the research state file.
+
+## Collagen check and macOS prerelease preparation
+
+Maintained by **Johnnie 4 free**. [The new internal collagen comparison](Docs/19-CollagenInternalCheck.md) passed five software tests and exact replay. It does not identify a treatment effect or provide independent biological validation. [Run the check](Research/CollagenCheck/README.md). The macOS packaging script produces an Apple Silicon research prerelease with ad-hoc signing; it is not notarized. The release is experimental, requires macOS 14 or later, and is not a medical product. No iPhone binary is included. The existing licensing status remains unchanged.

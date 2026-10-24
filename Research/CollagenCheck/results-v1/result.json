@@ -1,0 +1,74 @@
+{
+  "specification": "collagen-internal-check-v1",
+  "scope": "retrospective internal temporal check; all values previously inspected; not independent validation",
+  "net_decline_rate_per_day": 0.07954439100111625,
+  "net_excess_half_time_days": 8.7139667779997,
+  "comparisons": {
+    "healthy_offset_exponential": {
+      "prediction_cpa_percent": 6.04044943820225,
+      "signed_error_percentage_points": 0.47044943820224994,
+      "absolute_error_percentage_points": 0.47044943820224994,
+      "relative_absolute_error": 0.08446129949771093
+    },
+    "zero_offset_exponential": {
+      "prediction_cpa_percent": 5.904857142857145,
+      "signed_error_percentage_points": 0.3348571428571443,
+      "absolute_error_percentage_points": 0.3348571428571443,
+      "relative_absolute_error": 0.06011797896896666
+    },
+    "constant": {
+      "prediction_cpa_percent": 16.8,
+      "signed_error_percentage_points": 11.23,
+      "absolute_error_percentage_points": 11.23,
+      "relative_absolute_error": 2.0161579892280073
+    },
+    "linear": {
+      "prediction_cpa_percent": 3.1200000000000028,
+      "signed_error_percentage_points": -2.4499999999999975,
+      "absolute_error_percentage_points": 2.4499999999999975,
+      "relative_absolute_error": 0.4398563734290839
+    }
+  },
+  "primary_beats_constant": true,
+  "sensitivity": {
+    "combinations": 27,
+    "net_rate_min_max_per_day": [
+      0.02980324648037478,
+      0.12200626389568481
+    ],
+    "prediction_min_max_cpa_percent": [
+      4.231449657353716,
+      10.531886024423338
+    ],
+    "interpretation": "IQR corner sensitivity only; not CI or parameter probability"
+  },
+  "structural_counterexamples": [
+    {
+      "q_over_r": 0,
+      "production_coefficient_per_day": 0.0,
+      "clearance_coefficient_per_day": 0.07954439100111625,
+      "baseline_net_rate_per_day": 0.07954439100111625,
+      "perturbed_prediction_cpa_percent": 4.762107091272102
+    },
+    {
+      "q_over_r": 1,
+      "production_coefficient_per_day": 0.07954439100111625,
+      "clearance_coefficient_per_day": 0.1590887820022325,
+      "baseline_net_rate_per_day": 0.07954439100111625,
+      "perturbed_prediction_cpa_percent": 3.7944148466102794
+    },
+    {
+      "q_over_r": 4,
+      "production_coefficient_per_day": 0.318177564004465,
+      "clearance_coefficient_per_day": 0.3977219550055813,
+      "baseline_net_rate_per_day": 0.07954439100111627,
+      "perturbed_prediction_cpa_percent": 2.0875950693597702
+    }
+  ],
+  "mechanism_conclusion": "Production and clearance are structurally non-identifiable from net CPA alone; illustration coefficients are arbitrary, not biologically calibrated.",
+  "provenance": {
+    "input_sha256": "ce73f13ec5e2a2d5057a9824b33a5878bd37a13c678a9ceb7ad3e657bbddea44",
+    "spec_sha256": "00dddc70c9298ef2f1200bd267775beb37eb27ba70d01a1e140152c42859f6f0",
+    "analysis_sha256": "6947ba5bea9d26cd9cb013ab1a089ed105e05f8b041d3f2269bff789a14e4f8c"
+  }
+}

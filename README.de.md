@@ -101,3 +101,7 @@ Der tatsächliche bereinigte Veröffentlichungssnapshot bestand **90 Forschungss
 Nur synthetische Eingaben und passend lizenzierte öffentliche Aggregate verwenden. SQLite besitzt keine zusätzliche Datenbankverschlüsselung; Plattformschutz erlaubt keinen Patientendatenbetrieb. Keine Geheimnisse oder identifizierbaren Gesundheitsdaten einsenden. [Sicherheit](SECURITY.md) · [Mitarbeit](CONTRIBUTING.md) · [Fremdkomponenten](THIRD_PARTY_NOTICES.md).
 
 Für eigenen HepatoSim-Code wurde keine Open-Source-Lizenz gewählt. Öffentliche Sichtbarkeit ist keine Open-Source-Lizenz. Separat eingebettete Originalmodelle behalten AGPL-3.0-or-later. Keine neue Lizenz für Fremdmaterial. Der frühere README-Inhalt bleibt in `Docs/README-HSR001.md`; aktueller Fortschritt steht in der Forschungszustandsdatei.
+
+## Kollagenprüfung und Vorbereitung der macOS-Vorabversion
+
+Maintainer: **Johnnie 4 free**. [Der neue interne Kollagenvergleich](Docs/19-CollagenInternalCheck.md) bestand fünf Softwaretests und die exakte Wiederholung. Er identifiziert keine Behandlungswirkung und liefert keine unabhängige biologische Validierung. [Prüfung ausführen](Research/CollagenCheck/README.md). Das macOS-Packaging erzeugt eine Apple-Silicon-Forschungsvorabversion mit Ad-hoc-Signatur; sie ist nicht notarisiert. Die Version ist experimentell, benötigt macOS 14 oder neuer und ist kein Medizinprodukt. Kein iPhone-Binärpaket enthalten. Der bestehende Lizenzstatus bleibt unverändert.

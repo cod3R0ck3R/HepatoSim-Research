@@ -71,3 +71,7 @@ Publish the existing data-intake status as a bilingual documentation checkpoint.
 ## 2026-10-24 — new measured-data analysis within an explicit account budget
 
 User authorized at most 15% of remaining account capacity, baseline 5% used: ceiling19.25%, early-stop display18%. Chose a finite expression reanalysis because the newly available material is six processed macrophage arrays, not calibrated collagen observations. Prespecified all20 allocations and retained p0.10, with no post hoc threshold changes. Avoided a new Kappa run with an unsupported expression-to-collagen mapping. One existing Hermes task through local Goose/Ollama ran offline; its suggestion to renormalize RMA intensities as counts was rejected. A native llama-server backend explains the detector miss; logs separately establish inference, historical raw audit retained. No model download, persistent provider change or measured savings claim. Publication contains only reviewed code, aggregate results and documentation; private correspondence/source inputs remain excluded.
+
+## 2026-10-24 — collagen check and prerelease
+
+Current public maintainer and all new commit attribution: Johnnie 4 free (user instruction). Historical Git commits remain unchanged. The aggregate CPA check cannot identify a drug effect; no Kappa modification or clinical claim. Failed one-attempt local translation produced no accepted output; no retry under the frozen budget.

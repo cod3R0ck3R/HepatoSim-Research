@@ -1,0 +1,10 @@
+test_analytic_fixture (test_collagen.CollagenTests.test_analytic_fixture) ... ok
+test_input_contract (test_collagen.CollagenTests.test_input_contract) ... ok
+test_internal_check_and_sensitivity (test_collagen.CollagenTests.test_internal_check_and_sensitivity) ... ok
+test_invalid_decay (test_collagen.CollagenTests.test_invalid_decay) ... ok
+test_structural_nonidentifiability (test_collagen.CollagenTests.test_structural_nonidentifiability) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
