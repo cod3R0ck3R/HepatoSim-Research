@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_history": "No source Git repository; publication starts a new snapshot history.",
-  "policy": "No binaries, local logs, clinical databases, publisher figures or full-text review copies. No new own-code license.",
+  "policy": "No binaries, local logs, clinical databases, publisher figures or full-text review copies. Original own code: MIT; preserve third-party licenses.",
   "omitted": [
     "Research/Reference/results/benchmark-v1/repository_default-101/inputs.ka",
     "Research/Reference/results/benchmark-v1/repository_default-101/stdout.log",
@@ -126,14 +126,14 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "original_sha256": "5910c581a7964c62ddad1812532943dfdd868665636068766ef3d8e63f494151",
-      "published_sha256": "5910c581a7964c62ddad1812532943dfdd868665636068766ef3d8e63f494151",
+      "original_sha256": "d243070f69c492b6faa1fb5a690209e43eda2032ed5cd6bab18936a1506d20d3",
+      "published_sha256": "d243070f69c492b6faa1fb5a690209e43eda2032ed5cd6bab18936a1506d20d3",
       "metadata_redacted": false
     },
     {
       "path": "DECISIONS.md",
-      "original_sha256": "f1dddf92cacc43927b51f9ed837ae6e3d026cbdd39070825ce75e5dcf8597a86",
-      "published_sha256": "f1dddf92cacc43927b51f9ed837ae6e3d026cbdd39070825ce75e5dcf8597a86",
+      "original_sha256": "999c0dffac5b250922da9d6d1a64144a4b3e72216a01d49cc3c7ec0d34ccba3c",
+      "published_sha256": "999c0dffac5b250922da9d6d1a64144a4b3e72216a01d49cc3c7ec0d34ccba3c",
       "metadata_redacted": false
     },
     {
@@ -294,14 +294,14 @@
     },
     {
       "path": "README.de.md",
-      "original_sha256": "d89ce18d439314ac870733ad0906a65a3665ed5e98410cf8a74fd88af2a697c3",
-      "published_sha256": "d89ce18d439314ac870733ad0906a65a3665ed5e98410cf8a74fd88af2a697c3",
+      "original_sha256": "bab61d7e33b5f6aa095289473a798295722385b2f88682efffd108088725992e",
+      "published_sha256": "bab61d7e33b5f6aa095289473a798295722385b2f88682efffd108088725992e",
       "metadata_redacted": false
     },
     {
       "path": "README.md",
-      "original_sha256": "4a306d88244ebdb32a3b5b055e82136116b6abf02492db065db7c611c32f013b",
-      "published_sha256": "4a306d88244ebdb32a3b5b055e82136116b6abf02492db065db7c611c32f013b",
+      "original_sha256": "4739dde84598aaa3869cb26eb62ac4140857e7543530deb06e33c4908d58899d",
+      "published_sha256": "4739dde84598aaa3869cb26eb62ac4140857e7543530deb06e33c4908d58899d",
       "metadata_redacted": false
     },
     {
@@ -312,8 +312,8 @@
     },
     {
       "path": "RESEARCH_STATE.json",
-      "original_sha256": "d42341238a0c0387464e1bd24e61194679ee3f51b471302611d6dee74419dfc9",
-      "published_sha256": "d42341238a0c0387464e1bd24e61194679ee3f51b471302611d6dee74419dfc9",
+      "original_sha256": "8c25c83c35a070a473c40e4eb71a39589dd6a1f45ff49236b5b3496b142ad195",
+      "published_sha256": "8c25c83c35a070a473c40e4eb71a39589dd6a1f45ff49236b5b3496b142ad195",
       "metadata_redacted": true
     },
     {
@@ -1428,8 +1428,8 @@
     },
     {
       "path": "Scripts/export_public.py",
-      "original_sha256": "26b0e0da2393ec92abd8948cdedd71357a4d5973e0625a6990c13f4d06a4728b",
-      "published_sha256": "26b0e0da2393ec92abd8948cdedd71357a4d5973e0625a6990c13f4d06a4728b",
+      "original_sha256": "d01c36f7b1bf94831808a16e5036c2437dac8ce36d3f17c3eeeccbaa20bbd38e",
+      "published_sha256": "d01c36f7b1bf94831808a16e5036c2437dac8ce36d3f17c3eeeccbaa20bbd38e",
       "metadata_redacted": false
     },
     {
@@ -1548,8 +1548,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "original_sha256": "a27a108c33bede5876a512aa535ed94fb971f40e078b927e856f800ac8cf5fc7",
-      "published_sha256": "a27a108c33bede5876a512aa535ed94fb971f40e078b927e856f800ac8cf5fc7",
+      "original_sha256": "e60cfd1a1d79399f518e5e79a230e8bfdb57811915448f60436b64f209b272e1",
+      "published_sha256": "e60cfd1a1d79399f518e5e79a230e8bfdb57811915448f60436b64f209b272e1",
       "metadata_redacted": false
     },
     {
@@ -1590,8 +1590,8 @@
     },
     {
       "path": "Scripts/package-macos-release.sh",
-      "original_sha256": "a09dfecd6161bc0e52ffa1573bc694736a04b59349fd630ae62ea759faeba718",
-      "published_sha256": "a09dfecd6161bc0e52ffa1573bc694736a04b59349fd630ae62ea759faeba718",
+      "original_sha256": "5bceae4e7a7f79d716e95d024e29ef3dfa1a4dc82bc1b5d317a46f2e5c232540",
+      "published_sha256": "5bceae4e7a7f79d716e95d024e29ef3dfa1a4dc82bc1b5d317a46f2e5c232540",
       "metadata_redacted": false
     },
     {
@@ -1670,6 +1670,12 @@
       "path": "Docs/20-MacOSReleaseVerification.md",
       "original_sha256": "db66201b0e09dcae924b5417b205c615744edab8a6e89d8411041034e24c731f",
       "published_sha256": "db66201b0e09dcae924b5417b205c615744edab8a6e89d8411041034e24c731f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "LICENSE",
+      "original_sha256": "054314e62e21d18f1c3ffb74eff3573244bdcae05e392aa9618ac64b16584e9a",
+      "published_sha256": "054314e62e21d18f1c3ffb74eff3573244bdcae05e392aa9618ac64b16584e9a",
       "metadata_redacted": false
     }
   ],

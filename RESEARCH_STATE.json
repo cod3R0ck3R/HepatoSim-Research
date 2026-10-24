@@ -4,7 +4,7 @@
   "status": "bounded_expression_reanalysis_completed",
   "checked_date": "2026-10-23",
   "publication_base_commit": "fe31263a7ec3a39b78a7e24a2753dab5f6dbbd81",
-  "own_code_license": "not_selected",
+  "own_code_license": "MIT",
   "technical_controls": {
     "seed_replay": "passed",
     "output_grid": "passed",
@@ -97,5 +97,12 @@
     "local_worker_status": "failed; no output integrated",
     "next_step": "Obtain joint collagen formation/clearance measurements and an independent evaluation cohort; no further unconstrained fitting",
     "public_maintainer": "Johnnie 4 free"
+  },
+  "license_decision": {
+    "date": "2026-10-24",
+    "copyright_holder": "Johnnie 4 free",
+    "authorization": "Project owner explicitly requested open-source reuse",
+    "scope": "original project code and documentation, including own application code in 0.1.0-alpha.1",
+    "third_party_licenses": "unchanged"
   }
 }

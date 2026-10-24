@@ -75,3 +75,7 @@ User authorized at most 15% of remaining account capacity, baseline 5% used: cei
 ## 2026-10-24 — collagen check and prerelease
 
 Current public maintainer and all new commit attribution: Johnnie 4 free (user instruction). Historical Git commits remain unchanged. The aggregate CPA check cannot identify a drug effect; no Kappa modification or clinical claim. Failed one-attempt local translation produced no accepted output; no retry under the frozen budget.
+
+## 2026-10-24 — MIT license authorized
+
+The project owner requested an open-source license permitting reuse. Original project code/documentation, including the own app code in 0.1.0-alpha.1, are licensed under MIT; copyright Johnnie 4 free. Historical no-license statements describe the earlier state and are superseded by this decision. Upstream AGPL models and data/publication rights remain unchanged. No clinical validation is implied.

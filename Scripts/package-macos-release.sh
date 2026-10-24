@@ -17,7 +17,11 @@ codesign --verify --deep --strict "$app"
 /usr/bin/plutil -lint "$app/Contents/Info.plist"
 archs=$(/usr/bin/lipo -archs "$app/Contents/MacOS/HepatoSimResearch")
 case "$archs" in "x86_64 arm64"|"arm64 x86_64") ;; *) exit 1 ;; esac
-/usr/bin/ditto -c -k --sequesterRsrc --keepParent "$app" "$archive_dir/HepatoSim-Research-0.1.0-alpha.1-macOS-universal.zip"
+staging="$build_dir/LicensedPackage"
+mkdir "$staging"
+/usr/bin/ditto "$app" "$staging/HepatoSimResearch.app"
+cp LICENSE THIRD_PARTY_NOTICES.md "$staging/"
+/usr/bin/ditto -c -k --sequesterRsrc "$staging" "$archive_dir/HepatoSim-Research-0.1.0-alpha.1-macOS-universal.zip"
 cd "$archive_dir"
 /usr/bin/shasum -a 256 HepatoSim-Research-0.1.0-alpha.1-macOS-universal.zip > SHA256SUMS.txt
 printf 'Ad-hoc signed research prerelease, not notarized: %s\n' "$archive_dir"

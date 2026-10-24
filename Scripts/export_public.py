@@ -106,7 +106,7 @@ def export(project, destination):
         selected.append((relative, original, published, receipt))
     destination.mkdir(parents=True)
     ledger = {'schema_version': 1, 'source_history': 'Present; not exported or audited by this script.' if (project / '.git').exists() else 'No source Git repository; publication starts a new snapshot history.',
-              'policy': 'No binaries, local logs, clinical databases, publisher figures or full-text review copies. No new own-code license.',
+              'policy': 'No binaries, local logs, clinical databases, publisher figures or full-text review copies. Original own code: MIT; preserve all third-party license notices.',
               'omitted': omitted, 'files': []}
     for relative, original, published, receipt in selected:
         target = destination / relative

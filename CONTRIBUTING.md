@@ -8,7 +8,7 @@ For scientific changes, specify the question, sources, data roles, observables, 
 
 Run relevant tests and report actual commands/results. Pure standard-library research checks: `python3 -B -m unittest discover -s Research/Reference -p 'test_*.py'` and the equivalent discovery under `Research/LocalAI`. Swift checks use `Scripts/verify.sh`. These commands must use the host wrapper when coordination is configured. Do not claim new checks from historical logs.
 
-Submit small, reviewable changes with reproducible evidence and explicit limits. Do not contribute private health data or unlicensed datasets. AI-generated proposals require human/maintainer review. No contributor license agreement or open-source license for original HepatoSim code has been established; clarify rights before submitting material whose redistribution is restricted.
+Submit small, reviewable changes with reproducible evidence and explicit limits. Do not contribute private health data or unlicensed datasets. AI-generated proposals require human/maintainer review. No separate contributor license agreement is required. Contributions to original HepatoSim code are accepted under the MIT License; submit only material you may license on those terms. Contributions to separately licensed components must follow their existing licenses.
 
 Citation: refer to the actual repository URL and commit once publication is verified, and separately cite Bouguéon et al. (2024), DOI 10.1371/journal.pcbi.1011858, for the original model. No project DOI, release tag or unconfirmed authorship is asserted.
 
@@ -20,6 +20,6 @@ Für wissenschaftliche Änderungen Frage, Quellen, Datenrollen, Messgrößen, Ei
 
 Passende Tests ausführen und tatsächliche Befehle/Ergebnisse berichten. Forschungsprüfungen mit Standardbibliothek: `python3 -B -m unittest discover -s Research/Reference -p 'test_*.py'` sowie entsprechende Discovery unter `Research/LocalAI`. Swift-Prüfungen verwenden `Scripts/verify.sh`. Bei vorhandener Koordination müssen diese Befehle durch den Host-Wrapper laufen. Historische Logs sind keine neuen Prüfungen.
 
-Kleine, überprüfbare Änderungen mit reproduzierbaren Belegen und ausdrücklichen Grenzen einreichen. Keine privaten Gesundheitsdaten oder unlizenzierten Datensätze beitragen. KI-Vorschläge benötigen menschliche/Maintainer-Prüfung. Weder Contributor License Agreement noch Open-Source-Lizenz für eigenen HepatoSim-Code sind festgelegt; Rechte vor Einreichen eingeschränkt weitergebbarer Materialien klären.
+Kleine, überprüfbare Änderungen mit reproduzierbaren Belegen und ausdrücklichen Grenzen einreichen. Keine privaten Gesundheitsdaten oder unlizenzierten Datensätze beitragen. KI-Vorschläge benötigen menschliche/Maintainer-Prüfung. Ein separates Contributor License Agreement ist nicht erforderlich. Beiträge zum eigenen HepatoSim-Code werden unter MIT angenommen; nur Material einreichen, das entsprechend lizenziert werden darf. Für Beiträge zu separat lizenzierten Komponenten gelten deren bestehende Lizenzen.
 
 Zitation: nach bestätigter Veröffentlichung tatsächliche Repository-URL und Commit nennen; das Originalmodell getrennt als Bouguéon et al. (2024), DOI 10.1371/journal.pcbi.1011858, zitieren. Kein Projekt-DOI, Release-Tag oder unbestätigte Urheberschaft wird behauptet.
