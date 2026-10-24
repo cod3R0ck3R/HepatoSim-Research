@@ -40,10 +40,16 @@ def local_runners():
     found = []
     for row in rows:
         parts = row.strip().split(None, 3)
-        if len(parts) != 4 or 'ollama runner' not in parts[3]:
+        if len(parts) != 4:
             continue
         argv = shlex.split(parts[3])
+        # Ollama 0.40 also launches a native llama-server instead of "ollama runner".
+        if not argv or not (Path(argv[0]).name == 'llama-server' or
+                            (Path(argv[0]).name == 'ollama' and 'runner' in argv[1:])):
+            continue
         if '--model' not in argv:
+            continue
+        if argv.index('--model') + 1 == len(argv):
             continue
         blob = Path(argv[argv.index('--model') + 1])
         found.append({'pid': int(parts[0]), 'rss_kib': int(parts[1]), 'cpu_percent': float(parts[2]),

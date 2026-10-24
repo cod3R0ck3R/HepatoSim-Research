@@ -2,9 +2,9 @@
 
 Deutsch · [English](README.md)
 
-## Aktueller Stand — 23. Oktober 2026
+## Aktueller Stand — 24. Oktober 2026
 
-Neue Simulationen und Kalibrierungen bleiben bis zur ausdrücklichen Fortsetzung pausiert. Vorhandene Aufnahmebelege unterscheiden nun Makrophagen-Expressionsdaten, Kollagenaggregate und ungeklärte Interventionsendpunkte; eine unabhängige biologische Vorhersage ist nicht belegt. [Zweisprachiger Datenaufnahme-Stand](Docs/17-DataCollectionStatus.md).
+Die begrenzte Auswertung realer Makrophagen-Expressionsdaten ist abgeschlossen: sechs Proben, 241.576 Probe-Sets, exakter globaler Permutationswert p = 0,10. Zwei Ausführungen waren bytegleich; zehn gezielte Tests bestanden. Lokale Goose-Inferenz ist belegt, ihr falscher Normalisierungsvorschlag wurde verworfen. Keine neue Kollagenvorhersage, Arzneimittelwirksamkeit oder klinische Validierung belegt. [Zweisprachige Ergebnisse](Docs/18-ExpressionReanalysis.md) · [Ergebnisse reproduzieren oder prüfen](Research/Expression/README.md). Keine automatische neue Berechnung geplant.
 
 ## Ziel
 

@@ -19,3 +19,8 @@
 **KaSim:** externe KappaTools-Runtime v4.1.3.1; Quellcommit, Bezug und Hashes stehen in `Research/Reference/runtime-lock.json`. Keine Binärdatei ist in diesem Projekt eingebettet. Die eigene Lizenz gilt; eine andere Binärdatei benötigt ausdrückliche Reproduzierbarkeitsprüfung. Die ungeklärte Runtimebezeichnung des Artikels ist im Forschungsbericht dokumentiert.
 
 **Publikationen und Forschungsdaten:** Enthalten sind Referenzen und begrenzte sachliche Zusammenfassungen. Lokale Volltext-Prüfkopien, Verlagsabbildungen und private Logs sind nicht automatisch zur Weitergabe freigegeben. Der Bouguéon-Artikel ist CC BY 4.0; das lizenziert keine anderen zitierten Artikel oder Datensätze. Keine personenbezogenen Einzelmessungen wurden in diese Dossiers importiert. Die öffentliche Dateiauswahl muss Rechte je Datei prüfen und Attribution erhalten. Erzeugte Simulationsverläufe sind Modellwerte, keine experimentellen Messungen.
+
+
+## E-MEXP-3177 analysis, 24 October 2026
+
+The new expression analysis cites Ramachandran et al. (2012), DOI10.1073/pnas.1119964109, and the EMBL-EBI E-MEXP-3177 archive. The source matrix, IDF/SDRF files, article and publisher figures are not redistributed. Only newly computed distance/permutation aggregates, input checksums and original analysis code/report are added. Obtain source files from the documented archive under its applicable terms. No new licence is assigned to the project owner’s code.

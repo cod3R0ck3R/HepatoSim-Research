@@ -1,0 +1,33 @@
+{
+  "provider_requested": "ollama",
+  "model_requested": "hermes3:8b",
+  "digest": "4f6b83f30b62bc3d0cf9be09266db222805ee815c8fd7d8b38f863f655be78b7",
+  "goose_version": "1.45.0",
+  "ollama_version": "0.40.10",
+  "wall_seconds": 42.724,
+  "goose_exit_code": 0,
+  "driver_exit_code": 1,
+  "local_inference_verified": true,
+  "generated_output_reviewed": true,
+  "accepted_suggestions": [],
+  "rejected_suggestion": "Apply log2(RawCounts+1) normalization to author-normalized RMA log2 microarray intensities. Wrong data type and double transformation; do not integrate.",
+  "task_status": "completed_but_review_rejected",
+  "locality_limitation": "Original process detector missed llama-server. Separate review establishes offline local inference from time-matched server logs, exact manifest digest and model-layer digest, generated output and completion timings.",
+  "reported_tokens": {
+    "input": 1306,
+    "output": 331,
+    "total": 1637
+  },
+  "token_savings_measured": false,
+  "model_layer_sha256": "c8985d236593f7a17da2a3da49588aa951a9b1e57ce97753364fbf59e63af84a",
+  "evidence_sha256": "28f4fa0538f9ac4201c4c931e5980d1245e2f13859128c9d9c550104f06d004c",
+  "native_output_tokens": 331,
+  "native_generation_seconds": 22.08315,
+  "configured_context_tokens": 4096,
+  "reported_buffers_mib": {
+    "CPU_model": 281.81,
+    "Metal_model": 4155.99,
+    "Metal_KV": 512
+  },
+  "memory_limit_note": "Buffer sizes are not measured peak process RAM"
+}

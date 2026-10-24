@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "milestone": "reproducible research follow-up",
-  "status": "numerical_research_paused_user_request",
+  "status": "bounded_expression_reanalysis_completed",
   "checked_date": "2026-10-23",
   "publication_base_commit": "fe31263a7ec3a39b78a7e24a2753dab5f6dbbd81",
   "own_code_license": "not_selected",
@@ -44,13 +44,41 @@
     "new_calibration": "not_performed",
     "independent_biology": "not_performed",
     "human_transferability": "not_established",
-    "clinical_use": "not_validated"
+    "clinical_use": "not_validated",
+    "expression": "Exploratory E-MEXP-3177 reanalysis; no independent biological validation"
   },
-  "next_executable_step": "No automatic numerical work. After explicit resumption, qualify exposure/observation mapping and data roles before a separately budgeted benchmark.",
+  "next_executable_step": "Await qualified sample/animal/batch metadata and independent collagen/protease data; no automatic new simulation.",
   "data_collection": {
     "report": "Docs/17-DataCollectionStatus.md",
     "new_simulations": 0,
     "raw_data_redistributed": false,
-    "prior_intake_verification": "27 files/receipts checked; five older archive paths retained as unreadable; not rerun in this documentation update."
+    "prior_intake_verification": "27 files/receipts checked; five older archive paths retained as unreadable; not rerun in this documentation update.",
+    "new_compute_authorized": false,
+    "automatic_resume": false
+  },
+  "updated_utc": "2026-10-24T12:59:18.534822+00:00",
+  "bounded_research_20261024": {
+    "specification": "Research/Expression/specification-v1.json",
+    "account_budget": {
+      "baseline_used_percent": 5,
+      "remaining_percent": 95,
+      "fraction_of_remaining": 0.15,
+      "additional_percentage_points": 14.25,
+      "ceiling_used_percent": 19.25,
+      "stop_at_displayed_percent": 18,
+      "scope": "Shared account weekly window; rounded/delayed display; checked between packages"
+    },
+    "status": "completed_results_published_with_this_snapshot",
+    "scope": "Expression analysis and public derived report; no automatic restart of other studies",
+    "report": "Docs/18-ExpressionReanalysis.md",
+    "verification": "Research/Expression/verification.json",
+    "result": "Research/Expression/results-v1/result.json",
+    "local_worker_review": "Research/Expression/local-worker-review.json",
+    "new_kasim_runs": 0,
+    "fits": 0,
+    "independent_biological_validation": false
+  },
+  "packages": {
+    "local_goose": "2026-10-24: local offline Hermes inference verified from manifest/model-layer/server logs; normalization suggestion rejected; detector regression tested"
   }
 }

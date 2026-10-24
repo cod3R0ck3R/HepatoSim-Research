@@ -1,0 +1,52 @@
+{
+  "benchmark": "HSR-EXPR-001",
+  "date": "2026-10-24",
+  "result_hashes": {
+    "result.json": "a0e74736cb81410176d2665c33de216e3a663443824a0017b7dc60182d82408e",
+    "distances.csv": "fb7d9ffadc8c57fdcc61dc804aa6659f5802ae3f0f76e5066ff1d98d38ceaf13",
+    "permutations.csv": "6354a8ecd7f36e6f4347b3b15078220bee82d613726e8f6a2abf0faf7721107c"
+  },
+  "independent_full_executions": 2,
+  "byte_identical_json_and_csv": true,
+  "specification_sha256": "506bf80c9dcd1426fbade4aeb62bf11f56d7ab0ef374936fde22725f281a2e10",
+  "code_sha256": "1e2e0910df9486e7304663719cfbec4c85370065719abb265153747081d80cab",
+  "tests": {
+    "expression": 5,
+    "local_worker": 5,
+    "passed": 10,
+    "output_sha256": "9f927b4dd7a33c24521183e7a2dfaa0d86f2107fdf0ff9b75fd8a9480d339cae"
+  },
+  "jobs": [
+    {
+      "id": "hepatosim-expression-analysis-20261024",
+      "state": "succeeded",
+      "exit_code": 0
+    },
+    {
+      "id": "hepatosim-expression-replay-20261024",
+      "state": "succeeded",
+      "exit_code": 0
+    },
+    {
+      "id": "hepatosim-expression-final-tests-20261024",
+      "state": "succeeded",
+      "exit_code": 0
+    }
+  ],
+  "new_kasim_runs": 0,
+  "fits": 0,
+  "raw_data_published": false,
+  "scientific_status": "Exploratory processed-expression analysis only; no independent biological or clinical validation",
+  "account_usage": {
+    "baseline_used_percent": 5,
+    "latest_checkpoint_used_percent": 6,
+    "ceiling_used_percent": 19.25,
+    "early_stop_threshold": 18,
+    "granularity_note": "Rounded shared account value; not exact task token cost"
+  },
+  "resume_integrity_check": {
+    "job": "hepatosim-expression-resume-check-20261024",
+    "status": "succeeded",
+    "new_calculations": 0
+  }
+}

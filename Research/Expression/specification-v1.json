@@ -1,0 +1,76 @@
+{
+  "id": "HSR-EXPR-001",
+  "version": "1.0.0",
+  "created_utc": "2026-10-24T12:49:06.778132+00:00",
+  "purpose": "Exploratory reanalysis of measured macrophage expression; no collagen prediction or treatment calibration",
+  "inputs": {
+    "genePS_prakash.txt.magetab": {
+      "sha256": "cc67810e825da0822049052fe4fab1887a1aa53539666e99b4ca906efbfa0c8b",
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MEXP-3177/genePS_prakash.txt.magetab"
+    },
+    "E-MEXP-3177.sdrf.txt": {
+      "sha256": "9c63fee3115cf5984a58a14f9499fd88f97afcb47398aafd6a70c4f38c3b551b",
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MEXP-3177/E-MEXP-3177.sdrf.txt"
+    },
+    "E-MEXP-3177.idf.txt": {
+      "sha256": "e63dcfe27a14fdebb271ca2357001f6565abbe14414b0a439a9f73dd5fa191a6",
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MEXP-3177/E-MEXP-3177.idf.txt"
+    }
+  },
+  "matrix": "genePS_prakash.txt.magetab",
+  "sample_names": [
+    "Mac_24h_1",
+    "Mac_24h_2",
+    "Mac_24h_3",
+    "Mac_72h_1",
+    "Mac_72h_2",
+    "Mac_72h_3"
+  ],
+  "group_hours": [
+    24,
+    24,
+    24,
+    72,
+    72,
+    72
+  ],
+  "expected_probe_sets": 241576,
+  "unit": "author-normalized RMA log2 intensity per probe set; not gene counts",
+  "biological_system": "Male mouse liver macrophages after CCl4 injury; 24h Ly6Chi versus 72h Ly6Clo; time and phenotype confounded",
+  "data_role": "exploratory development; already inspected source metadata and source cited by reference-model authors; not independent validation",
+  "preprocessing": "None beyond parse/finite/unique checks; no renormalization, no feature selection, no gene mapping",
+  "primary_statistic": "Unscaled multivariate pseudo-F: between-group sum of squared distances to grand centroid divided by within-group sum of squares / 4, across all probe sets; df_between=1",
+  "permutation": "All 20 labelled 3-versus-3 allocations; upper-tail count including observed allocation, complement ties included; tolerance 1e-10 relative",
+  "interpretation": "Conditional exchangeability only. n=3 biological array replicates/group, unknown pooling; same study, no randomization assumption established. Minimum attainable exact two-group p is 0.1; no claim p<0.05",
+  "descriptives": [
+    "sample means, sample SD, pairwise RMS distances in log2 units",
+    "mean(72h)-mean(24h) effect distribution and count abs(delta)>=1, not significance or gene counts",
+    "leave-one-out-one-per-group (9 subsets of 2+2) sign concordance and retention abs(delta)>=1 among originally abs(delta)>=1; descriptive, not independent replications"
+  ],
+  "software_acceptance": [
+    "Exact input hashes, six expected sample columns and SDRF associations, all finite and unique241576 IDs",
+    "Toy separated/null fixtures; all20 allocations; complement symmetry; sample swap invariance; reject nonfinite/duplicates/hash mismatch",
+    "Rerun deterministic statistics exactly equal; do not alter criteria after seeing results"
+  ],
+  "scientific_acceptance": "No therapeutic success threshold. Report observed effect, uncertainty and limitations regardless of direction; no independent biology claim.",
+  "budget": {
+    "max_analysis_runs": 2,
+    "timeout_seconds_per_run": 120,
+    "max_workers": 1,
+    "declared_memory_gib": 1,
+    "simulation_runs": 0,
+    "optimization_runs": 0,
+    "local_ai_tasks": 1,
+    "local_ai_timeout_seconds": 300,
+    "retry_limit": 0
+  },
+  "account_budget": {
+    "baseline_used_percent": 5,
+    "remaining_percent": 95,
+    "fraction_of_remaining": 0.15,
+    "additional_percentage_points": 14.25,
+    "ceiling_used_percent": 19.25,
+    "stop_at_displayed_percent": 18,
+    "scope": "Shared account weekly window; rounded/delayed display; checked between packages"
+  }
+}

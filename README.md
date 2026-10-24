@@ -2,9 +2,9 @@
 
 [Deutsch](README.de.md) · English
 
-## Current checkpoint — 23 October 2026
+## Current checkpoint — 24 October 2026
 
-New simulations and calibration are paused pending explicit resumption. Existing intake records now distinguish macrophage expression data, collagen aggregates and unqualified intervention endpoints; no independent biological prediction has been established. [Bilingual data-collection checkpoint](Docs/17-DataCollectionStatus.md).
+The bounded reanalysis of real macrophage expression data is complete: six samples, 241,576 probe sets, exact global permutation p = 0.10. Two executions matched byte for byte; 10 focused tests passed. Local Goose inference was verified, but its incorrect normalization suggestion was rejected. No new collagen prediction, drug efficacy or clinical validation is established. [Bilingual results](Docs/18-ExpressionReanalysis.md) · [Reproduce or verify completed results](Research/Expression/README.md). No automatic new computation is scheduled.
 
 ## Purpose
 

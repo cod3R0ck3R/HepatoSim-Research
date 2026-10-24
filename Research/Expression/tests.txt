@@ -1,0 +1,17 @@
+test_bad_matrix_rejected (test_expression.ExpressionTests.test_bad_matrix_rejected) ... ok
+test_hand_computed_distance_and_effects (test_expression.ExpressionTests.test_hand_computed_distance_and_effects) ... ok
+test_hash_mismatch_stops_before_reading_metadata (test_expression.ExpressionTests.test_hash_mismatch_stops_before_reading_metadata) ... ok
+test_null_and_translation_invariance (test_expression.ExpressionTests.test_null_and_translation_invariance) ... ok
+test_separation_and_complement_symmetry (test_expression.ExpressionTests.test_separation_and_complement_symmetry) ... ok
+test_both_native_ollama_backends_observed_without_unrelated_process (test_local_task.ModelBoundaryTests.test_both_native_ollama_backends_observed_without_unrelated_process) ... ok
+test_cloud_model_rejected_even_through_local_endpoint (test_local_task.ModelBoundaryTests.test_cloud_model_rejected_even_through_local_endpoint) ... ok
+test_installed_digest_required (test_local_task.ModelBoundaryTests.test_installed_digest_required) ... ok
+test_loaded_runner_never_proves_inference_even_after_goose_exit (test_local_task.ModelBoundaryTests.test_loaded_runner_never_proves_inference_even_after_goose_exit) ... ok
+test_local_gguf_allowed_but_does_not_prove_inference (test_local_task.ModelBoundaryTests.test_local_gguf_allowed_but_does_not_prove_inference) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.006s
+
+OK
+{"status": "completed_pending_review", "local_runner_observed": true, "inference_verified": false, "wall_seconds": 0}
+{"status": "failed", "local_runner_observed": true, "inference_verified": false, "wall_seconds": 0}

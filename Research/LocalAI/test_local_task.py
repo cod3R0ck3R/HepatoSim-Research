@@ -8,6 +8,19 @@ from run_local_task import validate_model
 
 
 class ModelBoundaryTests(unittest.TestCase):
+    def test_both_native_ollama_backends_observed_without_unrelated_process(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            blob = Path(temporary) / 'sha256-fixture'
+            blob.write_bytes(b'fixture')
+            rows = '\n'.join(f'{pid} 100 2.0 {cmd} --model {blob}' for pid, cmd in
+                             [(1, '/app/ollama runner'), (2, '/app/llama-server'),
+                              (3, '/app/unrelated'), (4, '/app/python /app/llama-server')])
+            rows += '\n5 100 2.0 /app/llama-server --model'
+            with patch.object(worker.subprocess, 'check_output', return_value=rows):
+                result = worker.local_runners()
+            self.assertEqual([r['pid'] for r in result], [1, 2])
+            self.assertTrue(all(r['model_blob_bytes'] == 7 for r in result))
+
     def test_installed_digest_required(self):
         with self.assertRaises(ValueError):
             validate_model({'models': [{'name': 'x', 'digest': 'old'}]}, 'x', 'new', {'details': {'format': 'gguf'}})

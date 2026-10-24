@@ -66,3 +66,8 @@ Pilot1.3.0 and subset1.3.1 remain incomplete after two900-second timeouts; parti
 ## 2026-10-23: preserve evidence during the numerical pause
 
 Publish the existing data-intake status as a bilingual documentation checkpoint. Preserve partial reproduction and incomplete mechanism runs; do not reinterpret expression matrices as collagen trajectories or reviewed sources as independent validation. No new model, fit, numerical run, raw-data redistribution or license decision is made. New scientific execution requires explicit resumption and a prespecified budget.
+
+
+## 2026-10-24 — new measured-data analysis within an explicit account budget
+
+User authorized at most 15% of remaining account capacity, baseline 5% used: ceiling19.25%, early-stop display18%. Chose a finite expression reanalysis because the newly available material is six processed macrophage arrays, not calibrated collagen observations. Prespecified all20 allocations and retained p0.10, with no post hoc threshold changes. Avoided a new Kappa run with an unsupported expression-to-collagen mapping. One existing Hermes task through local Goose/Ollama ran offline; its suggestion to renormalize RMA intensities as counts was rejected. A native llama-server backend explains the detector miss; logs separately establish inference, historical raw audit retained. No model download, persistent provider change or measured savings claim. Publication contains only reviewed code, aggregate results and documentation; private correspondence/source inputs remain excluded.

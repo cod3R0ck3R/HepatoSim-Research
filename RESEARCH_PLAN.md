@@ -35,3 +35,8 @@ Siehe `Docs/13-TechnicalControls.md` für tatsächlich geschlossene Replay-/Rast
 ## 2026-10-23: bounded execution and source-data update
 
 Pilot1.3.0 and subset1.3.1 remain incomplete after two900-second timeouts; partial traces are retained and the two unstarted follow-ups cancelled. Do not retry from CSV or infer a biological effect. See Research/Reference/mechanism-subset-timeout-2026-10-23.md. Jerez source-table conversion succeeded, but units, normalization and animal/field mapping remain unresolved; Sato animal-level measurements remain unavailable. No new fitting, independent prediction or clinical validation. New scientific execution requires a separately specified runtime-feasibility diagnostic and budget.
+
+
+## 2026-10-24: bounded expression reanalysis completed
+
+HSR-EXPR-001 uses available E-MEXP-3177 processed measurements, not a new collagen time series. Frozen specification, two byte-identical full executions, ten focused tests and local worker review are in Research/Expression and Docs/18-ExpressionReanalysis.md. Do not retry the incomplete Kappa pilot or fit degradation rates to expression intensity. Next research step requires sample/animal/batch mapping, verified probe annotation and matched independent collagen/protease measurements. New runs require a separately specified scope/budget; no ongoing research automation was resumed.
