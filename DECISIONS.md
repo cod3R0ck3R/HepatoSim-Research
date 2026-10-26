@@ -133,3 +133,7 @@ A per-group alternative constant divisor fails to explain three source groups ev
 ## 2026-10-26 — distinguish fate fraction from exit speed
 
 Use the original stochastic Kappa model with a declared day60 perturbation, preserving the injury history and population scale. Do not call the0.50 fate setting a drug effect. Separate a conditional exact component calculation from full-model predictions. Preserve the initial CSV-format verification failure and its independent revalidation; do not rerun a successful simulation to hide it. Publish only reviewed code, generated aggregates/traces with private comment headers removed, and source metadata. Keep correspondence, full-text copies, local logs and database backups private. Independent2025/2026 mechanistic papers do not become quantitative validation of this contrast.
+
+## 26 October 2026 — HSC follow-up boundary
+
+Keep all original simulations, failed manifests and the frozen spec. Amend only output-event validation for sequential same-time parameter updates, with a strict regression test and separate revalidation receipts. Do not restart KaSim or choose favourable seeds. Report ten-seed uncertainty and the two-pair persistence corner separately. Preserve the coordinator interrupted state. Do not integrate the interrupted source-data audit, calibrate a drug effect or forward to a laboratory. The user requires our open checks to be resolved first.

@@ -1,0 +1,11 @@
+{
+  "reason": "Remove local-path KaSim comment headers only; retain executed runner and unchanged original run manifests",
+  "executed_runner_sha256": "ab5659a49d23054a541fc594d7f06857eed03cc41c19bb4577a182fe14fa120b",
+  "public_adapter_sha256": "992f0ed87c5f27642b5bb3ad0de24b33f736b16e7c2392578034d27d3b784341",
+  "scientific_model_or_criteria_changed": false,
+  "validation_required": "Exact raw/public numeric identity and byte-identical analyses from a raw private copy and sanitized public copy using the explicitly amended checker; no claim that the original faulty checker produced a complete analysis.",
+  "additional_validation": "Require complete half-day grid, exact day90 controls and revalidate imported three pilot histories; same frozen scientific criteria, executed runner preserved.",
+  "technical_validation_amended": true,
+  "amended_utc": "2026-10-26T15:08:54.522862+00:00",
+  "post_run_reason": "Original validator rejected a same-time intermediate $PLOTENTRY during two sequential updates. Accept exactly one such row only at the first post60 event, followed immediately at identical time by the complete parameter update and identical biological state. Preserve failed manifests and revalidate without new simulations."
+}

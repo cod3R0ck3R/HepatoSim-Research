@@ -40,3 +40,5 @@ GSE244832 provenance tables are limited derived metadata with primary source lin
 ## Lee et al.2025 ETS1 source-data audit
 
 Lee et al., ETS1 suppresses hepatic stellate cell activation and liver fibrosis, JCI Insight2025;10(24):e195242, DOI10.1172/jci.insight.195242. Article declares CC BY4.0. Original workbook retained locally with provenance; not redistributed. This repository publishes original audit code and derived aggregate comparisons only, not publisher figures, raw images or confidential correspondence.
+
+**HSCRobustness:** The two persistence-contrast Kappa models derive from the same pinned original HSC model and retain AGPL under Research/HSCRobustness/models/LICENSE. Own Python analysis remains under the repository MIT license. / Die beiden Kappa-Persistenzkontraste sind Ableitungen desselben festgelegten Originalmodells und behalten AGPL; eigener Python-Auswertungscode bleibt unter MIT.

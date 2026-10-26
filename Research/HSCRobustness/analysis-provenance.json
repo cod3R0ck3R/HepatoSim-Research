@@ -1,0 +1,11 @@
+{
+  "raw_trace_analysis_sha256": "894df6ec90f92ddcd5c35167c263da06dbba3802feb5b7ce5e10b605499e0da9",
+  "checker_sha256": "992f0ed87c5f27642b5bb3ad0de24b33f736b16e7c2392578034d27d3b784341",
+  "failed_manifests_preserved": [
+    "lowpersist_fate50-101",
+    "lowpersist_fate50-102"
+  ],
+  "original_checker_completed_analysis": false,
+  "amended_checker_raw_analysis_complete": true,
+  "new_simulations_for_revalidation": 0
+}

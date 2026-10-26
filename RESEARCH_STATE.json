@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "milestone": "post-withdrawal HSC fate and laboratory decision",
-  "status": "hsc_fate_research_package_verified",
+  "status": "hsc_numerical_followup_verified_external_evidence_unresolved",
   "checked_date": "2026-10-26",
   "publication_base_commit": "29411f8bdfed2e65859d58f61c6a6adeba02f21d",
   "own_code_license": "MIT",
@@ -56,7 +56,7 @@
     "new_compute_authorized": false,
     "automatic_resume": false
   },
-  "updated_utc": "2026-10-26T13:23:55.711090+00:00",
+  "updated_utc": "2026-10-26T15:15:39.276462+00:00",
   "bounded_research_20261024": {
     "specification": "Research/Expression/specification-v1.json",
     "account_budget": {
@@ -133,7 +133,7 @@
     "local_worker": "queued resource-blocked, cancelled before execution; no fallback",
     "independent_validation": false
   },
-  "next_step": "Obtain joint lineage/viability/proliferation/matrix time series with biological IDs, then test reactivation under controlled viable-cell counts. Do not calibrate a drug effect from marker changes alone. No automatic run or budget renewal.",
+  "next_step": "No laboratory forwarding. Resolve author-runtime identity and obtain verified joint longitudinal biological observations before drug calibration or laboratory handoff. Source-data audit was interrupted; no automatic retry, run or budget renewal.",
   "geo_sample_check": {
     "status": "completed_exploratory_analysis",
     "specification": "Research/GEOSampleCheck/specification-v1.json",
@@ -299,5 +299,16 @@
     "database_records_added": 1,
     "database_replay_new_records": 0,
     "existing_simulation_runs_preserved": 2
+  },
+  "hsc_robustness": {
+    "spec_id": "HSR-HSC-ROBUST-001",
+    "report": "Docs/30-HSCPreLabVerification.md",
+    "verification": "Research/HSCRobustness/verification.json",
+    "new_runs": 11,
+    "paired_seeds": 10,
+    "tests_passed": 9,
+    "failed_output_manifests_preserved": 2,
+    "independent_biological_validation": false,
+    "laboratory_forwarding": false
   }
 }

@@ -1,0 +1,23 @@
+{
+  "id": "fate50-104",
+  "model": "fate50",
+  "seed": 104,
+  "fate_after": 0.5,
+  "status": "completed",
+  "started_utc": "2026-10-26T14:33:20.066940+00:00",
+  "spec_sha256": "d78f8f8bd71b82dc78e22da559e74078d79f420c34018c90a9cc846941c61a46",
+  "runner_sha256": "ab5659a49d23054a541fc594d7f06857eed03cc41c19bb4577a182fe14fa120b",
+  "runtime_sha256": "ecff78d14fc6370ef6086b8c5cbcf1d5efd4d79b0a534c2b4d6e6849eef6d2f8",
+  "model_sha256": "e908fda58988cfb01efb43f6e96ad8cb7c34b9ef8bf588ac248199e0ffaf46ba",
+  "python": "3.15.1",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "command_template": "KaSim MODEL -l 90 -p 0.5 -seed SEED -mode batch -d OUTPUT -o trace.csv -log inputs --print-efficiency --gluttony",
+  "wall_seconds": 271.7384921669982,
+  "returncode": 0,
+  "trace_sha256": "e4b4d124568ba91e809f7733acd5d7b4815f53ec902c8aba2882fe9b92ce25f9",
+  "prehistory": {
+    "shared_times": 136,
+    "maximum_absolute_difference": 0.0
+  },
+  "last_day": 90.0
+}

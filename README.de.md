@@ -153,3 +153,12 @@ python3 identifiability.py
 python3 run.py --analyze
 python3 verify.py
 ```
+
+## HSC-Folgeprüfungen (26. Oktober 2026)
+
+Elf weitere lokale Läufe erweitern den Zellschicksalskontrast auf zehn gepaarte Seeds und prüfen eine Persistenzannahme. Das Kollagen-Mittelwertintervall überschreitet null; der inaktive Zellpool steigt in allen zehn Paaren. Neun Tests, bytegleiche Roh-/Exportauswertung und geprüfte Wiederaufnahme bestanden. Zwei Fehler der Ereignisausgabeprüfung bleiben erhalten und sind ausdrücklich korrigiert. Autorenruntime und biologische/Arzneimittel-Zuordnung bleiben offen; keine Laborweiterleitung. [Bericht](Docs/30-HSCPreLabVerification.de.md).
+
+```sh
+cd Research/HSCRobustness
+python3 -B verify.py
+```

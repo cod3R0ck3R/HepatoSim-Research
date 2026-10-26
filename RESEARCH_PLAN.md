@@ -94,3 +94,7 @@ Completed: frozen alternative-divisor feasibility test, four software tests, sep
 ## HSR-HSC-FATE-001 — laboratory-discriminating mechanism test
 
 Prespecified post-withdrawal Kappa fate perturbation, three seeds and technical replay/grid controls. Separate conditional identifiability calculation. IL-10 signalling is a qualitative laboratory candidate; cell loss, persistence, restimulation and hepatocyte function must be distinguished. No new biological fit. Next empirical gap: joint longitudinal viable-cell fate and matrix/rechallenge measurements with independent biological IDs. See Docs/29-HSCFateLabDecision.md.
+
+## HSR-HSC-ROBUST-001 — computational closure before laboratory forwarding
+
+Ten-seed fate comparison, two-pair alternative persistence corner and nine tests completed. Raw/public analysis and resume verified. Collagen reduction is not reliable in this fixed-parameter experiment. Source-data review interrupted; exact author runtime, joint biological observations and drug-parameter mapping remain unresolved. No laboratory forwarding. See Docs/30-HSCPreLabVerification.md.

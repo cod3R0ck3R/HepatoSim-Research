@@ -1,0 +1,23 @@
+{
+  "id": "lowpersist_control-102",
+  "model": "lowpersist_control",
+  "seed": 102,
+  "fate_after": 0.05,
+  "status": "completed",
+  "started_utc": "2026-10-26T14:59:03.025470+00:00",
+  "spec_sha256": "d78f8f8bd71b82dc78e22da559e74078d79f420c34018c90a9cc846941c61a46",
+  "runner_sha256": "ab5659a49d23054a541fc594d7f06857eed03cc41c19bb4577a182fe14fa120b",
+  "runtime_sha256": "ecff78d14fc6370ef6086b8c5cbcf1d5efd4d79b0a534c2b4d6e6849eef6d2f8",
+  "model_sha256": "7d2f66fe9e9ae5ab4d1963eed458c8c8dd93e272cb9d1a4ca6f88d3c57a44232",
+  "python": "3.15.1",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "command_template": "KaSim MODEL -l 90 -p 0.5 -seed SEED -mode batch -d OUTPUT -o trace.csv -log inputs --print-efficiency --gluttony",
+  "wall_seconds": 407.8792164999977,
+  "returncode": 0,
+  "trace_sha256": "f191497f26c3660e9fa3e81a26b136f23238dceb884343ffdf2cc3f7d0435332",
+  "prehistory": {
+    "shared_times": 136,
+    "maximum_absolute_difference": 0.0
+  },
+  "last_day": 90.0
+}

@@ -132,8 +132,8 @@
     },
     {
       "path": "DECISIONS.md",
-      "original_sha256": "19bfbf0a0b73ed495ebcbe83bc64b52f509cd8badbabdaecd771d5d5b4316ab6",
-      "published_sha256": "19bfbf0a0b73ed495ebcbe83bc64b52f509cd8badbabdaecd771d5d5b4316ab6",
+      "original_sha256": "48b1d30f44f564516c539a6bf1e484f35e7bdccda9268e43d38ab3f62eece061",
+      "published_sha256": "48b1d30f44f564516c539a6bf1e484f35e7bdccda9268e43d38ab3f62eece061",
       "metadata_redacted": false
     },
     {
@@ -317,6 +317,18 @@
       "metadata_redacted": false
     },
     {
+      "path": "Docs/30-HSCPreLabVerification.de.md",
+      "original_sha256": "c8c7642d38d69842bd04c9115aafd154764a9d13dedd0616fa753f669387ed4b",
+      "published_sha256": "c8c7642d38d69842bd04c9115aafd154764a9d13dedd0616fa753f669387ed4b",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/30-HSCPreLabVerification.md",
+      "original_sha256": "687ce73811933486ad54a38a9474702e14b6a011fbb09320e951cd198a5a14a0",
+      "published_sha256": "687ce73811933486ad54a38a9474702e14b6a011fbb09320e951cd198a5a14a0",
+      "metadata_redacted": false
+    },
+    {
       "path": "Docs/README-HSR001.md",
       "original_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
       "published_sha256": "026cd847933925392dcb7498d2b8b711420efe6ce69c6f3caf221ecc8aedb235",
@@ -372,26 +384,26 @@
     },
     {
       "path": "README.de.md",
-      "original_sha256": "f40e84911cd2532bb303874d12d35af8e40c2a91e4fbf14bf2e36c741ce41642",
-      "published_sha256": "f40e84911cd2532bb303874d12d35af8e40c2a91e4fbf14bf2e36c741ce41642",
+      "original_sha256": "1f2eac8d0cd50b421d793e00552949e9647add5875eaff50ef98c1c3bc848d6d",
+      "published_sha256": "1f2eac8d0cd50b421d793e00552949e9647add5875eaff50ef98c1c3bc848d6d",
       "metadata_redacted": false
     },
     {
       "path": "README.md",
-      "original_sha256": "084d92118ec68c74aa02b8a870cb9aba822a222e02d4b729897a115afea0dc71",
-      "published_sha256": "084d92118ec68c74aa02b8a870cb9aba822a222e02d4b729897a115afea0dc71",
+      "original_sha256": "bf68c034c3659735ca1fcbab0e42a3ca61d30d7fc80e564be04866fe3eabc336",
+      "published_sha256": "bf68c034c3659735ca1fcbab0e42a3ca61d30d7fc80e564be04866fe3eabc336",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_PLAN.md",
-      "original_sha256": "46024ad0c210e3888708d3122d40088e601fd731690f75be108945653073b280",
-      "published_sha256": "46024ad0c210e3888708d3122d40088e601fd731690f75be108945653073b280",
+      "original_sha256": "22468b931ee211f70dbb08002b43648e5de36bedb33a29fd24b785042b929670",
+      "published_sha256": "22468b931ee211f70dbb08002b43648e5de36bedb33a29fd24b785042b929670",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_STATE.json",
-      "original_sha256": "580bc06c9868fff86bcb50eb9874f8f901787f4cc05f7606a50a920bbba96b6d",
-      "published_sha256": "580bc06c9868fff86bcb50eb9874f8f901787f4cc05f7606a50a920bbba96b6d",
+      "original_sha256": "01c6d13c63300a6934a45770e40d0559bce518abec4c0fd5c45d9ece46125ca4",
+      "published_sha256": "01c6d13c63300a6934a45770e40d0559bce518abec4c0fd5c45d9ece46125ca4",
       "metadata_redacted": false
     },
     {
@@ -1172,6 +1184,384 @@
       "path": "Research/HSCFate/verify.py",
       "original_sha256": "5c6a7a50b72b08c3752c7b148e5a6eda319dadab385f3688f589f9c6ee3fbce7",
       "published_sha256": "5c6a7a50b72b08c3752c7b148e5a6eda319dadab385f3688f589f9c6ee3fbce7",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/README.md",
+      "original_sha256": "ab7c56ac07985b9f8c9b1ca427fc3b9d438f2bed90803f3c6dfd898cb38a96f7",
+      "published_sha256": "ab7c56ac07985b9f8c9b1ca427fc3b9d438f2bed90803f3c6dfd898cb38a96f7",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/analysis-provenance.json",
+      "original_sha256": "595c74fccb572e3ba95993c09d9db5503ea5aafd126b1a924a7b86ab85e6a684",
+      "published_sha256": "595c74fccb572e3ba95993c09d9db5503ea5aafd126b1a924a7b86ab85e6a684",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-101.run.json",
+      "original_sha256": "5adc525c0bc60bba2e1cbb0087f59c2cf2e3e46c8f8d87e7d9b03cd4f0b4d6e6",
+      "published_sha256": "5adc525c0bc60bba2e1cbb0087f59c2cf2e3e46c8f8d87e7d9b03cd4f0b4d6e6",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-101.trace.csv",
+      "original_sha256": "6186fb35abad03dcbf61f30108e96876bc4a4f9431eaef003a347ee8f133f2c0",
+      "published_sha256": "6186fb35abad03dcbf61f30108e96876bc4a4f9431eaef003a347ee8f133f2c0",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-102.run.json",
+      "original_sha256": "d7fb5ddc6e5b4ac6a0a64ac2b61c507099d0f864b42dfa95effb3a90f5788f03",
+      "published_sha256": "d7fb5ddc6e5b4ac6a0a64ac2b61c507099d0f864b42dfa95effb3a90f5788f03",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-102.trace.csv",
+      "original_sha256": "c4b987879e0b6d1623ab53697727876da54309dbbc8d6afe0797f606788b4e78",
+      "published_sha256": "c4b987879e0b6d1623ab53697727876da54309dbbc8d6afe0797f606788b4e78",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-103.run.json",
+      "original_sha256": "c309c3d77511524a4d21b9911e6aba37a0a1a73d878c103f03ee4977dddfb47c",
+      "published_sha256": "c309c3d77511524a4d21b9911e6aba37a0a1a73d878c103f03ee4977dddfb47c",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-103.trace.csv",
+      "original_sha256": "719c6b463831132b87ec8c9f787dc9c730a8eac31d201fe3fffb036e9a70c288",
+      "published_sha256": "719c6b463831132b87ec8c9f787dc9c730a8eac31d201fe3fffb036e9a70c288",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-104.run.json",
+      "original_sha256": "7a669c220f56bdd56060d7b04cfebbba8bbb2b4f6489610554ada6e95ebd2f76",
+      "published_sha256": "7a669c220f56bdd56060d7b04cfebbba8bbb2b4f6489610554ada6e95ebd2f76",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-104.trace.csv",
+      "original_sha256": "a2f5f799222a9a18cbb73d5490e740e6ac3607569fb7f09b341e0d0ac50eab7a",
+      "published_sha256": "a2f5f799222a9a18cbb73d5490e740e6ac3607569fb7f09b341e0d0ac50eab7a",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-105.run.json",
+      "original_sha256": "6ad9da9b9e468f041cb9dc710abb1534b26b44a26a15f21fdb3e1d133547b8e2",
+      "published_sha256": "6ad9da9b9e468f041cb9dc710abb1534b26b44a26a15f21fdb3e1d133547b8e2",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-105.trace.csv",
+      "original_sha256": "19027143a409fe1d73aa6487b8ee33a9c992b83f468476a39ce9b6fe73a4f661",
+      "published_sha256": "19027143a409fe1d73aa6487b8ee33a9c992b83f468476a39ce9b6fe73a4f661",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-106.run.json",
+      "original_sha256": "c6597c1389754249a9e283f714127195b7750e2fd15e9519663f0028fa2a66aa",
+      "published_sha256": "c6597c1389754249a9e283f714127195b7750e2fd15e9519663f0028fa2a66aa",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-106.trace.csv",
+      "original_sha256": "9d21ee2a25be0fc39664cfba7f37538f2a41c3ae298e5879a21fc0d4271e52fd",
+      "published_sha256": "9d21ee2a25be0fc39664cfba7f37538f2a41c3ae298e5879a21fc0d4271e52fd",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-107.run.json",
+      "original_sha256": "ed0d436d9efa5b33ab55afb1d1ccf7708de4ff1588457bdade5046d4d4e926c2",
+      "published_sha256": "ed0d436d9efa5b33ab55afb1d1ccf7708de4ff1588457bdade5046d4d4e926c2",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-107.trace.csv",
+      "original_sha256": "55c228fb82d01476d2101f2e8834069a5847c4dd511b815f1a847c291e53c691",
+      "published_sha256": "55c228fb82d01476d2101f2e8834069a5847c4dd511b815f1a847c291e53c691",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-108.run.json",
+      "original_sha256": "ffd32150186d5c070adcb709d0ae39fa9c728056db1f3641fd29a8527f23a8c5",
+      "published_sha256": "ffd32150186d5c070adcb709d0ae39fa9c728056db1f3641fd29a8527f23a8c5",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-108.trace.csv",
+      "original_sha256": "1b14b6d5a09b52bd7d2aa884f360c2c53ed5914a5d89ca4efb51622b2cd2db95",
+      "published_sha256": "1b14b6d5a09b52bd7d2aa884f360c2c53ed5914a5d89ca4efb51622b2cd2db95",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-109.run.json",
+      "original_sha256": "f881b73319ea9ddc88dd6590f147fc041098709e9fe3a04b508a65b8b0a44f0f",
+      "published_sha256": "f881b73319ea9ddc88dd6590f147fc041098709e9fe3a04b508a65b8b0a44f0f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-109.trace.csv",
+      "original_sha256": "9102e3f1528c47f5788c16fbb5fb88aa1417427005cee940b70c5bd15b85a29a",
+      "published_sha256": "9102e3f1528c47f5788c16fbb5fb88aa1417427005cee940b70c5bd15b85a29a",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-110.run.json",
+      "original_sha256": "00866657d5a0ab4f36e9e9cd40ebec8529b5f49831e2e522984fbef00a81f7eb",
+      "published_sha256": "00866657d5a0ab4f36e9e9cd40ebec8529b5f49831e2e522984fbef00a81f7eb",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/archive/control-110.trace.csv",
+      "original_sha256": "a7453de7c534c5633db96ec046656425e338e3131f72eaa9778b0a6500e5e4b7",
+      "published_sha256": "a7453de7c534c5633db96ec046656425e338e3131f72eaa9778b0a6500e5e4b7",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/check.py",
+      "original_sha256": "992f0ed87c5f27642b5bb3ad0de24b33f736b16e7c2392578034d27d3b784341",
+      "published_sha256": "992f0ed87c5f27642b5bb3ad0de24b33f736b16e7c2392578034d27d3b784341",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/database-receipt.json",
+      "original_sha256": "0b23ebb9d361b55096e39f2865ccaef3d90a6cd323f7dee12b859c05e086a207",
+      "published_sha256": "0b23ebb9d361b55096e39f2865ccaef3d90a6cd323f7dee12b859c05e086a207",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/evidence-bundle.json",
+      "original_sha256": "29f6cf61f03a7a0a45b3cc048c767c93bf8d91e560a46ebd2ca649af2e9a0d03",
+      "published_sha256": "29f6cf61f03a7a0a45b3cc048c767c93bf8d91e560a46ebd2ca649af2e9a0d03",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/executed-check.py",
+      "original_sha256": "ab5659a49d23054a541fc594d7f06857eed03cc41c19bb4577a182fe14fa120b",
+      "published_sha256": "ab5659a49d23054a541fc594d7f06857eed03cc41c19bb4577a182fe14fa120b",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/export-amendment.json",
+      "original_sha256": "12032b93767fb558da106bed4f90e082a7dcbab7a635a8252024a8339637ac2b",
+      "published_sha256": "12032b93767fb558da106bed4f90e082a7dcbab7a635a8252024a8339637ac2b",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/models/LICENSE",
+      "original_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "published_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/models/lowpersist_control.ka",
+      "original_sha256": "7d2f66fe9e9ae5ab4d1963eed458c8c8dd93e272cb9d1a4ca6f88d3c57a44232",
+      "published_sha256": "7d2f66fe9e9ae5ab4d1963eed458c8c8dd93e272cb9d1a4ca6f88d3c57a44232",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/models/lowpersist_fate50.ka",
+      "original_sha256": "b9a0616bfafe0dfba7e964f9ada6612a1de196ecba4edebb29a6b8070fcddae6",
+      "published_sha256": "b9a0616bfafe0dfba7e964f9ada6612a1de196ecba4edebb29a6b8070fcddae6",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/public-trace-map.json",
+      "original_sha256": "835a7698675668dd05bad6ae8103f6dab7695a4bd3a7d9783f727d791f5e4814",
+      "published_sha256": "835a7698675668dd05bad6ae8103f6dab7695a4bd3a7d9783f727d791f5e4814",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/results/analysis.json",
+      "original_sha256": "894df6ec90f92ddcd5c35167c263da06dbba3802feb5b7ce5e10b605499e0da9",
+      "published_sha256": "894df6ec90f92ddcd5c35167c263da06dbba3802feb5b7ce5e10b605499e0da9",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/results/fate50-104/run.json",
+      "original_sha256": "b64d8636260b956b9f28e8695c3a8158290efe12af241f62d28f25a3be38c70e",
+      "published_sha256": "b64d8636260b956b9f28e8695c3a8158290efe12af241f62d28f25a3be38c70e",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/results/fate50-104/trace.csv",
+      "original_sha256": "e4b4d124568ba91e809f7733acd5d7b4815f53ec902c8aba2882fe9b92ce25f9",
+      "published_sha256": "241acf9cf6b0670ddfc4f21aab7279a5a6793893b73d6ceb4d4cd4d9f9526c92",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/HSCRobustness/results/fate50-105/run.json",
+      "original_sha256": "b924512b88c23d422036a2556e88c8d9a86322355636aa888be5a33fe2203bcc",
+      "published_sha256": "b924512b88c23d422036a2556e88c8d9a86322355636aa888be5a33fe2203bcc",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/results/fate50-105/trace.csv",
+      "original_sha256": "b239fb8e029b80928e1b11056711f46d7f20d0a2f6ad87d75fe2d9ce5a123ffc",
+      "published_sha256": "144f1c8c1f9bad8b881d8bfad1ad1174a3de4fa25fc2ebb8ff0e4ed61ba9c780",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/HSCRobustness/results/fate50-106/run.json",
+      "original_sha256": "5c897500dc27e9db7076f7f95f80260afa96bfdf65e0f4b71474e2a45c9cf68f",
+      "published_sha256": "5c897500dc27e9db7076f7f95f80260afa96bfdf65e0f4b71474e2a45c9cf68f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/results/fate50-106/trace.csv",
+      "original_sha256": "42e5f4809c6ace76d4c37d471b413577f3903c7b8cba289916a4a330716986bc",
+      "published_sha256": "8dd6e62fcff924522156c18ef327f94bf1515846bdda8d0a86909d77c3ff493b",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/HSCRobustness/results/fate50-107/run.json",
+      "original_sha256": "56d20487eff960411bf339d5650d3991221541227f169bb20aba492fff0b3d2a",
+      "published_sha256": "56d20487eff960411bf339d5650d3991221541227f169bb20aba492fff0b3d2a",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/results/fate50-107/trace.csv",
+      "original_sha256": "530c278b3fb270a0a28280d22e0489861cb27a43797c08c35dfd058f69632c90",
+      "published_sha256": "1d01eebca78b753eb1c5679338561932f7d7b03adaa77281b32dc2f1950f6241",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/HSCRobustness/results/fate50-108/run.json",
+      "original_sha256": "712f86ebf0a952a8fea525da940e9963f8d675587ddc64bcf993be9585bd2bda",
+      "published_sha256": "712f86ebf0a952a8fea525da940e9963f8d675587ddc64bcf993be9585bd2bda",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/results/fate50-108/trace.csv",
+      "original_sha256": "8958a4295b81ddb4fb9ceeb55b567370d4801d293313663b66b2125dba72e13b",
+      "published_sha256": "7bfe2a9ef82e2ac42ab61bb2393f401981e717eb83dcd656f11f89a94fdfc9a5",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/HSCRobustness/results/fate50-109/run.json",
+      "original_sha256": "0ded64fa3800f01bcccee53a58754fd78c8cb1e28b5d4e01bc6e9986ed915261",
+      "published_sha256": "0ded64fa3800f01bcccee53a58754fd78c8cb1e28b5d4e01bc6e9986ed915261",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/results/fate50-109/trace.csv",
+      "original_sha256": "5abde3487daf75f986d60eeffdf052f565662648234300e36a3d7b0b49a43de5",
+      "published_sha256": "9da9793e2001b01f499a116f4265d0bbe556f4a28dc93772bf9c982d93f7ece4",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/HSCRobustness/results/fate50-110/run.json",
+      "original_sha256": "b3e937ee4d7c678e4940c7dfecfe4ecc7cfc0e228664905f352a80d40879b049",
+      "published_sha256": "b3e937ee4d7c678e4940c7dfecfe4ecc7cfc0e228664905f352a80d40879b049",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/results/fate50-110/trace.csv",
+      "original_sha256": "e455f4e69f2f9d5a57e415ec982e59a4a44332810aed1436205b17afdc844827",
+      "published_sha256": "66ffa75c002b68954b340f59878a8443ce439bf4aa2919928a49a85a72e31e8a",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/HSCRobustness/results/lowpersist_control-101/run.json",
+      "original_sha256": "e502d48e41704b028357573dad9ef14f93c5399956cba927cf65eaab90763f0d",
+      "published_sha256": "e502d48e41704b028357573dad9ef14f93c5399956cba927cf65eaab90763f0d",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/results/lowpersist_control-101/trace.csv",
+      "original_sha256": "35b2e92fdc160e34864322694f9df2f79a22b9b181218cb6812793af8ae6813c",
+      "published_sha256": "c949ef20e3bb19fb6f77c531fe433ea2109a36832949c828a80af88c44a2a35e",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/HSCRobustness/results/lowpersist_control-102/run.json",
+      "original_sha256": "d772fe370bd46d7dee95d24e91058e9d3529b3b703eeb1ce7a988a8b7c83f6a6",
+      "published_sha256": "d772fe370bd46d7dee95d24e91058e9d3529b3b703eeb1ce7a988a8b7c83f6a6",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/results/lowpersist_control-102/trace.csv",
+      "original_sha256": "f191497f26c3660e9fa3e81a26b136f23238dceb884343ffdf2cc3f7d0435332",
+      "published_sha256": "463b82757402e18ad6477d79fdd4ba4f6f89ab0af1c9fc53fe9fd4b2c8b674a5",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/HSCRobustness/results/lowpersist_fate50-101/revalidation.json",
+      "original_sha256": "db8a475292ee11a1348073db670d8cb51d79c2d3d9da142e045bd0cfc8932b22",
+      "published_sha256": "db8a475292ee11a1348073db670d8cb51d79c2d3d9da142e045bd0cfc8932b22",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/results/lowpersist_fate50-101/run.json",
+      "original_sha256": "1deb8b2e315a6a44ec44d2b2b94be2ef319628e10b16ee493693b341e4b53553",
+      "published_sha256": "1deb8b2e315a6a44ec44d2b2b94be2ef319628e10b16ee493693b341e4b53553",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/results/lowpersist_fate50-101/trace.csv",
+      "original_sha256": "79f0ecb0e785ccd9f8acf56782a9da4b72d05380500a3f6f7d0a40bb08f76cc2",
+      "published_sha256": "591ffca35c343cee24148f2d0f3b7bbb9299f6f47ee84196d304f98845dfc54c",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/HSCRobustness/results/lowpersist_fate50-102/revalidation.json",
+      "original_sha256": "84fcff4a5c2a8d52f07785833fd5cdbd7c1d6338e3169eb30827c4f11775d11b",
+      "published_sha256": "84fcff4a5c2a8d52f07785833fd5cdbd7c1d6338e3169eb30827c4f11775d11b",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/results/lowpersist_fate50-102/run.json",
+      "original_sha256": "94993555632db2084a11cd7d79bebc5d4f37040397382d2e196d6affd5f0148d",
+      "published_sha256": "94993555632db2084a11cd7d79bebc5d4f37040397382d2e196d6affd5f0148d",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/results/lowpersist_fate50-102/trace.csv",
+      "original_sha256": "054ba15cf2fe49e59c06ab733ded51e942774f5a48cbbc269ead30899c0b8c6b",
+      "published_sha256": "b85c410b6b71b2e11edd1c24e316113c03a0b63dcc6e0c6c34de5c5c059d3ba6",
+      "metadata_redacted": true
+    },
+    {
+      "path": "Research/HSCRobustness/resume-verification.json",
+      "original_sha256": "729c99a0270b60bce669d8c861b76e03bbd3bb2156d2ede9839840580258189b",
+      "published_sha256": "729c99a0270b60bce669d8c861b76e03bbd3bb2156d2ede9839840580258189b",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/runtime-review.json",
+      "original_sha256": "1dce4b54d6c614c4aeb133f0a8800df29bd70fe65f30f3936ad659b794e216ca",
+      "published_sha256": "1dce4b54d6c614c4aeb133f0a8800df29bd70fe65f30f3936ad659b794e216ca",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/spec.json",
+      "original_sha256": "d78f8f8bd71b82dc78e22da559e74078d79f420c34018c90a9cc846941c61a46",
+      "published_sha256": "d78f8f8bd71b82dc78e22da559e74078d79f420c34018c90a9cc846941c61a46",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/spec.sha256",
+      "original_sha256": "a3c45da12ba8d4099cb2beba6cf30688683a018a05f30009911d99f4c7152fe9",
+      "published_sha256": "a3c45da12ba8d4099cb2beba6cf30688683a018a05f30009911d99f4c7152fe9",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/test_check.py",
+      "original_sha256": "8c820f3b69c9cc8273ceb3d7a173831a0b8b2ffba502c0d390dd60a46b101875",
+      "published_sha256": "8c820f3b69c9cc8273ceb3d7a173831a0b8b2ffba502c0d390dd60a46b101875",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/verification.json",
+      "original_sha256": "ab57d1d9971672cbc847e3aac229d38e165c2262a7ed58c6e0cbebfb39c33946",
+      "published_sha256": "ab57d1d9971672cbc847e3aac229d38e165c2262a7ed58c6e0cbebfb39c33946",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/HSCRobustness/verify.py",
+      "original_sha256": "6b73e21a3cd7993657408434395409db13e1cb600506b2790d125daca4aef26f",
+      "published_sha256": "6b73e21a3cd7993657408434395409db13e1cb600506b2790d125daca4aef26f",
       "metadata_redacted": false
     },
     {
@@ -2640,8 +3030,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "original_sha256": "73527203c436def8231b93b3991e18c6b89481ec7c7df8a808d612d1f3b9b666",
-      "published_sha256": "73527203c436def8231b93b3991e18c6b89481ec7c7df8a808d612d1f3b9b666",
+      "original_sha256": "31fd82105e9a95baaeb88e88415f8accc550e5c5ad06c2f794dcd21922c98f29",
+      "published_sha256": "31fd82105e9a95baaeb88e88415f8accc550e5c5ad06c2f794dcd21922c98f29",
       "metadata_redacted": false
     },
     {
@@ -2730,8 +3120,9 @@
   "geo_sample_note": "Nine-matrix local scan; publication QC group totals reproduced; exploratory eight-gene sample contrasts, exact resume/replay. No independent validation or drug effect. Source matrices, upstream code and private logs excluded.",
   "sema_independent_note": "External human NAFLD association: SEMA4D positive, PLXNB2 not increased; frozen joint rule failed. No raw clinical metadata, contact files or private worker logs.",
   "gse210077_note": "Six donor/36 cell-type strata; primary and post hoc negative joint direction finding. Raw matrices, individual-nucleus labels, source contacts, private logs and databases excluded. Reference confounding and age conflicts retained.",
-  "updated_utc": "2026-10-26T13:24:57.794632+00:00",
+  "updated_utc": "2026-10-26T15:17:36.036085+00:00",
   "ets1_source_audit_note": "Original audit code and derived summaries only. Source workbook, graph-point tables, private quota data, coordination handoffs and local logs excluded. Scientific thresholds unchanged; public protocol replay has identical numerical values.",
   "ets1_scaling_note": "Original scaling-control code and derived summaries only; source workbook, private handoff files, quota details, correspondence and logs excluded.",
-  "hsc_fate_note": "Curated HSC fate model/results and bilingual laboratory brief only. CSV comment headers removed with numeric identity verified; original run hashes preserved via public-trace-map. No private logs, correspondence, coordinator handoffs, full-text archives, database or backups included."
+  "hsc_fate_note": "Curated HSC fate model/results and bilingual laboratory brief only. CSV comment headers removed with numeric identity verified; original run hashes preserved via public-trace-map. No private logs, correspondence, coordinator handoffs, full-text archives, database or backups included.",
+  "hsc_robustness_note": "Eleven additional local runs, ten paired fate seeds and a two-pair persistence corner. Nine tests and exact raw/public analysis replay; original output-event failures and post-run correction preserved. No independent biological validation or lab forwarding; private logs and partial source audit excluded."
 }

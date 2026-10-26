@@ -1,0 +1,181 @@
+{
+  "id": "HSR-HSC-ROBUST-001",
+  "version": "1.0.0",
+  "frozen_utc": "2026-10-26T14:31:02.089451+00:00",
+  "parent_public_commit": "1c002f021bf72d4deed2637ddb0d5377e4715ace",
+  "purpose": "Separate finite-seed stochastic uncertainty from sensitivity to an unestimated inactive-cell persistence assumption; no laboratory forwarding or drug calibration",
+  "runtime_sha256": "ecff78d14fc6370ef6086b8c5cbcf1d5efd4d79b0a534c2b4d6e6849eef6d2f8",
+  "archives": {
+    "101": {
+      "published_trace_sha256": "6186fb35abad03dcbf61f30108e96876bc4a4f9431eaef003a347ee8f133f2c0",
+      "public_run_manifest_sha256": "5adc525c0bc60bba2e1cbb0087f59c2cf2e3e46c8f8d87e7d9b03cd4f0b4d6e6",
+      "original_raw_trace_sha256": "6186fb35abad03dcbf61f30108e96876bc4a4f9431eaef003a347ee8f133f2c0",
+      "role": "Previously inspected development simulation; no independent biological validation"
+    },
+    "102": {
+      "published_trace_sha256": "c4b987879e0b6d1623ab53697727876da54309dbbc8d6afe0797f606788b4e78",
+      "public_run_manifest_sha256": "d7fb5ddc6e5b4ac6a0a64ac2b61c507099d0f864b42dfa95effb3a90f5788f03",
+      "original_raw_trace_sha256": "c4b987879e0b6d1623ab53697727876da54309dbbc8d6afe0797f606788b4e78",
+      "role": "Previously inspected development simulation; no independent biological validation"
+    },
+    "103": {
+      "published_trace_sha256": "719c6b463831132b87ec8c9f787dc9c730a8eac31d201fe3fffb036e9a70c288",
+      "public_run_manifest_sha256": "c309c3d77511524a4d21b9911e6aba37a0a1a73d878c103f03ee4977dddfb47c",
+      "original_raw_trace_sha256": "719c6b463831132b87ec8c9f787dc9c730a8eac31d201fe3fffb036e9a70c288",
+      "role": "Previously inspected development simulation; no independent biological validation"
+    },
+    "104": {
+      "published_trace_sha256": "a2f5f799222a9a18cbb73d5490e740e6ac3607569fb7f09b341e0d0ac50eab7a",
+      "public_run_manifest_sha256": "7a669c220f56bdd56060d7b04cfebbba8bbb2b4f6489610554ada6e95ebd2f76",
+      "original_raw_trace_sha256": "a2f5f799222a9a18cbb73d5490e740e6ac3607569fb7f09b341e0d0ac50eab7a",
+      "role": "Previously inspected development simulation; no independent biological validation"
+    },
+    "105": {
+      "published_trace_sha256": "19027143a409fe1d73aa6487b8ee33a9c992b83f468476a39ce9b6fe73a4f661",
+      "public_run_manifest_sha256": "6ad9da9b9e468f041cb9dc710abb1534b26b44a26a15f21fdb3e1d133547b8e2",
+      "original_raw_trace_sha256": "19027143a409fe1d73aa6487b8ee33a9c992b83f468476a39ce9b6fe73a4f661",
+      "role": "Previously inspected development simulation; no independent biological validation"
+    },
+    "106": {
+      "published_trace_sha256": "9d21ee2a25be0fc39664cfba7f37538f2a41c3ae298e5879a21fc0d4271e52fd",
+      "public_run_manifest_sha256": "c6597c1389754249a9e283f714127195b7750e2fd15e9519663f0028fa2a66aa",
+      "original_raw_trace_sha256": "9d21ee2a25be0fc39664cfba7f37538f2a41c3ae298e5879a21fc0d4271e52fd",
+      "role": "Previously inspected development simulation; no independent biological validation"
+    },
+    "107": {
+      "published_trace_sha256": "55c228fb82d01476d2101f2e8834069a5847c4dd511b815f1a847c291e53c691",
+      "public_run_manifest_sha256": "ed0d436d9efa5b33ab55afb1d1ccf7708de4ff1588457bdade5046d4d4e926c2",
+      "original_raw_trace_sha256": "55c228fb82d01476d2101f2e8834069a5847c4dd511b815f1a847c291e53c691",
+      "role": "Previously inspected development simulation; no independent biological validation"
+    },
+    "108": {
+      "published_trace_sha256": "1b14b6d5a09b52bd7d2aa884f360c2c53ed5914a5d89ca4efb51622b2cd2db95",
+      "public_run_manifest_sha256": "ffd32150186d5c070adcb709d0ae39fa9c728056db1f3641fd29a8527f23a8c5",
+      "original_raw_trace_sha256": "1b14b6d5a09b52bd7d2aa884f360c2c53ed5914a5d89ca4efb51622b2cd2db95",
+      "role": "Previously inspected development simulation; no independent biological validation"
+    },
+    "109": {
+      "published_trace_sha256": "9102e3f1528c47f5788c16fbb5fb88aa1417427005cee940b70c5bd15b85a29a",
+      "public_run_manifest_sha256": "f881b73319ea9ddc88dd6590f147fc041098709e9fe3a04b508a65b8b0a44f0f",
+      "original_raw_trace_sha256": "9102e3f1528c47f5788c16fbb5fb88aa1417427005cee940b70c5bd15b85a29a",
+      "role": "Previously inspected development simulation; no independent biological validation"
+    },
+    "110": {
+      "published_trace_sha256": "a7453de7c534c5633db96ec046656425e338e3131f72eaa9778b0a6500e5e4b7",
+      "public_run_manifest_sha256": "00866657d5a0ab4f36e9e9cd40ebec8529b5f49831e2e522984fbef00a81f7eb",
+      "original_raw_trace_sha256": "a7453de7c534c5633db96ec046656425e338e3131f72eaa9778b0a6500e5e4b7",
+      "role": "Previously inspected development simulation; no independent biological validation"
+    }
+  },
+  "models": {
+    "lowpersist_control": {
+      "path": "models/lowpersist_control.ka",
+      "sha256": "7d2f66fe9e9ae5ab4d1963eed458c8c8dd93e272cb9d1a4ca6f88d3c57a44232"
+    },
+    "lowpersist_fate50": {
+      "path": "models/lowpersist_fate50.ka",
+      "sha256": "b9a0616bfafe0dfba7e964f9ada6612a1de196ecba4edebb29a6b8070fcddae6"
+    },
+    "fate50": {
+      "path": "../HSCFate/models/fate50.ka",
+      "sha256": "e908fda58988cfb01efb43f6e96ad8cb7c34b9ef8bf588ac248199e0ffaf46ba"
+    }
+  },
+  "jobs": [
+    {
+      "id": "fate50-104",
+      "model": "fate50",
+      "seed": 104,
+      "fate_after": 0.5
+    },
+    {
+      "id": "fate50-105",
+      "model": "fate50",
+      "seed": 105,
+      "fate_after": 0.5
+    },
+    {
+      "id": "fate50-106",
+      "model": "fate50",
+      "seed": 106,
+      "fate_after": 0.5
+    },
+    {
+      "id": "fate50-107",
+      "model": "fate50",
+      "seed": 107,
+      "fate_after": 0.5
+    },
+    {
+      "id": "fate50-108",
+      "model": "fate50",
+      "seed": 108,
+      "fate_after": 0.5
+    },
+    {
+      "id": "fate50-109",
+      "model": "fate50",
+      "seed": 109,
+      "fate_after": 0.5
+    },
+    {
+      "id": "fate50-110",
+      "model": "fate50",
+      "seed": 110,
+      "fate_after": 0.5
+    },
+    {
+      "id": "lowpersist_control-101",
+      "model": "lowpersist_control",
+      "seed": 101,
+      "fate_after": 0.05
+    },
+    {
+      "id": "lowpersist_fate50-101",
+      "model": "lowpersist_fate50",
+      "seed": 101,
+      "fate_after": 0.5
+    },
+    {
+      "id": "lowpersist_control-102",
+      "model": "lowpersist_control",
+      "seed": 102,
+      "fate_after": 0.05
+    },
+    {
+      "id": "lowpersist_fate50-102",
+      "model": "lowpersist_fate50",
+      "seed": 102,
+      "fate_after": 0.5
+    }
+  ],
+  "observables": [
+    "COL1 tot",
+    "iHSC",
+    "aSMA-cells"
+  ],
+  "end_day": 90,
+  "period": 0.5,
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 2026102603,
+  "interval_mass": 0.95,
+  "primary": "day90 paired absolute differences, complete seeds101-110 and separately new extension104-110; mean, SD, SE, deterministic percentile bootstrap interval and exact binomial sign-proportion interval",
+  "selection": "101-103 already inspected pilot; all archived controls previously inspected; new104-110 fixed before these new scenario outputs. All inferential intervals exploratory and conditional on fixed parameters, not independently preregistered biological prediction. No efficacy p-value.",
+  "alternative": "inactive-cell half-life 730->30 days only after60 in both control and fate50; two fixed seeds101,102. Chosen stress test, not measured plausible bounds or parameter posterior. Four corner runs cannot establish global robustness.",
+  "acceptance": {
+    "technical": "Exact hashed inputs/runtime/runner; complete0-90 finite nonnegative rows; correct fate and persistence values; pre60 common biological history identical within1e-8. Any failed job prevents pooled complete summary.",
+    "scientific": "Report any sign/assumption disagreement. No positive-effect success threshold, no adaptive additional seeds, no drug efficacy, clinical validation or human transfer claim."
+  },
+  "budget": {
+    "per_run_seconds": 600,
+    "total_new_run_seconds": 6600,
+    "max_new_runs": 11,
+    "workers": 2,
+    "ram_GiB": 4,
+    "max_output_MB": 100,
+    "automatic_retries": 0,
+    "account_ceiling_used_percent": 26.4,
+    "stop_new_work_used_percent": 23
+  },
+  "stop": "No parameter optimization, no retry of incomplete run; reuse completed result only after hash and numerical validation. No communication to laboratories."
+}

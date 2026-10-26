@@ -1,0 +1,54 @@
+{
+  "checked_utc": "2026-10-26T14:51:40.221418+00:00",
+  "status": "author_runtime_identity_unresolved",
+  "ours": {
+    "release": "v4.1.3.1",
+    "source_commit": "bafaeb8873cb4e4afd9b22ae312dc93724cfc2fa",
+    "binary_sha256": "ecff78d14fc6370ef6086b8c5cbcf1d5efd4d79b0a534c2b4d6e6849eef6d2f8",
+    "published_at": "2024-10-16T18:46:34Z",
+    "url": "https://api.github.com/repos/Kappa-Dev/KappaTools/releases/tags/v4.1.3.1",
+    "response_sha256": "fe629bf3474c8aeb8870686881997e60453a3a584ef386eedce03fcbfd075944"
+  },
+  "paper": {
+    "doi": "10.1371/journal.pcbi.1011858",
+    "publication_date": "2024-07-29",
+    "live_xml_sha256": "a8a53cc122c13665dc138716d12cf541818d94ecf15ed91036372ca53d19321d",
+    "reported_kappa": "4.2.12",
+    "reported_OCaml": "4.13.1",
+    "version_text_still_present": true
+  },
+  "tags": {
+    "url": "https://api.github.com/repos/Kappa-Dev/KappaTools/tags?per_page=100",
+    "response_sha256": "09f319ab4561bc59ce6bd32a46c842f4d5e977d0c4cfd305c79264530722328f",
+    "entries": 22,
+    "tag_4_2_12_found": false
+  },
+  "electron_clue": {
+    "url": "https://api.github.com/repos/Kappa-Dev/KappaTools/releases/tags/v4.1.3",
+    "response_sha256": "d71880fb19c3008f79e356f2a102e918b3b3c829e876a2bd9a4665c467581c24",
+    "note": "Release notes mention Electron 4.2.12->9.1.0; clue only, not authors simulator identity"
+  },
+  "prepublication_check": {
+    "source_commit": "334b5ecd5e010285a287a9e91e3bc232d008e151",
+    "date": "2024-04-09T13:35:23Z",
+    "url": "https://raw.githubusercontent.com/Kappa-Dev/KappaTools/334b5ecd5e010285a287a9e91e3bc232d008e151/gui/package.json",
+    "sha256": "c71a50fe50bdb39247983bf7e1689c32aeded2a22bc9087f27f4db18f04e84b0",
+    "app_version": "4.0.90",
+    "electron_dependency": "^29.0.1",
+    "interpretation": "Cannot identify authors runtime; no guessed replacement"
+  },
+  "access_failures": [
+    {
+      "url": "https://api.github.com/repos/Kappa-Dev/KappaTools/releases/tags/v4.1.2",
+      "result": "404; source tag exists, no release asset at queried endpoint"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Kappa-Dev/KappaTools/bafaeb8873cb4e4afd9b22ae312dc93724cfc2fa/gui/package.json",
+      "result": "404 at queried path"
+    }
+  ],
+  "local_OCaml_build_tools_present": false,
+  "new_runtime_or_compiler_installed": false,
+  "required_to_close": "Author simulator binary hash or source commit plus compiler/package lock and seeds",
+  "allowed_claim": "Own pinned runtime/model reproducibility; no bit-identical original-author reproduction"
+}

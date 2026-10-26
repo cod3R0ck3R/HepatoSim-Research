@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "hsr-hsc-robust-001-20261026-v1",
+      "kind": "analysis",
+      "payload": {
+        "spec_sha256": "d78f8f8bd71b82dc78e22da559e74078d79f420c34018c90a9cc846941c61a46",
+        "all_new_jobs_complete": true,
+        "new_run_count": 11,
+        "new_run_wall_seconds": 4153.706373251003,
+        "differences": [
+          {
+            "seed": 101,
+            "observable": "COL1 tot",
+            "control": 3.25101722887,
+            "scenario": 3.28293467887,
+            "difference": 0.0319174499999999
+          },
+          {
+            "seed": 101,
+            "observable": "iHSC",
+            "control": 3201.0,
+            "scenario": 17839.0,
+            "difference": 14638.0
+          },
+          {
+            "seed": 101,
+            "observable": "aSMA-cells",
+            "control": 3135.0,
+            "scenario": 3109.0,
+            "difference": -26.0
+          },
+          {
+            "seed": 102,
+            "observable": "COL1 tot",
+            "control": 3.16102467177,
+            "scenario": 3.13494681462,
+            "difference": -0.026077857149999772
+          },
+          {
+            "seed": 102,
+            "observable": "iHSC",
+            "control": 3167.0,
+            "scenario": 16966.0,
+            "difference": 13799.0
+          },
+          {
+            "seed": 102,
+            "observable": "aSMA-cells",
+            "control": 3000.0,
+            "scenario": 2975.0,
+            "difference": -25.0
+          },
+          {
+            "seed": 103,
+            "observable": "COL1 tot",
+            "control": 3.16987856464,
+            "scenario": 3.05114485036,
+            "difference": -0.11873371427999979
+          },
+          {
+            "seed": 103,
+            "observable": "iHSC",
+            "control": 3109.0,
+            "scenario": 16723.0,
+            "difference": 13614.0
+          },
+          {
+            "seed": 103,
+            "observable": "aSMA-cells",
+            "control": 2993.0,
+            "scenario": 2729.0,
+            "difference": -264.0
+          },
+          {
+            "seed": 104,
+            "observable": "COL1 tot",
+            "control": 3.27053494322,
+            "scenario": 3.20296037179,
+            "difference": -0.06757457142999979
+          },
+          {
+            "seed": 104,
+            "observable": "iHSC",
+            "control": 3104.0,
+            "scenario": 17114.0,
+            "difference": 14010.0
+          },
+          {
+            "seed": 104,
+            "observable": "aSMA-cells",
+            "control": 3101.0,
+            "scenario": 3009.0,
+            "difference": -92.0
+          },
+          {
+            "seed": 105,
+            "observable": "COL1 tot",
+            "control": 2.99061805028,
+            "scenario": 3.04017150742,
+            "difference": 0.049553457140000035
+          },
+          {
+            "seed": 105,
+            "observable": "iHSC",
+            "control": 3223.0,
+            "scenario": 16941.0,
+            "difference": 13718.0
+          },
+          {
+            "seed": 105,
+            "observable": "aSMA-cells",
+            "control": 2616.0,
+            "scenario": 2766.0,
+            "difference": 150.0
+          },
+          {
+            "seed": 106,
+            "observable": "COL1 tot",
+            "control": 3.32277311451,
+            "scenario": 3.26788637165,
+            "difference": -0.05488674285999995
+          },
+          {
+            "seed": 106,
+            "observable": "iHSC",
+            "control": 3243.0,
+            "scenario": 17736.0,
+            "difference": 14493.0
+          },
+          {
+            "seed": 106,
+            "observable": "aSMA-cells",
+            "control": 3218.0,
+            "scenario": 3084.0,
+            "difference": -134.0
+          },
+          {
+            "seed": 107,
+            "observable": "COL1 tot",
+            "control": 3.14689525037,
+            "scenario": 3.11176493609,
+            "difference": -0.03513031427999991
+          },
+          {
+            "seed": 107,
+            "observable": "iHSC",
+            "control": 3223.0,
+            "scenario": 16621.0,
+            "difference": 13398.0
+          },
+          {
+            "seed": 107,
+            "observable": "aSMA-cells",
+            "control": 2928.0,
+            "scenario": 2897.0,
+            "difference": -31.0
+          },
+          {
+            "seed": 108,
+            "observable": "COL1 tot",
+            "control": 3.19986380035,
+            "scenario": 3.16316726463,
+            "difference": -0.03669653571999998
+          },
+          {
+            "seed": 108,
+            "observable": "iHSC",
+            "control": 3092.0,
+            "scenario": 16694.0,
+            "difference": 13602.0
+          },
+          {
+            "seed": 108,
+            "observable": "aSMA-cells",
+            "control": 2947.0,
+            "scenario": 2895.0,
+            "difference": -52.0
+          },
+          {
+            "seed": 109,
+            "observable": "COL1 tot",
+            "control": 3.06006819306,
+            "scenario": 3.07347502878,
+            "difference": 0.013406835719999677
+          },
+          {
+            "seed": 109,
+            "observable": "iHSC",
+            "control": 3114.0,
+            "scenario": 16888.0,
+            "difference": 13774.0
+          },
+          {
+            "seed": 109,
+            "observable": "aSMA-cells",
+            "control": 2760.0,
+            "scenario": 2830.0,
+            "difference": 70.0
+          },
+          {
+            "seed": 110,
+            "observable": "COL1 tot",
+            "control": 3.26953200714,
+            "scenario": 3.2970984,
+            "difference": 0.027566392859999844
+          },
+          {
+            "seed": 110,
+            "observable": "iHSC",
+            "control": 3143.0,
+            "scenario": 18286.0,
+            "difference": 15143.0
+          },
+          {
+            "seed": 110,
+            "observable": "aSMA-cells",
+            "control": 3140.0,
+            "scenario": 3156.0,
+            "difference": 16.0
+          }
+        ],
+        "summary": {
+          "all10": {
+            "COL1 tot": {
+              "n_seeds": 10,
+              "mean": -0.021665559999999973,
+              "sd": 0.052342201571831705,
+              "mc_standard_error": 0.016552057471463363,
+              "mean_bootstrap_percentile_95": [
+                -0.05333927503669988,
+                0.008782751126874893
+              ],
+              "minimum": -0.11873371427999979,
+              "maximum": 0.049553457140000035,
+              "positive": 4,
+              "zero": 0,
+              "positive_probability_CP95": [
+                0.12155225811982712,
+                0.737621923393055
+              ],
+              "scope": "Finite pseudorandom-seed Monte Carlo uncertainty, fixed parameters; exploratory, not measurement or parameter uncertainty"
+            },
+            "iHSC": {
+              "n_seeds": 10,
+              "mean": 14018.9,
+              "sd": 557.1629424543995,
+              "mc_standard_error": 176.19039259972277,
+              "mean_bootstrap_percentile_95": [
+                13717.595000000001,
+                14362.605
+              ],
+              "minimum": 13398.0,
+              "maximum": 15143.0,
+              "positive": 10,
+              "zero": 0,
+              "positive_probability_CP95": [
+                0.6915028921812392,
+                1.0
+              ],
+              "scope": "Finite pseudorandom-seed Monte Carlo uncertainty, fixed parameters; exploratory, not measurement or parameter uncertainty"
+            },
+            "aSMA-cells": {
+              "n_seeds": 10,
+              "mean": -38.8,
+              "sd": 112.38999560063658,
+              "mc_standard_error": 35.540837231431546,
+              "mean_bootstrap_percentile_95": [
+                -106.9025,
+                25.2
+              ],
+              "minimum": -264.0,
+              "maximum": 150.0,
+              "positive": 3,
+              "zero": 0,
+              "positive_probability_CP95": [
+                0.06673951117773441,
+                0.6524528500599973
+              ],
+              "scope": "Finite pseudorandom-seed Monte Carlo uncertainty, fixed parameters; exploratory, not measurement or parameter uncertainty"
+            }
+          },
+          "new_extension7": {
+            "COL1 tot": {
+              "n_seeds": 7,
+              "mean": -0.014823068367142866,
+              "sd": 0.044752621606878124,
+              "mc_standard_error": 0.016914901041425043,
+              "mean_bootstrap_percentile_95": [
+                -0.04413421632857136,
+                0.016572501477642856
+              ],
+              "minimum": -0.06757457142999979,
+              "maximum": 0.049553457140000035,
+              "positive": 3,
+              "zero": 0,
+              "positive_probability_CP95": [
+                0.09898827844250785,
+                0.8159484323599169
+              ],
+              "scope": "Finite pseudorandom-seed Monte Carlo uncertainty, fixed parameters; exploratory, not measurement or parameter uncertainty"
+            },
+            "iHSC": {
+              "n_seeds": 7,
+              "mean": 14019.714285714286,
+              "sd": 605.2940647007078,
+              "mc_standard_error": 228.77965218021612,
+              "mean_bootstrap_percentile_95": [
+                13653.803571428572,
+                14472.57142857143
+              ],
+              "minimum": 13398.0,
+              "maximum": 15143.0,
+              "positive": 7,
+              "zero": 0,
+              "positive_probability_CP95": [
+                0.5903836027749965,
+                1.0
+              ],
+              "scope": "Finite pseudorandom-seed Monte Carlo uncertainty, fixed parameters; exploratory, not measurement or parameter uncertainty"
+            },
+            "aSMA-cells": {
+              "n_seeds": 7,
+              "mean": -10.428571428571429,
+              "sd": 97.45059798492284,
+              "mc_standard_error": 36.83286391180542,
+              "mean_bootstrap_percentile_95": [
+                -74.14285714285714,
+                59.285714285714285
+              ],
+              "minimum": -134.0,
+              "maximum": 150.0,
+              "positive": 3,
+              "zero": 0,
+              "positive_probability_CP95": [
+                0.09898827844250785,
+                0.8159484323599169
+              ],
+              "scope": "Finite pseudorandom-seed Monte Carlo uncertainty, fixed parameters; exploratory, not measurement or parameter uncertainty"
+            }
+          }
+        },
+        "alternative_assumption": [
+          {
+            "seed": 101,
+            "observable": "COL1 tot",
+            "control": 3.11844384316,
+            "scenario": 3.17233525744,
+            "difference": 0.05389141427999977,
+            "original_difference": 0.0319174499999999,
+            "sign_agrees": true
+          },
+          {
+            "seed": 101,
+            "observable": "iHSC",
+            "control": 2064.0,
+            "scenario": 12087.0,
+            "difference": 10023.0,
+            "original_difference": 14638.0,
+            "sign_agrees": true
+          },
+          {
+            "seed": 101,
+            "observable": "aSMA-cells",
+            "control": 2890.0,
+            "scenario": 2978.0,
+            "difference": 88.0,
+            "original_difference": -26.0,
+            "sign_agrees": false
+          },
+          {
+            "seed": 102,
+            "observable": "COL1 tot",
+            "control": 3.0106657932,
+            "scenario": 3.1053702432,
+            "difference": 0.09470445000000005,
+            "original_difference": -0.026077857149999772,
+            "sign_agrees": false
+          },
+          {
+            "seed": 102,
+            "observable": "iHSC",
+            "control": 2091.0,
+            "scenario": 11695.0,
+            "difference": 9604.0,
+            "original_difference": 13799.0,
+            "sign_agrees": true
+          },
+          {
+            "seed": 102,
+            "observable": "aSMA-cells",
+            "control": 2654.0,
+            "scenario": 2827.0,
+            "difference": 173.0,
+            "original_difference": -25.0,
+            "sign_agrees": false
+          }
+        ],
+        "parameter_posterior": "Not identifiable from available observations; not estimated",
+        "biological_validation": false,
+        "drug_parameter_mapping": false,
+        "laboratory_forwarding": "withheld pending evidence gaps; user instruction"
+      },
+      "provenance": {
+        "spec_sha256": "d78f8f8bd71b82dc78e22da559e74078d79f420c34018c90a9cc846941c61a46",
+        "analysis_sha256": "894df6ec90f92ddcd5c35167c263da06dbba3802feb5b7ce5e10b605499e0da9",
+        "report": "Docs/30-HSCPreLabVerification.md",
+        "verification": "Research/HSCRobustness/verification.json"
+      },
+      "validation_scope": "Fixed-parameter stochastic numerical follow-up and chosen persistence stress assumption; no independent biological validation, drug mapping or laboratory forwarding"
+    }
+  ]
+}

@@ -153,3 +153,12 @@ python3 identifiability.py
 python3 run.py --analyze
 python3 verify.py
 ```
+
+## HSC follow-up checks (26 October 2026)
+
+Eleven additional local runs extend the fate contrast to ten paired seeds and test one persistence assumption. The collagen mean interval crosses zero; the inactive-cell pool increases in all ten pairs. Nine tests, exact raw/public analysis replay and verified resume pass. Two output-event validation failures are preserved and explicitly corrected. Author-runtime identity and biological/drug mapping remain unresolved; laboratory forwarding is withheld. [Report](Docs/30-HSCPreLabVerification.md).
+
+```sh
+cd Research/HSCRobustness
+python3 -B verify.py
+```

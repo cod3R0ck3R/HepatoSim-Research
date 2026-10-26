@@ -1,0 +1,23 @@
+{
+  "tests_passed": 9,
+  "completed_new_KaSim_runs": 11,
+  "new_run_wall_seconds": 4153.706373251003,
+  "paired_seeds": 10,
+  "alternative_assumption_pairs": 2,
+  "complete_half_day_grid": true,
+  "old_control_and_pilot_history_exact": true,
+  "endpoint_arithmetic_exact": true,
+  "separate_process_analysis_byte_identical": true,
+  "source_integrity_passed": true,
+  "raw_and_public_analysis_byte_identical": true,
+  "failed_manifests_preserved": [
+    "lowpersist_fate50-101",
+    "lowpersist_fate50-102"
+  ],
+  "runner_sha256": "992f0ed87c5f27642b5bb3ad0de24b33f736b16e7c2392578034d27d3b784341",
+  "executed_runner_sha256": "ab5659a49d23054a541fc594d7f06857eed03cc41c19bb4577a182fe14fa120b",
+  "verifier_sha256": "6b73e21a3cd7993657408434395409db13e1cb600506b2790d125daca4aef26f",
+  "analysis_sha256": "894df6ec90f92ddcd5c35167c263da06dbba3802feb5b7ce5e10b605499e0da9",
+  "biological_validation": false,
+  "laboratory_forwarding": false
+}
