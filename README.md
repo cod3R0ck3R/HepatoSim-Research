@@ -135,3 +135,7 @@ GEO Description labels agree with the author workbook for all18 donors; the earl
 ## ETS1 source audit —26 October2026
 
 [The Figure2 source audit](Docs/27-ETS1SourceAudit.md) finds that3/4 Sirius-red groups cannot reproduce the supplied normalization. Eleven software tests passed; separate-process replay is identical. This blocks quantitative treatment interpretation pending source clarification. [Reproduction](Research/ETS1Regression/README.md). No private handoff records or logs are published.
+
+## ETS1 scaling control — 26 October 2026
+
+[The follow-up](Docs/28-ETS1ScalingFollowup.md) excludes another common divisor per group as an explanation for three of four inconsistent source groups within the frozen rounding bounds. Four new tests and byte-identical replay passed. Source mapping remains unresolved; no treatment-effect calibration.

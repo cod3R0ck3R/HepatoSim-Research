@@ -47,7 +47,7 @@
     "clinical_use": "not_validated",
     "expression": "Exploratory E-MEXP-3177 reanalysis; no independent biological validation"
   },
-  "next_executable_step": "Resolve source-data mapping and experimental units through primary-source research; no automatic calculation or budget renewal.",
+  "next_executable_step": "Obtain source analysis export and animal/field/denominator mapping. No automatic continuation.",
   "data_collection": {
     "report": "Docs/17-DataCollectionStatus.md",
     "new_simulations": 0,
@@ -56,7 +56,7 @@
     "new_compute_authorized": false,
     "automatic_resume": false
   },
-  "updated_utc": "2026-10-26T11:48:54.499401+00:00",
+  "updated_utc": "2026-10-26T12:12:22.135556+00:00",
   "bounded_research_20261024": {
     "specification": "Research/Expression/specification-v1.json",
     "account_budget": {
@@ -133,7 +133,7 @@
     "local_worker": "queued resource-blocked, cancelled before execution; no fallback",
     "independent_validation": false
   },
-  "next_step": "AuditETS1experimental units and overlap; freeze reference test before extracting graph values.",
+  "next_step": "Obtain source analysis export and animal/field/denominator mapping. No automatic continuation.",
   "geo_sample_check": {
     "status": "completed_exploratory_analysis",
     "specification": "Research/GEOSampleCheck/specification-v1.json",
@@ -260,5 +260,16 @@
     "inference_performed": false,
     "local_ai_executed": false,
     "next_step": "Resolve source-data mapping and experimental units through primary-source research; no automatic calculation or budget renewal."
+  },
+  "ets1_provenance_followup": {
+    "status": "source_consistency_followup_complete",
+    "report": "Docs/28-ETS1ScalingFollowup.md",
+    "result": "Research/ETS1Regression/scaling-result-v1.json",
+    "groups_compatible": 1,
+    "groups_checked": 4,
+    "new_tests_passed": 4,
+    "separate_process_byte_identical_replay": true,
+    "calibration_performed": false,
+    "next_step": "Obtain source analysis export and animal/field/denominator mapping. No automatic continuation."
   }
 }

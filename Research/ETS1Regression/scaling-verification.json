@@ -1,0 +1,21 @@
+{
+  "tests_passed": 4,
+  "separate_process_byte_identical_replay": true,
+  "result_sha256": "681e41630a65bfdc441e0586b4b94f3d9507d0a5cc26218a59d055ee2460615d",
+  "database": {
+    "first": {
+      "inserted": 1,
+      "already_present": 0,
+      "simulation_runs_preserved": 2,
+      "user_version": 1,
+      "quick_check": "ok"
+    },
+    "idempotent_replay": {
+      "inserted": 0,
+      "already_present": 1,
+      "simulation_runs_preserved": 2,
+      "user_version": 1,
+      "quick_check": "ok"
+    }
+  }
+}

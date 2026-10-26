@@ -132,8 +132,8 @@
     },
     {
       "path": "DECISIONS.md",
-      "original_sha256": "e29e8bdf24aa83d8b73a4e2d4da1323ccaac8b69837597ecfcaa374d6d882959",
-      "published_sha256": "e29e8bdf24aa83d8b73a4e2d4da1323ccaac8b69837597ecfcaa374d6d882959",
+      "original_sha256": "6370a49686598b9589a2523431878cea2e2189db7eb26c7c23b01492484a1406",
+      "published_sha256": "6370a49686598b9589a2523431878cea2e2189db7eb26c7c23b01492484a1406",
       "metadata_redacted": false
     },
     {
@@ -294,8 +294,14 @@
     },
     {
       "path": "Docs/27-ETS1SourceAudit.md",
-      "original_sha256": "f3c2614852f6fd8f937b4bf93e8e8b4f6c0390f04a116df005d5d97e69a2ec9b",
-      "published_sha256": "f3c2614852f6fd8f937b4bf93e8e8b4f6c0390f04a116df005d5d97e69a2ec9b",
+      "original_sha256": "1c6840e9bbc055b00752b2b6c36d8ce63f1a5ddf37a7bbe64121e04e43c89794",
+      "published_sha256": "1c6840e9bbc055b00752b2b6c36d8ce63f1a5ddf37a7bbe64121e04e43c89794",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/28-ETS1ScalingFollowup.md",
+      "original_sha256": "bce81b521164d0444a7174f48655b0d079fc8b7433bf21685d54c1610117b851",
+      "published_sha256": "bce81b521164d0444a7174f48655b0d079fc8b7433bf21685d54c1610117b851",
       "metadata_redacted": false
     },
     {
@@ -354,26 +360,26 @@
     },
     {
       "path": "README.de.md",
-      "original_sha256": "dd45bf3cf8bb6cf4c6658107ecaa61e2e2ba25c96694665871bf4174052b49fa",
-      "published_sha256": "dd45bf3cf8bb6cf4c6658107ecaa61e2e2ba25c96694665871bf4174052b49fa",
+      "original_sha256": "d24658b730432529f234f9b561b8455502f861684d9306f497d0dbd052f3135b",
+      "published_sha256": "d24658b730432529f234f9b561b8455502f861684d9306f497d0dbd052f3135b",
       "metadata_redacted": false
     },
     {
       "path": "README.md",
-      "original_sha256": "8620850cf7dcf09339b628d395396e40a5add354b35d775a5192dfad1dc82064",
-      "published_sha256": "8620850cf7dcf09339b628d395396e40a5add354b35d775a5192dfad1dc82064",
+      "original_sha256": "32e1032040a9dd843a585f171b4236cec2246a73daac128308181d0450b3ce33",
+      "published_sha256": "32e1032040a9dd843a585f171b4236cec2246a73daac128308181d0450b3ce33",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_PLAN.md",
-      "original_sha256": "bb30315d43020e93fcf381a0c86f3f50084484953729dc38ff443f32173566b5",
-      "published_sha256": "bb30315d43020e93fcf381a0c86f3f50084484953729dc38ff443f32173566b5",
+      "original_sha256": "107f2ba793f7a7cd617703d886685efd4ab4fbbbdfa650dd65bfef3f8840852f",
+      "published_sha256": "107f2ba793f7a7cd617703d886685efd4ab4fbbbdfa650dd65bfef3f8840852f",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_STATE.json",
-      "original_sha256": "77ab0b9373bbdf9ad60ed007366853527859fedbe8527002914182a1dc99f0c8",
-      "published_sha256": "c378af72e837e0f26ac2173d081816e7d689da34c6299532f8d39f92c265f55e",
+      "original_sha256": "9aa6558b910bc1cd44edf955db127c38beec1fb6b63593376e719f5414216c68",
+      "published_sha256": "f903038617e0de6135b42193c296c811dba41724828d64aeb9cf9c8fcd268268",
       "metadata_redacted": true
     },
     {
@@ -654,14 +660,20 @@
     },
     {
       "path": "Research/ETS1Regression/README.md",
-      "original_sha256": "af273b7f38a7678ff7931d7fcb1f088b818c07642b6db14475fe222a2260b75d",
-      "published_sha256": "af273b7f38a7678ff7931d7fcb1f088b818c07642b6db14475fe222a2260b75d",
+      "original_sha256": "98ad843171a5c8302275a912e8cf667dfd68bbc1e97db1ec8e3466f4de54af22",
+      "published_sha256": "98ad843171a5c8302275a912e8cf667dfd68bbc1e97db1ec8e3466f4de54af22",
       "metadata_redacted": false
     },
     {
       "path": "Research/ETS1Regression/analyze.py",
       "original_sha256": "2e6455d884a58bb500bfaf5a6a756126958a4de24e480e569e263025453a8b7f",
       "published_sha256": "2e6455d884a58bb500bfaf5a6a756126958a4de24e480e569e263025453a8b7f",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/ETS1Regression/check_scaling.py",
+      "original_sha256": "b4feaaba3b4fe6cc2f7c8a47ad6582f18f1b01278c7be45437792a1cf76ab153",
+      "published_sha256": "b4feaaba3b4fe6cc2f7c8a47ad6582f18f1b01278c7be45437792a1cf76ab153",
       "metadata_redacted": false
     },
     {
@@ -683,6 +695,24 @@
       "metadata_redacted": false
     },
     {
+      "path": "Research/ETS1Regression/scaling-result-v1.json",
+      "original_sha256": "681e41630a65bfdc441e0586b4b94f3d9507d0a5cc26218a59d055ee2460615d",
+      "published_sha256": "681e41630a65bfdc441e0586b4b94f3d9507d0a5cc26218a59d055ee2460615d",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/ETS1Regression/scaling-spec-v1.json",
+      "original_sha256": "ee061b7e1ada4890b522fca0bfed137dec2690ff3db52537a28bdea56e60a759",
+      "published_sha256": "ee061b7e1ada4890b522fca0bfed137dec2690ff3db52537a28bdea56e60a759",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/ETS1Regression/scaling-verification.json",
+      "original_sha256": "86c89dcdc9e4cfa13b3a42d14c59ceb09a1b546ed689ac38803335a8b09850b2",
+      "published_sha256": "86c89dcdc9e4cfa13b3a42d14c59ceb09a1b546ed689ac38803335a8b09850b2",
+      "metadata_redacted": false
+    },
+    {
       "path": "Research/ETS1Regression/spec-v1.json",
       "original_sha256": "1fdc6b256d2db0e5d788495d4347bf30cf3d537b58dcba31cc11a1ee16a115f5",
       "published_sha256": "1fdc6b256d2db0e5d788495d4347bf30cf3d537b58dcba31cc11a1ee16a115f5",
@@ -692,6 +722,12 @@
       "path": "Research/ETS1Regression/test_analyze.py",
       "original_sha256": "969f3d9c0312a2bd1319ad374722379125fb4eaaba483b4bddcb01e3f11a681a",
       "published_sha256": "969f3d9c0312a2bd1319ad374722379125fb4eaaba483b4bddcb01e3f11a681a",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/ETS1Regression/test_scaling.py",
+      "original_sha256": "d912a8cc72e5394bc5c9748c83355c93c84e6c4a342b8f4319df5acf88e3ddc6",
+      "published_sha256": "d912a8cc72e5394bc5c9748c83355c93c84e6c4a342b8f4319df5acf88e3ddc6",
       "metadata_redacted": false
     },
     {
@@ -2436,6 +2472,7 @@
   "geo_sample_note": "Nine-matrix local scan; publication QC group totals reproduced; exploratory eight-gene sample contrasts, exact resume/replay. No independent validation or drug effect. Source matrices, upstream code and private logs excluded.",
   "sema_independent_note": "External human NAFLD association: SEMA4D positive, PLXNB2 not increased; frozen joint rule failed. No raw clinical metadata, contact files or private worker logs.",
   "gse210077_note": "Six donor/36 cell-type strata; primary and post hoc negative joint direction finding. Raw matrices, individual-nucleus labels, source contacts, private logs and databases excluded. Reference confounding and age conflicts retained.",
-  "updated_utc": "2026-10-24T17:21:59.262951+00:00",
-  "ets1_source_audit_note": "Original audit code and derived summaries only. Source workbook, graph-point tables, private quota data, coordination handoffs and local logs excluded. Scientific thresholds unchanged; public protocol replay has identical numerical values."
+  "updated_utc": "2026-10-26T12:12:22.135556+00:00",
+  "ets1_source_audit_note": "Original audit code and derived summaries only. Source workbook, graph-point tables, private quota data, coordination handoffs and local logs excluded. Scientific thresholds unchanged; public protocol replay has identical numerical values.",
+  "ets1_scaling_note": "Original scaling-control code and derived summaries only; source workbook, private handoff files, quota details, correspondence and logs excluded."
 }

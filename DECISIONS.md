@@ -125,3 +125,7 @@ Correct the missed GEO Description field explicitly, retaining historical outcom
 ## 26October2026: ETS1 normalization gate and research handoff
 
 Figure2B/C source-data arithmetic failed for3/4 groups under the published genotype baseline interpretation. Keep both versions unchanged; do not fit or select endpoints to restore a favorable effect. Six analysis and five privacy-export tests passed. Separate research chat owns responses only; development owns requests and integration. Handoff files stay private. No budget renewal or automation restart.
+
+## 26 October 2026: retain ETS1 provenance gate
+
+A per-group alternative constant divisor fails to explain three source groups even with declared rounding. Keep original observations, endpoints and prior result unchanged; do not fit treatment effects. The follow-up is exploratory and does not exclude batch-specific processing or different input observations. Research handoff remains private; original sources must be checked before integration.

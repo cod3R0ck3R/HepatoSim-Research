@@ -1,0 +1,16 @@
+{
+  "id": "ETS1-GROUP-SCALING-v1",
+  "date": "2026-10-26",
+  "question": "Could one different positive divisor per group and ordinary rounding explain the Figure2B/C inconsistency?",
+  "prior_visibility": "Exploratory follow-up; previous genotype-mean normalization failure known before this protocol. Frozen before this new calculation.",
+  "source_sha256": "61bc6eef7b1f1a1e757e73097020673b288c1e0374bc99617fc5f794180ce546",
+  "groups": "Same first four Sirius-red columns of Fig. 2B/C. No new endpoint or observation selection.",
+  "B_rounding_percent_points": 0.005,
+  "C_rounding_dimensionless": 0.000005,
+  "bounds_reason": "Sensitivity assumption: B rounded to nearest 0.01 percentage point; C allowance 5e-6 reused from v1. Neither bound estimates measurement uncertainty.",
+  "method": "For sorted positive pairs b,c, intersect [(b-rB)/(c+rC),(b+rB)/(c-rC)] over the group. Exact rational arithmetic on decimal representations. Positive scaling preserves order; no animal pairing inferred.",
+  "acceptance": "Nonempty divisor interval for all points of a group; report each group separately. This allows a distinct divisor for every group, a relaxation of the original genotype-shared denominator. No chosen divisor or parameter fit.",
+  "interpretation_limit": "Failure rules out only these same graph values transformed by one positive constant per group within the stated rounding bounds. It does not rule out batch-specific processing, nonlinear transformations, different observations or undocumented field aggregation. Compatibility does not prove published animal mapping.",
+  "stop": "No inference, model calibration or treatment estimate from unresolved source data. No post-result tolerance changes.",
+  "runtime_budget": {"workers": 1, "memory_gib": 1, "wall_seconds": 60, "runs": 1, "replay": 1}
+}

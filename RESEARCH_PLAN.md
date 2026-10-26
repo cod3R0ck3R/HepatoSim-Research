@@ -86,3 +86,7 @@ Closed: GEO Description omission; matched18donors; exclusion control and exact r
 ## ETS1 follow-up —26October2026
 
 Completed: original-source normalization audit, local calculation, tests, independent parser cross-check and replay. Next: resolve Figure2B/C mapping, denominator, animal IDs/aggregation and n6/n7 discrepancy through the research handoff. Acceptance requires source-backed resolution; otherwise retain this data gap. No further calibration until the inputs are coherent.
+
+## ETS1 scaling control — 26 October 2026
+
+Completed: frozen alternative-divisor feasibility test, four software tests, separate-process replay and idempotent evidence import. Three groups remain incompatible with one constant divisor per group within declared rounding. Next: obtain author analysis export and animal/field/denominator mapping before quantitative use. No automatic further run or budget renewal.

@@ -65,3 +65,9 @@ Zuerst sind Tabellenzuordnung, Nenner, Ausschlüsse/Mittelungen und Stichprobeng
 - [Lee et al., original article](https://insight.jci.org/articles/view/195242): Figure2B/C legend, results, Methods: Sex as a biological variable, IHC, Statistics, Data availability; checked26October2026.
 - [Publisher Supporting Data Values](https://insight.jci.org/articles/view/195242/sd/3). Workbook SHA256: `61bc6eef7b1f1a1e757e73097020673b288c1e0374bc99617fc5f794180ce546`.
 - Article licensed CC BY4.0. Workbook, original images, correspondence and local logs are not redistributed here. Public artifacts contain original code and derived audit summaries with attribution.
+
+## Clarification / Präzisierung — 26 October 2026
+
+The article supplies a baseline rule without an explicit individual-point algorithm. The result above is conditional on our declared interpretation. The [follow-up](28-ETS1ScalingFollowup.md) broadens the test to any positive constant divisor per group within declared rounding; it does not assess every possible processing pipeline.
+
+Der Artikel liefert keine ausdrückliche Einzelpunktformel. Der obige Befund gilt für unsere deklarierte Interpretation. Die Folgeprüfung umfasst beliebige positive Gruppennenner mit festgelegter Rundung, nicht sämtliche möglichen Verarbeitungsschritte.

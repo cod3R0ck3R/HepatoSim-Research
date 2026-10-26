@@ -17,3 +17,14 @@ python3.15 Research/ETS1Regression/analyze.py --workbook "$ets1_tmp/source.xlsx"
 The input hashes are checked before extraction. The output file must not already exist. Tests use explicitly artificial fixtures, not synthetic replacements for biological evidence. `result-v1.json` contains observed derived results; `verification.json` records actual tests, separate-process replay and database integrity checks. `publication-redaction.json` explains removal of private quota metadata and proves unchanged numerical outputs. The frozen scientific criteria are retained.
 
 Deutsch: Rechnet ausschließlich die angegebene Normalisierung nach. Originaldatei wird außerhalb des Repositorys gespeichert und anhand ihres Hashs geprüft. Testdaten sind künstliche Softwareprüffälle. Die Rechnung liefert keine Wirksamkeits- oder Heilungsaussage. Die publizierten Zahlen stimmen nach Entfernung privater Budgetmetadaten mit dem ursprünglichen Lauf überein. Die lokale KI wurde vor Ausführung wegen Ressourcenbelegung abgebrochen; siehe `local-worker.json`.
+
+## Alternative-divisor control / Kontrolle anderer Nenner
+
+See [bilingual follow-up](../../Docs/28-ETS1ScalingFollowup.md). Reuse the original source.xlsx retrieved outside the checkout above. The new frozen specification allows independent constant divisors per group and explicit rounding. Four additional tests and exact replay were executed. No source data are repaired.
+
+```sh
+python3.15 -m unittest discover -s Research/ETS1Regression -p test_scaling.py -v
+python3.15 Research/ETS1Regression/check_scaling.py --workbook "$ets1_tmp/source.xlsx" --spec Research/ETS1Regression/scaling-spec-v1.json --output "$ets1_tmp/scaling-result.json"
+```
+
+Deutsch: Nutzt dieselbe zuvor extern gespeicherte Originaldatei. Prüft einen alternativen konstanten Nenner je Gruppe mit festgelegter Rundung, ohne Quelldatenänderung. Details, Grenzen und tatsächlich ausgeführte Prüfungen stehen im verlinkten Bericht.

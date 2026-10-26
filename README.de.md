@@ -135,3 +135,7 @@ GEO-Description und Autoren-Tabelle stimmen für alle18 Spender überein; das Fe
 ## ETS1-Quellenprüfung —26.Oktober2026
 
 [Die Prüfung der Abbildung2](Docs/27-ETS1SourceAudit.md) kann die gelieferte Normalisierung für3/4 Siriusrot-Gruppen nicht reproduzieren. Elf Softwaretests bestanden; Wiederholung in einem separaten Prozess bytegleich. Eine quantitative Behandlungsinterpretation bleibt bis zur Quellenklärung zurückgestellt. [Reproduktion](Research/ETS1Regression/README.md). Private Übergaben und Logs bleiben unveröffentlicht.
+
+## ETS1-Normierungskontrolle — 26. Oktober 2026
+
+[Die Folgeprüfung](Docs/28-ETS1ScalingFollowup.md) schließt einen anderen gemeinsamen Nenner je Gruppe innerhalb der festgelegten Rundungsgrenzen als Erklärung für drei der vier widersprüchlichen Quellgruppen aus. Vier neue Tests und bytegleiche Wiederholung bestanden. Quellenzuordnung bleibt offen; keine Behandlungskalibrierung.
