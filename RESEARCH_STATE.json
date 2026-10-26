@@ -47,7 +47,7 @@
     "clinical_use": "not_validated",
     "expression": "Exploratory E-MEXP-3177 reanalysis; no independent biological validation"
   },
-  "next_executable_step": "Larger donor cohort with harmonized raw processing; no automatic further calculations",
+  "next_executable_step": "Resolve source-data mapping and experimental units through primary-source research; no automatic calculation or budget renewal.",
   "data_collection": {
     "report": "Docs/17-DataCollectionStatus.md",
     "new_simulations": 0,
@@ -56,7 +56,7 @@
     "new_compute_authorized": false,
     "automatic_resume": false
   },
-  "updated_utc": "2026-10-26T10:59:54.662686+00:00",
+  "updated_utc": "2026-10-26T11:48:54.499401+00:00",
   "bounded_research_20261024": {
     "specification": "Research/Expression/specification-v1.json",
     "account_budget": {
@@ -245,6 +245,20 @@
     "ets1_values_analyzed": false,
     "next_step": "AuditETS1experimental units and overlap; freeze reference test before extracting graph values.",
     "database_records_added": 3,
-    "publication_status": "prepared_for_review"
+    "publication_status": "published_and_verified",
+    "commit": "1b39577731e0a81886f7f48750855f483d8c26ef"
+  },
+  "ets1_regression": {
+    "status": "source_audit_completed",
+    "report": "Docs/27-ETS1SourceAudit.md",
+    "result": "Research/ETS1Regression/result-v1.json",
+    "normalization_groups_reproduced": 1,
+    "groups_checked": 4,
+    "n_graph_points_per_group": 7,
+    "tests_passed": 11,
+    "publication_reproduction": "Failed3of4 normalization groups under declared genotype-baseline calculation; unresolved source mapping.",
+    "inference_performed": false,
+    "local_ai_executed": false,
+    "next_step": "Resolve source-data mapping and experimental units through primary-source research; no automatic calculation or budget renewal."
   }
 }

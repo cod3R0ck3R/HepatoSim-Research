@@ -131,3 +131,7 @@ GSE244832:18 menschliche Spender,128.223 Zellkerne. Myeloides SEMA4D tendenziell
 ### 26. Oktober2026: Spenderzuordnung nachgeprüft
 
 GEO-Description und Autoren-Tabelle stimmen für alle18 Spender überein; das Feld war zuvor übersehen worden. Ohne beide Spender mit widersprüchlichen Zellmetadaten verbleiben8 Erkrankte und5 Kontrollen in den zwei Tests: SEMA4D-Differenz+0,791560 (q0,158508), PLXNB2−0,301918 (q0,241647); keine Unterstützung einer gemeinsamen positiven Richtung.18 gezielte Tests und eine bytegleiche Wiederholung bestanden. Eine neueETS1-Messwertdatei wurde für einen späteren Benchmark heruntergeladen; ihre Messwerte wurden nicht ausgewertet. [Bericht und Grenzen](Docs/26-DonorProvenanceFollowup.md), [Wiederholung](Research/UniformCohort/README.md).
+
+## ETS1-Quellenprüfung —26.Oktober2026
+
+[Die Prüfung der Abbildung2](Docs/27-ETS1SourceAudit.md) kann die gelieferte Normalisierung für3/4 Siriusrot-Gruppen nicht reproduzieren. Elf Softwaretests bestanden; Wiederholung in einem separaten Prozess bytegleich. Eine quantitative Behandlungsinterpretation bleibt bis zur Quellenklärung zurückgestellt. [Reproduktion](Research/ETS1Regression/README.md). Private Übergaben und Logs bleiben unveröffentlicht.

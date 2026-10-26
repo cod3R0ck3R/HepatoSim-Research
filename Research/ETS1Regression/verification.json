@@ -1,0 +1,38 @@
+{
+  "tests_passed": 6,
+  "replay_equal": true,
+  "result_sha256": "251026ee0b3b55ed2e3c62be720deb17724fcfee478124abedf7c3b4667f7cfc",
+  "code_sha256": "2e6455d884a58bb500bfaf5a6a756126958a4de24e480e569e263025453a8b7f",
+  "earlier_failures": [
+    "Empty Markdown prefix parser fixed",
+    "Exact float equality replaced with documented conversion-only rounding tolerance5e-6; original XLSX retained; scientific normalization thresholds unchanged"
+  ],
+  "separate_process_byte_identical_replay": true,
+  "markdown_module_command_reproduced": true,
+  "converter_versions": {
+    "python": "3.12",
+    "markitdown": "0.1.7",
+    "pandas": "3.0.3",
+    "openpyxl": "3.1.5"
+  },
+  "export_tests_passed": 5,
+  "tests_total": 11,
+  "database": {
+    "first": {
+      "inserted": 1,
+      "already_present": 0,
+      "simulation_runs_preserved": 2,
+      "user_version": 1,
+      "quick_check": "ok"
+    },
+    "idempotent_replay": {
+      "inserted": 0,
+      "already_present": 1,
+      "simulation_runs_preserved": 2,
+      "user_version": 1,
+      "quick_check": "ok"
+    }
+  },
+  "public_result_sha256": "d7e4e0fca5978174e8664c2ad332d308662869671f3c9de0e0ce96904caf2a11",
+  "public_protocol_replay_numeric_identity": true
+}

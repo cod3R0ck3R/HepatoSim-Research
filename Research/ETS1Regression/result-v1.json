@@ -1,0 +1,125 @@
+{
+  "groups": [
+    {
+      "group": "control_injury",
+      "n_B": 7,
+      "n_C": 7,
+      "B_mean_percent_area": 5.95,
+      "B_sd_percent_area": 0.3947573094109004,
+      "derived_normalized_mean": 1.0,
+      "supplied_C_mean": 0.9999999985714285,
+      "max_sorted_abs_discrepancy": 3.86554610543044e-09,
+      "matched_by_tolerance": {
+        "5e-06": 7,
+        "0.002": 7
+      },
+      "pass_by_tolerance": {
+        "5e-06": true,
+        "0.002": true
+      }
+    },
+    {
+      "group": "knockout_injury",
+      "n_B": 7,
+      "n_C": 7,
+      "B_mean_percent_area": 8.074285714285715,
+      "B_sd_percent_area": 1.6482602660872174,
+      "derived_normalized_mean": 0.9999999999999999,
+      "supplied_C_mean": 1.0,
+      "max_sorted_abs_discrepancy": 0.07232738000707717,
+      "matched_by_tolerance": {
+        "5e-06": 0,
+        "0.002": 0
+      },
+      "pass_by_tolerance": {
+        "5e-06": false,
+        "0.002": false
+      }
+    },
+    {
+      "group": "control_regression",
+      "n_B": 7,
+      "n_C": 7,
+      "B_mean_percent_area": 4.2,
+      "B_sd_percent_area": 0.36514837167011066,
+      "derived_normalized_mean": 0.7058823529411764,
+      "supplied_C_mean": 0.6626650657142857,
+      "max_sorted_abs_discrepancy": 0.06722689100840329,
+      "matched_by_tolerance": {
+        "5e-06": 0,
+        "0.002": 0
+      },
+      "pass_by_tolerance": {
+        "5e-06": false,
+        "0.002": false
+      }
+    },
+    {
+      "group": "knockout_regression",
+      "n_B": 7,
+      "n_C": 7,
+      "B_mean_percent_area": 6.751428571428572,
+      "B_sd_percent_area": 1.0691964049607317,
+      "derived_normalized_mean": 0.8361641896673744,
+      "supplied_C_mean": 0.8276209671428572,
+      "max_sorted_abs_discrepancy": 0.18297833277423925,
+      "matched_by_tolerance": {
+        "5e-06": 0,
+        "0.002": 0
+      },
+      "pass_by_tolerance": {
+        "5e-06": false,
+        "0.002": false
+      }
+    }
+  ],
+  "descriptive_ratios": {
+    "derived_from_B": {
+      "control_remaining_fraction": 0.7058823529411764,
+      "knockout_remaining_fraction": 0.8361641896673745,
+      "knockout_vs_control_ratio_of_remaining_fractions": 1.184565935362114
+    },
+    "supplied_C": {
+      "control_remaining_fraction": 0.6626650666609502,
+      "knockout_remaining_fraction": 0.8276209671428572,
+      "knockout_vs_control_ratio_of_remaining_fractions": 1.2489280162497325
+    }
+  },
+  "counts_equal": true,
+  "normalization_pass_by_tolerance": {
+    "5e-06": false,
+    "0.002": false
+  },
+  "spec_id": "ETS1-FIG2-INTEGRITY-v1",
+  "spec_sha256": "1fdc6b256d2db0e5d788495d4347bf30cf3d537b58dcba31cc11a1ee16a115f5",
+  "source_sha256": "61bc6eef7b1f1a1e757e73097020673b288c1e0374bc99617fc5f794180ce546",
+  "markdown_sha256": "9d82f9c2250ac5b3f3ecb3401c980b4005b091d744c2cc4498eb629f8c3cb5bf",
+  "code_sha256": "2e6455d884a58bb500bfaf5a6a756126958a4de24e480e569e263025453a8b7f",
+  "python": "3.15.1",
+  "independent_extraction_match_within_5e_6": true,
+  "markdown_rounding_max_error": {
+    "Fig. 2B": 0.0,
+    "Fig. 2C": 4.700000000301685e-07
+  },
+  "sample_n_provenance": {
+    "article_results": 6,
+    "figure_legend": 7,
+    "source_B": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "source_C": [
+      7,
+      7,
+      7,
+      7
+    ]
+  },
+  "animal_identifiers_available": false,
+  "inference_performed": false,
+  "calibration_performed": false,
+  "status": "descriptive_source_audit_only",
+  "biological_validation": false
+}

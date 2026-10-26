@@ -1,0 +1,15 @@
+{
+  "removed_fields": [
+    "quota"
+  ],
+  "scientific_specification_unchanged": true,
+  "original_spec_sha256": "b9656d5d499082a8ea4e6a34edd010d51d1a522b976499e4e806cb89118a9717",
+  "public_spec_sha256": "1fdc6b256d2db0e5d788495d4347bf30cf3d537b58dcba31cc11a1ee16a115f5",
+  "original_result_sha256": "251026ee0b3b55ed2e3c62be720deb17724fcfee478124abedf7c3b4667f7cfc",
+  "public_result_sha256": "d7e4e0fca5978174e8664c2ad332d308662869671f3c9de0e0ce96904caf2a11",
+  "result_changed_fields": [
+    "spec_sha256"
+  ],
+  "numeric_results_identical": true,
+  "reason": "Account usage and reset metadata remain private. Public protocol replay changes only protocol hash binding."
+}

@@ -59,6 +59,8 @@ def export(project, destination):
     selected, omitted = [], []
     for source in sorted(project.rglob('*')):
         relative = source.relative_to(project)
+        if relative.parts[:2] == ('Research', 'Coordination'):
+            continue
         if any(part in EXCLUDED for part in relative.parts) or not source.is_file():
             continue
         if source.is_symlink():

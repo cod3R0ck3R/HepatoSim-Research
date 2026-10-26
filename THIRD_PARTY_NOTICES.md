@@ -36,3 +36,7 @@ Raw GEO matrices, original workbook, PDFs and supplementary ZIP are retrieved pr
 ## Metadata follow-up2026-10-26
 
 GSE244832 provenance tables are limited derived metadata with primary source links and hashes; source workbook/matrix not redistributed. Lee etal., JCI Insight2025, DOI10.1172/jci.insight.195242, is statedCCBY4.0 by the publisher. Its Supporting Data Values workbook is retained locally; this update distributes only its retrieval receipt and sheet headings. No private logs or correspondence are included.
+
+## Lee et al.2025 ETS1 source-data audit
+
+Lee et al., ETS1 suppresses hepatic stellate cell activation and liver fibrosis, JCI Insight2025;10(24):e195242, DOI10.1172/jci.insight.195242. Article declares CC BY4.0. Original workbook retained locally with provenance; not redistributed. This repository publishes original audit code and derived aggregate comparisons only, not publisher figures, raw images or confidential correspondence.

@@ -121,3 +121,7 @@ Selected GSE244832 over larger integrated/overlapping atlases and an archive bey
 ## 2026-10-26: source correction and bounded exclusion
 
 Correct the missed GEO Description field explicitly, retaining historical outcomes. GEO/workbook agreement supports their assignment for further development but is not biological adjudication. Freeze exclusion of both conflicting donors before computing; preserve prior CSV/workbook sensitivities. Do not choose a favorable percentile interval over the permutation result. Local Hermes wording rejected. Archive currentETS1graph-point workbook for a separately specified experimental-unit audit; no model parameter or treatment-effect mapping. Shared execution logs remain private; exporter now rejects rotated logs and correspondence folders.
+
+## 26October2026: ETS1 normalization gate and research handoff
+
+Figure2B/C source-data arithmetic failed for3/4 groups under the published genotype baseline interpretation. Keep both versions unchanged; do not fit or select endpoints to restore a favorable effect. Six analysis and five privacy-export tests passed. Separate research chat owns responses only; development owns requests and integration. Handoff files stay private. No budget renewal or automation restart.

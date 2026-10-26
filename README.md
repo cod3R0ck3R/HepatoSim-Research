@@ -131,3 +131,7 @@ GSE244832:18 human donors,128,223 nuclei. Myeloid SEMA4D trends higher, HSC PLXN
 ### 26 October2026: donor provenance follow-up
 
 GEO Description labels agree with the author workbook for all18 donors; the earlier source audit missed that field. Excluding both donors with conflicting per-cell labels leaves8 disease and5 control donors in the two tests: SEMA4D difference+0.791560 (q0.158508), PLXNB2−0.301918 (q0.241647); no joint positive-direction support. Eighteen focused tests and byte-identical replay passed. A newETS1graph-point workbook was downloaded for a later benchmark; its measurement values were not analyzed. [Report and limits](Docs/26-DonorProvenanceFollowup.md), [reproduction](Research/UniformCohort/README.md).
+
+## ETS1 source audit —26 October2026
+
+[The Figure2 source audit](Docs/27-ETS1SourceAudit.md) finds that3/4 Sirius-red groups cannot reproduce the supplied normalization. Eleven software tests passed; separate-process replay is identical. This blocks quantitative treatment interpretation pending source clarification. [Reproduction](Research/ETS1Regression/README.md). No private handoff records or logs are published.

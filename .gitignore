@@ -11,3 +11,6 @@ build/
 *.[lL][oO][gG].*
 logs/
 work/outreach/
+
+# Private research handoff between chats
+/Research/Coordination/

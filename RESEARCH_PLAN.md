@@ -82,3 +82,7 @@ Completed common-pipeline cohort audit:18 donors,128223 nuclei,22 tests, three e
 ## 2026-10-26 completed bounded follow-up
 
 Closed: GEO Description omission; matched18donors; exclusion control and exact replay;18focused tests; local Goose review; shared-log/release audit. Open: original-author per-cell annotation and biological adjudication of cellCSV conflicts. Next executable research step: inspect experimental units, units, groups and timepoints in the48-sheetETS1publisher graph-point workbook; freeze a comparison before numerical extraction or fitting. Transcriptomics overlapGSE244832; mouse/spheroid independence must be checked. No automatic next run.
+
+## ETS1 follow-up —26October2026
+
+Completed: original-source normalization audit, local calculation, tests, independent parser cross-check and replay. Next: resolve Figure2B/C mapping, denominator, animal IDs/aggregation and n6/n7 discrepancy through the research handoff. Acceptance requires source-backed resolution; otherwise retain this data gap. No further calibration until the inputs are coherent.

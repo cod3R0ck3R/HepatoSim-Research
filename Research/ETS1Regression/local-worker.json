@@ -1,0 +1,13 @@
+{
+  "provider": "ollama",
+  "model": "hermes3:8b",
+  "digest": "4f6b83f30b62bc3d0cf9be09266db222805ee815c8fd7d8b38f863f655be78b7",
+  "installed_size_bytes": 4661227243,
+  "status": "not_executed_resource_blocked",
+  "reason_at_cancel": "Externe Rechenlast: codebase-memory-mcp PID 73879, codebase-memory-mcp PID 73919, codebase-memory-mcp PID 73936",
+  "prior_reason": "Speicherdruck: 2 (normal=1)",
+  "inference_executed": false,
+  "measured_tokens": null,
+  "savings_claimed": false,
+  "fallback": "Translation by primary agent; numerical calculations executed locally with Python standard library. No cloud fallback, install or model download."
+}

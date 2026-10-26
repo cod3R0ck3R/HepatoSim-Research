@@ -46,7 +46,8 @@ class ExportTests(unittest.TestCase):
             exporter.export(self.source, self.output)
 
     def test_private_logs_rotations_and_correspondence_excluded(self):
-        for name in ['session.log', 'session.log.1', 'session.LOG.txt', 'logs/session.txt', 'work/outreach/state.json']:
+        for name in ['session.log', 'session.log.1', 'session.LOG.txt', 'logs/session.txt', 'work/outreach/state.json',
+                     'Research/Coordination/requests/task.md', 'Research/Coordination/responses/result.md']:
             path = self.source / name
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text('private fixture content')

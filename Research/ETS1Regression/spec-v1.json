@@ -1,0 +1,43 @@
+{
+  "id": "ETS1-FIG2-INTEGRITY-v1",
+  "created_utc": "2026-10-26T11:33:30.857716+00:00",
+  "question": "Can Figure2B Sirius red graph values reproduce the genotype-specific normalization in Figure2C, and are the documented experimental units sufficient for a regression contrast?",
+  "doi": "10.1172/jci.insight.195242",
+  "data_role": "Publication source-data reproducibility check; not an independent prediction dataset.",
+  "system": "Male mouse liver; HSC-specific Ets1 deletion versus floxed control; CCl4 injury6weeks then cessation2weeks; terminal histological groups, not paired trajectories.",
+  "measurement": "Sirius red positive area (% tissue area); C dimensionless fraction relative to genotype-specific injury-group mean. Not collagen mass.",
+  "source_sha256": "61bc6eef7b1f1a1e757e73097020673b288c1e0374bc99617fc5f794180ce546",
+  "markdown_sha256": "9d82f9c2250ac5b3f3ecb3401c980b4005b091d744c2cc4498eb629f8c3cb5bf",
+  "selection": "Figure2B/C first four columns only, chosen as the direct collagen-related injury/cessation comparison. No searching other endpoints for favorable effects.",
+  "prior_visibility": "The article conclusion was known. A metadata read unintentionally displayed the first six numerical rows of Figures2B/C and excerpts2D/E before this specification. Therefore exploratory; not outcome-blinded/preregistered. No numeric program or hypothesis test has run.",
+  "normalization": "For each genotype divide every B value (both injury and regression) by that genotype injury arithmetic mean. Compare sorted arrays to C: row order does not identify animals.",
+  "groups": [
+    "control_injury",
+    "knockout_injury",
+    "control_regression",
+    "knockout_regression"
+  ],
+  "expected_n": {
+    "article_results": 6,
+    "figure_legend": 7,
+    "analysis": "Use actual nonblank source counts; do not invent or drop a seventh mouse."
+  },
+  "tolerances": [
+    5e-06,
+    0.002
+  ],
+  "tolerance_reason": "5e-6 permits rounding of six-decimal normalized values;0.002 is a deliberately loose sensitivity bound for rounding of hundredth-percent absolute input, not biological accuracy.",
+  "acceptance": "All four group counts equal and every sorted normalized discrepancy <=5e-6 for strict reproduction; report0.002 sensitivity separately. Sample-size disagreement remains an unresolved provenance issue.",
+  "stop_rule": "If normalization fails either group or sample-unit provenance unresolved, report descriptive means and normalized fractions but withhold inferential p-values, mechanistic calibration, effect prioritization and a reproduction-pass claim. Do not repair source values.",
+  "descriptives": "n,mean,SD, recovered/injured group-mean ratio for each genotype, ratio-of-ratios KO/control; calculate separately from B-derived and supplied C. No pairing.",
+  "uncertainty": "Normalization mismatch and missing animal identifiers are source/provenance uncertainty; no bootstrap will conceal it.",
+  "runtime_budget": {
+    "workers": 1,
+    "memory_gib": 1,
+    "wall_seconds": 120,
+    "runs": 1,
+    "replay": 1,
+    "max_local_ai_calls": 1,
+    "local_ai_timeout": 90
+  }
+}
