@@ -1,0 +1,21 @@
+{
+  "id": "control-101",
+  "model": "control",
+  "seed": 101,
+  "period": 0.5,
+  "status": "invalid_output",
+  "started_utc": "2026-10-26T12:40:47.339174+00:00",
+  "spec_sha256": "2de9f2cba5b7fb7e310b70036bc8542a1844a901895db7c5b41da995e0bedda5",
+  "runner_sha256": "ddc1488c1614cb436aecafff9dce4d20c46e39fc6f64696c1bea75ad4087935a",
+  "model_sha256": "dd6ceab6bd313f742ec6ed01a5e050eae4f01489d8c1a10986ad59c0bfccc4f6",
+  "runtime_sha256": "ecff78d14fc6370ef6086b8c5cbcf1d5efd4d79b0a534c2b4d6e6849eef6d2f8",
+  "python": "3.15.1",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "command_template": "KaSim models/MODEL.ka -l90 -pPERIOD -seedSEED -mode batch -dOUTPUT -otrace.csv -loginputs --print-efficiency --gluttony",
+  "wall_seconds": 221.04433783400236,
+  "returncode": 0,
+  "trace_sha256": "9f969d53e87e6ee0ed6987e737f32bbe7ee7daa4be031b00f954154b5c5ea96f",
+  "rows": 197,
+  "last_day": 90.0,
+  "validation_error": "KeyError: 'react_exit_fraction_sum'"
+}

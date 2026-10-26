@@ -1,0 +1,12 @@
+{
+  "run_manifest_sha256": "6178f12cdf3331332c56c8015831609fd31db4d99692d10fa0f3a6528416c414",
+  "trace_sha256": "9f969d53e87e6ee0ed6987e737f32bbe7ee7daa4be031b00f954154b5c5ea96f",
+  "verifier_sha256": "ab1857e96c77cb60040558ac563ab3371ffbffde3198eede1c910f19acbc397d",
+  "status": "passed",
+  "model_unchanged": true,
+  "simulation_repeated": false,
+  "instrumentation_comparison": {
+    "shared_times": 197,
+    "maximum_absolute_difference": 0.0
+  }
+}

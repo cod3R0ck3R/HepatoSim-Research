@@ -1,0 +1,18 @@
+{
+  "tests_passed": 7,
+  "completed_KaSim_runs": 6,
+  "new_KaSim_wall_seconds": 1724.8468163740072,
+  "numeric_seed_replay_exact": true,
+  "grid_and_history_checks_passed": true,
+  "separate_process_analysis_byte_identical": true,
+  "source_integrity_passed": true,
+  "format_failure_preserved_and_revalidated": true,
+  "independent_biological_validation": false,
+  "artifact_sha256": {
+    "results/analysis.json": "dfdd451d2eec53871916185e470019ad1a1ebafab6d6318f7d2cac6af56ad22a",
+    "results/conditional-grid.csv": "8355edc615855a86eedfc13c94affc4a3ac05bfde6af8d3149a67398acee8912",
+    "identifiability-result.json": "0e18dfd5110576e9de6435a76fd5735506d9b0b218f8f56bd4c87dccd14bfd35"
+  },
+  "runner_sha256": "ab1857e96c77cb60040558ac563ab3371ffbffde3198eede1c910f19acbc397d",
+  "verifier_sha256": "5c6a7a50b72b08c3752c7b148e5a6eda319dadab385f3688f589f9c6ee3fbce7"
+}

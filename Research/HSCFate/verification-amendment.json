@@ -1,0 +1,8 @@
+{
+  "type": "CSV-header verification correction before contrast runs",
+  "scientific_spec_unchanged": true,
+  "original_runner_sha256": "ddc1488c1614cb436aecafff9dce4d20c46e39fc6f64696c1bea75ad4087935a",
+  "reason": "KaSim prints constant expressions as observation headers, here0.05 and1.; ordered added observations are unambiguous. Validate frozen last5column layout and values. Preserve old run manifest, independently revalidate same raw trace; no simulation retry or outcome threshold change.",
+  "preflight_failure": "The first attempt never launched KaSim because iCloud-dataless executable could not be read. Existing locally resident runtime was hash-identical.",
+  "retained_control_run_manifest_sha256": "6178f12cdf3331332c56c8015831609fd31db4d99692d10fa0f3a6528416c414"
+}

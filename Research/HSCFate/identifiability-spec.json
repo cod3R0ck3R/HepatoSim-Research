@@ -1,0 +1,18 @@
+{
+  "id": "HSR-HSC-FATE-IDENTIFIABILITY-001",
+  "role": "Conditional analytical identifiability counterexample, not a fit to biological data",
+  "target": "Theoretical inactive probability at30days for fate0.5,exit_half3.54d,early_half0.75d,inactive_half730d",
+  "alternative_inactive_half_days": [
+    30,
+    365,
+    730
+  ],
+  "fit_rule": "Solve fate analytically as target / inactive_probability_for_fate1; no optimizer",
+  "comparison_days": [
+    7,
+    30,
+    90
+  ],
+  "checks": "All fitted fate values in[0,1],same active and inactive day30 within1e-12;different earlier/later inactive values; finite nonnegative probabilities",
+  "no_new_biological_data": true
+}

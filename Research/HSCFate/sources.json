@@ -1,0 +1,78 @@
+{
+  "sources": [
+    {
+      "doi": "10.1371/journal.pcbi.1011858",
+      "role": "Original model and antecedent data; not independent validation",
+      "checked": "2026-10-26",
+      "locations": [
+        "Methods: MFB and react_MFB elimination",
+        "Methods: reactMFB-with-inactivation family",
+        "Fig5 and discussion"
+      ],
+      "editorial": "Scite same-DOI new-version signal2024-08-08 unexplained; not a retraction finding"
+    },
+    {
+      "doi": "10.1016/j.jhepr.2025.101669",
+      "pmcid": "PMC12803900",
+      "role": "Independent mechanistic support; not quantitative validation of our parameter perturbation",
+      "checked": "2026-10-26",
+      "locations": [
+        "Fig6 re-stimulation",
+        "Fig7 macrophages/IL10 and HSC reversion"
+      ],
+      "evidence_excerpt": "rHSCs are more sensitive to re-stimulation.",
+      "limitations": [
+        "n4 figure-unit not established as donors",
+        "IL10-associated activation-marker decline accompanied by apoptotic-marker increases",
+        "No calibrated drug-to-model mapping"
+      ],
+      "data_lead": "GSE304675",
+      "access": "Original EuropePMC XML inspected; no raw expression data downloaded"
+    },
+    {
+      "doi": "10.1186/s12967-025-06266-z",
+      "role": "IPA candidate with cell-death confounding; not quantitative treatment model",
+      "checked": "2026-10-26",
+      "locations": [
+        "Methods",
+        "Fig2",
+        "Fig5",
+        "Change history"
+      ],
+      "evidence_excerpt": "IPA treatment induced apoptosis",
+      "limitations": [
+        "LX2 experiments are not clinical cirrhosis reversal",
+        "Three independent experiments are not three donors",
+        "Observational cohort is not randomized treatment evidence"
+      ],
+      "editorial": "Publisher supplementary-file correction2025-05-05 noted",
+      "access": "Original publisher full text inspected"
+    },
+    {
+      "doi": "10.1038/s41586-025-08677-w",
+      "pmcid": "PMC12003176",
+      "role": "Independent functional counterevidence to indiscriminate HSC depletion",
+      "checked": "2026-10-26",
+      "locations": [
+        "First Results section",
+        "Fig1b",
+        "Data availability"
+      ],
+      "evidence_excerpt": "substantially impaired regeneration",
+      "limitations": [
+        "Broad HSC depletion differs from selective removal of activated cells after withdrawal",
+        "Not a quantitative validation of our fate-only contrast"
+      ],
+      "data_leads": [
+        "GSE256398",
+        "GSE256377"
+      ],
+      "access": "Original EuropePMC XML inspected; no raw data reanalysis"
+    }
+  ],
+  "editorial_limit": "No returned notice does not establish absence of corrections/retractions.",
+  "antecedents_excluded_from_independent_validation": [
+    "10.1073/pnas.1201840109",
+    "10.1053/j.gastro.2012.06.036"
+  ]
+}

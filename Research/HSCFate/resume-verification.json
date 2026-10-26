@@ -1,0 +1,9 @@
+{
+  "job": "hsc-fate-resume-20261026",
+  "result_id": "fate50-101",
+  "result_manifest_sha256": "2ffb554245112d4315b87900778f6c225dac5264ca448cae947db9aa1542010c",
+  "completed_result_reused": true,
+  "new_simulation_started": false,
+  "coordinator_exit_code": 0,
+  "validation": "Existing runner verified spec, runtime, runner and trace hashes plus observable constraints"
+}

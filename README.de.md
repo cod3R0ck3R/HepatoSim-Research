@@ -139,3 +139,17 @@ GEO-Description und Autoren-Tabelle stimmen für alle18 Spender überein; das Fe
 ## ETS1-Normierungskontrolle — 26. Oktober 2026
 
 [Die Folgeprüfung](Docs/28-ETS1ScalingFollowup.md) schließt einen anderen gemeinsamen Nenner je Gruppe innerhalb der festgelegten Rundungsgrenzen als Erklärung für drei der vier widersprüchlichen Quellgruppen aus. Vier neue Tests und bytegleiche Wiederholung bestanden. Quellenzuordnung bleibt offen; keine Behandlungskalibrierung.
+
+## HSC-Zellschicksal als Laborfrage (26. Oktober 2026)
+
+Das [Labor-Entscheidungsblatt](Docs/29-HSCFateLabDecision.de.md) trennt HSC-Inaktivierung, Entfernung und spätere Reaktivierung. Eine vorab festgelegte Erweiterung des ursprünglichen Kappa-Modells prüft eine Zellschicksalsänderung nach Schädigungsende. Unabhängige Originalquellen begründen die Untersuchung des IL-10-Signalwegs und funktioneller Gegenbefunde; eine Arzneimittelwirkung wird nicht angepasst. Die bedingte Identifizierbarkeitsrechnung zeigt, warum ein Endpunkt Zellschicksal und Persistenz nicht getrennt bestimmt. Dies sind Forschungsergebnisse, keine klinische Validierung.
+
+Die kleinen Prüfungen lassen sich vom Repository-Hauptverzeichnis aus wiederholen. Vollständige KaSim-Läufe und geprüfte Wiederaufnahme sind in [Research/HSCFate](Research/HSCFate/README.md) dokumentiert:
+
+```sh
+cd Research/HSCFate
+python3 -m unittest -v test_fate
+python3 identifiability.py
+python3 run.py --analyze
+python3 verify.py
+```

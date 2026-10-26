@@ -1,0 +1,547 @@
+{
+  "spec_sha256": "2de9f2cba5b7fb7e310b70036bc8542a1844a901895db7c5b41da995e0bedda5",
+  "statuses": {
+    "replay-101": "completed",
+    "fate50-101": "completed",
+    "control-101": "completed",
+    "grid-101": "completed",
+    "fate50-103": "completed",
+    "fate50-102": "completed"
+  },
+  "technical_checks": {
+    "instrumentation": {
+      "shared_times": 197,
+      "maximum_absolute_difference": 0.0
+    },
+    "seed_replay_exact": true,
+    "observation_grid": {
+      "shared_times": 198,
+      "maximum_absolute_difference": 0.0
+    },
+    "preintervention-101": {
+      "shared_times": 136,
+      "maximum_absolute_difference": 0.0
+    },
+    "preintervention-102": {
+      "shared_times": 136,
+      "maximum_absolute_difference": 0.0
+    },
+    "preintervention-103": {
+      "shared_times": 136,
+      "maximum_absolute_difference": 0.0
+    }
+  },
+  "endpoints": [
+    {
+      "seed": 101,
+      "requested_day": 60,
+      "control_observed_day": 60.0,
+      "scenario_observed_day": 60.0,
+      "observable": "COL1 tot",
+      "control": 6.48211490029,
+      "scenario": 6.48211490029,
+      "difference": 0.0
+    },
+    {
+      "seed": 101,
+      "requested_day": 60,
+      "control_observed_day": 60.0,
+      "scenario_observed_day": 60.0,
+      "observable": "aSMA-cells",
+      "control": 11754.0,
+      "scenario": 11754.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 101,
+      "requested_day": 60,
+      "control_observed_day": 60.0,
+      "scenario_observed_day": 60.0,
+      "observable": "react_MFB",
+      "control": 9661.0,
+      "scenario": 9661.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 101,
+      "requested_day": 60,
+      "control_observed_day": 60.0,
+      "scenario_observed_day": 60.0,
+      "observable": "iHSC",
+      "control": 353.0,
+      "scenario": 353.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 101,
+      "requested_day": 65,
+      "control_observed_day": 65.0,
+      "scenario_observed_day": 65.0,
+      "observable": "COL1 tot",
+      "control": 6.05202115744,
+      "scenario": 6.06571646458,
+      "difference": 0.013695307140000779
+    },
+    {
+      "seed": 101,
+      "requested_day": 65,
+      "control_observed_day": 65.0,
+      "scenario_observed_day": 65.0,
+      "observable": "aSMA-cells",
+      "control": 9614.0,
+      "scenario": 9694.0,
+      "difference": 80.0
+    },
+    {
+      "seed": 101,
+      "requested_day": 65,
+      "control_observed_day": 65.0,
+      "scenario_observed_day": 65.0,
+      "observable": "react_MFB",
+      "control": 8110.0,
+      "scenario": 8188.0,
+      "difference": 78.0
+    },
+    {
+      "seed": 101,
+      "requested_day": 65,
+      "control_observed_day": 65.0,
+      "scenario_observed_day": 65.0,
+      "observable": "iHSC",
+      "control": 1127.0,
+      "scenario": 4114.0,
+      "difference": 2987.0
+    },
+    {
+      "seed": 101,
+      "requested_day": 75,
+      "control_observed_day": 75.0,
+      "scenario_observed_day": 75.0,
+      "observable": "COL1 tot",
+      "control": 4.75294115745,
+      "scenario": 4.80238789317,
+      "difference": 0.049446735720000135
+    },
+    {
+      "seed": 101,
+      "requested_day": 75,
+      "control_observed_day": 75.0,
+      "scenario_observed_day": 75.0,
+      "observable": "aSMA-cells",
+      "control": 5839.0,
+      "scenario": 6052.0,
+      "difference": 213.0
+    },
+    {
+      "seed": 101,
+      "requested_day": 75,
+      "control_observed_day": 75.0,
+      "scenario_observed_day": 75.0,
+      "observable": "react_MFB",
+      "control": 5364.0,
+      "scenario": 5582.0,
+      "difference": 218.0
+    },
+    {
+      "seed": 101,
+      "requested_day": 75,
+      "control_observed_day": 75.0,
+      "scenario_observed_day": 75.0,
+      "observable": "iHSC",
+      "control": 2359.0,
+      "scenario": 11549.0,
+      "difference": 9190.0
+    },
+    {
+      "seed": 101,
+      "requested_day": 90,
+      "control_observed_day": 90.0,
+      "scenario_observed_day": 90.0,
+      "observable": "COL1 tot",
+      "control": 3.25101722887,
+      "scenario": 3.28293467887,
+      "difference": 0.0319174499999999
+    },
+    {
+      "seed": 101,
+      "requested_day": 90,
+      "control_observed_day": 90.0,
+      "scenario_observed_day": 90.0,
+      "observable": "aSMA-cells",
+      "control": 3135.0,
+      "scenario": 3109.0,
+      "difference": -26.0
+    },
+    {
+      "seed": 101,
+      "requested_day": 90,
+      "control_observed_day": 90.0,
+      "scenario_observed_day": 90.0,
+      "observable": "react_MFB",
+      "control": 3093.0,
+      "scenario": 3073.0,
+      "difference": -20.0
+    },
+    {
+      "seed": 101,
+      "requested_day": 90,
+      "control_observed_day": 90.0,
+      "scenario_observed_day": 90.0,
+      "observable": "iHSC",
+      "control": 3201.0,
+      "scenario": 17839.0,
+      "difference": 14638.0
+    },
+    {
+      "seed": 102,
+      "requested_day": 60,
+      "control_observed_day": 60.0,
+      "scenario_observed_day": 60.0,
+      "observable": "COL1 tot",
+      "control": 6.38178083604,
+      "scenario": 6.38178083604,
+      "difference": 0.0
+    },
+    {
+      "seed": 102,
+      "requested_day": 60,
+      "control_observed_day": 60.0,
+      "scenario_observed_day": 60.0,
+      "observable": "aSMA-cells",
+      "control": 11449.0,
+      "scenario": 11449.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 102,
+      "requested_day": 60,
+      "control_observed_day": 60.0,
+      "scenario_observed_day": 60.0,
+      "observable": "react_MFB",
+      "control": 9310.0,
+      "scenario": 9310.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 102,
+      "requested_day": 60,
+      "control_observed_day": 60.0,
+      "scenario_observed_day": 60.0,
+      "observable": "iHSC",
+      "control": 378.0,
+      "scenario": 378.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 102,
+      "requested_day": 65,
+      "control_observed_day": 65.0,
+      "scenario_observed_day": 65.0,
+      "observable": "COL1 tot",
+      "control": 5.87996645748,
+      "scenario": 5.89775181462,
+      "difference": 0.01778535714000018
+    },
+    {
+      "seed": 102,
+      "requested_day": 65,
+      "control_observed_day": 65.0,
+      "scenario_observed_day": 65.0,
+      "observable": "aSMA-cells",
+      "control": 9046.0,
+      "scenario": 9141.0,
+      "difference": 95.0
+    },
+    {
+      "seed": 102,
+      "requested_day": 65,
+      "control_observed_day": 65.0,
+      "scenario_observed_day": 65.0,
+      "observable": "react_MFB",
+      "control": 7463.0,
+      "scenario": 7559.0,
+      "difference": 96.0
+    },
+    {
+      "seed": 102,
+      "requested_day": 65,
+      "control_observed_day": 65.0,
+      "scenario_observed_day": 65.0,
+      "observable": "iHSC",
+      "control": 1133.0,
+      "scenario": 4099.0,
+      "difference": 2966.0
+    },
+    {
+      "seed": 102,
+      "requested_day": 75,
+      "control_observed_day": 75.0,
+      "scenario_observed_day": 75.0,
+      "observable": "COL1 tot",
+      "control": 4.59736752892,
+      "scenario": 4.63664002892,
+      "difference": 0.039272500000000043
+    },
+    {
+      "seed": 102,
+      "requested_day": 75,
+      "control_observed_day": 75.0,
+      "scenario_observed_day": 75.0,
+      "observable": "aSMA-cells",
+      "control": 5563.0,
+      "scenario": 5561.0,
+      "difference": -2.0
+    },
+    {
+      "seed": 102,
+      "requested_day": 75,
+      "control_observed_day": 75.0,
+      "scenario_observed_day": 75.0,
+      "observable": "react_MFB",
+      "control": 5063.0,
+      "scenario": 5069.0,
+      "difference": 6.0
+    },
+    {
+      "seed": 102,
+      "requested_day": 75,
+      "control_observed_day": 75.0,
+      "scenario_observed_day": 75.0,
+      "observable": "iHSC",
+      "control": 2306.0,
+      "scenario": 10997.0,
+      "difference": 8691.0
+    },
+    {
+      "seed": 102,
+      "requested_day": 90,
+      "control_observed_day": 90.0,
+      "scenario_observed_day": 90.0,
+      "observable": "COL1 tot",
+      "control": 3.16102467177,
+      "scenario": 3.13494681462,
+      "difference": -0.026077857149999772
+    },
+    {
+      "seed": 102,
+      "requested_day": 90,
+      "control_observed_day": 90.0,
+      "scenario_observed_day": 90.0,
+      "observable": "aSMA-cells",
+      "control": 3000.0,
+      "scenario": 2975.0,
+      "difference": -25.0
+    },
+    {
+      "seed": 102,
+      "requested_day": 90,
+      "control_observed_day": 90.0,
+      "scenario_observed_day": 90.0,
+      "observable": "react_MFB",
+      "control": 2962.0,
+      "scenario": 2935.0,
+      "difference": -27.0
+    },
+    {
+      "seed": 102,
+      "requested_day": 90,
+      "control_observed_day": 90.0,
+      "scenario_observed_day": 90.0,
+      "observable": "iHSC",
+      "control": 3167.0,
+      "scenario": 16966.0,
+      "difference": 13799.0
+    },
+    {
+      "seed": 103,
+      "requested_day": 60,
+      "control_observed_day": 60.0,
+      "scenario_observed_day": 60.0,
+      "observable": "COL1 tot",
+      "control": 6.26095992891,
+      "scenario": 6.26095992891,
+      "difference": 0.0
+    },
+    {
+      "seed": 103,
+      "requested_day": 60,
+      "control_observed_day": 60.0,
+      "scenario_observed_day": 60.0,
+      "observable": "aSMA-cells",
+      "control": 11204.0,
+      "scenario": 11204.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 103,
+      "requested_day": 60,
+      "control_observed_day": 60.0,
+      "scenario_observed_day": 60.0,
+      "observable": "react_MFB",
+      "control": 9083.0,
+      "scenario": 9083.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 103,
+      "requested_day": 60,
+      "control_observed_day": 60.0,
+      "scenario_observed_day": 60.0,
+      "observable": "iHSC",
+      "control": 331.0,
+      "scenario": 331.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 103,
+      "requested_day": 65,
+      "control_observed_day": 65.0,
+      "scenario_observed_day": 65.0,
+      "observable": "COL1 tot",
+      "control": 5.82234249321,
+      "scenario": 5.79252877893,
+      "difference": -0.02981371427999946
+    },
+    {
+      "seed": 103,
+      "requested_day": 65,
+      "control_observed_day": 65.0,
+      "scenario_observed_day": 65.0,
+      "observable": "aSMA-cells",
+      "control": 9024.0,
+      "scenario": 9013.0,
+      "difference": -11.0
+    },
+    {
+      "seed": 103,
+      "requested_day": 65,
+      "control_observed_day": 65.0,
+      "scenario_observed_day": 65.0,
+      "observable": "react_MFB",
+      "control": 7494.0,
+      "scenario": 7428.0,
+      "difference": -66.0
+    },
+    {
+      "seed": 103,
+      "requested_day": 65,
+      "control_observed_day": 65.0,
+      "scenario_observed_day": 65.0,
+      "observable": "iHSC",
+      "control": 1050.0,
+      "scenario": 3966.0,
+      "difference": 2916.0
+    },
+    {
+      "seed": 103,
+      "requested_day": 75,
+      "control_observed_day": 75.0,
+      "scenario_observed_day": 75.0,
+      "observable": "COL1 tot",
+      "control": 4.57984392179,
+      "scenario": 4.54565520751,
+      "difference": -0.03418871427999992
+    },
+    {
+      "seed": 103,
+      "requested_day": 75,
+      "control_observed_day": 75.0,
+      "scenario_observed_day": 75.0,
+      "observable": "aSMA-cells",
+      "control": 5490.0,
+      "scenario": 5471.0,
+      "difference": -19.0
+    },
+    {
+      "seed": 103,
+      "requested_day": 75,
+      "control_observed_day": 75.0,
+      "scenario_observed_day": 75.0,
+      "observable": "react_MFB",
+      "control": 5003.0,
+      "scenario": 4965.0,
+      "difference": -38.0
+    },
+    {
+      "seed": 103,
+      "requested_day": 75,
+      "control_observed_day": 75.0,
+      "scenario_observed_day": 75.0,
+      "observable": "iHSC",
+      "control": 2279.0,
+      "scenario": 10845.0,
+      "difference": 8566.0
+    },
+    {
+      "seed": 103,
+      "requested_day": 90,
+      "control_observed_day": 90.0,
+      "scenario_observed_day": 90.0,
+      "observable": "COL1 tot",
+      "control": 3.16987856464,
+      "scenario": 3.05114485036,
+      "difference": -0.11873371427999979
+    },
+    {
+      "seed": 103,
+      "requested_day": 90,
+      "control_observed_day": 90.0,
+      "scenario_observed_day": 90.0,
+      "observable": "aSMA-cells",
+      "control": 2993.0,
+      "scenario": 2729.0,
+      "difference": -264.0
+    },
+    {
+      "seed": 103,
+      "requested_day": 90,
+      "control_observed_day": 90.0,
+      "scenario_observed_day": 90.0,
+      "observable": "react_MFB",
+      "control": 2950.0,
+      "scenario": 2702.0,
+      "difference": -248.0
+    },
+    {
+      "seed": 103,
+      "requested_day": 90,
+      "control_observed_day": 90.0,
+      "scenario_observed_day": 90.0,
+      "observable": "iHSC",
+      "control": 3109.0,
+      "scenario": 16723.0,
+      "difference": 13614.0
+    }
+  ],
+  "three_seed_condition_complete": true,
+  "day90_descriptive_pilot": {
+    "COL1 tot": {
+      "mean_difference": -0.03763137380999989,
+      "min_difference": -0.11873371427999979,
+      "max_difference": 0.0319174499999999,
+      "n_seeds": 3
+    },
+    "aSMA-cells": {
+      "mean_difference": -105.0,
+      "min_difference": -264.0,
+      "max_difference": -25.0,
+      "n_seeds": 3
+    },
+    "react_MFB": {
+      "mean_difference": -98.33333333333333,
+      "min_difference": -248.0,
+      "max_difference": -20.0,
+      "n_seeds": 3
+    },
+    "iHSC": {
+      "mean_difference": 14017.0,
+      "min_difference": 13614.0,
+      "max_difference": 14638.0,
+      "n_seeds": 3
+    }
+  },
+  "independent_biological_validation": "not performed",
+  "measurement_uncertainty": "unknown, no new biological observations",
+  "parameter_uncertainty": "not estimated",
+  "treatment_effect": "not estimated; fate50 is an experimental parameter setting"
+}

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "milestone": "reproducible research follow-up",
-  "status": "gse210077_donor_cell_verified_publication_candidate",
-  "checked_date": "2026-10-23",
-  "publication_base_commit": "fe31263a7ec3a39b78a7e24a2753dab5f6dbbd81",
+  "milestone": "post-withdrawal HSC fate and laboratory decision",
+  "status": "hsc_fate_research_package_verified",
+  "checked_date": "2026-10-26",
+  "publication_base_commit": "29411f8bdfed2e65859d58f61c6a6adeba02f21d",
   "own_code_license": "MIT",
   "technical_controls": {
     "seed_replay": "passed",
@@ -47,7 +47,7 @@
     "clinical_use": "not_validated",
     "expression": "Exploratory E-MEXP-3177 reanalysis; no independent biological validation"
   },
-  "next_executable_step": "Obtain source analysis export and animal/field/denominator mapping. No automatic continuation.",
+  "next_executable_step": "Obtain joint lineage/viability/proliferation/matrix time series with biological IDs, then test reactivation under controlled viable-cell counts. Do not calibrate a drug effect from marker changes alone. No automatic run or budget renewal.",
   "data_collection": {
     "report": "Docs/17-DataCollectionStatus.md",
     "new_simulations": 0,
@@ -56,7 +56,7 @@
     "new_compute_authorized": false,
     "automatic_resume": false
   },
-  "updated_utc": "2026-10-26T12:12:22.135556+00:00",
+  "updated_utc": "2026-10-26T13:23:55.711090+00:00",
   "bounded_research_20261024": {
     "specification": "Research/Expression/specification-v1.json",
     "account_budget": {
@@ -133,7 +133,7 @@
     "local_worker": "queued resource-blocked, cancelled before execution; no fallback",
     "independent_validation": false
   },
-  "next_step": "Obtain source analysis export and animal/field/denominator mapping. No automatic continuation.",
+  "next_step": "Obtain joint lineage/viability/proliferation/matrix time series with biological IDs, then test reactivation under controlled viable-cell counts. Do not calibrate a drug effect from marker changes alone. No automatic run or budget renewal.",
   "geo_sample_check": {
     "status": "completed_exploratory_analysis",
     "specification": "Research/GEOSampleCheck/specification-v1.json",
@@ -271,5 +271,33 @@
     "separate_process_byte_identical_replay": true,
     "calibration_performed": false,
     "next_step": "Obtain source analysis export and animal/field/denominator mapping. No automatic continuation."
+  },
+  "hsc_fate": {
+    "status": "verified_results_in_this_commit",
+    "report": "Docs/29-HSCFateLabDecision.md",
+    "report_de": "Docs/29-HSCFateLabDecision.de.md",
+    "specification": "Research/HSCFate/spec.json",
+    "result": "Research/HSCFate/results/analysis.json",
+    "verification": "Research/HSCFate/verification.json",
+    "model": "Bougueon2024 original Kappa with declared post-withdrawal fate perturbation",
+    "completed_new_runs": 6,
+    "new_KaSim_wall_seconds": 1724.8468163740072,
+    "unit_tests_passed": 7,
+    "numeric_seed_replay_exact": true,
+    "output_grid_equal_at_shared_times": true,
+    "completed_result_resume_passed": true,
+    "separate_process_analysis_byte_identical": true,
+    "conditional_sensitivity_rows": 135,
+    "day90_collagen_contrast_direction": "mixed across three seeds",
+    "day90_inactive_pool_difference_range": [
+      13614,
+      14638
+    ],
+    "drug_effect_mapping": "not established",
+    "independent_biological_validation": false,
+    "local_AI_this_iteration": "not executed; original local KaSim and Python calculations used",
+    "database_records_added": 1,
+    "database_replay_new_records": 0,
+    "existing_simulation_runs_preserved": 2
   }
 }

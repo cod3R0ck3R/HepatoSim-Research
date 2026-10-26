@@ -1,0 +1,56 @@
+{
+  "archive/control-102.csv": {
+    "original_sha256": "42235eafeaf435a811f47fe614f9c09660b9ae113a55a5b0273e05c7f8feb0a2",
+    "published_sha256": "530dee6afdb73b7014482ce5931f59dfed06cad9469e326b8ec19d4ec1a82ebe",
+    "numeric_sha256": "9af903d1b2db38268c1fedaf342434cac2c6dd72a57cfbe6ca5bba60787bd623",
+    "transformation": "Remove KaSim comment headers only; all numeric observations identical"
+  },
+  "archive/control-103.csv": {
+    "original_sha256": "c24338644d5b8efc57815708c9cf9c6eeb9954e79e0380d26c43a21188e31afa",
+    "published_sha256": "78b54db4a83bf06dc1ba52e9714d6fb75b6e2aaad17178c3ad56bc48878a3683",
+    "numeric_sha256": "a1088c036d4fc097c3eab9d15e225e60823d8639f68b1654fd155625739db2b0",
+    "transformation": "Remove KaSim comment headers only; all numeric observations identical"
+  },
+  "archive/control-101.csv": {
+    "original_sha256": "c0060b14872d448aff877591f3adc1c11b24cad7615663ec2d68eade936b841c",
+    "published_sha256": "78b44abc633e3a47caa58043c5b4aac5a98cc8fa56a0f944ad04d718c6c5ebe3",
+    "numeric_sha256": "acf31a674cea49bebfeac71df6ba723ef3cd3d0ce082d63eb3342446dd768fb2",
+    "transformation": "Remove KaSim comment headers only; all numeric observations identical"
+  },
+  "results/replay-101/trace.csv": {
+    "original_sha256": "a8071a1cc2452f2f19408d300bbc41d5b3c3752e9084635a92a833fd2d5d7f52",
+    "published_sha256": "be449d224ddcb75200a85f1312e7f76e3b602e9212903ef2126ef0752675796b",
+    "numeric_sha256": "6eaf007422a8085646f3c966c94cffed36def563d7860e3d866c24630b4f677e",
+    "transformation": "Remove KaSim comment headers only; all numeric observations identical"
+  },
+  "results/fate50-101/trace.csv": {
+    "original_sha256": "0572b8f9cc1d7b300bc241340f7b8d3944bc6f0fc64ff6f16da0ae28e225041f",
+    "published_sha256": "be449d224ddcb75200a85f1312e7f76e3b602e9212903ef2126ef0752675796b",
+    "numeric_sha256": "6eaf007422a8085646f3c966c94cffed36def563d7860e3d866c24630b4f677e",
+    "transformation": "Remove KaSim comment headers only; all numeric observations identical"
+  },
+  "results/control-101/trace.csv": {
+    "original_sha256": "9f969d53e87e6ee0ed6987e737f32bbe7ee7daa4be031b00f954154b5c5ea96f",
+    "published_sha256": "c70de9296e7a2a0d8affbf95cfb2b7942b654eb1d8400a03d6f3678e2af7bcac",
+    "numeric_sha256": "9099de70de265a4225689e84c7f612b2ba65997120f1c1fe63f11c29a789de0e",
+    "transformation": "Remove KaSim comment headers only; all numeric observations identical"
+  },
+  "results/grid-101/trace.csv": {
+    "original_sha256": "91089ee109c62780c16bf3ae1654d0d13db23cecf62a18c2aebecbbb2c34a0a2",
+    "published_sha256": "1f28ae44d3aec5429b925b2a51849716d01f6dc4b9feb5c4fdb1d942ea229794",
+    "numeric_sha256": "ceca18e7c6431de6b6684e993b731f173f4a6bbb0763c78edf3438e73fade421",
+    "transformation": "Remove KaSim comment headers only; all numeric observations identical"
+  },
+  "results/fate50-103/trace.csv": {
+    "original_sha256": "718412e82aa913c975cb306116f3daa947460557b35b42bb43f7abb8718fb474",
+    "published_sha256": "bcefd95730cc88e7e3cf93f82be29f85ba1afd6ab18bfb664a15780fe5bc7c6f",
+    "numeric_sha256": "c8d184d911c79b0699042d6b3c2643047d0d3cda657cb462a401c6f7019b065c",
+    "transformation": "Remove KaSim comment headers only; all numeric observations identical"
+  },
+  "results/fate50-102/trace.csv": {
+    "original_sha256": "f3600244ab2c4beb7405aafc634fd80905274e264e826cce154f6955bac75d69",
+    "published_sha256": "c5b7a9f742a4422e3dd639b1e45690819a767e5e0d0263834ab87aabc982ea78",
+    "numeric_sha256": "3697bfd191fd9ed056f9c1c50196396d5a7a294dbd98c85b9269bc3cd11e7cf6",
+    "transformation": "Remove KaSim comment headers only; all numeric observations identical"
+  }
+}

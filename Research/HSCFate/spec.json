@@ -1,0 +1,152 @@
+{
+  "id": "HSR-HSC-FATE-001",
+  "version": "1.0.0",
+  "frozen_utc": "2026-10-26T12:31:54.055922+00:00",
+  "question": "Does a post-withdrawal shift of reactivated MFB fate increase retained inactivated HSCs without increasing the rate of active-cell removal or lowering current collagen?",
+  "scope": "mouse CCl4-development-context HSC model;16TGFbeta1 pulses,last56.5d,nominalwithdrawal60d;not human ALD; no new biological dataset",
+  "source_commit": "773a84e65b514b969db20c57b6bf0ba97c1d32fb",
+  "original_sha256": "dcfeae87699640cf917e038910402140528e93c0a09897664c3a336f7b397f7d",
+  "models": {
+    "control": "dd6ceab6bd313f742ec6ed01a5e050eae4f01489d8c1a10986ad59c0bfccc4f6",
+    "fate50": "e908fda58988cfb01efb43f6e96ad8cb7c34b9ef8bf588ac248199e0ffaf46ba"
+  },
+  "runtime": {
+    "release": "v4.1.3.1",
+    "version_output": "KaSim bafaeb8",
+    "source_repository": "https://github.com/Kappa-Dev/KappaTools",
+    "source_commit": "bafaeb8873cb4e4afd9b22ae312dc93724cfc2fa",
+    "executable_sha256": "ecff78d14fc6370ef6086b8c5cbcf1d5efd4d79b0a534c2b4d6e6849eef6d2f8",
+    "architecture": "x86_64 Mach-O; executed on Apple Silicon host",
+    "paper_runtime_claim": "Kappa4.2.12 / OCaml4.13.1; unresolved exact identity, not equated to this release",
+    "download_url": "https://github.com/Kappa-Dev/KappaTools/releases/download/v4.1.3.1/Kappapp_macos10.15.app.zip",
+    "archive_sha256": "6c94655255e48d280578681bac52555a7cb7ecf2686113dc3986c8e9c60c20c5",
+    "archive_entry": "Kappapp.app/Contents/Resources/bin/KaSim"
+  },
+  "archive": {
+    "101": {
+      "trace_sha256": "c0060b14872d448aff877591f3adc1c11b24cad7615663ec2d68eade936b841c",
+      "run_manifest_sha256": "7cf57432eaad87d1ac5bd45cb3f5b23fda63b254fc83320e9789906ba4eba783",
+      "original_full_run_wall_seconds": 284.2508667500224,
+      "role": "previously inspected original-model archive, not fresh validation"
+    },
+    "102": {
+      "trace_sha256": "42235eafeaf435a811f47fe614f9c09660b9ae113a55a5b0273e05c7f8feb0a2",
+      "run_manifest_sha256": "c901420827ba3275e31e421f7db16448cd3f5c3ce4606eb240c875e0c992ce77",
+      "original_full_run_wall_seconds": 379.44586720800726,
+      "role": "previously inspected original-model archive, not fresh validation"
+    },
+    "103": {
+      "trace_sha256": "c24338644d5b8efc57815708c9cf9c6eeb9954e79e0380d26c43a21188e31afa",
+      "run_manifest_sha256": "3a5a93eb15f6fcd2a87210239cf339c3790cc1bc7581385784d8c8b83a34e52b",
+      "original_full_run_wall_seconds": 365.7919876250089,
+      "role": "previously inspected original-model archive, not fresh validation"
+    }
+  },
+  "primary_seeds": [
+    101,
+    102,
+    103
+  ],
+  "sampling": {
+    "duration_days": 90,
+    "period_days": 0.5,
+    "primary_day": 90,
+    "secondary_days": [
+      60,
+      65,
+      75
+    ],
+    "interpolation": "last recorded row at or before requested time; no extrapolation"
+  },
+  "jobs": [
+    {
+      "id": "control-101",
+      "model": "control",
+      "seed": 101,
+      "period": 0.5
+    },
+    {
+      "id": "fate50-101",
+      "model": "fate50",
+      "seed": 101,
+      "period": 0.5
+    },
+    {
+      "id": "fate50-102",
+      "model": "fate50",
+      "seed": 102,
+      "period": 0.5
+    },
+    {
+      "id": "fate50-103",
+      "model": "fate50",
+      "seed": 103,
+      "period": 0.5
+    },
+    {
+      "id": "replay-101",
+      "model": "fate50",
+      "seed": 101,
+      "period": 0.5
+    },
+    {
+      "id": "grid-101",
+      "model": "fate50",
+      "seed": 101,
+      "period": 0.25
+    }
+  ],
+  "budget": {
+    "per_run_seconds": 600,
+    "total_new_run_seconds": 3600,
+    "max_runs": 6,
+    "workers": 1,
+    "max_output_MB": 100,
+    "retries": 0,
+    "optimization": 0
+  },
+  "readouts": [
+    "COL1 tot",
+    "aSMA-cells",
+    "react_MFB",
+    "iHSC",
+    "iHSC_early"
+  ],
+  "acceptance": {
+    "software": "exact source/runtime/spec hashes;exit0;finite monotone nonnegative rows;initialCOL1=.5;coverage90d;inactive fraction .05 before60/.50 after60;complementary exit fraction sum1;unchanged preintervention trace against archive required for paired-history claims",
+    "controls": "same-model seed replay exact numeric equality;common-grid maxabs difference<=1e-8;instrumentedcontrol101 equals original archive common observations<=1e-8;failure is technical investigation, not evidence for biology",
+    "scientific": "Report each seed difference and min/max. Direction consistent across3seeds is only a pilot sign check. No drug efficacy, equivalence, significance, independent biology or parameter-posterior claim. Incomplete condition: no pooledcomparison. No positive-effect criterion.",
+    "baseline": "original calibrated model archived matching seeds, provenance checked; not fitted anew"
+  },
+  "conditional_component": {
+    "role": "separate exact mature-unbound-reactMFB fate subsystem; no TGFbeta/rebinding, no new incoming cells or proliferation, no collagen calculation; not replacement of original Kappa model",
+    "states": "A mature active -> E earlyinactive -> I inactive; A -> R removed fate; I -> R, rates k*f,k*(1-f),mu,delta",
+    "exit_half_life_days": [
+      1.77,
+      3.54,
+      7.08
+    ],
+    "early_half_life_days": 0.75,
+    "inactive_half_life_days": [
+      30,
+      365,
+      730
+    ],
+    "fate_fraction": [
+      0,
+      0.05,
+      0.1,
+      0.5,
+      1
+    ],
+    "readout_days": [
+      7,
+      30,
+      90
+    ],
+    "uncertainty": "chosen scenario grid, not plausible probability distribution or empirical parameter posterior",
+    "checks": "closed form versus independently implemented stochastic waiting-time simulation100000lineages; numerical quadrature;probability conservation;exactlinear fate dependence"
+  },
+  "lab_question": "Compare disappearance of activated HSCs, surviving lineage-traced inactive cells and matrix separately, with a later reactivation challenge as a future test (not simulated here).",
+  "stop": "No retries or simulation from partial CSV. Completed result hash verification enables resume. On budget limit save and pause. No author contact or private data publication."
+}

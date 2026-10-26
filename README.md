@@ -139,3 +139,17 @@ GEO Description labels agree with the author workbook for all18 donors; the earl
 ## ETS1 scaling control — 26 October 2026
 
 [The follow-up](Docs/28-ETS1ScalingFollowup.md) excludes another common divisor per group as an explanation for three of four inconsistent source groups within the frozen rounding bounds. Four new tests and byte-identical replay passed. Source mapping remains unresolved; no treatment-effect calibration.
+
+## HSC fate laboratory question (26 October 2026)
+
+The [laboratory decision brief](Docs/29-HSCFateLabDecision.md) separates HSC inactivation, removal and later reactivation. A frozen extension of the original Kappa model tests a post-withdrawal fate change. Independent primary sources motivate IL-10-pathway investigation and functional counterchecks; no drug effect is fitted. The conditional identifiability calculation shows why one endpoint cannot identify fate and persistence separately. These are research results, not clinical validation.
+
+Reproduce the inexpensive checks from the repository root; full KaSim runs and verified resume are documented in [Research/HSCFate](Research/HSCFate/README.md):
+
+```sh
+cd Research/HSCFate
+python3 -m unittest -v test_fate
+python3 identifiability.py
+python3 run.py --analyze
+python3 verify.py
+```

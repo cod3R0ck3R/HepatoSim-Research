@@ -1,0 +1,83 @@
+{
+  "spec_sha256": "11a5ca897ceec17f61fefbe02af451cced4d186ef5197d8961b2379f41854272",
+  "code_sha256": "358fb652fe3e25bd489329294dfda8e2c83116f152627365d467093dee3cd192",
+  "component_code_sha256": "ab1857e96c77cb60040558ac563ab3371ffbffde3198eede1c910f19acbc397d",
+  "theoretical_day30_inactive_target": 0.4870362946192027,
+  "examples": [
+    {
+      "inactive_half_days": 30,
+      "fate_fraction": 0.8435208820144906,
+      "predictions": {
+        "7": {
+          "active": 0.25394691799985564,
+          "early_inactive": 0.05723169496565735,
+          "inactive": 0.5266208857377975,
+          "removed": 0.1622005012966894
+        },
+        "30": {
+          "active": 0.0028112427072830115,
+          "early_inactive": 0.0006374575073217723,
+          "inactive": 0.4870362946192027,
+          "removed": 0.5095150051661924
+        },
+        "90": {
+          "active": 2.221749164348061e-08,
+          "early_inactive": 5.037881222381274e-09,
+          "inactive": 0.12261188100178147,
+          "removed": 0.8773880917428457
+        }
+      }
+    },
+    {
+      "inactive_half_days": 365,
+      "fate_fraction": 0.5114665548059121,
+      "predictions": {
+        "7": {
+          "active": 0.25394691799985564,
+          "early_inactive": 0.034702280019292715,
+          "inactive": 0.3445036631254583,
+          "removed": 0.3668471388553932
+        },
+        "30": {
+          "active": 0.0028112427072830115,
+          "early_inactive": 0.00038652059724519113,
+          "inactive": 0.4870362946192027,
+          "removed": 0.509765942076269
+        },
+        "90": {
+          "active": 2.221749164348061e-08,
+          "early_inactive": 3.0547053514301534e-09,
+          "inactive": 0.4362310510724333,
+          "removed": 0.5637689236553697
+        }
+      }
+    },
+    {
+      "inactive_half_days": 730,
+      "fate_fraction": 0.5,
+      "predictions": {
+        "7": {
+          "active": 0.25394691799985564,
+          "early_inactive": 0.0339242905457047,
+          "inactive": 0.33793875676673374,
+          "removed": 0.3741900346877059
+        },
+        "30": {
+          "active": 0.0028112427072830115,
+          "early_inactive": 0.00037785520246955877,
+          "inactive": 0.4870362946192027,
+          "removed": 0.5097746074710446
+        },
+        "90": {
+          "active": 2.221749164348061e-08,
+          "early_inactive": 2.98622199509148e-09,
+          "inactive": 0.4617578421971538,
+          "removed": 0.5382421325991325
+        }
+      }
+    }
+  ],
+  "interpretation": "Same active/inactive day30 endpoints admit different fate/persistence combinations in this conditional subsystem; longitudinal observations distinguish these examples.",
+  "biological_fit": false,
+  "uncertainty_distribution_estimated": false
+}

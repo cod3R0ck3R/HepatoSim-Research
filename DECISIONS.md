@@ -129,3 +129,7 @@ Figure2B/C source-data arithmetic failed for3/4 groups under the published genot
 ## 26 October 2026: retain ETS1 provenance gate
 
 A per-group alternative constant divisor fails to explain three source groups even with declared rounding. Keep original observations, endpoints and prior result unchanged; do not fit treatment effects. The follow-up is exploratory and does not exclude batch-specific processing or different input observations. Research handoff remains private; original sources must be checked before integration.
+
+## 2026-10-26 — distinguish fate fraction from exit speed
+
+Use the original stochastic Kappa model with a declared day60 perturbation, preserving the injury history and population scale. Do not call the0.50 fate setting a drug effect. Separate a conditional exact component calculation from full-model predictions. Preserve the initial CSV-format verification failure and its independent revalidation; do not rerun a successful simulation to hide it. Publish only reviewed code, generated aggregates/traces with private comment headers removed, and source metadata. Keep correspondence, full-text copies, local logs and database backups private. Independent2025/2026 mechanistic papers do not become quantitative validation of this contrast.

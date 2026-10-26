@@ -1,0 +1,12 @@
+{
+  "release": "v4.1.3.1",
+  "version_output": "KaSim bafaeb8",
+  "source_repository": "https://github.com/Kappa-Dev/KappaTools",
+  "source_commit": "bafaeb8873cb4e4afd9b22ae312dc93724cfc2fa",
+  "executable_sha256": "ecff78d14fc6370ef6086b8c5cbcf1d5efd4d79b0a534c2b4d6e6849eef6d2f8",
+  "architecture": "x86_64 Mach-O; executed on Apple Silicon host",
+  "paper_runtime_claim": "Kappa4.2.12 / OCaml4.13.1; unresolved exact identity, not equated to this release",
+  "download_url": "https://github.com/Kappa-Dev/KappaTools/releases/download/v4.1.3.1/Kappapp_macos10.15.app.zip",
+  "archive_sha256": "6c94655255e48d280578681bac52555a7cb7ecf2686113dc3986c8e9c60c20c5",
+  "archive_entry": "Kappapp.app/Contents/Resources/bin/KaSim"
+}

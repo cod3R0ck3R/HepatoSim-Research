@@ -1,0 +1,747 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "hsr-hsc-fate-001-20261026-v1",
+      "kind": "analysis",
+      "payload": {
+        "result": {
+          "spec_sha256": "2de9f2cba5b7fb7e310b70036bc8542a1844a901895db7c5b41da995e0bedda5",
+          "statuses": {
+            "replay-101": "completed",
+            "fate50-101": "completed",
+            "control-101": "completed",
+            "grid-101": "completed",
+            "fate50-103": "completed",
+            "fate50-102": "completed"
+          },
+          "technical_checks": {
+            "instrumentation": {
+              "shared_times": 197,
+              "maximum_absolute_difference": 0.0
+            },
+            "seed_replay_exact": true,
+            "observation_grid": {
+              "shared_times": 198,
+              "maximum_absolute_difference": 0.0
+            },
+            "preintervention-101": {
+              "shared_times": 136,
+              "maximum_absolute_difference": 0.0
+            },
+            "preintervention-102": {
+              "shared_times": 136,
+              "maximum_absolute_difference": 0.0
+            },
+            "preintervention-103": {
+              "shared_times": 136,
+              "maximum_absolute_difference": 0.0
+            }
+          },
+          "endpoints": [
+            {
+              "seed": 101,
+              "requested_day": 60,
+              "control_observed_day": 60.0,
+              "scenario_observed_day": 60.0,
+              "observable": "COL1 tot",
+              "control": 6.48211490029,
+              "scenario": 6.48211490029,
+              "difference": 0.0
+            },
+            {
+              "seed": 101,
+              "requested_day": 60,
+              "control_observed_day": 60.0,
+              "scenario_observed_day": 60.0,
+              "observable": "aSMA-cells",
+              "control": 11754.0,
+              "scenario": 11754.0,
+              "difference": 0.0
+            },
+            {
+              "seed": 101,
+              "requested_day": 60,
+              "control_observed_day": 60.0,
+              "scenario_observed_day": 60.0,
+              "observable": "react_MFB",
+              "control": 9661.0,
+              "scenario": 9661.0,
+              "difference": 0.0
+            },
+            {
+              "seed": 101,
+              "requested_day": 60,
+              "control_observed_day": 60.0,
+              "scenario_observed_day": 60.0,
+              "observable": "iHSC",
+              "control": 353.0,
+              "scenario": 353.0,
+              "difference": 0.0
+            },
+            {
+              "seed": 101,
+              "requested_day": 65,
+              "control_observed_day": 65.0,
+              "scenario_observed_day": 65.0,
+              "observable": "COL1 tot",
+              "control": 6.05202115744,
+              "scenario": 6.06571646458,
+              "difference": 0.013695307140000779
+            },
+            {
+              "seed": 101,
+              "requested_day": 65,
+              "control_observed_day": 65.0,
+              "scenario_observed_day": 65.0,
+              "observable": "aSMA-cells",
+              "control": 9614.0,
+              "scenario": 9694.0,
+              "difference": 80.0
+            },
+            {
+              "seed": 101,
+              "requested_day": 65,
+              "control_observed_day": 65.0,
+              "scenario_observed_day": 65.0,
+              "observable": "react_MFB",
+              "control": 8110.0,
+              "scenario": 8188.0,
+              "difference": 78.0
+            },
+            {
+              "seed": 101,
+              "requested_day": 65,
+              "control_observed_day": 65.0,
+              "scenario_observed_day": 65.0,
+              "observable": "iHSC",
+              "control": 1127.0,
+              "scenario": 4114.0,
+              "difference": 2987.0
+            },
+            {
+              "seed": 101,
+              "requested_day": 75,
+              "control_observed_day": 75.0,
+              "scenario_observed_day": 75.0,
+              "observable": "COL1 tot",
+              "control": 4.75294115745,
+              "scenario": 4.80238789317,
+              "difference": 0.049446735720000135
+            },
+            {
+              "seed": 101,
+              "requested_day": 75,
+              "control_observed_day": 75.0,
+              "scenario_observed_day": 75.0,
+              "observable": "aSMA-cells",
+              "control": 5839.0,
+              "scenario": 6052.0,
+              "difference": 213.0
+            },
+            {
+              "seed": 101,
+              "requested_day": 75,
+              "control_observed_day": 75.0,
+              "scenario_observed_day": 75.0,
+              "observable": "react_MFB",
+              "control": 5364.0,
+              "scenario": 5582.0,
+              "difference": 218.0
+            },
+            {
+              "seed": 101,
+              "requested_day": 75,
+              "control_observed_day": 75.0,
+              "scenario_observed_day": 75.0,
+              "observable": "iHSC",
+              "control": 2359.0,
+              "scenario": 11549.0,
+              "difference": 9190.0
+            },
+            {
+              "seed": 101,
+              "requested_day": 90,
+              "control_observed_day": 90.0,
+              "scenario_observed_day": 90.0,
+              "observable": "COL1 tot",
+              "control": 3.25101722887,
+              "scenario": 3.28293467887,
+              "difference": 0.0319174499999999
+            },
+            {
+              "seed": 101,
+              "requested_day": 90,
+              "control_observed_day": 90.0,
+              "scenario_observed_day": 90.0,
+              "observable": "aSMA-cells",
+              "control": 3135.0,
+              "scenario": 3109.0,
+              "difference": -26.0
+            },
+            {
+              "seed": 101,
+              "requested_day": 90,
+              "control_observed_day": 90.0,
+              "scenario_observed_day": 90.0,
+              "observable": "react_MFB",
+              "control": 3093.0,
+              "scenario": 3073.0,
+              "difference": -20.0
+            },
+            {
+              "seed": 101,
+              "requested_day": 90,
+              "control_observed_day": 90.0,
+              "scenario_observed_day": 90.0,
+              "observable": "iHSC",
+              "control": 3201.0,
+              "scenario": 17839.0,
+              "difference": 14638.0
+            },
+            {
+              "seed": 102,
+              "requested_day": 60,
+              "control_observed_day": 60.0,
+              "scenario_observed_day": 60.0,
+              "observable": "COL1 tot",
+              "control": 6.38178083604,
+              "scenario": 6.38178083604,
+              "difference": 0.0
+            },
+            {
+              "seed": 102,
+              "requested_day": 60,
+              "control_observed_day": 60.0,
+              "scenario_observed_day": 60.0,
+              "observable": "aSMA-cells",
+              "control": 11449.0,
+              "scenario": 11449.0,
+              "difference": 0.0
+            },
+            {
+              "seed": 102,
+              "requested_day": 60,
+              "control_observed_day": 60.0,
+              "scenario_observed_day": 60.0,
+              "observable": "react_MFB",
+              "control": 9310.0,
+              "scenario": 9310.0,
+              "difference": 0.0
+            },
+            {
+              "seed": 102,
+              "requested_day": 60,
+              "control_observed_day": 60.0,
+              "scenario_observed_day": 60.0,
+              "observable": "iHSC",
+              "control": 378.0,
+              "scenario": 378.0,
+              "difference": 0.0
+            },
+            {
+              "seed": 102,
+              "requested_day": 65,
+              "control_observed_day": 65.0,
+              "scenario_observed_day": 65.0,
+              "observable": "COL1 tot",
+              "control": 5.87996645748,
+              "scenario": 5.89775181462,
+              "difference": 0.01778535714000018
+            },
+            {
+              "seed": 102,
+              "requested_day": 65,
+              "control_observed_day": 65.0,
+              "scenario_observed_day": 65.0,
+              "observable": "aSMA-cells",
+              "control": 9046.0,
+              "scenario": 9141.0,
+              "difference": 95.0
+            },
+            {
+              "seed": 102,
+              "requested_day": 65,
+              "control_observed_day": 65.0,
+              "scenario_observed_day": 65.0,
+              "observable": "react_MFB",
+              "control": 7463.0,
+              "scenario": 7559.0,
+              "difference": 96.0
+            },
+            {
+              "seed": 102,
+              "requested_day": 65,
+              "control_observed_day": 65.0,
+              "scenario_observed_day": 65.0,
+              "observable": "iHSC",
+              "control": 1133.0,
+              "scenario": 4099.0,
+              "difference": 2966.0
+            },
+            {
+              "seed": 102,
+              "requested_day": 75,
+              "control_observed_day": 75.0,
+              "scenario_observed_day": 75.0,
+              "observable": "COL1 tot",
+              "control": 4.59736752892,
+              "scenario": 4.63664002892,
+              "difference": 0.039272500000000043
+            },
+            {
+              "seed": 102,
+              "requested_day": 75,
+              "control_observed_day": 75.0,
+              "scenario_observed_day": 75.0,
+              "observable": "aSMA-cells",
+              "control": 5563.0,
+              "scenario": 5561.0,
+              "difference": -2.0
+            },
+            {
+              "seed": 102,
+              "requested_day": 75,
+              "control_observed_day": 75.0,
+              "scenario_observed_day": 75.0,
+              "observable": "react_MFB",
+              "control": 5063.0,
+              "scenario": 5069.0,
+              "difference": 6.0
+            },
+            {
+              "seed": 102,
+              "requested_day": 75,
+              "control_observed_day": 75.0,
+              "scenario_observed_day": 75.0,
+              "observable": "iHSC",
+              "control": 2306.0,
+              "scenario": 10997.0,
+              "difference": 8691.0
+            },
+            {
+              "seed": 102,
+              "requested_day": 90,
+              "control_observed_day": 90.0,
+              "scenario_observed_day": 90.0,
+              "observable": "COL1 tot",
+              "control": 3.16102467177,
+              "scenario": 3.13494681462,
+              "difference": -0.026077857149999772
+            },
+            {
+              "seed": 102,
+              "requested_day": 90,
+              "control_observed_day": 90.0,
+              "scenario_observed_day": 90.0,
+              "observable": "aSMA-cells",
+              "control": 3000.0,
+              "scenario": 2975.0,
+              "difference": -25.0
+            },
+            {
+              "seed": 102,
+              "requested_day": 90,
+              "control_observed_day": 90.0,
+              "scenario_observed_day": 90.0,
+              "observable": "react_MFB",
+              "control": 2962.0,
+              "scenario": 2935.0,
+              "difference": -27.0
+            },
+            {
+              "seed": 102,
+              "requested_day": 90,
+              "control_observed_day": 90.0,
+              "scenario_observed_day": 90.0,
+              "observable": "iHSC",
+              "control": 3167.0,
+              "scenario": 16966.0,
+              "difference": 13799.0
+            },
+            {
+              "seed": 103,
+              "requested_day": 60,
+              "control_observed_day": 60.0,
+              "scenario_observed_day": 60.0,
+              "observable": "COL1 tot",
+              "control": 6.26095992891,
+              "scenario": 6.26095992891,
+              "difference": 0.0
+            },
+            {
+              "seed": 103,
+              "requested_day": 60,
+              "control_observed_day": 60.0,
+              "scenario_observed_day": 60.0,
+              "observable": "aSMA-cells",
+              "control": 11204.0,
+              "scenario": 11204.0,
+              "difference": 0.0
+            },
+            {
+              "seed": 103,
+              "requested_day": 60,
+              "control_observed_day": 60.0,
+              "scenario_observed_day": 60.0,
+              "observable": "react_MFB",
+              "control": 9083.0,
+              "scenario": 9083.0,
+              "difference": 0.0
+            },
+            {
+              "seed": 103,
+              "requested_day": 60,
+              "control_observed_day": 60.0,
+              "scenario_observed_day": 60.0,
+              "observable": "iHSC",
+              "control": 331.0,
+              "scenario": 331.0,
+              "difference": 0.0
+            },
+            {
+              "seed": 103,
+              "requested_day": 65,
+              "control_observed_day": 65.0,
+              "scenario_observed_day": 65.0,
+              "observable": "COL1 tot",
+              "control": 5.82234249321,
+              "scenario": 5.79252877893,
+              "difference": -0.02981371427999946
+            },
+            {
+              "seed": 103,
+              "requested_day": 65,
+              "control_observed_day": 65.0,
+              "scenario_observed_day": 65.0,
+              "observable": "aSMA-cells",
+              "control": 9024.0,
+              "scenario": 9013.0,
+              "difference": -11.0
+            },
+            {
+              "seed": 103,
+              "requested_day": 65,
+              "control_observed_day": 65.0,
+              "scenario_observed_day": 65.0,
+              "observable": "react_MFB",
+              "control": 7494.0,
+              "scenario": 7428.0,
+              "difference": -66.0
+            },
+            {
+              "seed": 103,
+              "requested_day": 65,
+              "control_observed_day": 65.0,
+              "scenario_observed_day": 65.0,
+              "observable": "iHSC",
+              "control": 1050.0,
+              "scenario": 3966.0,
+              "difference": 2916.0
+            },
+            {
+              "seed": 103,
+              "requested_day": 75,
+              "control_observed_day": 75.0,
+              "scenario_observed_day": 75.0,
+              "observable": "COL1 tot",
+              "control": 4.57984392179,
+              "scenario": 4.54565520751,
+              "difference": -0.03418871427999992
+            },
+            {
+              "seed": 103,
+              "requested_day": 75,
+              "control_observed_day": 75.0,
+              "scenario_observed_day": 75.0,
+              "observable": "aSMA-cells",
+              "control": 5490.0,
+              "scenario": 5471.0,
+              "difference": -19.0
+            },
+            {
+              "seed": 103,
+              "requested_day": 75,
+              "control_observed_day": 75.0,
+              "scenario_observed_day": 75.0,
+              "observable": "react_MFB",
+              "control": 5003.0,
+              "scenario": 4965.0,
+              "difference": -38.0
+            },
+            {
+              "seed": 103,
+              "requested_day": 75,
+              "control_observed_day": 75.0,
+              "scenario_observed_day": 75.0,
+              "observable": "iHSC",
+              "control": 2279.0,
+              "scenario": 10845.0,
+              "difference": 8566.0
+            },
+            {
+              "seed": 103,
+              "requested_day": 90,
+              "control_observed_day": 90.0,
+              "scenario_observed_day": 90.0,
+              "observable": "COL1 tot",
+              "control": 3.16987856464,
+              "scenario": 3.05114485036,
+              "difference": -0.11873371427999979
+            },
+            {
+              "seed": 103,
+              "requested_day": 90,
+              "control_observed_day": 90.0,
+              "scenario_observed_day": 90.0,
+              "observable": "aSMA-cells",
+              "control": 2993.0,
+              "scenario": 2729.0,
+              "difference": -264.0
+            },
+            {
+              "seed": 103,
+              "requested_day": 90,
+              "control_observed_day": 90.0,
+              "scenario_observed_day": 90.0,
+              "observable": "react_MFB",
+              "control": 2950.0,
+              "scenario": 2702.0,
+              "difference": -248.0
+            },
+            {
+              "seed": 103,
+              "requested_day": 90,
+              "control_observed_day": 90.0,
+              "scenario_observed_day": 90.0,
+              "observable": "iHSC",
+              "control": 3109.0,
+              "scenario": 16723.0,
+              "difference": 13614.0
+            }
+          ],
+          "three_seed_condition_complete": true,
+          "day90_descriptive_pilot": {
+            "COL1 tot": {
+              "mean_difference": -0.03763137380999989,
+              "min_difference": -0.11873371427999979,
+              "max_difference": 0.0319174499999999,
+              "n_seeds": 3
+            },
+            "aSMA-cells": {
+              "mean_difference": -105.0,
+              "min_difference": -264.0,
+              "max_difference": -25.0,
+              "n_seeds": 3
+            },
+            "react_MFB": {
+              "mean_difference": -98.33333333333333,
+              "min_difference": -248.0,
+              "max_difference": -20.0,
+              "n_seeds": 3
+            },
+            "iHSC": {
+              "mean_difference": 14017.0,
+              "min_difference": 13614.0,
+              "max_difference": 14638.0,
+              "n_seeds": 3
+            }
+          },
+          "independent_biological_validation": "not performed",
+          "measurement_uncertainty": "unknown, no new biological observations",
+          "parameter_uncertainty": "not estimated",
+          "treatment_effect": "not estimated; fate50 is an experimental parameter setting"
+        },
+        "verification": {
+          "tests_passed": 7,
+          "completed_KaSim_runs": 6,
+          "new_KaSim_wall_seconds": 1724.8468163740072,
+          "numeric_seed_replay_exact": true,
+          "grid_and_history_checks_passed": true,
+          "separate_process_analysis_byte_identical": true,
+          "source_integrity_passed": true,
+          "format_failure_preserved_and_revalidated": true,
+          "independent_biological_validation": false,
+          "artifact_sha256": {
+            "results/analysis.json": "dfdd451d2eec53871916185e470019ad1a1ebafab6d6318f7d2cac6af56ad22a",
+            "results/conditional-grid.csv": "8355edc615855a86eedfc13c94affc4a3ac05bfde6af8d3149a67398acee8912",
+            "identifiability-result.json": "0e18dfd5110576e9de6435a76fd5735506d9b0b218f8f56bd4c87dccd14bfd35"
+          },
+          "runner_sha256": "ab1857e96c77cb60040558ac563ab3371ffbffde3198eede1c910f19acbc397d",
+          "verifier_sha256": "5c6a7a50b72b08c3752c7b148e5a6eda319dadab385f3688f589f9c6ee3fbce7"
+        },
+        "identifiability": {
+          "spec_sha256": "11a5ca897ceec17f61fefbe02af451cced4d186ef5197d8961b2379f41854272",
+          "code_sha256": "358fb652fe3e25bd489329294dfda8e2c83116f152627365d467093dee3cd192",
+          "component_code_sha256": "ab1857e96c77cb60040558ac563ab3371ffbffde3198eede1c910f19acbc397d",
+          "theoretical_day30_inactive_target": 0.4870362946192027,
+          "examples": [
+            {
+              "inactive_half_days": 30,
+              "fate_fraction": 0.8435208820144906,
+              "predictions": {
+                "7": {
+                  "active": 0.25394691799985564,
+                  "early_inactive": 0.05723169496565735,
+                  "inactive": 0.5266208857377975,
+                  "removed": 0.1622005012966894
+                },
+                "30": {
+                  "active": 0.0028112427072830115,
+                  "early_inactive": 0.0006374575073217723,
+                  "inactive": 0.4870362946192027,
+                  "removed": 0.5095150051661924
+                },
+                "90": {
+                  "active": 2.221749164348061e-08,
+                  "early_inactive": 5.037881222381274e-09,
+                  "inactive": 0.12261188100178147,
+                  "removed": 0.8773880917428457
+                }
+              }
+            },
+            {
+              "inactive_half_days": 365,
+              "fate_fraction": 0.5114665548059121,
+              "predictions": {
+                "7": {
+                  "active": 0.25394691799985564,
+                  "early_inactive": 0.034702280019292715,
+                  "inactive": 0.3445036631254583,
+                  "removed": 0.3668471388553932
+                },
+                "30": {
+                  "active": 0.0028112427072830115,
+                  "early_inactive": 0.00038652059724519113,
+                  "inactive": 0.4870362946192027,
+                  "removed": 0.509765942076269
+                },
+                "90": {
+                  "active": 2.221749164348061e-08,
+                  "early_inactive": 3.0547053514301534e-09,
+                  "inactive": 0.4362310510724333,
+                  "removed": 0.5637689236553697
+                }
+              }
+            },
+            {
+              "inactive_half_days": 730,
+              "fate_fraction": 0.5,
+              "predictions": {
+                "7": {
+                  "active": 0.25394691799985564,
+                  "early_inactive": 0.0339242905457047,
+                  "inactive": 0.33793875676673374,
+                  "removed": 0.3741900346877059
+                },
+                "30": {
+                  "active": 0.0028112427072830115,
+                  "early_inactive": 0.00037785520246955877,
+                  "inactive": 0.4870362946192027,
+                  "removed": 0.5097746074710446
+                },
+                "90": {
+                  "active": 2.221749164348061e-08,
+                  "early_inactive": 2.98622199509148e-09,
+                  "inactive": 0.4617578421971538,
+                  "removed": 0.5382421325991325
+                }
+              }
+            }
+          ],
+          "interpretation": "Same active/inactive day30 endpoints admit different fate/persistence combinations in this conditional subsystem; longitudinal observations distinguish these examples.",
+          "biological_fit": false,
+          "uncertainty_distribution_estimated": false
+        },
+        "sources": {
+          "sources": [
+            {
+              "doi": "10.1371/journal.pcbi.1011858",
+              "role": "Original model and antecedent data; not independent validation",
+              "checked": "2026-10-26",
+              "locations": [
+                "Methods: MFB and react_MFB elimination",
+                "Methods: reactMFB-with-inactivation family",
+                "Fig5 and discussion"
+              ],
+              "editorial": "Scite same-DOI new-version signal2024-08-08 unexplained; not a retraction finding"
+            },
+            {
+              "doi": "10.1016/j.jhepr.2025.101669",
+              "pmcid": "PMC12803900",
+              "role": "Independent mechanistic support; not quantitative validation of our parameter perturbation",
+              "checked": "2026-10-26",
+              "locations": [
+                "Fig6 re-stimulation",
+                "Fig7 macrophages/IL10 and HSC reversion"
+              ],
+              "evidence_excerpt": "rHSCs are more sensitive to re-stimulation.",
+              "limitations": [
+                "n4 figure-unit not established as donors",
+                "IL10-associated activation-marker decline accompanied by apoptotic-marker increases",
+                "No calibrated drug-to-model mapping"
+              ],
+              "data_lead": "GSE304675",
+              "access": "Original EuropePMC XML inspected; no raw expression data downloaded"
+            },
+            {
+              "doi": "10.1186/s12967-025-06266-z",
+              "role": "IPA candidate with cell-death confounding; not quantitative treatment model",
+              "checked": "2026-10-26",
+              "locations": [
+                "Methods",
+                "Fig2",
+                "Fig5",
+                "Change history"
+              ],
+              "evidence_excerpt": "IPA treatment induced apoptosis",
+              "limitations": [
+                "LX2 experiments are not clinical cirrhosis reversal",
+                "Three independent experiments are not three donors",
+                "Observational cohort is not randomized treatment evidence"
+              ],
+              "editorial": "Publisher supplementary-file correction2025-05-05 noted",
+              "access": "Original publisher full text inspected"
+            },
+            {
+              "doi": "10.1038/s41586-025-08677-w",
+              "pmcid": "PMC12003176",
+              "role": "Independent functional counterevidence to indiscriminate HSC depletion",
+              "checked": "2026-10-26",
+              "locations": [
+                "First Results section",
+                "Fig1b",
+                "Data availability"
+              ],
+              "evidence_excerpt": "substantially impaired regeneration",
+              "limitations": [
+                "Broad HSC depletion differs from selective removal of activated cells after withdrawal",
+                "Not a quantitative validation of our fate-only contrast"
+              ],
+              "data_leads": [
+                "GSE256398",
+                "GSE256377"
+              ],
+              "access": "Original EuropePMC XML inspected; no raw data reanalysis"
+            }
+          ],
+          "editorial_limit": "No returned notice does not establish absence of corrections/retractions.",
+          "antecedents_excluded_from_independent_validation": [
+            "10.1073/pnas.1201840109",
+            "10.1053/j.gastro.2012.06.036"
+          ]
+        }
+      },
+      "provenance": {
+        "spec_sha256": "2de9f2cba5b7fb7e310b70036bc8542a1844a901895db7c5b41da995e0bedda5",
+        "artifact_sha256": {
+          "results/analysis.json": "dfdd451d2eec53871916185e470019ad1a1ebafab6d6318f7d2cac6af56ad22a",
+          "results/conditional-grid.csv": "8355edc615855a86eedfc13c94affc4a3ac05bfde6af8d3149a67398acee8912",
+          "identifiability-result.json": "0e18dfd5110576e9de6435a76fd5735506d9b0b218f8f56bd4c87dccd14bfd35"
+        },
+        "report": "Docs/29-HSCFateLabDecision.md"
+      },
+      "validation_scope": "Local stochastic model perturbation and numerical verification; independent mechanistic literature review; no biological validation or drug-efficacy mapping"
+    }
+  ]
+}

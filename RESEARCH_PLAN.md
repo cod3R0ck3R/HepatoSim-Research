@@ -90,3 +90,7 @@ Completed: original-source normalization audit, local calculation, tests, indepe
 ## ETS1 scaling control — 26 October 2026
 
 Completed: frozen alternative-divisor feasibility test, four software tests, separate-process replay and idempotent evidence import. Three groups remain incompatible with one constant divisor per group within declared rounding. Next: obtain author analysis export and animal/field/denominator mapping before quantitative use. No automatic further run or budget renewal.
+
+## HSR-HSC-FATE-001 — laboratory-discriminating mechanism test
+
+Prespecified post-withdrawal Kappa fate perturbation, three seeds and technical replay/grid controls. Separate conditional identifiability calculation. IL-10 signalling is a qualitative laboratory candidate; cell loss, persistence, restimulation and hepatocyte function must be distinguished. No new biological fit. Next empirical gap: joint longitudinal viable-cell fate and matrix/rechallenge measurements with independent biological IDs. See Docs/29-HSCFateLabDecision.md.
