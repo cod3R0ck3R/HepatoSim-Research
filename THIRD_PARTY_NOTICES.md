@@ -32,3 +32,7 @@ Watson et al., Nature Communications (2025), DOI 10.1038/s41467-024-55325-4; GEO
 ### GSE244832 and reanalysis mapping
 
 Raw GEO matrices, original workbook, PDFs and supplementary ZIP are retrieved privately; no redistribution here. Source records and derived analyses cite DOI10.1016/j.jhep.2024.10.044 and DOI10.3390/ijms27177920 (the latter CC BY4.0). No third-party code copied; upstream rights unchanged. Own analysis code/results follow the project MIT license.
+
+## Metadata follow-up2026-10-26
+
+GSE244832 provenance tables are limited derived metadata with primary source links and hashes; source workbook/matrix not redistributed. Lee etal., JCI Insight2025, DOI10.1172/jci.insight.195242, is statedCCBY4.0 by the publisher. Its Supporting Data Values workbook is retained locally; this update distributes only its retrieval receipt and sheet headings. No private logs or correspondence are included.

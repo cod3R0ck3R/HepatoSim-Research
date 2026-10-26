@@ -127,3 +127,7 @@ Six human donors and 27,692 annotated nuclei were analyzed by cell type. The joi
 ## Larger common-pipeline cohort (24 October 2026)
 
 GSE244832:18 human donors,128,223 nuclei. Myeloid SEMA4D trends higher, HSC PLXNB2 lower; neither passes the two-test adjustment. Two conflicting donor group labels were tested separately; the joint-increase hypothesis fails under both.22 tests and three exact cached replays passed. [Report](Docs/25-UniformCohort.md) · [Reproduce](Research/UniformCohort/README.md). No treatment-effect claim.
+
+### 26 October2026: donor provenance follow-up
+
+GEO Description labels agree with the author workbook for all18 donors; the earlier source audit missed that field. Excluding both donors with conflicting per-cell labels leaves8 disease and5 control donors in the two tests: SEMA4D difference+0.791560 (q0.158508), PLXNB2−0.301918 (q0.241647); no joint positive-direction support. Eighteen focused tests and byte-identical replay passed. A newETS1graph-point workbook was downloaded for a later benchmark; its measurement values were not analyzed. [Report and limits](Docs/26-DonorProvenanceFollowup.md), [reproduction](Research/UniformCohort/README.md).

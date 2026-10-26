@@ -5,3 +5,9 @@
 *.sqlite-shm
 *.sqlite-wal
 build/
+
+# Local execution logs and private correspondence must never be published.
+*.[lL][oO][gG]
+*.[lL][oO][gG].*
+logs/
+work/outreach/

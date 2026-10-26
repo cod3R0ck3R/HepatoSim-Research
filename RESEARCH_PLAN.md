@@ -78,3 +78,7 @@ GSE210077 donor/cell-type milestone completed:14 tests, exact primary and post h
 ### 2026-10-24 GSE244832
 
 Completed common-pipeline cohort audit:18 donors,128223 nuclei,22 tests, three exact replay checks, two SQLite evidence records. Joint SEMA4D/PLXNB2 increase failed under both source-label assignments. Next: resolve JB321/JB337 clinical-label conflict and original per-cell annotations; separately budget GSE289173 if needed. No automatic follow-up.
+
+## 2026-10-26 completed bounded follow-up
+
+Closed: GEO Description omission; matched18donors; exclusion control and exact replay;18focused tests; local Goose review; shared-log/release audit. Open: original-author per-cell annotation and biological adjudication of cellCSV conflicts. Next executable research step: inspect experimental units, units, groups and timepoints in the48-sheetETS1publisher graph-point workbook; freeze a comparison before numerical extraction or fitting. Transcriptomics overlapGSE244832; mouse/spheroid independence must be checked. No automatic next run.

@@ -39,3 +39,23 @@ python3 Research/UniformCohort/label_sensitivity.py --result /path/to/private/cl
 ```
 
 Version1 plans are retained as provenance; use version2 for execution. The historical invalid summary and pre-correction aggregate are retained privately. Source label conflicts remain unresolved.
+
+## 26 October2026 follow-up reproduction
+
+Run from the repository root with Python and the installed NumPy version recorded in the result. These commands reuse the published, hash-checked donor aggregate; no raw matrix download is needed. Outputs must be new paths.
+
+```sh
+python3 -m unittest discover -s Research/UniformCohort -p 'test_*.py'
+python3 -m unittest discover -s Scripts -p 'test_export_public.py'
+python3 Research/UniformCohort/exclude_conflicts.py --result Research/UniformCohort/result-v2.json --spec Research/UniformCohort/exclusion-spec-v1.json --compartment-spec Research/UniformCohort/compartment-spec-v2.json --output /tmp/hepatosim-exclusion-new.json
+```
+
+Compare to `exclusion-result-v1.json`; numerical replay was byte-identical on the recorded Python/NumPy environment. Environment metadata may differ elsewhere. The primary and workbook-label analyses are not replaced.
+
+To repeat the label audit, download the MINiML and workbook URLs in `followup-verification.json`, verify their hashes, and obtain `hLIVER_metadata.csv` via the existing documented fetch step. Convert the workbook to Markdown with MarkItDown, keeping its five-column table.
+
+```sh
+python3 Research/UniformCohort/audit_donor_labels.py --miniml DATA/GSE244832_family.xml.tgz --workbook DATA/GSE244832_240605_18liver_metadata.xlsx --workbook-markdown DATA/metadata.md --cell-metadata DATA/hLIVER_metadata.csv --output /tmp/hepatosim-label-audit-new.json
+```
+
+Paths under `DATA` are user-supplied local downloads. The test requires18donors and128223cells and explicitly reads GEO Description. The separateETS1workbook receipt gives its public download URL, byte hash and48worksheet headings; it is not an input to this exclusion calculation. Measurement values were not evaluated.

@@ -127,3 +127,7 @@ Sechs menschliche Spender und 27.692 annotierte Zellkerne wurden nach Zelltyp au
 ## Größere Kohorte mit gemeinsamer Verarbeitung (24. Oktober 2026)
 
 GSE244832:18 menschliche Spender,128.223 Zellkerne. Myeloides SEMA4D tendenziell höher, Sternzell-PLXNB2 niedriger; keiner besteht die Korrektur für zwei Tests. Zwei widersprüchliche Spendergruppen wurden separat geprüft; die Hypothese eines gemeinsamen Anstiegs besteht unter beiden Zuordnungen nicht.22 Tests und drei identische Cache-Wiederholungen bestanden. [Bericht](Docs/25-UniformCohort.md) · [Wiederholen](Research/UniformCohort/README.md). Keine Aussage zur Behandlungswirkung.
+
+### 26. Oktober2026: Spenderzuordnung nachgeprüft
+
+GEO-Description und Autoren-Tabelle stimmen für alle18 Spender überein; das Feld war zuvor übersehen worden. Ohne beide Spender mit widersprüchlichen Zellmetadaten verbleiben8 Erkrankte und5 Kontrollen in den zwei Tests: SEMA4D-Differenz+0,791560 (q0,158508), PLXNB2−0,301918 (q0,241647); keine Unterstützung einer gemeinsamen positiven Richtung.18 gezielte Tests und eine bytegleiche Wiederholung bestanden. Eine neueETS1-Messwertdatei wurde für einen späteren Benchmark heruntergeladen; ihre Messwerte wurden nicht ausgewertet. [Bericht und Grenzen](Docs/26-DonorProvenanceFollowup.md), [Wiederholung](Research/UniformCohort/README.md).

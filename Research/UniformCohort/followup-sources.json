@@ -1,0 +1,40 @@
+{
+  "checked_date": "2026-10-26",
+  "metadata_findings": "GEO Description, not Characteristics, supplies disease groups. All18 match author workbook; cell CSV differs forJB321/JB337. Archived/fresh metadata agree.",
+  "source_of_truth_limit": "Agreement of two records from the same study is not independent biological adjudication.",
+  "source_downloads": [
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE244nnn/GSE244832/miniml/GSE244832_family.xml.tgz",
+      "file": "GSE244832-current.xml.tgz",
+      "bytes": 7488,
+      "sha256": "c449c4751203edf4114af9870b5c7581036c159dc13687c623d7d4b15259a69a",
+      "retrieved_utc": "2026-10-26T10:51:16.666256+00:00"
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE244nnn/GSE244832/suppl/GSE244832_240605_18liver_metadata.xlsx",
+      "file": "metadata-current.xlsx",
+      "bytes": 6227,
+      "sha256": "cc56b353e0b5d452ab64a35f9c07e57169f75ec644780f1b0eac8348a633b0cd",
+      "retrieved_utc": "2026-10-26T10:51:19.819103+00:00"
+    }
+  ],
+  "searches": [
+    {
+      "query": "GSE244832 JB321; JB337 MASH; GSE244832 github; original article supplementary tables",
+      "result": "No verified original-author per-cell annotation obtained. Unrelated/reanalysis repositories not adopted."
+    },
+    {
+      "url": "https://www.journal-of-hepatology.eu/article/S0168-8278%2824%2902667-9/fulltext",
+      "result": "Indexed publisher data-availability paragraph namesGSE244832; direct retrieval403. PMC manuscript stillnamesGSE224688."
+    },
+    {
+      "url": "https://insight.jci.org/articles/view/195242",
+      "result": "AdditionalGEOcitation PMID41196693 is anETS1study, not a correction; publisher graph-point workbook downloaded and structure inventoried."
+    }
+  ],
+  "retained_limits": [
+    "Original-author per-cell annotations unavailable in inspected material.",
+    "No new independent biological validation.",
+    "NewETS1workbook is a source-data lead; no measurement-value analysis or parameter fit."
+  ]
+}

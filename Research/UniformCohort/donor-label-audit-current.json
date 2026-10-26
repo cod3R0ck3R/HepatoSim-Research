@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "accession": "GSE244832",
+  "rows": [
+    {
+      "donor": "JB288",
+      "accession": "GSM7830559",
+      "geo_description": "NORMAL",
+      "geo_group": "NORMAL",
+      "workbook_group": "NORMAL",
+      "workbook_accession": "GSM7830559",
+      "cell_metadata_group": "NORMAL",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    },
+    {
+      "donor": "JB289",
+      "accession": "GSM7830560",
+      "geo_description": "MASL",
+      "geo_group": "NAFL",
+      "workbook_group": "NAFL",
+      "workbook_accession": "GSM7830560",
+      "cell_metadata_group": "NAFL",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    },
+    {
+      "donor": "JB290",
+      "accession": "GSM7830561",
+      "geo_description": "MASH",
+      "geo_group": "NASH",
+      "workbook_group": "NASH",
+      "workbook_accession": "GSM7830561",
+      "cell_metadata_group": "NASH",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    },
+    {
+      "donor": "JB303",
+      "accession": "GSM7830562",
+      "geo_description": "NORMAL",
+      "geo_group": "NORMAL",
+      "workbook_group": "NORMAL",
+      "workbook_accession": "GSM7830562",
+      "cell_metadata_group": "NORMAL",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    },
+    {
+      "donor": "JB304",
+      "accession": "GSM7830563",
+      "geo_description": "MASL",
+      "geo_group": "NAFL",
+      "workbook_group": "NAFL",
+      "workbook_accession": "GSM7830563",
+      "cell_metadata_group": "NAFL",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    },
+    {
+      "donor": "JB305",
+      "accession": "GSM7830564",
+      "geo_description": "MASH",
+      "geo_group": "NASH",
+      "workbook_group": "NASH",
+      "workbook_accession": "GSM7830564",
+      "cell_metadata_group": "NASH",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    },
+    {
+      "donor": "JB317",
+      "accession": "GSM7830565",
+      "geo_description": "NORMAL",
+      "geo_group": "NORMAL",
+      "workbook_group": "NORMAL",
+      "workbook_accession": "GSM7830565",
+      "cell_metadata_group": "NORMAL",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    },
+    {
+      "donor": "JB318",
+      "accession": "GSM7830566",
+      "geo_description": "MASL",
+      "geo_group": "NAFL",
+      "workbook_group": "NAFL",
+      "workbook_accession": "GSM7830566",
+      "cell_metadata_group": "NAFL",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    },
+    {
+      "donor": "JB319",
+      "accession": "GSM7830567",
+      "geo_description": "MASH",
+      "geo_group": "NASH",
+      "workbook_group": "NASH",
+      "workbook_accession": "GSM7830567",
+      "cell_metadata_group": "NASH",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    },
+    {
+      "donor": "JB320",
+      "accession": "GSM7830568",
+      "geo_description": "NORMAL",
+      "geo_group": "NORMAL",
+      "workbook_group": "NORMAL",
+      "workbook_accession": "GSM7830568",
+      "cell_metadata_group": "NORMAL",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    },
+    {
+      "donor": "JB321",
+      "accession": "GSM7830569",
+      "geo_description": "MASL",
+      "geo_group": "NAFL",
+      "workbook_group": "NAFL",
+      "workbook_accession": "GSM7830569",
+      "cell_metadata_group": "NASH",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": false
+    },
+    {
+      "donor": "JB322",
+      "accession": "GSM7830570",
+      "geo_description": "MASH",
+      "geo_group": "NASH",
+      "workbook_group": "NASH",
+      "workbook_accession": "GSM7830570",
+      "cell_metadata_group": "NASH",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    },
+    {
+      "donor": "JB336",
+      "accession": "GSM7830571",
+      "geo_description": "NORMAL",
+      "geo_group": "NORMAL",
+      "workbook_group": "NORMAL",
+      "workbook_accession": "GSM7830571",
+      "cell_metadata_group": "NORMAL",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    },
+    {
+      "donor": "JB337",
+      "accession": "GSM7830572",
+      "geo_description": "MASH",
+      "geo_group": "NASH",
+      "workbook_group": "NASH",
+      "workbook_accession": "GSM7830572",
+      "cell_metadata_group": "NAFL",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": false
+    },
+    {
+      "donor": "JB338",
+      "accession": "GSM7830573",
+      "geo_description": "MASH",
+      "geo_group": "NASH",
+      "workbook_group": "NASH",
+      "workbook_accession": "GSM7830573",
+      "cell_metadata_group": "NASH",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    },
+    {
+      "donor": "JB339",
+      "accession": "GSM7830574",
+      "geo_description": "MASH",
+      "geo_group": "NASH",
+      "workbook_group": "NASH",
+      "workbook_accession": "GSM7830574",
+      "cell_metadata_group": "NASH",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    },
+    {
+      "donor": "JB340",
+      "accession": "GSM7830575",
+      "geo_description": "MASH",
+      "geo_group": "NASH",
+      "workbook_group": "NASH",
+      "workbook_accession": "GSM7830575",
+      "cell_metadata_group": "NASH",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    },
+    {
+      "donor": "JB341",
+      "accession": "GSM7830576",
+      "geo_description": "MASH",
+      "geo_group": "NASH",
+      "workbook_group": "NASH",
+      "workbook_accession": "GSM7830576",
+      "cell_metadata_group": "NASH",
+      "geo_workbook_agree": true,
+      "cell_metadata_agrees": true
+    }
+  ],
+  "nuclei": 128223,
+  "geo_workbook_agreement": 18,
+  "cell_metadata_conflicts": [
+    "JB321",
+    "JB337"
+  ],
+  "interpretation": "Source agreement is provenance corroboration, not independent biological truth or original-author cell-type verification.",
+  "binding": {
+    "miniml": "c449c4751203edf4114af9870b5c7581036c159dc13687c623d7d4b15259a69a",
+    "workbook": "cc56b353e0b5d452ab64a35f9c07e57169f75ec644780f1b0eac8348a633b0cd",
+    "workbook_markdown": "3dc654feb85081a847f56e49c323877ae1c221e5005068d1da0388cf56839ca8",
+    "cell_metadata": "46725c6f74a0bcbec2c90b92267a67844880def15ed016a2e62775726f2d0176",
+    "code_sha256": "bb7b0118616e99a894d2398454c3734352c9e6166db6700e528532422dc70298"
+  }
+}

@@ -56,7 +56,7 @@
     "new_compute_authorized": false,
     "automatic_resume": false
   },
-  "updated_utc": "2026-10-24T17:21:59.259306+00:00",
+  "updated_utc": "2026-10-26T10:59:54.662686+00:00",
   "bounded_research_20261024": {
     "specification": "Research/Expression/specification-v1.json",
     "account_budget": {
@@ -133,7 +133,7 @@
     "local_worker": "queued resource-blocked, cancelled before execution; no fallback",
     "independent_validation": false
   },
-  "next_step": "Resolve GSE244832 donor-label conflict and author cell annotation; no automatic additional calculations.",
+  "next_step": "AuditETS1experimental units and overlap; freeze reference test before extracting graph values.",
   "geo_sample_check": {
     "status": "completed_exploratory_analysis",
     "specification": "Research/GEOSampleCheck/specification-v1.json",
@@ -146,7 +146,7 @@
     "local_ai_job": "hepatosim-geoqc-local-20261024",
     "source_code_sha_verified": true,
     "tests_passed": 7,
-    "next_step": "Obtain animal-level cell annotations and batch/pooling metadata; independent protein/activity and collagen-turnover evaluation for SEMA4D\u2013PLXNB2. LMCD1 regression RNA and CTSL not robust.",
+    "next_step": "Obtain animal-level cell annotations and batch/pooling metadata; independent protein/activity and collagen-turnover evaluation for SEMA4D–PLXNB2. LMCD1 regression RNA and CTSL not robust.",
     "synthetic_resume_replay_exact": true,
     "metadata_result": "Research/GEOSampleCheck/metadata-result.json",
     "report": "Docs/22-GEOSampleCheck.md",
@@ -232,5 +232,19 @@
     "database_records_added": 2,
     "label_sensitivity": "Research/UniformCohort/label-sensitivity-result-v1.json",
     "verification": "Research/UniformCohort/verification.json"
+  },
+  "donor_annotation_followup": {
+    "status": "completed",
+    "report": "Docs/26-DonorProvenanceFollowup.md",
+    "provenance": "GEO Description matches workbook18/18; cellCSV conflictsJB321/JB337",
+    "tests_passed": 18,
+    "exclusion_result": "Research/UniformCohort/exclusion-result-v1.json",
+    "joint_direction_rule_met": false,
+    "independent_biological_validation": false,
+    "ets1_data_receipt": "Research/UniformCohort/ets1-data-receipt.json",
+    "ets1_values_analyzed": false,
+    "next_step": "AuditETS1experimental units and overlap; freeze reference test before extracting graph values.",
+    "database_records_added": 3,
+    "publication_status": "prepared_for_review"
   }
 }

@@ -90,8 +90,8 @@
   "files": [
     {
       "path": ".gitignore",
-      "original_sha256": "e149c59ed35c4297969f7ba3d5c4833af40945e9666695cceb141c5c8200148f",
-      "published_sha256": "e149c59ed35c4297969f7ba3d5c4833af40945e9666695cceb141c5c8200148f",
+      "original_sha256": "79c1c1f2c438e584a094d61ad9443418dd3436909c0b6e9c2edbfccaac174208",
+      "published_sha256": "79c1c1f2c438e584a094d61ad9443418dd3436909c0b6e9c2edbfccaac174208",
       "metadata_redacted": false
     },
     {
@@ -132,8 +132,8 @@
     },
     {
       "path": "DECISIONS.md",
-      "original_sha256": "713b15987d4c09af9e44539aea48fea67579607302a283e7e68efd0385680fed",
-      "published_sha256": "713b15987d4c09af9e44539aea48fea67579607302a283e7e68efd0385680fed",
+      "original_sha256": "3ecff3e507132cc684fafab7eb982070bc9ad90c034a87790f8c04e355ae4682",
+      "published_sha256": "3ecff3e507132cc684fafab7eb982070bc9ad90c034a87790f8c04e355ae4682",
       "metadata_redacted": false
     },
     {
@@ -282,8 +282,14 @@
     },
     {
       "path": "Docs/25-UniformCohort.md",
-      "original_sha256": "3b8315816f248c084b4af0cadac963a598414244da92b9a9c21477e2bf2c4b40",
-      "published_sha256": "3b8315816f248c084b4af0cadac963a598414244da92b9a9c21477e2bf2c4b40",
+      "original_sha256": "3b50666680070a38287d1b5918a2f88457c972f9337191936085235c317cbe8b",
+      "published_sha256": "3b50666680070a38287d1b5918a2f88457c972f9337191936085235c317cbe8b",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Docs/26-DonorProvenanceFollowup.md",
+      "original_sha256": "f858e8f09a9cdfc08ddb3a6df5596f6dc545dc4c85d95ab6e9b958798d41a02a",
+      "published_sha256": "f858e8f09a9cdfc08ddb3a6df5596f6dc545dc4c85d95ab6e9b958798d41a02a",
       "metadata_redacted": false
     },
     {
@@ -342,26 +348,26 @@
     },
     {
       "path": "README.de.md",
-      "original_sha256": "fec23aff9653c336850fe01d987dda0e3cbbdb4225e7f288898ff56897cc8d3a",
-      "published_sha256": "fec23aff9653c336850fe01d987dda0e3cbbdb4225e7f288898ff56897cc8d3a",
+      "original_sha256": "fa01c48e96e277c3f2b6bb0f663c959c747f663a7408c09db91beb41a60d14e5",
+      "published_sha256": "fa01c48e96e277c3f2b6bb0f663c959c747f663a7408c09db91beb41a60d14e5",
       "metadata_redacted": false
     },
     {
       "path": "README.md",
-      "original_sha256": "3fe62838b2ddf3531a669b3ac6fc01ac8cdcadc9495b9874dc34ba62c5cf2921",
-      "published_sha256": "3fe62838b2ddf3531a669b3ac6fc01ac8cdcadc9495b9874dc34ba62c5cf2921",
+      "original_sha256": "914094c19fdd92df75b9398fdc184c682bd46b492f84e500f36175d0d296e59f",
+      "published_sha256": "914094c19fdd92df75b9398fdc184c682bd46b492f84e500f36175d0d296e59f",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_PLAN.md",
-      "original_sha256": "26d64a29dd48bd91471e4d59cb9f2b6f2de21beec789d61f1f45f31a0ff8750f",
-      "published_sha256": "26d64a29dd48bd91471e4d59cb9f2b6f2de21beec789d61f1f45f31a0ff8750f",
+      "original_sha256": "b9a800cba9156f846e01e1374e77a3723c9b51fb1dedd49d7e3d861729d11a26",
+      "published_sha256": "b9a800cba9156f846e01e1374e77a3723c9b51fb1dedd49d7e3d861729d11a26",
       "metadata_redacted": false
     },
     {
       "path": "RESEARCH_STATE.json",
-      "original_sha256": "ee3768b7d9451a0a851b3a1b47dadbf2b6e46bd678e382cd2f106051911b20b2",
-      "published_sha256": "e7722b94062cc10582d82b594579ada6773bdf5feedf18ea6cce253aefcfd22f",
+      "original_sha256": "02d82f2239c83692c22323a43fb7ed4ef3bba6205bd08032acdec6ab56244060",
+      "published_sha256": "ba7cbf9e84c967af37b37dadbc9792ae5b512685ebb0a8d21ae7fd66220d7585",
       "metadata_redacted": true
     },
     {
@@ -1974,8 +1980,8 @@
     },
     {
       "path": "Research/UniformCohort/README.md",
-      "original_sha256": "fc59fc9acc4d3f4d75a2a73e1c6ec150b653f5cc64ed509e7036465fd9e0d71b",
-      "published_sha256": "fc59fc9acc4d3f4d75a2a73e1c6ec150b653f5cc64ed509e7036465fd9e0d71b",
+      "original_sha256": "554beb2034be322599ebc8afead796e224c2a27c4f9e4c37cc3e9bd80f074e0b",
+      "published_sha256": "554beb2034be322599ebc8afead796e224c2a27c4f9e4c37cc3e9bd80f074e0b",
       "metadata_redacted": false
     },
     {
@@ -1994,6 +2000,12 @@
       "path": "Research/UniformCohort/analyze.py",
       "original_sha256": "e3d2c82768a67dcffea96aaff3d2581979291f4d2b3d35f1f7ea3c46c269a665",
       "published_sha256": "e3d2c82768a67dcffea96aaff3d2581979291f4d2b3d35f1f7ea3c46c269a665",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/audit_donor_labels.py",
+      "original_sha256": "bb7b0118616e99a894d2398454c3734352c9e6166db6700e528532422dc70298",
+      "published_sha256": "bb7b0118616e99a894d2398454c3734352c9e6166db6700e528532422dc70298",
       "metadata_redacted": false
     },
     {
@@ -2021,9 +2033,51 @@
       "metadata_redacted": false
     },
     {
+      "path": "Research/UniformCohort/donor-label-audit-current.json",
+      "original_sha256": "63eca55326c0ef1b2e2792fc88fcdcb85b1dba83600b953321ce8f534fc15320",
+      "published_sha256": "63eca55326c0ef1b2e2792fc88fcdcb85b1dba83600b953321ce8f534fc15320",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/ets1-data-receipt.json",
+      "original_sha256": "a200afadd1ee36fd3ccd7976fd61ccfde9d2c444e4e1a2f511692be798f0cd21",
+      "published_sha256": "a200afadd1ee36fd3ccd7976fd61ccfde9d2c444e4e1a2f511692be798f0cd21",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/exclude_conflicts.py",
+      "original_sha256": "35296de683eb20e7e4df66c32b970d04306d93f7fc541f42a73cc8a90d2ff991",
+      "published_sha256": "35296de683eb20e7e4df66c32b970d04306d93f7fc541f42a73cc8a90d2ff991",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/exclusion-result-v1.json",
+      "original_sha256": "617e7a709d77ab867db32543a6025b4a4815be27d51bc62967f0364b72744013",
+      "published_sha256": "617e7a709d77ab867db32543a6025b4a4815be27d51bc62967f0364b72744013",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/exclusion-spec-v1.json",
+      "original_sha256": "7d782207a59f22d49ba6b6912b15bf02b8176d3ec3c2a820e2ad70f1d62ca221",
+      "published_sha256": "7d782207a59f22d49ba6b6912b15bf02b8176d3ec3c2a820e2ad70f1d62ca221",
+      "metadata_redacted": false
+    },
+    {
       "path": "Research/UniformCohort/fetch_data.py",
       "original_sha256": "8a03a55fec5f1dbb6559595b6b3ac2c13d6508e8090c2e6c89af79b60385bcc1",
       "published_sha256": "8a03a55fec5f1dbb6559595b6b3ac2c13d6508e8090c2e6c89af79b60385bcc1",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/followup-sources.json",
+      "original_sha256": "576aef3e692f7c80f38e52fba6efe09586d76a095faa55858f7f822b91ad98de",
+      "published_sha256": "576aef3e692f7c80f38e52fba6efe09586d76a095faa55858f7f822b91ad98de",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/followup-verification.json",
+      "original_sha256": "94b7cac0f339a8afe432c7df441d2a43037543a4cd879e03f38bb06fe74be654",
+      "published_sha256": "94b7cac0f339a8afe432c7df441d2a43037543a4cd879e03f38bb06fe74be654",
       "metadata_redacted": false
     },
     {
@@ -2042,6 +2096,12 @@
       "path": "Research/UniformCohort/label_sensitivity.py",
       "original_sha256": "40b31b5138423756f70dfc2650cf63d6c59a2d3f33b3ebdc24c683c2b2792573",
       "published_sha256": "40b31b5138423756f70dfc2650cf63d6c59a2d3f33b3ebdc24c683c2b2792573",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/local-worker-review-20261026.json",
+      "original_sha256": "0e0e48c3a846b6552e62b89cda63b514e3e99e305d7b4ed2256e9bc91c3075cb",
+      "published_sha256": "0e0e48c3a846b6552e62b89cda63b514e3e99e305d7b4ed2256e9bc91c3075cb",
       "metadata_redacted": false
     },
     {
@@ -2075,6 +2135,18 @@
       "metadata_redacted": false
     },
     {
+      "path": "Research/UniformCohort/test_donor_labels.py",
+      "original_sha256": "2a0810157985f4d9f3aba11eeacc82ac92b7cfb72abc63b10b6c0e445aad60d7",
+      "published_sha256": "2a0810157985f4d9f3aba11eeacc82ac92b7cfb72abc63b10b6c0e445aad60d7",
+      "metadata_redacted": false
+    },
+    {
+      "path": "Research/UniformCohort/test_exclude_conflicts.py",
+      "original_sha256": "fc82dd8a4fd350613be6333ac54bdc40a52065eb0cde5da5defb89d097ba9cf1",
+      "published_sha256": "fc82dd8a4fd350613be6333ac54bdc40a52065eb0cde5da5defb89d097ba9cf1",
+      "metadata_redacted": false
+    },
+    {
       "path": "Research/UniformCohort/verification.json",
       "original_sha256": "43e61e3ba4abfee410aff4e8126d4fb8058f7b49a0ba2345ef2527cc3fd516fb",
       "published_sha256": "43e61e3ba4abfee410aff4e8126d4fb8058f7b49a0ba2345ef2527cc3fd516fb",
@@ -2094,8 +2166,8 @@
     },
     {
       "path": "Scripts/export_public.py",
-      "original_sha256": "d01c36f7b1bf94831808a16e5036c2437dac8ce36d3f17c3eeeccbaa20bbd38e",
-      "published_sha256": "d01c36f7b1bf94831808a16e5036c2437dac8ce36d3f17c3eeeccbaa20bbd38e",
+      "original_sha256": "4a1235616406e1e567ec51185de8bb6fbdac83bcd52cab639d0f435467278c97",
+      "published_sha256": "4a1235616406e1e567ec51185de8bb6fbdac83bcd52cab639d0f435467278c97",
       "metadata_redacted": false
     },
     {
@@ -2106,8 +2178,8 @@
     },
     {
       "path": "Scripts/test_export_public.py",
-      "original_sha256": "7bc08f363b6c4c064d2942c31cbe183e08b7815f33a5489b8e2c93476aaef966",
-      "published_sha256": "7bc08f363b6c4c064d2942c31cbe183e08b7815f33a5489b8e2c93476aaef966",
+      "original_sha256": "9567e4c88a522eab3180431d85354b92ae8767c62507d7d6d3c3fa956af00ae0",
+      "published_sha256": "9567e4c88a522eab3180431d85354b92ae8767c62507d7d6d3c3fa956af00ae0",
       "metadata_redacted": false
     },
     {
@@ -2220,8 +2292,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "original_sha256": "ac314991290ca99f570b5f6851985e85b35eb999ab477d8bea9358ee4aeac3ef",
-      "published_sha256": "ac314991290ca99f570b5f6851985e85b35eb999ab477d8bea9358ee4aeac3ef",
+      "original_sha256": "d6972422dff4a8aad10190f4a6f908da76b53d6e3eacf1554972862fa00a898f",
+      "published_sha256": "d6972422dff4a8aad10190f4a6f908da76b53d6e3eacf1554972862fa00a898f",
       "metadata_redacted": false
     },
     {

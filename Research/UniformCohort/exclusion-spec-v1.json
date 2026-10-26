@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "frozen_utc": "2026-10-26T10:47:16.079397+00:00",
+  "status": "Post hoc provenance sensitivity after prior full-cohort outcomes; frozen before this exclusion run. Not independent confirmation.",
+  "question": "Does exclusion of both donors with discordant author workbook and per-cell disease labels alter the two reported compartment contrasts?",
+  "exclude_donors": [
+    "JB321",
+    "JB337"
+  ],
+  "expected_original_donors": 18,
+  "expected_retained_donors": 16,
+  "expected_groups": {
+    "NORMAL": 5,
+    "NAFL": 3,
+    "NASH": 8
+  },
+  "input_result_sha256": "51278b3ebe442170a5c75f20d948945fa0c2c2516b2e46336f0864c4c5ae93c3",
+  "compartment_spec_sha256": "cc5d843b681d8db9befcb41ff2299e223376e0fafa60a3d8a18ffe723d3c317f",
+  "rules": [
+    "Remove all clusters of both donors, never selectively according to observed expression.",
+    "Preserve all original labels/counts for remaining donors.",
+    "Reuse unchanged compartment definitions, donor-level statistics, seed20261024,5000 bootstrap resamples and BH family of2.",
+    "No parameter fitting, new efficacy threshold, independent biological validation or medication-effect estimate.",
+    "Report positive/negative differences, permutation p, BH q, bootstrap intervals and leave-one-each sensitivity even if conclusions weaken."
+  ],
+  "budget": {
+    "cpu_workers": 1,
+    "memory_gib": 1,
+    "wall_seconds": 120,
+    "downloads_max_bytes": 50000000,
+    "local_ai_max_turns": 1,
+    "local_ai_timeout_seconds": 120,
+    "quota_start_used_percent": 1,
+    "quota_ceiling_used_percent": 5.95,
+    "substantive_stop_used_percent": 4
+  }
+}

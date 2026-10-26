@@ -8,7 +8,7 @@ import re
 import socket
 
 PROJECT = Path(__file__).resolve().parents[1]
-EXCLUDED = {'.git', '.build', '.swiftpm', '.serena', '__pycache__', 'build', '.DS_Store', '.resume.lock'}
+EXCLUDED = {'.git', '.build', '.swiftpm', '.serena', '__pycache__', 'build', '.DS_Store', '.resume.lock', 'logs', 'outreach'}
 SUFFIXES = {'.md', '.swift', '.json', '.ka', '.csv', '.sh', '.txt', '.sha256', '.h',
             '.modulemap', '.entitlements', '.pbxproj', '.xcscheme', '.py', '.svg', '.png'}
 SECRET = re.compile(rb'(?:-----BEGIN [A-Z ]*PRIVATE KEY-----|gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}|sk-[A-Za-z0-9]{30,})')
@@ -63,7 +63,7 @@ def export(project, destination):
             continue
         if source.is_symlink():
             raise ValueError(f'Symlink requires review: {relative}')
-        if source.name.endswith('.log') or (source.suffix == '.ka' and 'vendor' not in relative.parts):
+        if '.log' in [suffix.lower() for suffix in source.suffixes] or (source.suffix == '.ka' and 'vendor' not in relative.parts):
             omitted.append(str(relative))
             continue
         if source.name not in {'.gitignore', 'LICENSE'} and source.suffix not in SUFFIXES:

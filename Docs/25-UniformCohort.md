@@ -62,3 +62,9 @@ Two versioned evidence records were added to the existing SQLite research store;
 [Reproduce / Wiederholen](../Research/UniformCohort/README.md) · [sources](../Research/UniformCohort/source-register.json) · [verification](../Research/UniformCohort/verification.json) · [primary](../Research/UniformCohort/compartment-result-v2.json) · [label sensitivity](../Research/UniformCohort/label-sensitivity-result-v1.json)
 
 The reusable downloader was tested against the existing source cache. Its fresh-network path was not repeated; actual source downloads used the recorded retrieval scripts/receipts. No new app build was needed for this research-only change.
+
+## 26 October 2026 correction / Korrektur
+
+The earlier assertion that GEO sample records provide only tissue is incorrect: the `Description` field labels all18 RNA donors and agrees with the author workbook. The final publisher paragraph namesGSE244832; the other accession is in the PMC manuscript. Historical results above remain intact. See [the correction and frozen exclusion control](26-DonorProvenanceFollowup.md).
+
+Die frühere Aussage zu fehlenden GEO-Erkrankungsgruppen ist korrigiert: `Description` enthält sie für alle18 RNA-Spender und stimmt mit der Autoren-Tabelle überein. Die Verlagsfassung nenntGSE244832; die abweichende Kennung steht im PMC-Manuskript. Die bisherigen Ergebnisse bleiben erhalten.

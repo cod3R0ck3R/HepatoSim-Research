@@ -1,0 +1,73 @@
+{
+  "finished_utc": "2026-10-26T10:51:20.236216+00:00",
+  "new_exclusion_tests": 3,
+  "prior_cohort_regression_tests": 8,
+  "new_metadata_tests": 2,
+  "exclusion_byte_identical_replay": true,
+  "archived_current_geo_labels_identical": true,
+  "current_workbook_bytes_identical": true,
+  "source_receipts": [
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE244nnn/GSE244832/miniml/GSE244832_family.xml.tgz",
+      "file": "GSE244832-current.xml.tgz",
+      "bytes": 7488,
+      "sha256": "c449c4751203edf4114af9870b5c7581036c159dc13687c623d7d4b15259a69a",
+      "retrieved_utc": "2026-10-26T10:51:16.666256+00:00"
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE244nnn/GSE244832/suppl/GSE244832_240605_18liver_metadata.xlsx",
+      "file": "metadata-current.xlsx",
+      "bytes": 6227,
+      "sha256": "cc56b353e0b5d452ab64a35f9c07e57169f75ec644780f1b0eac8348a633b0cd",
+      "retrieved_utc": "2026-10-26T10:51:19.819103+00:00"
+    }
+  ],
+  "hashes": {
+    "exclusion-result-v1.json": "617e7a709d77ab867db32543a6025b4a4815be27d51bc62967f0364b72744013",
+    "exclusion-replay-v1.json": "617e7a709d77ab867db32543a6025b4a4815be27d51bc62967f0364b72744013",
+    "donor-label-audit-archived.json": "63eca55326c0ef1b2e2792fc88fcdcb85b1dba83600b953321ce8f534fc15320",
+    "donor-label-audit-current.json": "63eca55326c0ef1b2e2792fc88fcdcb85b1dba83600b953321ce8f534fc15320"
+  },
+  "wall_seconds": 6.267538665999382,
+  "peak_rss_bytes": 32227328,
+  "python": "3.15.1",
+  "peak_rss_scope": "Verification controller only, not combined child-process peak",
+  "budget": {
+    "start_used_percent": 1,
+    "ceiling_used_percent": 5.95,
+    "source_download_bytes": 13715
+  },
+  "code_sha256": {
+    "Research/UniformCohort/exclude_conflicts.py": "35296de683eb20e7e4df66c32b970d04306d93f7fc541f42a73cc8a90d2ff991",
+    "Research/UniformCohort/audit_donor_labels.py": "bb7b0118616e99a894d2398454c3734352c9e6166db6700e528532422dc70298",
+    "Research/UniformCohort/test_exclude_conflicts.py": "fc82dd8a4fd350613be6333ac54bdc40a52065eb0cde5da5defb89d097ba9cf1",
+    "Research/UniformCohort/test_donor_labels.py": "2a0810157985f4d9f3aba11eeacc82ac92b7cfb72abc63b10b6c0e445aad60d7"
+  },
+  "export_privacy_tests": 5,
+  "tests_total": 18,
+  "database": {
+    "first": {
+      "inserted": 3,
+      "already_present": 0,
+      "simulation_runs_preserved": 2,
+      "user_version": 1,
+      "quick_check": "ok"
+    },
+    "idempotent_replay": {
+      "inserted": 0,
+      "already_present": 3,
+      "simulation_runs_preserved": 2,
+      "user_version": 1,
+      "quick_check": "ok"
+    }
+  },
+  "new_source_download_bytes_total": 98547,
+  "privacy_audit": {
+    "reachable_git_blobs": 467,
+    "commits": 16,
+    "release_assets": 5,
+    "archive_members": 61,
+    "matches": 0,
+    "scope": "Shared-log fingerprints, filename and native-record patterns; cannot rule out arbitrary transformations or deleted remote caches."
+  }
+}

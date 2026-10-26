@@ -1,0 +1,25 @@
+{
+  "provider": "local ollama",
+  "model": "hermes3:8b",
+  "digest": "4f6b83f30b62bc3d0cf9be09266db222805ee815c8fd7d8b38f863f655be78b7",
+  "goose_version": "1.45.0",
+  "ollama_version": {
+    "version": "0.40.11"
+  },
+  "wall_seconds": 51.919,
+  "local_native_inference_verified": true,
+  "native_model_blob": "sha256-c8985d236593f7a17da2a3da49588aa951a9b1e57ce97753364fbf59e63af84a",
+  "usage": {
+    "total_tokens": 1555,
+    "input_tokens": 1080,
+    "output_tokens": 475,
+    "cache_read_input_tokens": 4,
+    "cache_write_input_tokens": 0,
+    "status": "completed"
+  },
+  "task_sha256": "52efee70f4fe10136446b5ea54bb9df326bc289b52714316e3de3847649a2d39",
+  "output_sha256": "ffc04e8276df3dc97c362d71afda380ff2ee50c0506488223064a31ad55ff36d",
+  "review_status": "rejected",
+  "reason": "Response exceeded requested length, supplied only two pitfalls, prescribed exclusion as necessary rather than sensitivity, and added unsupported wording about diet and source correspondence. No text or numerical conclusion adopted. No retry or claimed token savings.",
+  "cleanup": "Own Goose process group absent and Ollama model list empty; coordinator uncertain job manually resolved after evidence."
+}

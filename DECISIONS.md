@@ -117,3 +117,7 @@ GSE210077: use six author-annotated donors, exclude other40-series samples befor
 ### 2026-10-24 uniform cohort selection
 
 Selected GSE244832 over larger integrated/overlapping atlases and an archive beyond the1.5 GB cap. Use explicit published reanalysis assignments, preserve broad myeloid scope. Repair source NASH/NAFL spelling in version2 before valid effects; preserve invalid version1. Workbook label conflict discovered after primary effects: publish separately frozen post hoc sensitivity, never silently replace primary. Both branches fail joint-increase rule. No drug or clinical inference.
+
+## 2026-10-26: source correction and bounded exclusion
+
+Correct the missed GEO Description field explicitly, retaining historical outcomes. GEO/workbook agreement supports their assignment for further development but is not biological adjudication. Freeze exclusion of both conflicting donors before computing; preserve prior CSV/workbook sensitivities. Do not choose a favorable percentile interval over the permutation result. Local Hermes wording rejected. Archive currentETS1graph-point workbook for a separately specified experimental-unit audit; no model parameter or treatment-effect mapping. Shared execution logs remain private; exporter now rejects rotated logs and correspondence folders.

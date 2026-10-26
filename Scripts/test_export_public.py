@@ -45,6 +45,16 @@ class ExportTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'must be new'):
             exporter.export(self.source, self.output)
 
+    def test_private_logs_rotations_and_correspondence_excluded(self):
+        for name in ['session.log', 'session.log.1', 'session.LOG.txt', 'logs/session.txt', 'work/outreach/state.json']:
+            path = self.source / name
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text('private fixture content')
+        (self.source / 'README.md').write_text('Public documentation')
+        result = exporter.export(self.source, self.output)
+        self.assertEqual([row['path'] for row in result['files']], ['README.md'])
+        self.assertEqual((self.output / 'README.md').read_text(), 'Public documentation')
+
 
 if __name__ == '__main__':
     unittest.main()
